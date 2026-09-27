@@ -12,6 +12,20 @@
 > 4. Bỏ các con số kết quả viết trước (F1 ~91%, tụt 5.8%), thay bằng placeholder chờ thực nghiệm.
 > 5. Thêm đánh giá Top-k cho module tra cứu và `data/penalties.json`.
 
+> [!IMPORTANT]
+> **Lịch thực tế (2026-09-28): deadline trước sáng thứ Tư, thay cho lịch 4 tuần bên dưới.** Các mục 2 (lịch theo tuần) và 3 (phân công) chỉ còn giá trị tham khảo.
+>
+> | Khung giờ | Việc | Đầu ra |
+> |---|---|---|
+> | T2 sáng | Sinh dataset synthetic (40 seed × 5 văn phong × 8 lớp) + validate; crawl câu hỏi thật chinhsachonline.chinhphu.vn + gán nhãn | `data/raw/gen/*.jsonl`, `data/processed/real_test.csv` |
+> | T2 chiều | Notebook: EDA, tiền xử lý, group split, 4 mô hình + GridSearch, metrics, CM, ablation, error analysis; review chéo leakage | `notebooks/uit_ohs_law_retrieval.ipynb` |
+> | T2 tối | Retrieval Top-k, demo Streamlit, figures | `src/retrieval.py`, `app.py`, `reports/figures/` |
+> | T3 sáng | Sinh báo cáo Word + slide từ `reports/results.json` | `reports/*.docx`, `reports/*.pptx` |
+> | T3 chiều | **Nhóm** đọc/sửa báo cáo, kiểm tra ngẫu nhiên ~100 mẫu, chụp màn hình demo, tập thuyết trình | Bản nộp |
+>
+> **Đã cắt so với plan gốc:** thu 300 seed thật + gán tay, đo Cohen's kappa, `penalties.json` (NĐ 12/2022) → chuyển sang Hướng phát triển.
+> **Dữ liệu:** tập train/val/test là synthetic sinh bằng LLM từ nội dung Điều luật (ghi rõ trong báo cáo); test thật là câu hỏi người dân từ cổng Chính phủ, không dùng khi train/chọn model.
+
 ---
 
 ## 1. MỤC TIÊU & SẢN PHẨM BÀN GIAO (MILESTONES & DELIVERABLES)

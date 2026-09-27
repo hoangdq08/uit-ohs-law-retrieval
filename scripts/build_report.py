@@ -301,6 +301,20 @@ def main() -> None:
          + f" Riêng các lớp có nhiều hơn 1 Điều, oracle Top-1 = {pct(t['oracle_top1_multi_article_classes'])}.")
     rp.p("Giao diện demo (Streamlit, app.py): người dùng nhập câu hỏi, hệ thống hiển thị nhóm quy định dự đoán, điểm tin "
          "cậy tương đối và toàn văn các Điều luật liên quan nhất. [Chèn ảnh chụp màn hình demo]", italic=True)
+    if R.get("ood"):
+        o = R["ood"]
+        rr = o["reject_rate"]
+        rp.h("7.5. Câu hỏi ngoài phạm vi", 2)
+        rp.p(f"Trong {R['n_real'] + R.get('n_real_ood', 0)} câu hỏi thật thu thập được có liên quan đến an toàn lao động, "
+             f"{R.get('n_real_ood', 0)} câu thực chất thuộc văn bản khác (chủ yếu Luật Bảo hiểm xã hội 2024, Bộ luật Lao động, "
+             f"Nghị định/Thông tư) nên được đánh dấu ngoài phạm vi. Dùng xác suất lớn nhất của Logistic Regression làm độ tin "
+             f"cậy, ngưỡng chọn tại phân vị 5% trên validation ({o['threshold']:.3f}). Tỷ lệ bị từ chối: câu ngoài phạm vi "
+             f"{pct(rr.get('ood_real'))}, câu thật trong phạm vi {pct(rr.get('real_in_scope'))}, test synthetic {pct(rr.get('test'))}.")
+        rp.p(("Độ tin cậy max-softmax hầu như không phân biệt được câu ngoài phạm vi: mô hình vẫn tự tin gán các câu về "
+              "bảo hiểm xã hội vào C5/C7 vì dùng chung từ vựng. Cần tập huấn luyện có lớp ngoài phạm vi hoặc phương pháp "
+              "phát hiện OOD tốt hơn.") if rr.get("ood_real", 0) < 0.3 else
+             "Ngưỡng độ tin cậy từ chối được phần lớn câu ngoài phạm vi, có thể dùng trong demo.")
+        rp.fig("ood_confidence", "Phân bố độ tin cậy: trong phạm vi và ngoài phạm vi", 13)
 
     # 9
     rp.h("8. Kết luận")

@@ -1,0 +1,200 @@
+{"seed_id": "c4-001", "article_id": 34, "style": "neutral", "question": "Khi xảy ra tai nạn lao động tại nơi làm việc, người bị nạn hoặc người chứng kiến phải báo cho ai?"}
+{"seed_id": "c4-001", "article_id": 34, "style": "worker", "question": "Thằng bạn cùng tổ bị kẹt tay vô máy, tụi em thấy thì phải báo cho ai trước vậy?"}
+{"seed_id": "c4-001", "article_id": 34, "style": "hr", "question": "Người phát hiện tai nạn lao động tại cơ sở có nghĩa vụ thông báo ngay cho cấp nào để kịp thời xử lý?"}
+{"seed_id": "c4-001", "article_id": 34, "style": "complaint", "question": "Tôi báo chuyện đồng nghiệp té cho bảo vệ mà không ai xử lý, lẽ ra tôi phải báo cho ai mới đúng quy định?"}
+{"seed_id": "c4-001", "article_id": 34, "style": "short", "question": "Thấy tai nạn tại xưởng báo ai?"}
+{"seed_id": "c4-002", "article_id": 34, "style": "neutral", "question": "Tai nạn lao động làm chết người thì người sử dụng lao động phải khai báo với những cơ quan nào?"}
+{"seed_id": "c4-002", "article_id": 34, "style": "worker", "question": "Công trường có anh thợ hồ té giàn giáo chết, sếp phải báo cho công an với ai nữa?"}
+{"seed_id": "c4-002", "article_id": 34, "style": "hr", "question": "Trường hợp xảy ra tai nạn lao động chết người, doanh nghiệp phải khai báo đến cơ quan quản lý nhà nước nào và có phải báo công an cấp huyện không?"}
+{"seed_id": "c4-002", "article_id": 34, "style": "complaint", "question": "Công nhân bên tôi chết do điện giật mà công ty chỉ báo nội bộ, không báo công an, vậy công ty phải khai báo cho cơ quan nào?"}
+{"seed_id": "c4-002", "article_id": 34, "style": "short", "question": "Tai nạn chết người khai báo đâu?"}
+{"seed_id": "c4-003", "article_id": 34, "style": "neutral", "question": "Vụ tai nạn làm bị thương nặng hai người lao động trở lên thì công ty phải khai báo với cơ quan nào?"}
+{"seed_id": "c4-003", "article_id": 34, "style": "worker", "question": "Nổ lò hơi làm ba anh em trong xưởng bị bỏng nặng, công ty có phải báo lên sở lao động không?"}
+{"seed_id": "c4-003", "article_id": 34, "style": "hr", "question": "Đối với vụ tai nạn làm bị thương nặng từ hai người lao động trở lên, người sử dụng lao động khai báo với cơ quan quản lý nhà nước về lao động cấp nào?"}
+{"seed_id": "c4-003", "article_id": 34, "style": "complaint", "question": "Hai người bị thương nặng do sập kệ hàng mà công ty im lặng không khai báo, lẽ ra họ phải báo với cơ quan nào?"}
+{"seed_id": "c4-003", "article_id": 34, "style": "short", "question": "Hai người bị thương nặng khai báo ai?"}
+{"seed_id": "c4-004", "article_id": 34, "style": "neutral", "question": "Khi mới có nguy cơ xảy ra tai nạn lao động mà chưa có ai bị thương thì có phải báo cho người sử dụng lao động không?"}
+{"seed_id": "c4-004", "article_id": 34, "style": "worker", "question": "Em thấy dây cáp cẩu sắp đứt, chưa ai bị gì, vậy có cần báo cho quản đốc không anh?"}
+{"seed_id": "c4-004", "article_id": 34, "style": "hr", "question": "Tình huống có nguy cơ xảy ra tai nạn lao động hoặc sự cố kỹ thuật thì người lao động có trách nhiệm báo cáo cho người phụ trách trực tiếp không?"}
+{"seed_id": "c4-004", "article_id": 34, "style": "complaint", "question": "Tôi báo cho tổ trưởng là máy ép có dấu hiệu hỏng thì bị gắt là chưa có chuyện gì, vậy luật có bắt phải báo khi mới có nguy cơ không?"}
+{"seed_id": "c4-004", "article_id": 34, "style": "short", "question": "Có nguy cơ tai nạn có phải báo?"}
+{"seed_id": "c4-005", "article_id": 34, "style": "neutral", "question": "Khi xảy ra sự cố kỹ thuật gây mất an toàn, vệ sinh lao động tại nơi làm việc thì việc khai báo được thực hiện thế nào?"}
+{"seed_id": "c4-005", "article_id": 34, "style": "worker", "question": "Bồn hóa chất ở xưởng bị rò rỉ, tụi em phải báo sự cố này cho ai?"}
+{"seed_id": "c4-005", "article_id": 34, "style": "hr", "question": "Quy trình khai báo sự cố kỹ thuật gây mất an toàn, vệ sinh lao động tại cơ sở sản xuất được quy định ra sao?"}
+{"seed_id": "c4-005", "article_id": 34, "style": "complaint", "question": "Nhà máy bị sự cố rò khí gas mà ban giám đốc bảo cứ làm tiếp không cần khai báo, theo luật thì phải khai báo sự cố như thế nào?"}
+{"seed_id": "c4-005", "article_id": 34, "style": "short", "question": "Khai báo sự cố kỹ thuật thế nào?"}
+{"seed_id": "c4-006", "article_id": 34, "style": "neutral", "question": "Người lao động làm việc không theo hợp đồng lao động bị tai nạn chết người thì ai phải khai báo và khai báo với cơ quan nào?"}
+{"seed_id": "c4-006", "article_id": 34, "style": "worker", "question": "Ông chú em làm thợ hồ tự do, té từ mái nhà xuống chết, gia đình phải đi báo ở đâu?"}
+{"seed_id": "c4-006", "article_id": 34, "style": "hr", "question": "Đối với người lao động không có hợp đồng lao động bị tai nạn làm chết người, trách nhiệm khai báo thuộc về ai và báo tới Ủy ban nhân dân cấp nào?"}
+{"seed_id": "c4-006", "article_id": 34, "style": "complaint", "question": "Anh tôi làm thuê theo ngày không có hợp đồng bị cây đè chết, chủ nhà nói không liên quan, vậy gia đình tôi phải khai báo với ai?"}
+{"seed_id": "c4-006", "article_id": 34, "style": "short", "question": "Lao động tự do bị nạn báo đâu?"}
+{"seed_id": "c4-007", "article_id": 34, "style": "neutral", "question": "Sau khi nhận tin báo tai nạn chết người của người làm việc không theo hợp đồng lao động, Ủy ban nhân dân cấp xã phải báo cáo cho những cơ quan nào?"}
+{"seed_id": "c4-007", "article_id": 34, "style": "worker", "question": "Nhà em đã báo xã vụ ba em bị tai nạn chết khi đi phụ hồ, xã có phải báo tiếp lên trên không?"}
+{"seed_id": "c4-007", "article_id": 34, "style": "hr", "question": "Ủy ban nhân dân cấp xã có trách nhiệm chuyển báo cáo vụ tai nạn lao động chết người của lao động phi chính thức đến công an cấp huyện và cơ quan lao động cấp tỉnh không?"}
+{"seed_id": "c4-007", "article_id": 34, "style": "complaint", "question": "Xã nhận tin báo vụ người làm thuê bị điện giật chết nhưng để đó không báo lên huyện, như vậy xã có làm đúng trách nhiệm không?"}
+{"seed_id": "c4-007", "article_id": 34, "style": "short", "question": "Xã báo cáo tai nạn lên đâu?"}
+{"seed_id": "c4-008", "article_id": 34, "style": "neutral", "question": "Tai nạn lao động xảy ra trên giàn khoan dầu khí hoặc trong ngành hàng không thì việc khai báo thực hiện theo quy định nào?"}
+{"seed_id": "c4-008", "article_id": 34, "style": "worker", "question": "Em làm trên giàn khoan ngoài biển, lỡ có tai nạn thì báo theo luật lao động hay luật riêng của ngành?"}
+{"seed_id": "c4-008", "article_id": 34, "style": "hr", "question": "Các vụ tai nạn trong lĩnh vực phóng xạ, dầu khí, vận tải đường sắt, đường thủy, đường bộ, hàng không thì người sử dụng lao động khai báo theo luật nào?"}
+{"seed_id": "c4-008", "article_id": 34, "style": "complaint", "question": "Tài xế xe khách công ty tôi gặp nạn, công ty nói không cần khai báo theo luật an toàn lao động, vậy việc khai báo phải theo luật nào?"}
+{"seed_id": "c4-008", "article_id": 34, "style": "short", "question": "Tai nạn ngành dầu khí khai báo sao?"}
+{"seed_id": "c4-009", "article_id": 34, "style": "neutral", "question": "Cơ quan có thẩm quyền phải làm gì khi nhận được tin báo về tai nạn lao động?"}
+{"seed_id": "c4-009", "article_id": 34, "style": "worker", "question": "Em gọi báo lên sở vụ tai nạn ở xưởng, bên đó có phải trả lời lại cho em biết kết quả không?"}
+{"seed_id": "c4-009", "article_id": 34, "style": "hr", "question": "Trách nhiệm của cơ quan, tổ chức có thẩm quyền trong việc xem xét, giải quyết tin báo tai nạn lao động và thông báo kết quả cho người báo tin là gì?"}
+{"seed_id": "c4-009", "article_id": 34, "style": "complaint", "question": "Tôi báo tin tai nạn lao động lên cơ quan chức năng cả tháng mà không ai phản hồi, họ có nghĩa vụ phải giải quyết tin báo không?"}
+{"seed_id": "c4-009", "article_id": 34, "style": "short", "question": "Xử lý tin báo tai nạn lao động"}
+{"seed_id": "c4-010", "article_id": 34, "style": "neutral", "question": "Người báo tin về tai nạn lao động có được cơ quan chức năng bảo vệ quyền lợi không?"}
+{"seed_id": "c4-010", "article_id": 34, "style": "worker", "question": "Em lỡ báo vụ tai nạn giấu nhẹm ở xưởng lên sở, sợ sếp trù dập, vậy có ai bảo vệ em không?"}
+{"seed_id": "c4-010", "article_id": 34, "style": "hr", "question": "Cơ quan tiếp nhận tin báo tai nạn lao động có trách nhiệm áp dụng biện pháp gì để bảo vệ quyền, lợi ích hợp pháp của người đã báo tin?"}
+{"seed_id": "c4-010", "article_id": 34, "style": "complaint", "question": "Từ khi tôi báo tai nạn lên cơ quan nhà nước thì bị quản lý gây khó dễ, cơ quan nhận tin có phải bảo vệ tôi không?"}
+{"seed_id": "c4-010", "article_id": 34, "style": "short", "question": "Bảo vệ người báo tin tai nạn"}
+{"seed_id": "c4-011", "article_id": 34, "style": "neutral", "question": "Khi có tai nạn lao động làm chết người, người sử dụng lao động phải khai báo trong thời gian nào?"}
+{"seed_id": "c4-011", "article_id": 34, "style": "worker", "question": "Xưởng có người chết do máy cán, sếp nói để vài hôm tính, vậy phải báo liền hay được chờ?"}
+{"seed_id": "c4-011", "article_id": 34, "style": "hr", "question": "Thời điểm người sử dụng lao động phải thực hiện khai báo tai nạn lao động chết người với cơ quan có thẩm quyền được quy định thế nào?"}
+{"seed_id": "c4-011", "article_id": 34, "style": "complaint", "question": "Công ty để ba ngày sau mới khai báo vụ công nhân chết, như vậy có chậm so với quy định khai báo không?"}
+{"seed_id": "c4-011", "article_id": 34, "style": "short", "question": "Khai báo tai nạn chết người khi nào?"}
+{"seed_id": "c4-012", "article_id": 34, "style": "neutral", "question": "Sự cố kỹ thuật gây mất an toàn liên quan đến người làm việc không theo hợp đồng lao động thì người phát hiện phải khai báo với ai?"}
+{"seed_id": "c4-012", "article_id": 34, "style": "worker", "question": "Cái máy trộn bê tông của nhóm thợ tự do bị bung nổ, người thấy phải báo cho xã hay cho ai?"}
+{"seed_id": "c4-012", "article_id": 34, "style": "hr", "question": "Trường hợp sự cố kỹ thuật mất an toàn xảy ra với lao động không có hợp đồng, trách nhiệm khai báo của người phát hiện với Ủy ban nhân dân cấp xã ra sao?"}
+{"seed_id": "c4-012", "article_id": 34, "style": "complaint", "question": "Lò gạch thủ công trong xóm bị sập mà không ai khai báo vì toàn thợ không hợp đồng, vậy người phát hiện phải báo ở đâu?"}
+{"seed_id": "c4-012", "article_id": 34, "style": "short", "question": "Sự cố lao động tự do báo ai?"}
+{"seed_id": "c4-013", "article_id": 35, "style": "neutral", "question": "Ai có trách nhiệm thành lập Đoàn điều tra tai nạn lao động cấp cơ sở?"}
+{"seed_id": "c4-013", "article_id": 35, "style": "worker", "question": "Em bị trầy xước nhẹ lúc bưng hàng, vậy ai trong công ty lập đoàn điều tra vụ này?"}
+{"seed_id": "c4-013", "article_id": 35, "style": "hr", "question": "Việc thành lập Đoàn điều tra tai nạn lao động cấp cơ sở đối với tai nạn làm bị thương nhẹ thuộc trách nhiệm của ai?"}
+{"seed_id": "c4-013", "article_id": 35, "style": "complaint", "question": "Tôi bị gãy tay ở xưởng mà công ty không lập đoàn điều tra gì cả, trách nhiệm lập đoàn điều tra là của ai?"}
+{"seed_id": "c4-013", "article_id": 35, "style": "short", "question": "Ai lập đoàn điều tra cấp cơ sở?"}
+{"seed_id": "c4-014", "article_id": 35, "style": "neutral", "question": "Thành phần Đoàn điều tra tai nạn lao động cấp cơ sở gồm những ai?"}
+{"seed_id": "c4-014", "article_id": 35, "style": "worker", "question": "Đoàn điều tra vụ tai nạn ở công ty em có cần người của công đoàn tham gia không?"}
+{"seed_id": "c4-014", "article_id": 35, "style": "hr", "question": "Cơ cấu Đoàn điều tra tai nạn lao động cấp cơ sở gồm trưởng đoàn là ai và các thành viên bắt buộc nào?"}
+{"seed_id": "c4-014", "article_id": 35, "style": "complaint", "question": "Đoàn điều tra vụ tai nạn của tôi chỉ toàn người của ban giám đốc, không có đại diện công đoàn, vậy thành phần như thế có đúng không?"}
+{"seed_id": "c4-014", "article_id": 35, "style": "short", "question": "Thành phần đoàn điều tra cơ sở"}
+{"seed_id": "c4-015", "article_id": 35, "style": "neutral", "question": "Tai nạn lao động chết người do cơ quan nào điều tra?"}
+{"seed_id": "c4-015", "article_id": 35, "style": "worker", "question": "Công nhân bị xe nâng cán chết trong kho, vụ này công ty tự điều tra hay nhà nước điều tra?"}
+{"seed_id": "c4-015", "article_id": 35, "style": "hr", "question": "Thẩm quyền điều tra tai nạn lao động chết người thuộc Đoàn điều tra cấp nào và do cơ quan nào thành lập?"}
+{"seed_id": "c4-015", "article_id": 35, "style": "complaint", "question": "Chồng tôi chết do tai nạn ở nhà máy mà công ty tự điều tra rồi kết luận, vậy vụ này đáng lẽ phải do đoàn nào điều tra?"}
+{"seed_id": "c4-015", "article_id": 35, "style": "short", "question": "Tai nạn chết người ai điều tra?"}
+{"seed_id": "c4-016", "article_id": 35, "style": "neutral", "question": "Đoàn điều tra tai nạn lao động cấp tỉnh gồm những thành phần nào?"}
+{"seed_id": "c4-016", "article_id": 35, "style": "worker", "question": "Đoàn của tỉnh xuống điều tra vụ nổ ở xưởng thì có những ai trong đó vậy?"}
+{"seed_id": "c4-016", "article_id": 35, "style": "hr", "question": "Trưởng đoàn và các thành viên của Đoàn điều tra tai nạn lao động cấp tỉnh được quy định như thế nào?"}
+{"seed_id": "c4-016", "article_id": 35, "style": "complaint", "question": "Đoàn tỉnh điều tra vụ tai nạn của em tôi mà không thấy đại diện Liên đoàn Lao động, như vậy thành phần đoàn có đủ không?"}
+{"seed_id": "c4-016", "article_id": 35, "style": "short", "question": "Thành phần đoàn điều tra cấp tỉnh"}
+{"seed_id": "c4-017", "article_id": 35, "style": "neutral", "question": "Khi nào thì thành lập Đoàn điều tra tai nạn lao động cấp trung ương?"}
+{"seed_id": "c4-017", "article_id": 35, "style": "worker", "question": "Vụ sập công trình làm chết mấy chục người thì có đoàn ở trung ương xuống điều tra không?"}
+{"seed_id": "c4-017", "article_id": 35, "style": "hr", "question": "Trong trường hợp nào Bộ Lao động - Thương binh và Xã hội thành lập Đoàn điều tra tai nạn lao động cấp trung ương?"}
+{"seed_id": "c4-017", "article_id": 35, "style": "complaint", "question": "Vụ cháy nhà máy quá nghiêm trọng mà tỉnh điều tra mãi không xong, gia đình nạn nhân có thể đề nghị trung ương điều tra trong trường hợp nào?"}
+{"seed_id": "c4-017", "article_id": 35, "style": "short", "question": "Khi nào có đoàn điều tra trung ương?"}
+{"seed_id": "c4-018", "article_id": 35, "style": "neutral", "question": "Người lao động không đồng ý với kết quả điều tra của Đoàn điều tra cấp cơ sở thì có được điều tra lại không?"}
+{"seed_id": "c4-018", "article_id": 35, "style": "worker", "question": "Công ty tự điều tra rồi đổ hết lỗi cho em, em không chịu thì có được xin điều tra lại không?"}
+{"seed_id": "c4-018", "article_id": 35, "style": "hr", "question": "Khi có khiếu nại đối với kết luận của Đoàn điều tra tai nạn lao động cấp cơ sở, cơ quan nào có thẩm quyền điều tra lại?"}
+{"seed_id": "c4-018", "article_id": 35, "style": "complaint", "question": "Biên bản điều tra của công ty ghi sai sự thật vụ tôi bị thương, tôi khiếu nại thì ai sẽ điều tra lại?"}
+{"seed_id": "c4-018", "article_id": 35, "style": "short", "question": "Điều tra lại tai nạn lao động"}
+{"seed_id": "c4-019", "article_id": 35, "style": "neutral", "question": "Thời hạn điều tra tai nạn lao động làm bị thương nhẹ là bao lâu?"}
+{"seed_id": "c4-019", "article_id": 35, "style": "worker", "question": "Em bị đứt tay nhẹ ở xưởng may, công ty điều tra bao nhiêu ngày thì phải xong?"}
+{"seed_id": "c4-019", "article_id": 35, "style": "hr", "question": "Đối với tai nạn lao động làm bị thương nhẹ, thời hạn tối đa từ khi nhận khai báo đến khi công bố biên bản điều tra là bao nhiêu ngày?"}
+{"seed_id": "c4-019", "article_id": 35, "style": "complaint", "question": "Tôi chỉ bị thương nhẹ mà công ty điều tra hai tuần chưa có biên bản, thời hạn điều tra tối đa là bao nhiêu ngày?"}
+{"seed_id": "c4-019", "article_id": 35, "style": "short", "question": "Thời hạn điều tra thương nhẹ"}
+{"seed_id": "c4-020", "article_id": 35, "style": "neutral", "question": "Thời hạn điều tra vụ tai nạn lao động làm bị thương nặng một người là bao nhiêu ngày?"}
+{"seed_id": "c4-020", "article_id": 35, "style": "worker", "question": "Em bị gãy chân do té thang ở kho, đoàn điều tra có bao nhiêu ngày để làm xong biên bản?"}
+{"seed_id": "c4-020", "article_id": 35, "style": "hr", "question": "Thời hạn điều tra áp dụng cho tai nạn lao động làm bị thương nặng một người lao động được quy định là không quá bao nhiêu ngày?"}
+{"seed_id": "c4-020", "article_id": 35, "style": "complaint", "question": "Chồng tôi bị thương nặng một mình trong vụ tai nạn mà đã mười ngày chưa có kết quả điều tra, vậy có quá hạn không?"}
+{"seed_id": "c4-020", "article_id": 35, "style": "short", "question": "Điều tra thương nặng mấy ngày?"}
+{"seed_id": "c4-021", "article_id": 35, "style": "neutral", "question": "Thời hạn điều tra tai nạn lao động chết người là bao lâu, có trường hợp nào được kéo dài không?"}
+{"seed_id": "c4-021", "article_id": 35, "style": "worker", "question": "Anh em trong đội bị điện giật chết, bao lâu thì đoàn điều tra phải có kết luận vậy?"}
+{"seed_id": "c4-021", "article_id": 35, "style": "hr", "question": "Thời hạn điều tra tai nạn lao động chết người và tai nạn cần giám định kỹ thuật, giám định pháp y tối đa là bao nhiêu ngày?"}
+{"seed_id": "c4-021", "article_id": 35, "style": "complaint", "question": "Con tôi chết vì tai nạn ở công trường đã hơn hai tháng mà đoàn điều tra chưa công bố biên bản, như vậy có quá thời hạn không?"}
+{"seed_id": "c4-021", "article_id": 35, "style": "short", "question": "Điều tra tai nạn chết người bao lâu?"}
+{"seed_id": "c4-022", "article_id": 35, "style": "neutral", "question": "Thời hạn điều tra tai nạn lao động có được gia hạn không và gia hạn tối đa bao lâu?"}
+{"seed_id": "c4-022", "article_id": 35, "style": "worker", "question": "Đoàn điều tra nói vụ này phức tạp nên kéo dài thêm, vậy họ được kéo thêm mấy lần?"}
+{"seed_id": "c4-022", "article_id": 35, "style": "hr", "question": "Điều kiện và thủ tục gia hạn thời hạn điều tra đối với tai nạn lao động có tình tiết phức tạp được quy định như thế nào?"}
+{"seed_id": "c4-022", "article_id": 35, "style": "complaint", "question": "Đoàn điều tra gia hạn tới hai lần vụ tai nạn của bố tôi, như vậy có đúng quy định về gia hạn không?"}
+{"seed_id": "c4-022", "article_id": 35, "style": "short", "question": "Gia hạn điều tra tai nạn"}
+{"seed_id": "c4-023", "article_id": 35, "style": "neutral", "question": "Tai nạn giao thông trên đường đi làm thì cơ quan nhà nước phải cung cấp giấy tờ gì cho Đoàn điều tra?"}
+{"seed_id": "c4-023", "article_id": 35, "style": "worker", "question": "Em bị xe tông trên đường đi làm, đoàn điều tra đòi giấy tờ bên công an, cần những giấy gì?"}
+{"seed_id": "c4-023", "article_id": 35, "style": "hr", "question": "Đối với tai nạn trên tuyến đường đi và về từ nơi ở đến nơi làm việc, Đoàn điều tra cần một trong những tài liệu nào từ cơ quan có thẩm quyền?"}
+{"seed_id": "c4-023", "article_id": 35, "style": "complaint", "question": "Tôi bị tai nạn trên đường về nhà mà công an không lập biên bản hiện trường, vậy tôi phải xin giấy xác nhận gì để phục vụ điều tra?"}
+{"seed_id": "c4-023", "article_id": 35, "style": "short", "question": "Giấy tờ điều tra tai nạn giao thông"}
+{"seed_id": "c4-024", "article_id": 35, "style": "neutral", "question": "Người sử dụng lao động có nghĩa vụ gì đối với Đoàn điều tra tai nạn lao động?"}
+{"seed_id": "c4-024", "article_id": 35, "style": "worker", "question": "Sếp em giấu camera không đưa cho đoàn điều tra, vậy sếp có phải hợp tác với đoàn không?"}
+{"seed_id": "c4-024", "article_id": 35, "style": "hr", "question": "Nghĩa vụ hợp tác, cung cấp thông tin, tài liệu của doanh nghiệp và cá nhân liên quan với Đoàn điều tra tai nạn lao động được quy định ra sao?"}
+{"seed_id": "c4-024", "article_id": 35, "style": "complaint", "question": "Công ty không chịu cung cấp sổ nhật ký vận hành máy cho đoàn điều tra vụ tai nạn, họ có nghĩa vụ phải cung cấp không?"}
+{"seed_id": "c4-024", "article_id": 35, "style": "short", "question": "Nghĩa vụ hợp tác đoàn điều tra"}
+{"seed_id": "c4-025", "article_id": 35, "style": "neutral", "question": "Trong quá trình điều tra tai nạn lao động mà phát hiện dấu hiệu tội phạm thì Đoàn điều tra phải làm gì?"}
+{"seed_id": "c4-025", "article_id": 35, "style": "worker", "question": "Điều tra vụ sập giàn giáo thấy có dấu hiệu làm ẩu cố ý, đoàn điều tra có chuyển qua công an không?"}
+{"seed_id": "c4-025", "article_id": 35, "style": "hr", "question": "Khi phát hiện dấu hiệu tội phạm trong vụ tai nạn lao động, Đoàn điều tra phải chuyển giao hồ sơ, tài liệu, đồ vật cho cơ quan nào?"}
+{"seed_id": "c4-025", "article_id": 35, "style": "complaint", "question": "Vụ tai nạn của anh tôi rõ ràng có dấu hiệu hình sự mà đoàn điều tra vẫn tự xử lý, vậy họ có phải chuyển cho cơ quan điều tra không?"}
+{"seed_id": "c4-025", "article_id": 35, "style": "short", "question": "Tai nạn có dấu hiệu tội phạm"}
+{"seed_id": "c4-026", "article_id": 35, "style": "neutral", "question": "Cuộc họp công bố biên bản điều tra tai nạn lao động gồm những thành phần nào tham dự?"}
+{"seed_id": "c4-026", "article_id": 35, "style": "worker", "question": "Họp công bố kết quả điều tra vụ tai nạn thì người nhà nạn nhân có được vô dự không?"}
+{"seed_id": "c4-026", "article_id": 35, "style": "hr", "question": "Thành phần tham dự cuộc họp công bố biên bản điều tra tai nạn lao động chết người được quy định như thế nào?"}
+{"seed_id": "c4-026", "article_id": 35, "style": "complaint", "question": "Công ty họp công bố biên bản điều tra vụ tai nạn mà không mời gia đình tôi, như vậy có đúng thủ tục công bố không?"}
+{"seed_id": "c4-026", "article_id": 35, "style": "short", "question": "Họp công bố biên bản điều tra"}
+{"seed_id": "c4-027", "article_id": 35, "style": "neutral", "question": "Biên bản điều tra tai nạn lao động phải được gửi đến những ai?"}
+{"seed_id": "c4-027", "article_id": 35, "style": "worker", "question": "Em là người bị nạn thì có được nhận một bản biên bản điều tra không?"}
+{"seed_id": "c4-027", "article_id": 35, "style": "hr", "question": "Biên bản điều tra tai nạn lao động và biên bản cuộc họp công bố phải được gửi cho những cơ quan, cá nhân nào?"}
+{"seed_id": "c4-027", "article_id": 35, "style": "complaint", "question": "Tôi xin bản biên bản điều tra vụ tai nạn của mình mà công ty không đưa, nạn nhân có thuộc diện được gửi biên bản không?"}
+{"seed_id": "c4-027", "article_id": 35, "style": "short", "question": "Biên bản điều tra gửi ai?"}
+{"seed_id": "c4-028", "article_id": 35, "style": "neutral", "question": "Sau khi có biên bản điều tra tai nạn lao động, người sử dụng lao động phải công khai thông tin như thế nào?"}
+{"seed_id": "c4-028", "article_id": 35, "style": "worker", "question": "Vụ tai nạn ở xưởng điều tra xong rồi, công ty có phải dán thông báo cho anh em biết không?"}
+{"seed_id": "c4-028", "article_id": 35, "style": "hr", "question": "Trách nhiệm niêm yết công khai thông tin về tai nạn lao động tại cơ sở sau khi nhận biên bản điều tra được quy định ra sao?"}
+{"seed_id": "c4-028", "article_id": 35, "style": "complaint", "question": "Có vụ tai nạn nghiêm trọng mà công ty giữ kín biên bản, không niêm yết cho công nhân biết, họ có trách nhiệm công khai không?"}
+{"seed_id": "c4-028", "article_id": 35, "style": "short", "question": "Niêm yết kết quả điều tra tai nạn"}
+{"seed_id": "c4-029", "article_id": 35, "style": "neutral", "question": "Người làm việc không theo hợp đồng lao động bị tai nạn làm bị thương nặng thì ai lập biên bản ghi nhận sự việc?"}
+{"seed_id": "c4-029", "article_id": 35, "style": "worker", "question": "Anh hàng xóm đi làm thuê cắt cỏ bị máy cắt vào chân nặng lắm, ai sẽ lập biên bản vụ này?"}
+{"seed_id": "c4-029", "article_id": 35, "style": "hr", "question": "Trách nhiệm lập biên bản và báo cáo đối với tai nạn làm bị thương nặng một người lao động không có hợp đồng lao động thuộc về cơ quan nào?"}
+{"seed_id": "c4-029", "article_id": 35, "style": "complaint", "question": "Tôi làm thợ tự do bị tai nạn nặng mà xã không lập biên bản gì, vậy xã có trách nhiệm lập biên bản không?"}
+{"seed_id": "c4-029", "article_id": 35, "style": "short", "question": "Ai lập biên bản nạn thợ tự do?"}
+{"seed_id": "c4-030", "article_id": 35, "style": "neutral", "question": "Trách nhiệm công bố thông tin về vụ tai nạn lao động do cấp cơ sở điều tra thuộc về ai?"}
+{"seed_id": "c4-030", "article_id": 35, "style": "worker", "question": "Vụ tai nạn công ty tự điều tra thì ai là người đứng ra thông báo kết quả?"}
+{"seed_id": "c4-030", "article_id": 35, "style": "hr", "question": "Chủ thể có trách nhiệm công bố biên bản điều tra và các thông tin liên quan đối với vụ tai nạn thuộc thẩm quyền Đoàn điều tra cấp cơ sở là ai?"}
+{"seed_id": "c4-030", "article_id": 35, "style": "complaint", "question": "Công ty điều tra vụ tai nạn xong không công bố thông tin gì, trách nhiệm công bố thuộc về ai?"}
+{"seed_id": "c4-030", "article_id": 35, "style": "short", "question": "Ai công bố biên bản điều tra?"}
+{"seed_id": "c4-031", "article_id": 36, "style": "neutral", "question": "Người sử dụng lao động phải báo cáo tai nạn lao động định kỳ cho cơ quan nào và bao lâu một lần?"}
+{"seed_id": "c4-031", "article_id": 36, "style": "worker", "question": "Phòng nhân sự bên em nói phải gửi báo cáo tai nạn lên sở mỗi sáu tháng, đúng không?"}
+{"seed_id": "c4-031", "article_id": 36, "style": "hr", "question": "Chế độ thống kê, báo cáo định kỳ về tai nạn lao động và sự cố kỹ thuật nghiêm trọng của doanh nghiệp gửi cơ quan quản lý nhà nước về lao động cấp tỉnh được quy định thế nào?"}
+{"seed_id": "c4-031", "article_id": 36, "style": "complaint", "question": "Công ty tôi xảy ra nhiều tai nạn nhưng không bao giờ lập báo cáo thống kê gửi sở lao động, vậy họ có nghĩa vụ báo cáo định kỳ không?"}
+{"seed_id": "c4-031", "article_id": 36, "style": "short", "question": "Báo cáo tai nạn định kỳ"}
+{"seed_id": "c4-032", "article_id": 36, "style": "neutral", "question": "Ủy ban nhân dân cấp xã có phải thống kê tai nạn lao động của người làm việc không theo hợp đồng lao động không?"}
+{"seed_id": "c4-032", "article_id": 36, "style": "worker", "question": "Mấy vụ thợ tự do bị tai nạn trong xã thì xã có ghi sổ thống kê rồi báo lên huyện không?"}
+{"seed_id": "c4-032", "article_id": 36, "style": "hr", "question": "Trách nhiệm thống kê, báo cáo định kỳ của Ủy ban nhân dân cấp xã đối với tai nạn lao động của lao động phi chính thức được quy định ra sao?"}
+{"seed_id": "c4-032", "article_id": 36, "style": "complaint", "question": "Xã tôi có mấy vụ tai nạn của thợ làm thuê mà không thấy xã thống kê báo cáo lên huyện, xã có trách nhiệm đó không?"}
+{"seed_id": "c4-032", "article_id": 36, "style": "short", "question": "Xã thống kê tai nạn thợ tự do"}
+{"seed_id": "c4-033", "article_id": 36, "style": "neutral", "question": "Cơ quan quản lý nhà nước về lao động cấp tỉnh phải báo cáo nhanh những vụ tai nạn nào lên Bộ Lao động - Thương binh và Xã hội?"}
+{"seed_id": "c4-033", "article_id": 36, "style": "worker", "question": "Vụ tai nạn chết người ở tỉnh thì sở lao động có phải báo gấp lên bộ không?"}
+{"seed_id": "c4-033", "article_id": 36, "style": "hr", "question": "Nghĩa vụ báo cáo nhanh và báo cáo định kỳ của sở lao động cấp tỉnh với Bộ Lao động - Thương binh và Xã hội về tai nạn lao động được quy định thế nào?"}
+{"seed_id": "c4-033", "article_id": 36, "style": "complaint", "question": "Tỉnh xảy ra vụ tai nạn chết người mà sở lao động không báo cáo lên bộ, như vậy có đúng trách nhiệm báo cáo không?"}
+{"seed_id": "c4-033", "article_id": 36, "style": "short", "question": "Sở báo cáo nhanh tai nạn lên Bộ"}
+{"seed_id": "c4-034", "article_id": 36, "style": "neutral", "question": "Bộ Y tế có trách nhiệm thống kê những trường hợp tai nạn lao động nào?"}
+{"seed_id": "c4-034", "article_id": 36, "style": "worker", "question": "Bệnh viện chữa cho người bị tai nạn lao động thì có ai tổng hợp số liệu này không?"}
+{"seed_id": "c4-034", "article_id": 36, "style": "hr", "question": "Trách nhiệm thống kê định kỳ của Bộ Y tế đối với người bị tai nạn lao động khám, điều trị tại cơ sở khám bệnh, chữa bệnh là gì?"}
+{"seed_id": "c4-034", "article_id": 36, "style": "complaint", "question": "Số liệu người bị tai nạn lao động vào viện không được ai tổng hợp, vậy Bộ Y tế có trách nhiệm thống kê không?"}
+{"seed_id": "c4-034", "article_id": 36, "style": "short", "question": "Bộ Y tế thống kê tai nạn"}
+{"seed_id": "c4-035", "article_id": 36, "style": "neutral", "question": "Cơ quan nào xây dựng và quản lý cơ sở dữ liệu về an toàn lao động trên phạm vi cả nước?"}
+{"seed_id": "c4-035", "article_id": 36, "style": "worker", "question": "Số liệu tai nạn lao động cả nước thì cơ quan nào giữ và công bố vậy?"}
+{"seed_id": "c4-035", "article_id": 36, "style": "hr", "question": "Cơ quan chịu trách nhiệm thu thập, lưu trữ, tổng hợp, công bố tình hình tai nạn lao động và quản lý cơ sở dữ liệu an toàn lao động quốc gia là cơ quan nào?"}
+{"seed_id": "c4-035", "article_id": 36, "style": "complaint", "question": "Tôi muốn tra số liệu tai nạn lao động toàn quốc mà không biết cơ quan nào có trách nhiệm công bố, đó là ai?"}
+{"seed_id": "c4-035", "article_id": 36, "style": "short", "question": "Dữ liệu an toàn lao động quốc gia"}
+{"seed_id": "c4-036", "article_id": 36, "style": "neutral", "question": "Sự cố kỹ thuật gây mất an toàn, vệ sinh lao động nghiêm trọng có phải đưa vào báo cáo thống kê định kỳ của doanh nghiệp không?"}
+{"seed_id": "c4-036", "article_id": 36, "style": "worker", "question": "Máy nén khí trong xưởng nổ nhưng may không ai bị gì, vụ này có phải ghi vào báo cáo gửi sở không?"}
+{"seed_id": "c4-036", "article_id": 36, "style": "hr", "question": "Doanh nghiệp có phải thống kê và báo cáo định kỳ 06 tháng, hằng năm các sự cố kỹ thuật gây mất an toàn nghiêm trọng dù không có người bị nạn không?"}
+{"seed_id": "c4-036", "article_id": 36, "style": "complaint", "question": "Nhà máy bị sập bồn chứa nghiêm trọng mà công ty không đưa vào báo cáo thống kê gửi sở, như vậy có đúng không?"}
+{"seed_id": "c4-036", "article_id": 36, "style": "short", "question": "Thống kê sự cố kỹ thuật nghiêm trọng"}
+{"seed_id": "c4-037", "article_id": 37, "style": "neutral", "question": "Người lao động mắc bệnh nghề nghiệp có phải được thống kê, báo cáo không và theo quy định của ai?"}
+{"seed_id": "c4-037", "article_id": 37, "style": "worker", "question": "Em bị bụi phổi do làm mỏ đá, vậy có ai phải ghi tên em vô danh sách báo cáo bệnh nghề nghiệp không?"}
+{"seed_id": "c4-037", "article_id": 37, "style": "hr", "question": "Việc thống kê, báo cáo toàn bộ người lao động mắc bệnh nghề nghiệp được thực hiện theo quy định của cơ quan nào?"}
+{"seed_id": "c4-037", "article_id": 37, "style": "complaint", "question": "Xưởng có mấy người bị điếc nghề nghiệp mà công ty không thống kê báo cáo, vậy họ có phải báo cáo không?"}
+{"seed_id": "c4-037", "article_id": 37, "style": "short", "question": "Thống kê người mắc bệnh nghề nghiệp"}
+{"seed_id": "c4-038", "article_id": 37, "style": "neutral", "question": "Danh mục bệnh nghề nghiệp do cơ quan nào ban hành?"}
+{"seed_id": "c4-038", "article_id": 37, "style": "worker", "question": "Bệnh nào được coi là bệnh nghề nghiệp thì ai quyết định cái danh sách đó vậy?"}
+{"seed_id": "c4-038", "article_id": 37, "style": "hr", "question": "Thẩm quyền ban hành và rà soát, sửa đổi Danh mục bệnh nghề nghiệp thuộc về ai và phải lấy ý kiến những tổ chức nào?"}
+{"seed_id": "c4-038", "article_id": 37, "style": "complaint", "question": "Bệnh của tôi rõ ràng do nghề mà không có trong danh mục, vậy cơ quan nào ban hành và sửa đổi danh mục bệnh nghề nghiệp?"}
+{"seed_id": "c4-038", "article_id": 37, "style": "short", "question": "Ai ban hành danh mục bệnh nghề nghiệp?"}
+{"seed_id": "c4-039", "article_id": 37, "style": "neutral", "question": "Hằng năm người sử dụng lao động phải báo cáo về phòng, chống bệnh nghề nghiệp cho cơ quan nào?"}
+{"seed_id": "c4-039", "article_id": 37, "style": "worker", "question": "Công ty em làm hóa chất, mỗi năm có phải nộp báo cáo bệnh nghề nghiệp cho sở y tế không?"}
+{"seed_id": "c4-039", "article_id": 37, "style": "hr", "question": "Nghĩa vụ báo cáo, thống kê hằng năm về công tác phòng, chống bệnh nghề nghiệp của doanh nghiệp gửi cơ quan quản lý nhà nước về y tế cấp tỉnh được quy định thế nào?"}
+{"seed_id": "c4-039", "article_id": 37, "style": "complaint", "question": "Công ty tôi chưa từng báo cáo phòng chống bệnh nghề nghiệp lên sở y tế, như vậy có sai nghĩa vụ báo cáo hằng năm không?"}
+{"seed_id": "c4-039", "article_id": 37, "style": "short", "question": "Báo cáo bệnh nghề nghiệp hằng năm"}
+{"seed_id": "c4-040", "article_id": 37, "style": "neutral", "question": "Cơ quan nào tổ chức điều tra bệnh nghề nghiệp và quản lý cơ sở dữ liệu về phòng, chống bệnh nghề nghiệp?"}
+{"seed_id": "c4-040", "article_id": 37, "style": "worker", "question": "Muốn biết cả nước có bao nhiêu người bị bệnh nghề nghiệp thì hỏi cơ quan nào?"}
+{"seed_id": "c4-040", "article_id": 37, "style": "hr", "question": "Trách nhiệm thu thập, công bố, đánh giá tình hình bệnh nghề nghiệp và tổ chức điều tra bệnh nghề nghiệp thuộc về bộ nào?"}
+{"seed_id": "c4-040", "article_id": 37, "style": "complaint", "question": "Tôi đề nghị điều tra bệnh nghề nghiệp ở nhà máy mà không biết cơ quan nào có trách nhiệm tổ chức, đó là ai?"}
+{"seed_id": "c4-040", "article_id": 37, "style": "short", "question": "Ai điều tra bệnh nghề nghiệp?"}

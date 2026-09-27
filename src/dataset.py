@@ -64,6 +64,15 @@ def load_real_test() -> pd.DataFrame | None:
     return pd.read_csv(REAL_TEST_PATH) if REAL_TEST_PATH.exists() else None
 
 
+def load_real_ood() -> pd.DataFrame | None:
+    """Câu hỏi thật bị gán out_of_scope (chủ yếu thuộc Luật BHXH / văn bản khác): dùng đo ngưỡng từ chối."""
+    p = RAW_DIR / "real_labeled.jsonl"
+    if not p.exists():
+        return None
+    rows = [json.loads(l) for l in p.read_text(encoding="utf-8").splitlines() if l.strip()]
+    return pd.DataFrame([r for r in rows if r["decision"] == "out_of_scope"])
+
+
 if __name__ == "__main__":
     from src.preprocess import preprocess
 

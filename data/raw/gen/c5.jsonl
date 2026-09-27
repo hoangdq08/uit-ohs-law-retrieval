@@ -1,0 +1,200 @@
+{"seed_id": "c5-001", "article_id": 38, "style": "neutral", "question": "Khi người lao động bị tai nạn lao động, ai phải tạm ứng chi phí sơ cứu, cấp cứu?"}
+{"seed_id": "c5-001", "article_id": 38, "style": "worker", "question": "Em bị máy dập kẹp tay phải chở đi cấp cứu, tiền cấp cứu lúc đó sếp có phải ứng trước không?"}
+{"seed_id": "c5-001", "article_id": 38, "style": "hr", "question": "Trách nhiệm tạm ứng chi phí sơ cứu, cấp cứu và điều trị cho người lao động bị tai nạn lao động thuộc về người sử dụng lao động như thế nào?"}
+{"seed_id": "c5-001", "article_id": 38, "style": "complaint", "question": "Tôi bị té giàn giáo, công ty không chịu ứng tiền cấp cứu mà bắt gia đình tự lo, như vậy có đúng không?"}
+{"seed_id": "c5-001", "article_id": 38, "style": "short", "question": "Ai ứng tiền cấp cứu tai nạn?"}
+{"seed_id": "c5-002", "article_id": 38, "style": "neutral", "question": "Người lao động có bảo hiểm y tế bị tai nạn lao động thì công ty phải thanh toán những chi phí y tế nào?"}
+{"seed_id": "c5-002", "article_id": 38, "style": "worker", "question": "Em có thẻ bảo hiểm y tế, bị bỏng ở xưởng, phần tiền viện mà thẻ không trả thì công ty có đền không?"}
+{"seed_id": "c5-002", "article_id": 38, "style": "hr", "question": "Đối với người lao động tham gia bảo hiểm y tế, người sử dụng lao động phải chi trả phần đồng chi trả và chi phí ngoài danh mục bảo hiểm y tế ra sao?"}
+{"seed_id": "c5-002", "article_id": 38, "style": "complaint", "question": "Công ty chỉ đưa tôi đi viện rồi bỏ mặc phần tiền thuốc ngoài danh mục bảo hiểm y tế, tôi có đòi công ty trả được không?"}
+{"seed_id": "c5-002", "article_id": 38, "style": "short", "question": "Công ty trả phần BHYT không chi?"}
+{"seed_id": "c5-003", "article_id": 38, "style": "neutral", "question": "Người lao động không có bảo hiểm y tế bị tai nạn lao động thì chi phí điều trị do ai trả?"}
+{"seed_id": "c5-003", "article_id": 38, "style": "worker", "question": "Em chưa có thẻ bảo hiểm y tế mà bị cưa cắt vô chân ở xưởng gỗ, tiền viện ai chịu?"}
+{"seed_id": "c5-003", "article_id": 38, "style": "hr", "question": "Trường hợp người lao động không tham gia bảo hiểm y tế, người sử dụng lao động có phải thanh toán toàn bộ chi phí y tế đến khi điều trị ổn định không?"}
+{"seed_id": "c5-003", "article_id": 38, "style": "complaint", "question": "Tôi không có bảo hiểm y tế, bị tai nạn ở công trường, công ty bảo tự lo viện phí, vậy có kiện được không?"}
+{"seed_id": "c5-003", "article_id": 38, "style": "short", "question": "Không có BHYT ai trả viện phí?"}
+{"seed_id": "c5-004", "article_id": 38, "style": "neutral", "question": "Người sử dụng lao động phải thanh toán chi phí y tế cho người bị tai nạn lao động từ thời điểm nào đến thời điểm nào?"}
+{"seed_id": "c5-004", "article_id": 38, "style": "worker", "question": "Công ty trả tiền thuốc cho em tới khi nào thì thôi, hết cấp cứu là hết hả anh?"}
+{"seed_id": "c5-004", "article_id": 38, "style": "hr", "question": "Phạm vi thời gian mà người sử dụng lao động có nghĩa vụ thanh toán chi phí y tế cho người lao động bị tai nạn lao động được xác định thế nào?"}
+{"seed_id": "c5-004", "article_id": 38, "style": "complaint", "question": "Công ty chỉ trả tiền cấp cứu rồi ngưng, không trả tiền điều trị tiếp theo, như vậy có đúng trách nhiệm không?"}
+{"seed_id": "c5-004", "article_id": 38, "style": "short", "question": "Công ty trả viện phí đến khi nào?"}
+{"seed_id": "c5-005", "article_id": 38, "style": "neutral", "question": "Người lao động bị bệnh nghề nghiệp thì công ty có phải thanh toán chi phí điều trị không?"}
+{"seed_id": "c5-005", "article_id": 38, "style": "worker", "question": "Em bị bệnh bụi phổi do làm xưởng đá, tiền chữa bệnh công ty có phải chi không?"}
+{"seed_id": "c5-005", "article_id": 38, "style": "hr", "question": "Nghĩa vụ thanh toán chi phí y tế của người sử dụng lao động đối với người lao động mắc bệnh nghề nghiệp đến khi điều trị ổn định được quy định ra sao?"}
+{"seed_id": "c5-005", "article_id": 38, "style": "complaint", "question": "Tôi bị nhiễm độc chì do làm ở nhà máy pin mà công ty không chịu trả tiền điều trị, tôi có quyền đòi không?"}
+{"seed_id": "c5-005", "article_id": 38, "style": "short", "question": "Bệnh nghề nghiệp công ty trả tiền chữa?"}
+{"seed_id": "c5-006", "article_id": 38, "style": "neutral", "question": "Người lao động nghỉ việc để điều trị tai nạn lao động có được công ty trả lương không?"}
+{"seed_id": "c5-006", "article_id": 38, "style": "worker", "question": "Em nằm viện hai tháng vì gãy chân ở công trường, mấy tháng đó sếp có phải trả lương không?"}
+{"seed_id": "c5-006", "article_id": 38, "style": "hr", "question": "Trong thời gian người lao động nghỉ điều trị, phục hồi chức năng do tai nạn lao động, người sử dụng lao động có nghĩa vụ trả đủ tiền lương không?"}
+{"seed_id": "c5-006", "article_id": 38, "style": "complaint", "question": "Tôi nghỉ điều trị vì tai nạn lao động mà công ty trừ hết lương những ngày nghỉ, như vậy có đúng luật không?"}
+{"seed_id": "c5-006", "article_id": 38, "style": "short", "question": "Nghỉ điều trị tai nạn có lương?"}
+{"seed_id": "c5-007", "article_id": 38, "style": "neutral", "question": "Người lao động bị suy giảm từ 5% đến 10% khả năng lao động do tai nạn lao động được công ty bồi thường bao nhiêu?"}
+{"seed_id": "c5-007", "article_id": 38, "style": "worker", "question": "Em bị giám định mất 8% sức lao động vì dập ngón tay, công ty đền ít nhất mấy tháng lương?"}
+{"seed_id": "c5-007", "article_id": 38, "style": "hr", "question": "Mức bồi thường tối thiểu của người sử dụng lao động đối với người lao động bị suy giảm khả năng lao động từ 5% đến 10% được tính như thế nào?"}
+{"seed_id": "c5-007", "article_id": 38, "style": "complaint", "question": "Tôi bị suy giảm 10% do tai nạn ở xưởng mà công ty chỉ đưa một tháng lương, như vậy có thấp hơn mức luật định không?"}
+{"seed_id": "c5-007", "article_id": 38, "style": "short", "question": "Suy giảm 5-10% đền bao nhiêu?"}
+{"seed_id": "c5-008", "article_id": 38, "style": "neutral", "question": "Mức bồi thường của công ty cho người bị suy giảm khả năng lao động từ 11% đến 80% được tính thế nào?"}
+{"seed_id": "c5-008", "article_id": 38, "style": "worker", "question": "Em bị giám định 40% do mất một bàn tay, công ty phải đền cho em bao nhiêu tháng lương?"}
+{"seed_id": "c5-008", "article_id": 38, "style": "hr", "question": "Cách tính mức bồi thường tai nạn lao động của người sử dụng lao động khi mức suy giảm khả năng lao động nằm trong khoảng 11% đến 80% là gì?"}
+{"seed_id": "c5-008", "article_id": 38, "style": "complaint", "question": "Tôi bị suy giảm 35% khả năng lao động mà công ty bồi thường chỉ bằng người suy giảm 10%, vậy tính như thế có đúng không?"}
+{"seed_id": "c5-008", "article_id": 38, "style": "short", "question": "Công thức bồi thường suy giảm 11-80%"}
+{"seed_id": "c5-009", "article_id": 38, "style": "neutral", "question": "Người lao động bị suy giảm khả năng lao động từ 81% trở lên được công ty bồi thường ít nhất bao nhiêu?"}
+{"seed_id": "c5-009", "article_id": 38, "style": "worker", "question": "Anh em bị liệt nửa người do té từ tầng cao, giám định trên 81%, sếp đền ít nhất bao nhiêu tháng lương?"}
+{"seed_id": "c5-009", "article_id": 38, "style": "hr", "question": "Mức bồi thường tối thiểu mà người sử dụng lao động phải trả cho người lao động suy giảm khả năng lao động từ 81% trở lên là bao nhiêu tháng tiền lương?"}
+{"seed_id": "c5-009", "article_id": 38, "style": "complaint", "question": "Chồng tôi bị liệt hoàn toàn do tai nạn ở mỏ mà công ty chỉ đền mười tháng lương, tôi có kiện đòi thêm được không?"}
+{"seed_id": "c5-009", "article_id": 38, "style": "short", "question": "Suy giảm trên 81% đền mấy tháng?"}
+{"seed_id": "c5-010", "article_id": 38, "style": "neutral", "question": "Người lao động chết do tai nạn lao động thì thân nhân được công ty bồi thường bao nhiêu?"}
+{"seed_id": "c5-010", "article_id": 38, "style": "worker", "question": "Ba em chết vì bị điện giật lúc sửa trạm điện, công ty phải đền cho nhà em ít nhất bao nhiêu?"}
+{"seed_id": "c5-010", "article_id": 38, "style": "hr", "question": "Mức bồi thường tối thiểu người sử dụng lao động phải trả cho thân nhân người lao động bị chết do tai nạn lao động được quy định ra sao?"}
+{"seed_id": "c5-010", "article_id": 38, "style": "complaint", "question": "Anh trai tôi chết khi đang làm ở công trường mà công ty chỉ phúng điếu vài triệu rồi thôi, gia đình có đòi công ty bồi thường được không?"}
+{"seed_id": "c5-010", "article_id": 38, "style": "short", "question": "Công ty bồi thường người chết bao nhiêu?"}
+{"seed_id": "c5-011", "article_id": 38, "style": "neutral", "question": "Người lao động bị tai nạn lao động do lỗi của chính mình thì có được công ty trợ cấp không?"}
+{"seed_id": "c5-011", "article_id": 38, "style": "worker", "question": "Em tự bất cẩn không tắt máy trước khi lau nên bị cuốn tay, vậy sếp có phải trả gì cho em không?"}
+{"seed_id": "c5-011", "article_id": 38, "style": "hr", "question": "Đối với tai nạn lao động do lỗi của chính người lao động, mức trợ cấp tối thiểu của người sử dụng lao động được tính bằng bao nhiêu phần trăm mức bồi thường?"}
+{"seed_id": "c5-011", "article_id": 38, "style": "complaint", "question": "Công ty bảo tôi bị tai nạn do lỗi của tôi nên không trả đồng nào, vậy tôi có được trợ cấp gì từ công ty không?"}
+{"seed_id": "c5-011", "article_id": 38, "style": "short", "question": "Tự gây lỗi tai nạn có trợ cấp?"}
+{"seed_id": "c5-012", "article_id": 38, "style": "neutral", "question": "Người lao động bị bệnh nghề nghiệp có được người sử dụng lao động bồi thường không?"}
+{"seed_id": "c5-012", "article_id": 38, "style": "worker", "question": "Em bị điếc nghề nghiệp do làm xưởng dệt mười năm, công ty có phải đền tiền cho em không?"}
+{"seed_id": "c5-012", "article_id": 38, "style": "hr", "question": "Nghĩa vụ bồi thường của người sử dụng lao động đối với người lao động mắc bệnh nghề nghiệp được tính theo mức suy giảm khả năng lao động như thế nào?"}
+{"seed_id": "c5-012", "article_id": 38, "style": "complaint", "question": "Tôi bị bệnh da nghề nghiệp do tiếp xúc hóa chất mà công ty nói bệnh thì tự chịu, vậy công ty có phải bồi thường không?"}
+{"seed_id": "c5-012", "article_id": 38, "style": "short", "question": "Bệnh nghề nghiệp công ty có bồi thường?"}
+{"seed_id": "c5-013", "article_id": 38, "style": "neutral", "question": "Công ty phải trả tiền bồi thường tai nạn lao động trong thời hạn bao lâu?"}
+{"seed_id": "c5-013", "article_id": 38, "style": "worker", "question": "Có kết quả giám định rồi mà sếp hẹn hoài chưa đưa tiền đền, luật cho công ty mấy ngày vậy?"}
+{"seed_id": "c5-013", "article_id": 38, "style": "hr", "question": "Thời hạn người sử dụng lao động thực hiện bồi thường, trợ cấp tai nạn lao động kể từ ngày có kết luận của Hội đồng giám định y khoa là bao lâu?"}
+{"seed_id": "c5-013", "article_id": 38, "style": "complaint", "question": "Đã hai tháng từ khi có kết luận giám định mà công ty chưa trả tiền bồi thường cho tôi, như vậy có vi phạm thời hạn không?"}
+{"seed_id": "c5-013", "article_id": 38, "style": "short", "question": "Hạn công ty trả bồi thường"}
+{"seed_id": "c5-014", "article_id": 38, "style": "neutral", "question": "Đối với tai nạn lao động chết người, thời hạn công ty trả tiền bồi thường cho thân nhân được tính từ khi nào?"}
+{"seed_id": "c5-014", "article_id": 38, "style": "worker", "question": "Nhà em có người chết do tai nạn ở nhà máy, bao lâu thì công ty phải đưa tiền đền cho gia đình?"}
+{"seed_id": "c5-014", "article_id": 38, "style": "hr", "question": "Mốc tính thời hạn 05 ngày chi trả bồi thường cho thân nhân trong vụ tai nạn lao động chết người là thời điểm nào?"}
+{"seed_id": "c5-014", "article_id": 38, "style": "complaint", "question": "Biên bản điều tra vụ bố tôi chết đã công bố lâu rồi mà công ty vẫn chưa bồi thường, tôi có kiện được không?"}
+{"seed_id": "c5-014", "article_id": 38, "style": "short", "question": "Hạn bồi thường tai nạn chết người"}
+{"seed_id": "c5-015", "article_id": 38, "style": "neutral", "question": "Người lao động bị tai nạn lao động có được công ty giới thiệu đi giám định y khoa không?"}
+{"seed_id": "c5-015", "article_id": 38, "style": "worker", "question": "Em bị gãy tay đã lành nhưng còn yếu, sếp có phải giới thiệu em đi giám định không hay em tự đi?"}
+{"seed_id": "c5-015", "article_id": 38, "style": "hr", "question": "Người sử dụng lao động có trách nhiệm giới thiệu người lao động bị tai nạn lao động đi giám định mức suy giảm khả năng lao động và điều dưỡng, phục hồi chức năng như thế nào?"}
+{"seed_id": "c5-015", "article_id": 38, "style": "complaint", "question": "Công ty không chịu làm giấy giới thiệu cho tôi đi giám định thương tật sau tai nạn, họ có nghĩa vụ phải giới thiệu không?"}
+{"seed_id": "c5-015", "article_id": 38, "style": "short", "question": "Công ty giới thiệu đi giám định?"}
+{"seed_id": "c5-016", "article_id": 38, "style": "neutral", "question": "Nếu kết quả giám định mức suy giảm khả năng lao động dưới 5% thì ai trả phí khám giám định?"}
+{"seed_id": "c5-016", "article_id": 38, "style": "worker", "question": "Em đi giám định do công ty giới thiệu, ra có 3% thôi, vậy tiền giám định ai trả?"}
+{"seed_id": "c5-016", "article_id": 38, "style": "hr", "question": "Trường hợp người lao động được người sử dụng lao động giới thiệu đi giám định và kết luận suy giảm dưới 5%, phí khám giám định do bên nào chi trả?"}
+{"seed_id": "c5-016", "article_id": 38, "style": "complaint", "question": "Công ty giới thiệu tôi đi giám định, kết quả dưới 5% rồi công ty bắt tôi tự trả phí giám định, như vậy có đúng không?"}
+{"seed_id": "c5-016", "article_id": 38, "style": "short", "question": "Giám định dưới 5% ai trả phí?"}
+{"seed_id": "c5-017", "article_id": 38, "style": "neutral", "question": "Sau khi điều trị tai nạn lao động, người lao động quay lại làm việc thì công ty có phải bố trí công việc phù hợp không?"}
+{"seed_id": "c5-017", "article_id": 38, "style": "worker", "question": "Em bị mất hai ngón tay nên đứng máy không nổi nữa, đi làm lại sếp có phải đổi việc nhẹ hơn cho em không?"}
+{"seed_id": "c5-017", "article_id": 38, "style": "hr", "question": "Nghĩa vụ sắp xếp công việc phù hợp với sức khỏe theo kết luận của Hội đồng giám định y khoa cho người lao động sau tai nạn lao động được quy định ra sao?"}
+{"seed_id": "c5-017", "article_id": 38, "style": "complaint", "question": "Tôi bị tai nạn yếu chân mà quay lại làm công ty vẫn bắt khuân vác như cũ, họ có phải sắp xếp việc phù hợp cho tôi không?"}
+{"seed_id": "c5-017", "article_id": 38, "style": "short", "question": "Bố trí việc phù hợp sau tai nạn"}
+{"seed_id": "c5-018", "article_id": 38, "style": "neutral", "question": "Tiền lương làm căn cứ tính bồi thường tai nạn lao động gồm những khoản nào?"}
+{"seed_id": "c5-018", "article_id": 38, "style": "worker", "question": "Công ty tính tiền đền cho em theo lương cơ bản thôi, còn phụ cấp thì không tính, vậy đúng không?"}
+{"seed_id": "c5-018", "article_id": 38, "style": "hr", "question": "Tiền lương làm cơ sở tính bồi thường, trợ cấp và tiền lương trả cho người lao động nghỉ việc do tai nạn lao động bao gồm những thành phần nào?"}
+{"seed_id": "c5-018", "article_id": 38, "style": "complaint", "question": "Công ty chỉ lấy lương cơ bản để tính bồi thường cho tôi, bỏ qua phụ cấp và các khoản bổ sung, tôi có khiếu nại được không?"}
+{"seed_id": "c5-018", "article_id": 38, "style": "short", "question": "Lương tính bồi thường gồm gì?"}
+{"seed_id": "c5-019", "article_id": 38, "style": "neutral", "question": "Người lao động bị tai nạn lao động thì được hưởng những chế độ gì?"}
+{"seed_id": "c5-019", "article_id": 38, "style": "worker", "question": "Em bị tai nạn lúc làm ca đêm ở xưởng, giờ em được hưởng những quyền lợi gì vậy?"}
+{"seed_id": "c5-019", "article_id": 38, "style": "hr", "question": "Người lao động bị tai nạn lao động được người sử dụng lao động đảm bảo những chế độ, quyền lợi nào theo quy định?"}
+{"seed_id": "c5-019", "article_id": 38, "style": "complaint", "question": "Tôi bị tai nạn lao động mà công ty không nói gì về quyền lợi, tôi phải đòi công ty những chế độ gì?"}
+{"seed_id": "c5-019", "article_id": 38, "style": "short", "question": "Bị tai nạn lao động hưởng gì?"}
+{"seed_id": "c5-020", "article_id": 38, "style": "neutral", "question": "Tai nạn lao động không hoàn toàn do lỗi của người lao động thì công ty có trách nhiệm bồi thường không?"}
+{"seed_id": "c5-020", "article_id": 38, "style": "worker", "question": "Em làm đúng quy trình mà máy hỏng văng mảnh vô mắt, vậy công ty có phải đền không?"}
+{"seed_id": "c5-020", "article_id": 38, "style": "hr", "question": "Điều kiện để người sử dụng lao động có nghĩa vụ bồi thường là tai nạn lao động không hoàn toàn do lỗi của chính người lao động gây ra được hiểu thế nào?"}
+{"seed_id": "c5-020", "article_id": 38, "style": "complaint", "question": "Công ty nói tôi cũng có một phần lỗi nên không bồi thường, trong khi máy móc hư hỏng, như vậy có đúng không?"}
+{"seed_id": "c5-020", "article_id": 38, "style": "short", "question": "Không do lỗi mình có được bồi thường?"}
+{"seed_id": "c5-021", "article_id": 38, "style": "neutral", "question": "Công ty có phải kịp thời sơ cứu, cấp cứu cho người lao động bị tai nạn lao động không?"}
+{"seed_id": "c5-021", "article_id": 38, "style": "worker", "question": "Anh em té từ xe nâng xuống, quản lý có phải lo đưa đi cấp cứu ngay không hay để tụi em tự lo?"}
+{"seed_id": "c5-021", "article_id": 38, "style": "hr", "question": "Trách nhiệm của người sử dụng lao động trong việc kịp thời sơ cứu, cấp cứu người bị tai nạn lao động và chi trả các chi phí này được quy định ra sao?"}
+{"seed_id": "c5-021", "article_id": 38, "style": "complaint", "question": "Tôi bị thương ở xưởng mà quản lý bắt tự bắt xe đi viện, tự trả tiền, công ty có trách nhiệm cấp cứu và chịu chi phí không?"}
+{"seed_id": "c5-021", "article_id": 38, "style": "short", "question": "Công ty có phải lo cấp cứu?"}
+{"seed_id": "c5-022", "article_id": 38, "style": "neutral", "question": "Người lao động bị tai nạn lao động do lỗi của chính mình và bị suy giảm 50% khả năng lao động thì công ty trợ cấp ít nhất bao nhiêu?"}
+{"seed_id": "c5-022", "article_id": 38, "style": "worker", "question": "Em tự leo lên máy không đeo dây nên té, giám định 50%, công ty trợ cấp cho em tính sao?"}
+{"seed_id": "c5-022", "article_id": 38, "style": "hr", "question": "Cách xác định khoản trợ cấp tối thiểu bằng 40% mức bồi thường tương ứng cho người lao động bị tai nạn do lỗi của bản thân được áp dụng thế nào?"}
+{"seed_id": "c5-022", "article_id": 38, "style": "complaint", "question": "Công ty chỉ cho tôi một triệu vì tai nạn do lỗi tôi, dù tôi mất 50% sức lao động, số tiền đó có thấp hơn mức luật định không?"}
+{"seed_id": "c5-022", "article_id": 38, "style": "short", "question": "Trợ cấp khi tai nạn do lỗi mình"}
+{"seed_id": "c5-023", "article_id": 38, "style": "neutral", "question": "Người lao động bị tai nạn lao động có được công ty trả lương trong thời gian phục hồi chức năng lao động không?"}
+{"seed_id": "c5-023", "article_id": 38, "style": "worker", "question": "Em ra viện rồi còn phải tập vật lý trị liệu cả tháng, thời gian đó sếp có trả lương không?"}
+{"seed_id": "c5-023", "article_id": 38, "style": "hr", "question": "Thời gian phục hồi chức năng lao động sau tai nạn lao động có được người sử dụng lao động trả đủ tiền lương như thời gian điều trị không?"}
+{"seed_id": "c5-023", "article_id": 38, "style": "complaint", "question": "Tôi đang tập phục hồi chức năng sau tai nạn mà công ty cắt lương, bảo chỉ trả lúc nằm viện, như vậy có đúng không?"}
+{"seed_id": "c5-023", "article_id": 38, "style": "short", "question": "Lương thời gian phục hồi chức năng"}
+{"seed_id": "c5-024", "article_id": 38, "style": "neutral", "question": "Người lao động bị bệnh nghề nghiệp phải nghỉ việc điều trị có được trả đủ lương không?"}
+{"seed_id": "c5-024", "article_id": 38, "style": "worker", "question": "Em bị viêm phế quản nghề nghiệp phải nghỉ điều trị một tháng, sếp có trả đủ lương tháng đó không?"}
+{"seed_id": "c5-024", "article_id": 38, "style": "hr", "question": "Nghĩa vụ trả đủ tiền lương cho người lao động mắc bệnh nghề nghiệp trong thời gian nghỉ việc để điều trị được quy định thế nào?"}
+{"seed_id": "c5-024", "article_id": 38, "style": "complaint", "question": "Tôi nghỉ điều trị bệnh nghề nghiệp mà công ty tính là nghỉ không lương, tôi có đòi lại được không?"}
+{"seed_id": "c5-024", "article_id": 38, "style": "short", "question": "Nghỉ điều trị bệnh nghề nghiệp có lương?"}
+{"seed_id": "c5-025", "article_id": 39, "style": "neutral", "question": "Người lao động bị tai nạn khi đi công tác ngoài doanh nghiệp do người khác gây ra thì công ty có phải bồi thường không?"}
+{"seed_id": "c5-025", "article_id": 39, "style": "worker", "question": "Em được sếp cử đi giao hàng, bị xe khác tông, vậy công ty có phải đền cho em không hay người tông đền?"}
+{"seed_id": "c5-025", "article_id": 39, "style": "hr", "question": "Trường hợp người lao động bị tai nạn khi thực hiện nhiệm vụ ngoài phạm vi doanh nghiệp do lỗi của người khác gây ra, người sử dụng lao động có nghĩa vụ bồi thường không?"}
+{"seed_id": "c5-025", "article_id": 39, "style": "complaint", "question": "Tôi đi lắp máy cho khách theo lệnh công ty thì bị người khác làm đổ thiết bị trúng, công ty bảo không liên quan, tôi có kiện được không?"}
+{"seed_id": "c5-025", "article_id": 39, "style": "short", "question": "Đi công tác bị người khác tông"}
+{"seed_id": "c5-026", "article_id": 39, "style": "neutral", "question": "Tai nạn khi thực hiện nhiệm vụ ngoài doanh nghiệp mà không xác định được người gây ra thì công ty có phải bồi thường không?"}
+{"seed_id": "c5-026", "article_id": 39, "style": "worker", "question": "Em đi sửa đường dây điện cho công ty bị ai đó đụng rồi bỏ chạy, sếp có phải đền cho em không?"}
+{"seed_id": "c5-026", "article_id": 39, "style": "hr", "question": "Khi không xác định được người gây tai nạn trong lúc người lao động làm nhiệm vụ ngoài cơ quan, trách nhiệm bồi thường của người sử dụng lao động thế nào?"}
+{"seed_id": "c5-026", "article_id": 39, "style": "complaint", "question": "Tôi đi thu nợ cho công ty bị tai nạn mà không tìm ra người gây ra, công ty từ chối bồi thường vì không phải lỗi họ, có đúng không?"}
+{"seed_id": "c5-026", "article_id": 39, "style": "short", "question": "Không rõ thủ phạm, công ty đền?"}
+{"seed_id": "c5-027", "article_id": 39, "style": "neutral", "question": "Người lao động bị tai nạn trên đường đi làm do người khác gây ra thì công ty có phải trợ cấp không?"}
+{"seed_id": "c5-027", "article_id": 39, "style": "worker", "question": "Sáng em chạy xe tới xưởng bị người ta tông, công ty có phải trả tiền gì cho em không?"}
+{"seed_id": "c5-027", "article_id": 39, "style": "hr", "question": "Đối với tai nạn trên tuyến đường hợp lý từ nơi ở đến nơi làm việc do lỗi người khác, người sử dụng lao động có trách nhiệm trợ cấp theo mức nào?"}
+{"seed_id": "c5-027", "article_id": 39, "style": "complaint", "question": "Tôi bị xe tải tông trên đường đi làm, công ty nói tai nạn ngoài công ty nên không trả gì, như vậy có đúng không?"}
+{"seed_id": "c5-027", "article_id": 39, "style": "short", "question": "Tai nạn đường đi làm, công ty trả?"}
+{"seed_id": "c5-028", "article_id": 39, "style": "neutral", "question": "Tai nạn trên đường đi làm về mà không xác định được người gây ra thì công ty có phải trợ cấp cho người lao động không?"}
+{"seed_id": "c5-028", "article_id": 39, "style": "worker", "question": "Tan ca về bị té do ai đó quẹt xe rồi chạy mất, công ty có phải hỗ trợ tiền cho em không?"}
+{"seed_id": "c5-028", "article_id": 39, "style": "hr", "question": "Trường hợp tai nạn trên đường từ nơi làm việc về nơi ở mà không xác định được người gây ra, nghĩa vụ trợ cấp của người sử dụng lao động được xác định thế nào?"}
+{"seed_id": "c5-028", "article_id": 39, "style": "complaint", "question": "Tôi bị tai nạn lúc về nhà sau ca, không tìm ra người gây tai nạn, công ty từ chối hỗ trợ, tôi có đòi được không?"}
+{"seed_id": "c5-028", "article_id": 39, "style": "short", "question": "Tai nạn đường về không rõ thủ phạm"}
+{"seed_id": "c5-029", "article_id": 39, "style": "neutral", "question": "Nếu công ty đã mua bảo hiểm tai nạn thương mại cho người lao động thì người lao động được bồi thường thế nào?"}
+{"seed_id": "c5-029", "article_id": 39, "style": "worker", "question": "Sếp nói đã mua bảo hiểm tai nạn bên công ty bảo hiểm cho tụi em, vậy bị tai nạn thì lấy tiền bên đó hay công ty đền?"}
+{"seed_id": "c5-029", "article_id": 39, "style": "hr", "question": "Khi người sử dụng lao động đã mua bảo hiểm tai nạn tại doanh nghiệp bảo hiểm, người lao động được hưởng các khoản chi trả theo cơ chế nào?"}
+{"seed_id": "c5-029", "article_id": 39, "style": "complaint", "question": "Công ty mua bảo hiểm tai nạn tư nhân cho tôi rồi bảo chỉ nhận tiền bên bảo hiểm là xong, như vậy công ty có hết trách nhiệm không?"}
+{"seed_id": "c5-029", "article_id": 39, "style": "short", "question": "Công ty mua bảo hiểm tư nhân"}
+{"seed_id": "c5-030", "article_id": 39, "style": "neutral", "question": "Số tiền công ty bảo hiểm thương mại trả thấp hơn mức bồi thường theo luật thì ai trả phần còn thiếu?"}
+{"seed_id": "c5-030", "article_id": 39, "style": "worker", "question": "Bên bảo hiểm tư nhân chỉ trả em có mười triệu, ít hơn mức luật, phần còn lại công ty có phải bù không?"}
+{"seed_id": "c5-030", "article_id": 39, "style": "hr", "question": "Trách nhiệm bù phần chênh lệch của người sử dụng lao động khi số tiền doanh nghiệp bảo hiểm chi trả thấp hơn mức bồi thường, trợ cấp theo luật được quy định ra sao?"}
+{"seed_id": "c5-030", "article_id": 39, "style": "complaint", "question": "Tiền bảo hiểm thương mại trả cho tôi thấp hơn mức luật định mà công ty không chịu bù thêm, tôi có kiện được không?"}
+{"seed_id": "c5-030", "article_id": 39, "style": "short", "question": "Bảo hiểm tư nhân trả thiếu ai bù?"}
+{"seed_id": "c5-031", "article_id": 39, "style": "neutral", "question": "Công ty không đóng bảo hiểm tai nạn lao động cho người lao động thì khi bị tai nạn ai trả chế độ bảo hiểm?"}
+{"seed_id": "c5-031", "article_id": 39, "style": "worker", "question": "Sếp không đóng bảo hiểm cho em, giờ em bị tai nạn thì ai trả tiền trợ cấp đây?"}
+{"seed_id": "c5-031", "article_id": 39, "style": "hr", "question": "Trường hợp người sử dụng lao động không đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp cho người lao động thuộc diện bắt buộc thì trách nhiệm chi trả khoản tiền tương ứng chế độ bảo hiểm thuộc về ai?"}
+{"seed_id": "c5-031", "article_id": 39, "style": "complaint", "question": "Công ty trốn đóng bảo hiểm tai nạn lao động cho tôi, giờ tôi bị tai nạn thì bảo hiểm không trả, tôi đòi công ty được không?"}
+{"seed_id": "c5-031", "article_id": 39, "style": "short", "question": "Công ty không đóng bảo hiểm ai trả?"}
+{"seed_id": "c5-032", "article_id": 39, "style": "neutral", "question": "Công ty không đóng bảo hiểm tai nạn lao động thì khoản tiền tương ứng chế độ bảo hiểm được trả một lần hay hằng tháng?"}
+{"seed_id": "c5-032", "article_id": 39, "style": "worker", "question": "Công ty không đóng bảo hiểm nên phải tự trả thay cho em, vậy em đòi trả một cục hay trả hằng tháng được?"}
+{"seed_id": "c5-032", "article_id": 39, "style": "hr", "question": "Hình thức chi trả khoản tiền tương ứng chế độ bảo hiểm tai nạn lao động mà người sử dụng lao động phải trả khi không đóng bảo hiểm được thỏa thuận thế nào?"}
+{"seed_id": "c5-032", "article_id": 39, "style": "complaint", "question": "Công ty không đóng bảo hiểm cho tôi, giờ đòi trả dần hằng tháng trong khi tôi muốn nhận một lần, ai quyết định?"}
+{"seed_id": "c5-032", "article_id": 39, "style": "short", "question": "Công ty trốn bảo hiểm: trả một lần?"}
+{"seed_id": "c5-033", "article_id": 39, "style": "neutral", "question": "Ngoài bồi thường theo trách nhiệm của công ty, người lao động còn được công ty trả thêm gì nếu công ty không đóng bảo hiểm tai nạn lao động?"}
+{"seed_id": "c5-033", "article_id": 39, "style": "worker", "question": "Công ty em không đóng bảo hiểm, ngoài tiền đền tai nạn ra sếp còn phải trả thêm khoản nào không?"}
+{"seed_id": "c5-033", "article_id": 39, "style": "hr", "question": "Người sử dụng lao động không tham gia bảo hiểm tai nạn lao động, bệnh nghề nghiệp phải chịu những khoản chi trả nào ngoài bồi thường, trợ cấp theo Điều 38?"}
+{"seed_id": "c5-033", "article_id": 39, "style": "complaint", "question": "Công ty không đóng bảo hiểm tai nạn lao động mà chỉ trả tôi tiền bồi thường, còn khoản bảo hiểm lẽ ra được hưởng thì không, tôi có đòi được không?"}
+{"seed_id": "c5-033", "article_id": 39, "style": "short", "question": "Không đóng bảo hiểm, trả thêm gì?"}
+{"seed_id": "c5-034", "article_id": 39, "style": "neutral", "question": "Người lao động bị bệnh nghề nghiệp nhưng công ty chưa từng đóng bảo hiểm tai nạn lao động thì ai trả trợ cấp hằng tháng?"}
+{"seed_id": "c5-034", "article_id": 39, "style": "worker", "question": "Em bị bụi phổi mà công ty chưa đóng bảo hiểm ngày nào, trợ cấp hằng tháng giờ ai trả cho em?"}
+{"seed_id": "c5-034", "article_id": 39, "style": "hr", "question": "Khi người lao động mắc bệnh nghề nghiệp mà người sử dụng lao động không đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp, khoản trợ cấp tương ứng do ai chi trả?"}
+{"seed_id": "c5-034", "article_id": 39, "style": "complaint", "question": "Công ty không đóng bảo hiểm nên cơ quan bảo hiểm từ chối trả trợ cấp bệnh nghề nghiệp cho tôi, giờ tôi phải đòi ai?"}
+{"seed_id": "c5-034", "article_id": 39, "style": "short", "question": "Bệnh nghề nghiệp, công ty trốn bảo hiểm"}
+{"seed_id": "c5-035", "article_id": 40, "style": "neutral", "question": "Những trường hợp nào người lao động bị tai nạn nhưng không được hưởng chế độ từ người sử dụng lao động?"}
+{"seed_id": "c5-035", "article_id": 40, "style": "worker", "question": "Bị tai nạn trong trường hợp nào thì sếp khỏi phải đền cho mình vậy anh?"}
+{"seed_id": "c5-035", "article_id": 40, "style": "hr", "question": "Các nguyên nhân tai nạn khiến người lao động không được hưởng chế độ bồi thường, trợ cấp từ người sử dụng lao động gồm những trường hợp nào?"}
+{"seed_id": "c5-035", "article_id": 40, "style": "complaint", "question": "Công ty từ chối bồi thường tai nạn cho tôi và nói tôi thuộc trường hợp không được hưởng, vậy luật quy định những trường hợp nào?"}
+{"seed_id": "c5-035", "article_id": 40, "style": "short", "question": "Khi nào công ty không phải bồi thường?"}
+{"seed_id": "c5-036", "article_id": 40, "style": "neutral", "question": "Người lao động bị tai nạn do đánh nhau với người khác vì mâu thuẫn cá nhân tại nơi làm việc thì có được công ty bồi thường không?"}
+{"seed_id": "c5-036", "article_id": 40, "style": "worker", "question": "Em cự cãi chuyện riêng với thằng cùng xưởng rồi bị nó đánh gãy tay, công ty có đền cho em không?"}
+{"seed_id": "c5-036", "article_id": 40, "style": "hr", "question": "Tai nạn phát sinh do mâu thuẫn cá nhân của chính nạn nhân với người gây ra, không liên quan đến công việc, có thuộc trường hợp được người sử dụng lao động bồi thường không?"}
+{"seed_id": "c5-036", "article_id": 40, "style": "complaint", "question": "Tôi bị đồng nghiệp đánh vì chuyện nợ nần trong giờ làm, công ty không bồi thường, tôi có kiện công ty được không?"}
+{"seed_id": "c5-036", "article_id": 40, "style": "short", "question": "Đánh nhau mâu thuẫn riêng có bồi thường?"}
+{"seed_id": "c5-037", "article_id": 40, "style": "neutral", "question": "Người lao động cố ý tự gây thương tích cho bản thân có được công ty bồi thường tai nạn lao động không?"}
+{"seed_id": "c5-037", "article_id": 40, "style": "worker", "question": "Có người trong xưởng cố tình tự làm mình bị thương để đòi tiền, vậy công ty có phải đền không?"}
+{"seed_id": "c5-037", "article_id": 40, "style": "hr", "question": "Trường hợp người lao động cố ý tự hủy hoại sức khỏe của bản thân thì người sử dụng lao động có nghĩa vụ bồi thường, trợ cấp không?"}
+{"seed_id": "c5-037", "article_id": 40, "style": "complaint", "question": "Công ty cho rằng tôi cố ý tự làm mình bị thương nên không bồi thường, nếu đúng vậy thì tôi có được hưởng gì từ công ty không?"}
+{"seed_id": "c5-037", "article_id": 40, "style": "short", "question": "Tự gây thương tích có được bồi thường?"}
+{"seed_id": "c5-038", "article_id": 40, "style": "neutral", "question": "Người lao động bị tai nạn do sử dụng ma túy thì có được công ty bồi thường không?"}
+{"seed_id": "c5-038", "article_id": 40, "style": "worker", "question": "Anh kia chơi ma túy rồi vô làm bị té máy, công ty có phải đền cho ảnh không?"}
+{"seed_id": "c5-038", "article_id": 40, "style": "hr", "question": "Tai nạn xảy ra do người lao động sử dụng ma túy, chất gây nghiện trái phép có được người sử dụng lao động bồi thường, trợ cấp không?"}
+{"seed_id": "c5-038", "article_id": 40, "style": "complaint", "question": "Xét nghiệm ra tôi có chất gây nghiện nên công ty từ chối bồi thường tai nạn, như vậy công ty có đúng không?"}
+{"seed_id": "c5-038", "article_id": 40, "style": "short", "question": "Dùng ma túy bị tai nạn, bồi thường?"}
+{"seed_id": "c5-039", "article_id": 40, "style": "neutral", "question": "Người lao động dùng chất gây nghiện trái phép rồi bị tai nạn trên đường đi làm thì công ty có phải trợ cấp không?"}
+{"seed_id": "c5-039", "article_id": 40, "style": "worker", "question": "Em lỡ dùng chất kích thích rồi chạy xe đi làm bị té, sếp có phải trả tiền gì không?"}
+{"seed_id": "c5-039", "article_id": 40, "style": "hr", "question": "Người lao động sử dụng chất gây nghiện trái quy định dẫn tới tai nạn trên đường đi làm có bị loại trừ khỏi chế độ trợ cấp từ người sử dụng lao động không?"}
+{"seed_id": "c5-039", "article_id": 40, "style": "complaint", "question": "Tôi bị tai nạn trên đường đi làm, công ty viện lý do tôi dùng chất gây nghiện để không trợ cấp, như vậy có đúng không?"}
+{"seed_id": "c5-039", "article_id": 40, "style": "short", "question": "Chất gây nghiện tai nạn đường đi làm"}
+{"seed_id": "c5-040", "article_id": 40, "style": "neutral", "question": "Tai nạn do mâu thuẫn cá nhân nhưng xảy ra khi đang đi công tác thì người lao động có được công ty bồi thường không?"}
+{"seed_id": "c5-040", "article_id": 40, "style": "worker", "question": "Đi công tác mà cãi nhau chuyện riêng với người ta rồi bị đánh, về công ty có đền không?"}
+{"seed_id": "c5-040", "article_id": 40, "style": "hr", "question": "Trường hợp người lao động đi làm nhiệm vụ bên ngoài nhưng bị thương do mâu thuẫn riêng không liên quan công việc, có được hưởng chế độ từ người sử dụng lao động không?"}
+{"seed_id": "c5-040", "article_id": 40, "style": "complaint", "question": "Tôi bị hành hung khi đi công tác vì chuyện riêng, công ty từ chối bồi thường, tôi có khiếu nại được không?"}
+{"seed_id": "c5-040", "article_id": 40, "style": "short", "question": "Mâu thuẫn riêng khi đi công tác"}

@@ -43,7 +43,7 @@ warnings.filterwarnings("ignore")
 import numpy as np, pandas as pd, matplotlib.pyplot as plt, seaborn as sns
 from sklearn.metrics import classification_report, confusion_matrix
 from src.config import LABELS, LABEL_CODES, ARTICLE_TO_LABEL, FIGURES_DIR, MODELS_DIR, RANDOM_STATE
-from src.dataset import load_dataset, load_real_test
+from src.dataset import load_dataset, load_real_test, load_real_ood
 from src.preprocess import preprocess, normalize
 from src.models import build_models, fit_eval, scores, tfidf
 from src.retrieval import ArticleRetriever, topk_accuracy
@@ -92,10 +92,16 @@ split_tab
 code("""
 real = load_real_test()
 if real is not None:
+    real["question_clean"] = real.question.map(preprocess)
     print("Test thật:", len(real), "câu"); RESULTS["n_real"] = int(len(real))
     display(real.label_code.value_counts().reindex(CODES).fillna(0).astype(int).to_frame("so_cau"))
 else:
     print("Chưa có tập test thật"); RESULTS["n_real"] = 0
+ood = load_real_ood()
+if ood is not None:
+    ood["question_clean"] = ood.question.map(preprocess)
+    RESULTS["n_real_ood"] = int(len(ood))
+    print("Câu hỏi thật ngoài phạm vi (OOD, chỉ dùng đo ngưỡng từ chối):", len(ood))
 """)
 
 md("## 2. Phân tích khám phá dữ liệu (EDA)")
@@ -349,6 +355,29 @@ def eval_retrieval(d, name):
 ret = pd.concat([eval_retrieval(te, "test")] + ([eval_retrieval(real, "real")] if real is not None else []), axis=1).round(4)
 RESULTS["retrieval"] = ret.to_dict()
 ret
+""")
+
+md("""
+## 10. Phát hiện câu hỏi ngoài phạm vi (độ tin cậy)
+
+Dùng Logistic Regression (có xác suất softmax) để lấy độ tin cậy lớp cao nhất. So sánh phân bố độ tin cậy giữa
+câu trong phạm vi (test synthetic, test thật) và câu hỏi thật ngoài phạm vi (OOD). Ngưỡng chọn trên **val**, không trên OOD.
+""")
+
+code("""
+if ood is not None and len(ood):
+    lr = fitted["LogisticRegression"]
+    conf = {"val": lr.predict_proba(va.question_clean).max(1), "test": lr.predict_proba(te.question_clean).max(1),
+            "ood_real": lr.predict_proba(ood.question_clean).max(1)}
+    if real is not None: conf["real_in_scope"] = lr.predict_proba(real.question_clean).max(1)
+    thr = float(np.quantile(conf["val"], 0.05))  # giữ 95% câu hợp lệ trên val
+    rej = {k: float((v < thr).mean()) for k, v in conf.items()}
+    RESULTS["ood"] = {"threshold": thr, "reject_rate": rej}
+    print(f"Ngưỡng (5% phân vị val) = {thr:.3f}"); print(pd.Series(rej, name="tỷ lệ bị từ chối").round(3).to_string())
+    plt.figure(figsize=(8, 3.5))
+    for k, v in conf.items(): sns.kdeplot(v, label=k, clip=(0, 1))
+    plt.axvline(thr, color="k", ls="--"); plt.legend(); plt.title("Độ tin cậy max-softmax (Logistic Regression)")
+    savefig("ood_confidence")
 """)
 
 code("""

@@ -1,0 +1,200 @@
+{"seed_id": "c6-001", "article_id": 14, "style": "neutral", "question": "Người quản lý phụ trách an toàn, vệ sinh lao động có phải tham dự khóa huấn luyện an toàn không?"}
+{"seed_id": "c6-001", "article_id": 14, "style": "worker", "question": "Anh quản đốc lo mảng an toàn ở xưởng thì có phải đi học lớp an toàn lao động không?"}
+{"seed_id": "c6-001", "article_id": 14, "style": "hr", "question": "Cán bộ quản lý phụ trách công tác an toàn, vệ sinh lao động tại doanh nghiệp có thuộc đối tượng bắt buộc tham gia huấn luyện không?"}
+{"seed_id": "c6-001", "article_id": 14, "style": "complaint", "question": "Giám đốc sản xuất bên tôi phụ trách an toàn mà chưa từng đi huấn luyện, công ty không cho đi, vậy có đúng không?"}
+{"seed_id": "c6-001", "article_id": 14, "style": "short", "question": "Quản lý an toàn có phải huấn luyện?"}
+{"seed_id": "c6-002", "article_id": 14, "style": "neutral", "question": "An toàn, vệ sinh viên có phải được huấn luyện về an toàn, vệ sinh lao động không?"}
+{"seed_id": "c6-002", "article_id": 14, "style": "worker", "question": "Em mới được tổ bầu làm an toàn vệ sinh viên, vậy em có phải đi học lớp gì không?"}
+{"seed_id": "c6-002", "article_id": 14, "style": "hr", "question": "An toàn, vệ sinh viên trong cơ sở sản xuất, kinh doanh có nghĩa vụ tham dự khóa huấn luyện và nhận giấy chứng nhận không?"}
+{"seed_id": "c6-002", "article_id": 14, "style": "complaint", "question": "Tôi làm an toàn vệ sinh viên hai năm nay mà công ty chưa bao giờ cho đi huấn luyện, tôi có quyền yêu cầu không?"}
+{"seed_id": "c6-002", "article_id": 14, "style": "short", "question": "An toàn vệ sinh viên huấn luyện"}
+{"seed_id": "c6-003", "article_id": 14, "style": "neutral", "question": "Người làm công tác y tế trong doanh nghiệp có phải học huấn luyện an toàn, vệ sinh lao động không?"}
+{"seed_id": "c6-003", "article_id": 14, "style": "worker", "question": "Chị y tá ở phòng y tế nhà máy có phải đi học an toàn lao động như tụi em không?"}
+{"seed_id": "c6-003", "article_id": 14, "style": "hr", "question": "Nhân viên y tế cơ sở tại doanh nghiệp có thuộc nhóm đối tượng phải tham dự huấn luyện an toàn, vệ sinh lao động không?"}
+{"seed_id": "c6-003", "article_id": 14, "style": "complaint", "question": "Tôi làm y tế ở công ty mà bị bắt tự học an toàn lao động, không có khóa huấn luyện nào, như vậy có đúng không?"}
+{"seed_id": "c6-003", "article_id": 14, "style": "short", "question": "Nhân viên y tế có phải huấn luyện?"}
+{"seed_id": "c6-004", "article_id": 14, "style": "neutral", "question": "Sau khi hoàn thành khóa huấn luyện, người làm công tác an toàn, vệ sinh lao động được cấp giấy tờ gì?"}
+{"seed_id": "c6-004", "article_id": 14, "style": "worker", "question": "Em làm bên an toàn, học xong lớp huấn luyện thì được cấp giấy gì vậy anh?"}
+{"seed_id": "c6-004", "article_id": 14, "style": "hr", "question": "Người làm công tác an toàn, vệ sinh lao động sau khi kiểm tra, sát hạch đạt yêu cầu được tổ chức huấn luyện cấp loại văn bằng nào?"}
+{"seed_id": "c6-004", "article_id": 14, "style": "complaint", "question": "Tôi học xong khóa huấn luyện an toàn cho cán bộ an toàn mà đơn vị huấn luyện không cấp giấy chứng nhận, tôi có đòi được không?"}
+{"seed_id": "c6-004", "article_id": 14, "style": "short", "question": "Huấn luyện xong được cấp gì?"}
+{"seed_id": "c6-005", "article_id": 14, "style": "neutral", "question": "Muốn được cấp giấy chứng nhận huấn luyện an toàn, vệ sinh lao động thì phải làm gì?"}
+{"seed_id": "c6-005", "article_id": 14, "style": "worker", "question": "Em đi học lớp an toàn rồi, phải thi đậu mới có giấy chứng nhận hả anh?"}
+{"seed_id": "c6-005", "article_id": 14, "style": "hr", "question": "Điều kiện để người học được tổ chức huấn luyện cấp giấy chứng nhận huấn luyện an toàn, vệ sinh lao động là gì?"}
+{"seed_id": "c6-005", "article_id": 14, "style": "complaint", "question": "Tôi đi học đủ buổi mà trung tâm không cấp giấy chứng nhận vì bảo phải sát hạch, như vậy có đúng không?"}
+{"seed_id": "c6-005", "article_id": 14, "style": "short", "question": "Điều kiện cấp giấy chứng nhận huấn luyện"}
+{"seed_id": "c6-006", "article_id": 14, "style": "neutral", "question": "Khi pháp luật về an toàn lao động thay đổi, người làm công tác an toàn có phải được huấn luyện cập nhật không?"}
+{"seed_id": "c6-006", "article_id": 14, "style": "worker", "question": "Luật an toàn mới sửa, anh cán bộ an toàn bên em có phải đi học lại cho biết không?"}
+{"seed_id": "c6-006", "article_id": 14, "style": "hr", "question": "Trường hợp có thay đổi về chính sách, pháp luật hoặc khoa học, công nghệ, người làm công tác an toàn, vệ sinh lao động có phải được bồi dưỡng, cập nhật kiến thức không?"}
+{"seed_id": "c6-006", "article_id": 14, "style": "complaint", "question": "Công ty đổi dây chuyền công nghệ mới mà không cho cán bộ an toàn đi cập nhật kiến thức, như vậy có sai không?"}
+{"seed_id": "c6-006", "article_id": 14, "style": "short", "question": "Luật đổi, cập nhật huấn luyện an toàn"}
+{"seed_id": "c6-007", "article_id": 14, "style": "neutral", "question": "Người lao động làm công việc có yêu cầu nghiêm ngặt về an toàn có phải được huấn luyện trước khi làm không?"}
+{"seed_id": "c6-007", "article_id": 14, "style": "worker", "question": "Em mới được chuyển qua vận hành nồi hơi, vậy có phải được học an toàn trước rồi mới làm không?"}
+{"seed_id": "c6-007", "article_id": 14, "style": "hr", "question": "Người sử dụng lao động phải tổ chức huấn luyện cho người lao động làm công việc có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động vào thời điểm nào?"}
+{"seed_id": "c6-007", "article_id": 14, "style": "complaint", "question": "Công ty bắt tôi vận hành cần trục ngay ngày đầu mà không huấn luyện gì, vậy công ty phải huấn luyện tôi trước không?"}
+{"seed_id": "c6-007", "article_id": 14, "style": "short", "question": "Công việc nghiêm ngặt phải huấn luyện trước?"}
+{"seed_id": "c6-008", "article_id": 14, "style": "neutral", "question": "Thẻ an toàn được cấp cho người lao động trong trường hợp nào?"}
+{"seed_id": "c6-008", "article_id": 14, "style": "worker", "question": "Thẻ an toàn là cái gì, làm việc gì mới được cấp vậy anh?"}
+{"seed_id": "c6-008", "article_id": 14, "style": "hr", "question": "Đối tượng được cấp thẻ an toàn và thời điểm cấp thẻ an toàn cho người lao động được quy định như thế nào?"}
+{"seed_id": "c6-008", "article_id": 14, "style": "complaint", "question": "Tôi làm thợ hàn điện mấy năm mà công ty chưa bao giờ cấp thẻ an toàn, như vậy công ty có sai không?"}
+{"seed_id": "c6-008", "article_id": 14, "style": "short", "question": "Khi nào được cấp thẻ an toàn?"}
+{"seed_id": "c6-009", "article_id": 14, "style": "neutral", "question": "Ai có trách nhiệm cấp thẻ an toàn cho người lao động làm công việc nghiêm ngặt?"}
+{"seed_id": "c6-009", "article_id": 14, "style": "worker", "question": "Thẻ an toàn cho thợ điện là công ty cấp hay phải lên sở xin vậy?"}
+{"seed_id": "c6-009", "article_id": 14, "style": "hr", "question": "Trách nhiệm tổ chức huấn luyện và cấp thẻ an toàn cho người làm công việc có yêu cầu nghiêm ngặt thuộc về chủ thể nào?"}
+{"seed_id": "c6-009", "article_id": 14, "style": "complaint", "question": "Công ty bắt tôi tự đi xin thẻ an toàn ở ngoài và tự trả tiền, trong khi việc cấp thẻ là trách nhiệm của ai?"}
+{"seed_id": "c6-009", "article_id": 14, "style": "short", "question": "Ai cấp thẻ an toàn?"}
+{"seed_id": "c6-010", "article_id": 14, "style": "neutral", "question": "Công nhân vận hành xe nâng có phải học huấn luyện và có thẻ an toàn không?"}
+{"seed_id": "c6-010", "article_id": 14, "style": "worker", "question": "Em lái xe nâng trong kho, bên em có cần học an toàn và có thẻ không?"}
+{"seed_id": "c6-010", "article_id": 14, "style": "hr", "question": "Người lao động vận hành xe nâng hàng thuộc công việc có yêu cầu nghiêm ngặt thì doanh nghiệp phải huấn luyện và cấp thẻ an toàn như thế nào?"}
+{"seed_id": "c6-010", "article_id": 14, "style": "complaint", "question": "Công ty giao tôi lái xe nâng mà không cho học an toàn, không có thẻ, tôi có quyền yêu cầu huấn luyện không?"}
+{"seed_id": "c6-010", "article_id": 14, "style": "short", "question": "Lái xe nâng cần thẻ an toàn?"}
+{"seed_id": "c6-011", "article_id": 14, "style": "neutral", "question": "Thợ hàn làm việc trên cao có phải được huấn luyện an toàn đặc biệt không?"}
+{"seed_id": "c6-011", "article_id": 14, "style": "worker", "question": "Em hàn kết cấu thép trên cao ở công trình, vậy trước khi làm có phải đi học an toàn riêng không?"}
+{"seed_id": "c6-011", "article_id": 14, "style": "hr", "question": "Đối với người lao động hàn, cắt kim loại trên cao, doanh nghiệp có nghĩa vụ huấn luyện an toàn và cấp thẻ trước khi bố trí công việc không?"}
+{"seed_id": "c6-011", "article_id": 14, "style": "complaint", "question": "Nhà thầu bắt tôi leo lên hàn giàn thép mà chưa từng được huấn luyện, như vậy họ có làm đúng trách nhiệm huấn luyện không?"}
+{"seed_id": "c6-011", "article_id": 14, "style": "short", "question": "Thợ hàn trên cao huấn luyện"}
+{"seed_id": "c6-012", "article_id": 14, "style": "neutral", "question": "Ai ban hành Danh mục công việc có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động?"}
+{"seed_id": "c6-012", "article_id": 14, "style": "worker", "question": "Làm sao biết việc của mình có thuộc loại nghiêm ngặt phải học an toàn không, ai ra danh sách đó?"}
+{"seed_id": "c6-012", "article_id": 14, "style": "hr", "question": "Thẩm quyền ban hành Danh mục công việc có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động thuộc về ai và phải lấy ý kiến cơ quan nào?"}
+{"seed_id": "c6-012", "article_id": 14, "style": "complaint", "question": "Công ty nói việc tôi làm không thuộc danh mục nghiêm ngặt nên khỏi huấn luyện, vậy danh mục đó do ai ban hành?"}
+{"seed_id": "c6-012", "article_id": 14, "style": "short", "question": "Ai ban hành danh mục việc nghiêm ngặt?"}
+{"seed_id": "c6-013", "article_id": 14, "style": "neutral", "question": "Người vận hành nồi hơi, thiết bị áp lực có phải có thẻ an toàn trước khi làm việc không?"}
+{"seed_id": "c6-013", "article_id": 14, "style": "worker", "question": "Em đứng lò hơi ca đêm mà chưa có thẻ an toàn, vậy em có phải đi học để được cấp thẻ không?"}
+{"seed_id": "c6-013", "article_id": 14, "style": "hr", "question": "Người lao động vận hành nồi hơi, bình chịu áp lực phải hoàn thành huấn luyện và được cấp thẻ an toàn trước khi được bố trí công việc không?"}
+{"seed_id": "c6-013", "article_id": 14, "style": "complaint", "question": "Xưởng tôi cho người mới vô đứng lò hơi mà không tổ chức lớp huấn luyện nào, công ty có trách nhiệm huấn luyện và cấp thẻ cho họ không?"}
+{"seed_id": "c6-013", "article_id": 14, "style": "short", "question": "Vận hành nồi hơi cần thẻ an toàn"}
+{"seed_id": "c6-014", "article_id": 14, "style": "neutral", "question": "Người lao động làm việc không theo hợp đồng lao động có phải được huấn luyện an toàn không?"}
+{"seed_id": "c6-014", "article_id": 14, "style": "worker", "question": "Em làm thợ điện tự do, không ký hợp đồng với ai, vậy có phải đi học an toàn không?"}
+{"seed_id": "c6-014", "article_id": 14, "style": "hr", "question": "Đối với người lao động làm việc không theo hợp đồng lao động thực hiện công việc có yêu cầu nghiêm ngặt, nghĩa vụ huấn luyện an toàn và cấp thẻ được quy định thế nào?"}
+{"seed_id": "c6-014", "article_id": 14, "style": "complaint", "question": "Tôi làm thợ xây tự do mà ai cũng nói không có hợp đồng thì khỏi học an toàn, vậy luật có bắt không?"}
+{"seed_id": "c6-014", "article_id": 14, "style": "short", "question": "Lao động tự do có phải huấn luyện?"}
+{"seed_id": "c6-015", "article_id": 14, "style": "neutral", "question": "Nhà nước có hỗ trợ học phí huấn luyện an toàn cho người làm việc không theo hợp đồng lao động không?"}
+{"seed_id": "c6-015", "article_id": 14, "style": "worker", "question": "Em làm thợ hồ tự do, đi học lớp an toàn thì nhà nước có hỗ trợ tiền học không?"}
+{"seed_id": "c6-015", "article_id": 14, "style": "hr", "question": "Chính sách hỗ trợ học phí khi tham gia khóa huấn luyện an toàn, vệ sinh lao động dành cho người lao động không có hợp đồng lao động được quy định như thế nào?"}
+{"seed_id": "c6-015", "article_id": 14, "style": "complaint", "question": "Tôi làm nghề tự do phải tự bỏ tiền học an toàn lao động, không ai hỗ trợ, vậy nhà nước có chính sách hỗ trợ học phí không?"}
+{"seed_id": "c6-015", "article_id": 14, "style": "short", "question": "Hỗ trợ học phí cho thợ tự do"}
+{"seed_id": "c6-016", "article_id": 14, "style": "neutral", "question": "Mức và đối tượng hỗ trợ học phí huấn luyện an toàn cho lao động không có hợp đồng do ai quy định?"}
+{"seed_id": "c6-016", "article_id": 14, "style": "worker", "question": "Tiền hỗ trợ học an toàn cho thợ tự do được bao nhiêu, ai quyết định vậy anh?"}
+{"seed_id": "c6-016", "article_id": 14, "style": "hr", "question": "Cơ quan nào có thẩm quyền quy định chi tiết mức, đối tượng và thời gian hỗ trợ học phí huấn luyện an toàn, vệ sinh lao động?"}
+{"seed_id": "c6-016", "article_id": 14, "style": "complaint", "question": "Tôi hỏi địa phương mức hỗ trợ học phí huấn luyện an toàn mà không ai trả lời, vậy ai có trách nhiệm quy định mức hỗ trợ đó?"}
+{"seed_id": "c6-016", "article_id": 14, "style": "short", "question": "Ai quy định mức hỗ trợ học phí?"}
+{"seed_id": "c6-017", "article_id": 14, "style": "neutral", "question": "Thợ điện làm việc tự do không có hợp đồng có được cấp thẻ an toàn không?"}
+{"seed_id": "c6-017", "article_id": 14, "style": "worker", "question": "Em đi làm thuê lắp điện cho các nhà, không có công ty, vậy có được cấp thẻ an toàn không?"}
+{"seed_id": "c6-017", "article_id": 14, "style": "hr", "question": "Người lao động làm việc không theo hợp đồng lao động sau khi được huấn luyện công việc nghiêm ngặt có được cấp thẻ an toàn không?"}
+{"seed_id": "c6-017", "article_id": 14, "style": "complaint", "question": "Tôi học an toàn điện xong mà không được cấp thẻ vì không có hợp đồng lao động, như vậy có đúng không?"}
+{"seed_id": "c6-017", "article_id": 14, "style": "short", "question": "Thợ tự do có được thẻ an toàn?"}
+{"seed_id": "c6-018", "article_id": 14, "style": "neutral", "question": "Người lao động mới tuyển dụng có phải được huấn luyện an toàn trước khi bố trí làm việc không?"}
+{"seed_id": "c6-018", "article_id": 14, "style": "worker", "question": "Em mới vô công ty may tuần này, có phải học an toàn trước khi ngồi máy không anh?"}
+{"seed_id": "c6-018", "article_id": 14, "style": "hr", "question": "Người sử dụng lao động có nghĩa vụ huấn luyện an toàn, vệ sinh lao động cho người lao động mới trước khi tuyển dụng hoặc bố trí làm việc không?"}
+{"seed_id": "c6-018", "article_id": 14, "style": "complaint", "question": "Tôi mới vào làm đã bị đưa thẳng xuống xưởng, không được huấn luyện an toàn buổi nào, công ty có sai không?"}
+{"seed_id": "c6-018", "article_id": 14, "style": "short", "question": "Nhân viên mới có phải huấn luyện?"}
+{"seed_id": "c6-019", "article_id": 14, "style": "neutral", "question": "Người học nghề, tập nghề có phải được huấn luyện an toàn, vệ sinh lao động không?"}
+{"seed_id": "c6-019", "article_id": 14, "style": "worker", "question": "Em đang học việc ở tiệm cơ khí, chủ có phải dạy an toàn cho em trước không?"}
+{"seed_id": "c6-019", "article_id": 14, "style": "hr", "question": "Đối với người học nghề, tập nghề tại cơ sở sản xuất, người sử dụng lao động có trách nhiệm tổ chức huấn luyện an toàn, vệ sinh lao động không?"}
+{"seed_id": "c6-019", "article_id": 14, "style": "complaint", "question": "Tôi đang tập nghề ở xưởng gỗ mà chủ chưa bao giờ hướng dẫn an toàn, vậy chủ có phải huấn luyện cho tôi không?"}
+{"seed_id": "c6-019", "article_id": 14, "style": "short", "question": "Học nghề có phải huấn luyện an toàn?"}
+{"seed_id": "c6-020", "article_id": 14, "style": "neutral", "question": "Người thử việc có phải được huấn luyện an toàn, vệ sinh lao động không?"}
+{"seed_id": "c6-020", "article_id": 14, "style": "worker", "question": "Em đang thử việc hai tháng ở xưởng in, công ty có phải cho em học an toàn không?"}
+{"seed_id": "c6-020", "article_id": 14, "style": "hr", "question": "Người lao động trong thời gian thử việc có thuộc đối tượng người sử dụng lao động phải tự tổ chức huấn luyện an toàn, vệ sinh lao động không?"}
+{"seed_id": "c6-020", "article_id": 14, "style": "complaint", "question": "Công ty nói tôi mới thử việc nên chưa cần học an toàn, vậy có đúng quy định huấn luyện không?"}
+{"seed_id": "c6-020", "article_id": 14, "style": "short", "question": "Thử việc có huấn luyện an toàn?"}
+{"seed_id": "c6-021", "article_id": 14, "style": "neutral", "question": "Người lao động có phải được huấn luyện lại định kỳ về an toàn, vệ sinh lao động không?"}
+{"seed_id": "c6-021", "article_id": 14, "style": "worker", "question": "Em học an toàn lúc mới vô, mấy năm rồi chưa học lại, vậy có phải học lại định kỳ không?"}
+{"seed_id": "c6-021", "article_id": 14, "style": "hr", "question": "Nghĩa vụ tổ chức huấn luyện lại định kỳ về an toàn, vệ sinh lao động của người sử dụng lao động được quy định ra sao?"}
+{"seed_id": "c6-021", "article_id": 14, "style": "complaint", "question": "Công ty tôi chỉ huấn luyện một lần lúc tuyển dụng rồi thôi, không bao giờ huấn luyện lại, như vậy có đúng không?"}
+{"seed_id": "c6-021", "article_id": 14, "style": "short", "question": "Huấn luyện lại định kỳ"}
+{"seed_id": "c6-022", "article_id": 14, "style": "neutral", "question": "Nhân viên văn phòng có phải được huấn luyện an toàn, vệ sinh lao động không?"}
+{"seed_id": "c6-022", "article_id": 14, "style": "worker", "question": "Em làm kế toán ngồi văn phòng thôi, có phải đi học an toàn lao động không?"}
+{"seed_id": "c6-022", "article_id": 14, "style": "hr", "question": "Người lao động làm việc văn phòng không thuộc nhóm công việc nghiêm ngặt có thuộc đối tượng được người sử dụng lao động huấn luyện an toàn không?"}
+{"seed_id": "c6-022", "article_id": 14, "style": "complaint", "question": "Phòng nhân sự bảo nhân viên văn phòng không cần huấn luyện an toàn lao động, như vậy có đúng không?"}
+{"seed_id": "c6-022", "article_id": 14, "style": "short", "question": "Nhân viên văn phòng huấn luyện an toàn?"}
+{"seed_id": "c6-023", "article_id": 14, "style": "neutral", "question": "Ai chịu trách nhiệm về chất lượng huấn luyện an toàn cho người lao động phổ thông trong doanh nghiệp?"}
+{"seed_id": "c6-023", "article_id": 14, "style": "worker", "question": "Công ty tự tổ chức lớp an toàn cho công nhân mà học qua loa, vậy ai chịu trách nhiệm chất lượng?"}
+{"seed_id": "c6-023", "article_id": 14, "style": "hr", "question": "Trách nhiệm về chất lượng huấn luyện an toàn, vệ sinh lao động do người sử dụng lao động tự tổ chức cho người lao động thông thường thuộc về ai?"}
+{"seed_id": "c6-023", "article_id": 14, "style": "complaint", "question": "Buổi huấn luyện an toàn của công ty chỉ ký tên cho có, không dạy gì, công ty có phải chịu trách nhiệm về chất lượng không?"}
+{"seed_id": "c6-023", "article_id": 14, "style": "short", "question": "Trách nhiệm chất lượng huấn luyện"}
+{"seed_id": "c6-024", "article_id": 14, "style": "neutral", "question": "Nội dung huấn luyện an toàn cho người lao động phải phù hợp với những yếu tố nào?"}
+{"seed_id": "c6-024", "article_id": 14, "style": "worker", "question": "Em làm hóa chất mà công ty cho học an toàn giống bên may mặc, vậy có đúng không?"}
+{"seed_id": "c6-024", "article_id": 14, "style": "hr", "question": "Yêu cầu về sự phù hợp của nội dung huấn luyện an toàn, vệ sinh lao động với vị trí công việc được giao và đặc điểm ngành nghề được quy định ra sao?"}
+{"seed_id": "c6-024", "article_id": 14, "style": "complaint", "question": "Tôi làm hầm lò mà chỉ được huấn luyện an toàn chung chung như văn phòng, như vậy công ty có đúng yêu cầu huấn luyện không?"}
+{"seed_id": "c6-024", "article_id": 14, "style": "short", "question": "Huấn luyện phù hợp vị trí công việc"}
+{"seed_id": "c6-025", "article_id": 14, "style": "neutral", "question": "Doanh nghiệp có được kết hợp huấn luyện an toàn lao động với huấn luyện phòng cháy chữa cháy không?"}
+{"seed_id": "c6-025", "article_id": 14, "style": "worker", "question": "Công ty em gộp học an toàn chung với học chữa cháy luôn một buổi, vậy có được không?"}
+{"seed_id": "c6-025", "article_id": 14, "style": "hr", "question": "Người sử dụng lao động có được tổ chức huấn luyện an toàn, vệ sinh lao động kết hợp với nội dung huấn luyện phòng cháy, chữa cháy không?"}
+{"seed_id": "c6-025", "article_id": 14, "style": "complaint", "question": "Công ty chỉ cho học phòng cháy rồi nói là đã tính luôn huấn luyện an toàn lao động, như vậy có hợp lệ không?"}
+{"seed_id": "c6-025", "article_id": 14, "style": "short", "question": "Gộp huấn luyện an toàn và PCCC"}
+{"seed_id": "c6-026", "article_id": 14, "style": "neutral", "question": "Việc huấn luyện an toàn, vệ sinh lao động có được gây ảnh hưởng đến hoạt động sản xuất kinh doanh không?"}
+{"seed_id": "c6-026", "article_id": 14, "style": "worker", "question": "Sếp than học an toàn làm ngưng sản xuất, vậy luật có cho sắp xếp học sao cho không ảnh hưởng không?"}
+{"seed_id": "c6-026", "article_id": 14, "style": "hr", "question": "Nguyên tắc tổ chức huấn luyện an toàn, vệ sinh lao động phù hợp với quy mô lao động và không gây khó khăn cho hoạt động sản xuất, kinh doanh được hiểu thế nào?"}
+{"seed_id": "c6-026", "article_id": 14, "style": "complaint", "question": "Công ty viện cớ bận sản xuất để hoãn huấn luyện an toàn mãi, vậy luật quy định cách tổ chức huấn luyện thế nào?"}
+{"seed_id": "c6-026", "article_id": 14, "style": "short", "question": "Huấn luyện không ảnh hưởng sản xuất"}
+{"seed_id": "c6-027", "article_id": 14, "style": "neutral", "question": "Doanh nghiệp nhỏ có được tự tổ chức huấn luyện an toàn riêng cho nhân viên không?"}
+{"seed_id": "c6-027", "article_id": 14, "style": "worker", "question": "Xưởng em có hai chục người, sếp tự dạy an toàn cho anh em có được không?"}
+{"seed_id": "c6-027", "article_id": 14, "style": "hr", "question": "Căn cứ điều kiện cụ thể, người sử dụng lao động có quyền chủ động tổ chức huấn luyện riêng về an toàn, vệ sinh lao động cho người lao động không?"}
+{"seed_id": "c6-027", "article_id": 14, "style": "complaint", "question": "Công ty tôi nhỏ nên không tổ chức huấn luyện an toàn gì, viện lý do không đủ người, như vậy có được miễn không?"}
+{"seed_id": "c6-027", "article_id": 14, "style": "short", "question": "Doanh nghiệp nhỏ tự huấn luyện"}
+{"seed_id": "c6-028", "article_id": 14, "style": "neutral", "question": "Tổ chức huấn luyện an toàn, vệ sinh lao động gồm những loại đơn vị nào?"}
+{"seed_id": "c6-028", "article_id": 14, "style": "worker", "question": "Muốn đi học an toàn lao động thì học ở trung tâm nào mới được công nhận vậy anh?"}
+{"seed_id": "c6-028", "article_id": 14, "style": "hr", "question": "Tổ chức huấn luyện an toàn, vệ sinh lao động được xác định là những loại hình đơn vị nào theo quy định?"}
+{"seed_id": "c6-028", "article_id": 14, "style": "complaint", "question": "Công ty gửi tôi học ở một chỗ không rõ tư cách, vậy tổ chức huấn luyện an toàn hợp pháp phải là đơn vị như thế nào?"}
+{"seed_id": "c6-028", "article_id": 14, "style": "short", "question": "Tổ chức huấn luyện an toàn là gì?"}
+{"seed_id": "c6-029", "article_id": 14, "style": "neutral", "question": "Doanh nghiệp tự huấn luyện cho người làm công việc nghiêm ngặt thì phải đáp ứng điều kiện gì?"}
+{"seed_id": "c6-029", "article_id": 14, "style": "worker", "question": "Công ty em tự mở lớp dạy an toàn cho thợ điện, vậy công ty có cần giấy phép gì không?"}
+{"seed_id": "c6-029", "article_id": 14, "style": "hr", "question": "Trường hợp doanh nghiệp tự huấn luyện cho đối tượng khoản 1, 2, 3 thì phải đáp ứng điều kiện hoạt động như tổ chức huấn luyện an toàn không?"}
+{"seed_id": "c6-029", "article_id": 14, "style": "complaint", "question": "Công ty tự huấn luyện rồi cấp thẻ an toàn cho thợ vận hành cẩu mà chưa đủ điều kiện như tổ chức huấn luyện, như vậy có hợp lệ không?"}
+{"seed_id": "c6-029", "article_id": 14, "style": "short", "question": "Tự huấn luyện cần điều kiện gì?"}
+{"seed_id": "c6-030", "article_id": 14, "style": "neutral", "question": "Doanh nghiệp kinh doanh dịch vụ huấn luyện an toàn, vệ sinh lao động có phải được cấp giấy chứng nhận đủ điều kiện hoạt động không?"}
+{"seed_id": "c6-030", "article_id": 14, "style": "worker", "question": "Trung tâm dạy an toàn lao động thì có phải xin giấy phép hoạt động không anh?"}
+{"seed_id": "c6-030", "article_id": 14, "style": "hr", "question": "Việc cấp mới, cấp lại, gia hạn, thu hồi Giấy chứng nhận đủ điều kiện hoạt động của tổ chức huấn luyện an toàn, vệ sinh lao động do cơ quan nào quy định chi tiết?"}
+{"seed_id": "c6-030", "article_id": 14, "style": "complaint", "question": "Trung tâm huấn luyện cấp chứng chỉ cho tôi mà không có giấy chứng nhận đủ điều kiện hoạt động, vậy chứng chỉ đó có giá trị không?"}
+{"seed_id": "c6-030", "article_id": 14, "style": "short", "question": "Giấy phép tổ chức huấn luyện an toàn"}
+{"seed_id": "c6-031", "article_id": 14, "style": "neutral", "question": "Người huấn luyện an toàn, vệ sinh lao động phải đáp ứng tiêu chuẩn gì?"}
+{"seed_id": "c6-031", "article_id": 14, "style": "worker", "question": "Người đứng lớp dạy an toàn cho tụi em có cần bằng cấp gì không?"}
+{"seed_id": "c6-031", "article_id": 14, "style": "hr", "question": "Tiêu chuẩn đối với người huấn luyện an toàn, vệ sinh lao động và điều kiện cơ sở vật chất của tổ chức huấn luyện do ai quy định?"}
+{"seed_id": "c6-031", "article_id": 14, "style": "complaint", "question": "Người dạy lớp an toàn ở công ty tôi không có chuyên môn gì cả, vậy người huấn luyện phải đạt tiêu chuẩn như thế nào?"}
+{"seed_id": "c6-031", "article_id": 14, "style": "short", "question": "Tiêu chuẩn người huấn luyện an toàn"}
+{"seed_id": "c6-032", "article_id": 14, "style": "neutral", "question": "Công nhân làm việc trong không gian hạn chế như bồn chứa có phải được huấn luyện trước không?"}
+{"seed_id": "c6-032", "article_id": 14, "style": "worker", "question": "Em hay chui vô bồn chứa để vệ sinh, việc này có phải học an toàn và có thẻ không?"}
+{"seed_id": "c6-032", "article_id": 14, "style": "hr", "question": "Người lao động làm việc trong không gian hạn chế thuộc danh mục công việc nghiêm ngặt phải được huấn luyện và cấp thẻ an toàn trước khi làm không?"}
+{"seed_id": "c6-032", "article_id": 14, "style": "complaint", "question": "Công ty bắt tôi xuống hầm chứa làm vệ sinh mà không cho học an toàn, tôi có quyền đòi được huấn luyện trước không?"}
+{"seed_id": "c6-032", "article_id": 14, "style": "short", "question": "Làm trong bồn kín cần huấn luyện"}
+{"seed_id": "c6-033", "article_id": 14, "style": "neutral", "question": "Người lao động được chuyển sang vị trí công việc mới có phải được huấn luyện lại về an toàn không?"}
+{"seed_id": "c6-033", "article_id": 14, "style": "worker", "question": "Em bị điều từ đóng gói qua đứng máy cắt, có được học an toàn cho việc mới không?"}
+{"seed_id": "c6-033", "article_id": 14, "style": "hr", "question": "Khi người lao động được bố trí sang vị trí công việc khác, việc huấn luyện an toàn phù hợp với vị trí được giao được thực hiện thế nào?"}
+{"seed_id": "c6-033", "article_id": 14, "style": "complaint", "question": "Tôi bị chuyển sang làm máy ép thủy lực mà công ty không huấn luyện gì thêm, như vậy công ty có sai không?"}
+{"seed_id": "c6-033", "article_id": 14, "style": "short", "question": "Đổi công việc có huấn luyện lại?"}
+{"seed_id": "c6-034", "article_id": 14, "style": "neutral", "question": "Nhân viên an toàn lao động trong công ty xây dựng phải có giấy chứng nhận huấn luyện không?"}
+{"seed_id": "c6-034", "article_id": 14, "style": "worker", "question": "Em làm giám sát an toàn ở công trường, có cần có giấy chứng nhận học an toàn không?"}
+{"seed_id": "c6-034", "article_id": 14, "style": "hr", "question": "Người làm công tác an toàn, vệ sinh lao động tại doanh nghiệp xây dựng có bắt buộc phải có giấy chứng nhận huấn luyện sau sát hạch không?"}
+{"seed_id": "c6-034", "article_id": 14, "style": "complaint", "question": "Công ty cử tôi làm giám sát an toàn công trường mà chưa từng cho tôi đi học lấy giấy chứng nhận, như vậy có đúng không?"}
+{"seed_id": "c6-034", "article_id": 14, "style": "short", "question": "Giám sát an toàn cần giấy chứng nhận?"}
+{"seed_id": "c6-035", "article_id": 14, "style": "neutral", "question": "Công nhân làm việc với hóa chất độc hại có phải được huấn luyện an toàn trước khi làm không?"}
+{"seed_id": "c6-035", "article_id": 14, "style": "worker", "question": "Em pha hóa chất nhuộm vải mỗi ngày, công ty có phải dạy an toàn cho em trước không?"}
+{"seed_id": "c6-035", "article_id": 14, "style": "hr", "question": "Doanh nghiệp có nghĩa vụ huấn luyện an toàn, vệ sinh lao động cho người lao động tiếp xúc hóa chất nguy hiểm trước khi bố trí công việc như thế nào?"}
+{"seed_id": "c6-035", "article_id": 14, "style": "complaint", "question": "Tôi làm pha sơn có dung môi mà chưa bao giờ được huấn luyện an toàn hóa chất, tôi có thể yêu cầu công ty huấn luyện không?"}
+{"seed_id": "c6-035", "article_id": 14, "style": "short", "question": "Làm hóa chất có huấn luyện?"}
+{"seed_id": "c6-036", "article_id": 14, "style": "neutral", "question": "Thợ lắp đặt điện có thuộc đối tượng phải huấn luyện công việc nghiêm ngặt không?"}
+{"seed_id": "c6-036", "article_id": 14, "style": "worker", "question": "Em đi kéo dây điện trung thế cho công ty, vậy có phải học an toàn loại đặc biệt không?"}
+{"seed_id": "c6-036", "article_id": 14, "style": "hr", "question": "Người lao động lắp đặt, sửa chữa hệ thống điện có thuộc nhóm phải được huấn luyện và cấp thẻ an toàn theo khoản 2 không?"}
+{"seed_id": "c6-036", "article_id": 14, "style": "complaint", "question": "Tôi sửa chữa đường dây điện mà chỉ được học an toàn như công nhân thường, không có thẻ, công ty có phải huấn luyện riêng và cấp thẻ cho tôi không?"}
+{"seed_id": "c6-036", "article_id": 14, "style": "short", "question": "Thợ điện có phải huấn luyện nghiêm ngặt?"}
+{"seed_id": "c6-037", "article_id": 14, "style": "neutral", "question": "Công ty có phải tổ chức huấn luyện an toàn cho người lao động làm việc ở độ cao không?"}
+{"seed_id": "c6-037", "article_id": 14, "style": "worker", "question": "Em lau kính nhà cao tầng, đu dây suốt, vậy công ty có phải cho em học an toàn không?"}
+{"seed_id": "c6-037", "article_id": 14, "style": "hr", "question": "Đối với người lao động làm việc trên cao, người sử dụng lao động có trách nhiệm tổ chức huấn luyện an toàn và cấp thẻ trước khi giao việc không?"}
+{"seed_id": "c6-037", "article_id": 14, "style": "complaint", "question": "Công ty dịch vụ vệ sinh bắt tôi đu dây lau kính mà không huấn luyện gì, họ có trách nhiệm phải huấn luyện tôi không?"}
+{"seed_id": "c6-037", "article_id": 14, "style": "short", "question": "Làm trên cao có huấn luyện?"}
+{"seed_id": "c6-038", "article_id": 14, "style": "neutral", "question": "Người vận hành cần trục, cầu trục có phải được cấp thẻ an toàn không?"}
+{"seed_id": "c6-038", "article_id": 14, "style": "worker", "question": "Em lái cầu trục trong xưởng thép, có cần thẻ an toàn không hay chỉ cần bằng lái?"}
+{"seed_id": "c6-038", "article_id": 14, "style": "hr", "question": "Người điều khiển cần trục, cầu trục trong nhà xưởng có phải hoàn thành huấn luyện an toàn và được cấp thẻ trước khi vận hành không?"}
+{"seed_id": "c6-038", "article_id": 14, "style": "complaint", "question": "Công ty chỉ dặn miệng vài buổi rồi giao cầu trục cho tôi, không cấp thẻ, tôi có quyền đòi được huấn luyện bài bản và cấp thẻ không?"}
+{"seed_id": "c6-038", "article_id": 14, "style": "short", "question": "Vận hành cầu trục cần thẻ an toàn"}
+{"seed_id": "c6-039", "article_id": 14, "style": "neutral", "question": "Doanh nghiệp có phải huấn luyện an toàn cho người lao động làm theo mùa vụ không?"}
+{"seed_id": "c6-039", "article_id": 14, "style": "worker", "question": "Em làm mùa vụ ba tháng ở nhà máy đường, công ty có phải cho em học an toàn không?"}
+{"seed_id": "c6-039", "article_id": 14, "style": "hr", "question": "Người lao động làm việc theo mùa vụ tại cơ sở sản xuất có được người sử dụng lao động huấn luyện an toàn, vệ sinh lao động trước khi bố trí làm việc không?"}
+{"seed_id": "c6-039", "article_id": 14, "style": "complaint", "question": "Công ty nói tôi chỉ làm thời vụ nên không cần huấn luyện an toàn, như vậy có đúng không?"}
+{"seed_id": "c6-039", "article_id": 14, "style": "short", "question": "Lao động thời vụ có huấn luyện?"}
+{"seed_id": "c6-040", "article_id": 14, "style": "neutral", "question": "Thợ đào hầm lò trong mỏ than có phải được huấn luyện và cấp thẻ an toàn trước khi xuống lò không?"}
+{"seed_id": "c6-040", "article_id": 14, "style": "worker", "question": "Em mới vô làm thợ lò ở mỏ than Quảng Ninh, trước khi xuống lò có phải học an toàn lấy thẻ không?"}
+{"seed_id": "c6-040", "article_id": 14, "style": "hr", "question": "Người lao động khai thác hầm lò thuộc công việc có yêu cầu nghiêm ngặt thì doanh nghiệp mỏ phải tổ chức huấn luyện và cấp thẻ an toàn vào thời điểm nào?"}
+{"seed_id": "c6-040", "article_id": 14, "style": "complaint", "question": "Mỏ than nơi tôi làm cho thợ mới xuống lò luôn mà không mở lớp huấn luyện, mỏ có nghĩa vụ huấn luyện và cấp thẻ trước không?"}
+{"seed_id": "c6-040", "article_id": 14, "style": "short", "question": "Thợ lò có cần thẻ an toàn?"}
