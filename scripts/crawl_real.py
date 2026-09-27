@@ -3,10 +3,12 @@
 Chỉ lấy câu hỏi + câu trả lời có nhắc "an toàn, vệ sinh lao động" hoặc chủ đề ATVSLĐ,
 dùng cho mục đích học thuật. Crawl chậm (delay 1.5s), có cache.
 Output: data/raw/real_candidates.jsonl (chưa gán nhãn).
-Chạy: python -m scripts.crawl_real
+Chỉ THÊM câu mới vào cuối file (theo URL), không đổi thứ tự câu cũ, vì real_labeled.jsonl đánh số theo thứ tự này.
+Chạy: python -m scripts.crawl_real [--pages N]
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
 import html
 import json
@@ -59,10 +61,10 @@ def to_text(fragment: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 
-def list_urls(keyword: str) -> list[str]:
+def list_urls(keyword: str, pages: int) -> list[str]:
     urls: list[str] = []
     q = urllib.parse.quote(keyword)
-    for page in range(1, PAGES_PER_KEYWORD + 1):
+    for page in range(1, pages + 1):
         path = "/danh-sach-cau-hoi.htm" if page == 1 else f"/danh-sach-cau-hoi/trang-{page}.htm"
         s = get(f"{BASE}{path}?typeqa=0&lvid=0&bnid=0&search={q}")
         # Chỉ lấy kết quả tìm kiếm (class question-title), bỏ link sidebar "xem nhiều"/"mới nhất".
@@ -84,14 +86,30 @@ def parse_detail(s: str) -> dict | None:
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--pages", type=int, default=PAGES_PER_KEYWORD, help="số trang kết quả mỗi từ khoá")
+    args = ap.parse_args()
+    old = [json.loads(l) for l in OUT.read_text(encoding="utf-8").splitlines() if l.strip()] if OUT.exists() else []
+    have = {r["url"] for r in old}
     seen: set[str] = set()
     rows = []
     for kw in KEYWORDS:
-        for path in list_urls(kw):
+        try:
+            paths = list_urls(kw, args.pages)
+        except Exception as e:  # 1 từ khoá lỗi mạng không làm mất cả lần crawl
+            print(f"{kw!r}: lỗi {e}", flush=True)
+            continue
+        for path in paths:
             if path in seen:
                 continue
             seen.add(path)
-            d = parse_detail(get(BASE + path))
+            if BASE + path in have:
+                continue
+            try:
+                d = parse_detail(get(BASE + path))
+            except Exception as e:
+                print(f"  {path}: lỗi {e}", flush=True)
+                continue
             # Giữ nếu câu HỎI thuộc chủ đề ATVSLĐ, hoặc câu TRẢ LỜI viện dẫn Luật ATVSLĐ.
             if not d or not (_RELEVANT.search(d["question"]) or _CITES_LAW.search(d["answer"])):
                 continue
@@ -100,11 +118,11 @@ def main() -> None:
             d["cited_articles_84_2015"] = sorted({int(x) for x in re.findall(
                 r"Điều (\d+)[^.;]{0,80}?Luật An toàn, vệ sinh lao động", d["answer"])})
             rows.append(d)
-        print(f"{kw!r}: tổng {len(rows)} câu liên quan (đã xét {len(seen)} URL)", flush=True)
-    with OUT.open("w", encoding="utf-8") as f:
+        print(f"{kw!r}: {len(rows)} câu mới liên quan (đã xét {len(seen)} URL)", flush=True)
+    with OUT.open("a", encoding="utf-8") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
-    print(f"-> {OUT} ({len(rows)} câu)")
+    print(f"-> {OUT}: {len(old)} câu cũ + {len(rows)} câu mới")
 
 
 if __name__ == "__main__":
