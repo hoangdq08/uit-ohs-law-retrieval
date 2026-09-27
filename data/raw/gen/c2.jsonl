@@ -168,11 +168,11 @@
 {"seed_id": "c2-034", "article_id": 23, "style": "hr", "question": "Nhiệt độ thấp tại kho lạnh có thuộc yếu tố có hại làm phát sinh nghĩa vụ trang cấp quần áo bảo hộ giữ nhiệt không?"}
 {"seed_id": "c2-034", "article_id": 23, "style": "complaint", "question": "Làm kho cá đông lạnh bị cóng tay chân mà xin áo bảo hộ lạnh công ty không cấp, tôi có khiếu nại được không?"}
 {"seed_id": "c2-034", "article_id": 23, "style": "short", "question": "Đồ bảo hộ kho lạnh"}
-{"seed_id": "c2-035", "article_id": 23, "style": "neutral", "question": "Công ty có được thu lại tiền khi người lao động làm hỏng phương tiện bảo vệ cá nhân không?"}
-{"seed_id": "c2-035", "article_id": 23, "style": "worker", "question": "Làm rách găng tay bảo hộ mà sếp bắt đền tiền mua cái mới, vậy có đúng không?"}
-{"seed_id": "c2-035", "article_id": 23, "style": "hr", "question": "Việc thu tiền của người lao động để mua phương tiện bảo vệ cá nhân thay thế khi bị hư hỏng có phù hợp nguyên tắc trang cấp không?"}
-{"seed_id": "c2-035", "article_id": 23, "style": "complaint", "question": "Tôi làm rách áo bảo hộ trong lúc làm việc mà công ty bắt đền tiền mua áo mới, như vậy có trái luật không?"}
-{"seed_id": "c2-035", "article_id": 23, "style": "short", "question": "Bắt đền tiền đồ bảo hộ hư"}
+{"seed_id": "c2-035", "article_id": 23, "style": "neutral", "question": "Áo choàng, khẩu trang bảo hộ đã dùng ở nơi dễ lây nhiễm hoặc nhiễm xạ có phải được công ty khử trùng, tẩy xạ không?"}
+{"seed_id": "c2-035", "article_id": 23, "style": "worker", "question": "Đồ bảo hộ mặc trong khu cách ly mà công ty bảo tụi tôi tự mang về nhà giặt, vậy có đúng không?"}
+{"seed_id": "c2-035", "article_id": 23, "style": "hr", "question": "Doanh nghiệp có nghĩa vụ tổ chức khử trùng, tẩy xạ phương tiện bảo vệ cá nhân đã qua sử dụng tại khu vực có nguồn phóng xạ hoặc tác nhân lây nhiễm không?"}
+{"seed_id": "c2-035", "article_id": 23, "style": "complaint", "question": "Tôi làm ở phòng xét nghiệm, khẩu trang và áo choàng dùng xong cứ để chung không ai khử trùng, như vậy có sai quy định không?"}
+{"seed_id": "c2-035", "article_id": 23, "style": "short", "question": "Khử trùng áo choàng bảo hộ"}
 {"seed_id": "c2-036", "article_id": 23, "style": "neutral", "question": "Người lao động lái xe nâng có được cấp phương tiện bảo vệ cá nhân không?"}
 {"seed_id": "c2-036", "article_id": 23, "style": "worker", "question": "Lái xe nâng trong kho cũng có nguy cơ hàng rớt trúng đầu, công ty có phải phát nón với giày bảo hộ không?"}
 {"seed_id": "c2-036", "article_id": 23, "style": "hr", "question": "Người lao động vận hành xe nâng hàng có được trang cấp phương tiện bảo vệ cá nhân phù hợp với yếu tố nguy hiểm của công việc không?"}

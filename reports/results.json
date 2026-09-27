@@ -145,7 +145,7 @@
     "hr": 29.2,
     "neutral": 20.1,
     "short": 7.2,
-    "worker": 20.1
+    "worker": 20.2
   },
   "top_terms": {
     "QUY_DINH_CHUNG": "lao_động, luật, vệ_sinh lao_động, có, vệ_sinh, gì, an_toàn vệ_sinh, an_toàn",
@@ -188,8 +188,8 @@
       "best_params": {
         "clf__alpha": 0.5
       },
-      "cv_macro_f1": 0.7796952637,
-      "fit_seconds": 1.8,
+      "cv_macro_f1": 0.7799850132,
+      "fit_seconds": 2.0,
       "train_accuracy": 0.9833333333,
       "train_macro_precision": 0.9833702628,
       "train_macro_recall": 0.9834359606,
@@ -198,26 +198,26 @@
       "val_macro_precision": 0.8239606552,
       "val_macro_recall": 0.82,
       "val_macro_f1": 0.8121290581,
-      "test_accuracy": 0.8652173913,
-      "test_macro_precision": 0.8721246645,
-      "test_macro_recall": 0.8666666667,
-      "test_macro_f1": 0.8634590824,
+      "test_accuracy": 0.8608695652,
+      "test_macro_precision": 0.8675838643,
+      "test_macro_recall": 0.8616666667,
+      "test_macro_f1": 0.8595129595,
       "real_accuracy": 0.7586206897,
-      "real_macro_precision": 0.4920634921,
+      "real_macro_precision": 0.4923469388,
       "real_macro_recall": 0.6253968254,
-      "real_macro_f1": 0.5324675325
+      "real_macro_f1": 0.5303454715
     },
     "LogisticRegression": {
       "best_params": {
         "clf__C": 1.0,
         "clf__class_weight": "balanced"
       },
-      "cv_macro_f1": 0.833053679,
+      "cv_macro_f1": 0.8358083892,
       "fit_seconds": 0.5,
-      "train_accuracy": 0.9912280702,
-      "train_macro_precision": 0.9912260677,
-      "train_macro_recall": 0.9913485222,
-      "train_macro_f1": 0.9912083773,
+      "train_accuracy": 0.9903508772,
+      "train_macro_precision": 0.9903575753,
+      "train_macro_recall": 0.990455665,
+      "train_macro_f1": 0.9903276054,
       "val_accuracy": 0.8608695652,
       "val_macro_precision": 0.8652276608,
       "val_macro_recall": 0.8633333333,
@@ -237,8 +237,8 @@
         "clf__class_weight": "balanced",
         "clf__loss": "hinge"
       },
-      "cv_macro_f1": 0.8258179664,
-      "fit_seconds": 0.4,
+      "cv_macro_f1": 0.8282166147,
+      "fit_seconds": 0.5,
       "train_accuracy": 0.999122807,
       "train_macro_precision": 0.9991134752,
       "train_macro_recall": 0.999137931,
@@ -247,10 +247,10 @@
       "val_macro_precision": 0.8718864469,
       "val_macro_recall": 0.8716666667,
       "val_macro_f1": 0.8692681241,
-      "test_accuracy": 0.9043478261,
-      "test_macro_precision": 0.901820096,
-      "test_macro_recall": 0.9016666667,
-      "test_macro_f1": 0.9007499656,
+      "test_accuracy": 0.9086956522,
+      "test_macro_precision": 0.9059867626,
+      "test_macro_recall": 0.9058333333,
+      "test_macro_f1": 0.9050665907,
       "real_accuracy": 0.7931034483,
       "real_macro_precision": 0.587585034,
       "real_macro_recall": 0.6396825397,
@@ -262,32 +262,32 @@
         "clf__min_samples_leaf": 1,
         "clf__n_estimators": 200
       },
-      "cv_macro_f1": 0.8121732451,
-      "fit_seconds": 3.5,
-      "train_accuracy": 0.999122807,
-      "train_macro_precision": 0.9991134752,
-      "train_macro_recall": 0.999137931,
-      "train_macro_f1": 0.9991226342,
-      "val_accuracy": 0.8304347826,
-      "val_macro_precision": 0.8358602572,
-      "val_macro_recall": 0.8316666667,
-      "val_macro_f1": 0.8281631265,
-      "test_accuracy": 0.8652173913,
-      "test_macro_precision": 0.8746216607,
-      "test_macro_recall": 0.8658333333,
-      "test_macro_f1": 0.865871349,
-      "real_accuracy": 0.6206896552,
-      "real_macro_precision": 0.4166666667,
-      "real_macro_recall": 0.5380952381,
-      "real_macro_f1": 0.4371021136
+      "cv_macro_f1": 0.8169639845,
+      "fit_seconds": 3.2,
+      "train_accuracy": 1.0,
+      "train_macro_precision": 1.0,
+      "train_macro_recall": 1.0,
+      "train_macro_f1": 1.0,
+      "val_accuracy": 0.8043478261,
+      "val_macro_precision": 0.8142529346,
+      "val_macro_recall": 0.805,
+      "val_macro_f1": 0.8024623102,
+      "test_accuracy": 0.8608695652,
+      "test_macro_precision": 0.8702987789,
+      "test_macro_recall": 0.8616666667,
+      "test_macro_f1": 0.8618777008,
+      "real_accuracy": 0.6551724138,
+      "real_macro_precision": 0.4380952381,
+      "real_macro_recall": 0.5523809524,
+      "real_macro_f1": 0.4698412698
     }
   },
   "best_model": "LinearSVC",
   "train_val_gap": {
     "MultinomialNB": 0.1712,
-    "LogisticRegression": 0.1298,
+    "LogisticRegression": 0.1289,
     "LinearSVC": 0.1298,
-    "RandomForest": 0.1709
+    "RandomForest": 0.1975
   },
   "per_class_test": {
     "QUY_DINH_CHUNG": {
@@ -321,9 +321,9 @@
       "support": 30.0
     },
     "CHE_DO_BOI_THUONG": {
-      "precision": 0.9667,
+      "precision": 1.0,
       "recall": 0.9667,
-      "f1-score": 0.9667,
+      "f1-score": 0.9831,
       "support": 30.0
     },
     "HUAN_LUYEN_ATLD": {
@@ -334,8 +334,8 @@
     },
     "BAO_HIEM_TNLD": {
       "precision": 1.0,
-      "recall": 0.9,
-      "f1-score": 0.9474,
+      "recall": 0.9333,
+      "f1-score": 0.9655,
       "support": 30.0
     }
   },
@@ -416,9 +416,9 @@
       2,
       0,
       0,
-      1,
       0,
-      27
+      0,
+      28
     ]
   ],
   "cm_test thật": [
@@ -506,84 +506,84 @@
   "top_confusions": {
     "BIEN_PHAP_PHONG_NGUA -> QUY_DINH_CHUNG": 30,
     "QUY_DINH_CHUNG -> BIEN_PHAP_PHONG_NGUA": 13,
-    "KHAI_BAO_DIEU_TRA -> QUY_DINH_CHUNG": 12,
+    "KHAI_BAO_DIEU_TRA -> QUY_DINH_CHUNG": 11,
     "BIEN_PHAP_PHONG_NGUA -> KHAI_BAO_DIEU_TRA": 6,
-    "BIEN_PHAP_PHONG_NGUA -> HUAN_LUYEN_ATLD": 5,
     "CHE_DO_BOI_THUONG -> SUC_KHOE_BOI_DUONG": 5,
-    "BAO_HIEM_TNLD -> CHE_DO_BOI_THUONG": 5,
-    "BAO_HIEM_TNLD -> PHUONG_TIEN_BAO_HO": 4
+    "BAO_HIEM_TNLD -> CHE_DO_BOI_THUONG": 4,
+    "BAO_HIEM_TNLD -> PHUONG_TIEN_BAO_HO": 4,
+    "SUC_KHOE_BOI_DUONG -> QUY_DINH_CHUNG": 4
   },
   "rf_top_features": {
-    "huấn_luyện": 0.03092,
-    "bảo_hiểm": 0.02714,
-    "an_toàn": 0.02031,
-    "tai_nạn": 0.02023,
-    "điều_tra": 0.01897,
-    "bảo_hộ": 0.01615,
-    "bồi_thường": 0.01586,
-    "bồi_dưỡng": 0.01539,
-    "khám": 0.01493,
-    "cấp": 0.01152,
-    "trả": 0.01129,
-    "huấn_luyện an_toàn": 0.01049,
-    "có": 0.00866,
-    "sức": 0.00866,
-    "công_ty": 0.00844,
-    "khỏe": 0.00836,
-    "sức khỏe": 0.00812,
-    "không": 0.00768,
-    "đồ bảo_hộ": 0.00734,
-    "tai_nạn lao_động": 0.00726
+    "huấn_luyện": 0.0331,
+    "bảo_hiểm": 0.02514,
+    "điều_tra": 0.02437,
+    "tai_nạn": 0.02154,
+    "an_toàn": 0.01919,
+    "bảo_hộ": 0.01906,
+    "khám": 0.0143,
+    "bồi_dưỡng": 0.01419,
+    "bồi_thường": 0.01335,
+    "khỏe": 0.01133,
+    "trả": 0.01107,
+    "cấp": 0.00992,
+    "huấn_luyện an_toàn": 0.00963,
+    "có": 0.0092,
+    "tai_nạn lao_động": 0.00785,
+    "phương_tiện bảo_vệ": 0.00782,
+    "công_ty": 0.00766,
+    "lao_động": 0.00729,
+    "không": 0.00729,
+    "sức": 0.00719
   },
   "ablation": {
     "#1 Full (tách từ + stopwords + 1-2gram)": {
-      "cv_f1_mean": 0.8258,
-      "cv_f1_std": 0.065,
+      "cv_f1_mean": 0.8282,
+      "cv_f1_std": 0.0662,
       "val_f1": 0.8693,
-      "test_f1": 0.9007,
-      "n_features": 2520,
+      "test_f1": 0.9051,
+      "n_features": 2524,
       "real_f1": 0.6054
     },
     "#2 Không tách từ (không stopwords, 1-2gram)": {
-      "cv_f1_mean": 0.8213,
-      "cv_f1_std": 0.0611,
-      "val_f1": 0.863,
+      "cv_f1_mean": 0.8215,
+      "cv_f1_std": 0.0597,
+      "val_f1": 0.867,
       "test_f1": 0.9293,
-      "n_features": 3358,
+      "n_features": 3363,
       "real_f1": 0.5707
     },
     "#3 Chỉ unigram (tách từ + stopwords)": {
-      "cv_f1_mean": 0.8279,
-      "cv_f1_std": 0.0552,
-      "val_f1": 0.8822,
+      "cv_f1_mean": 0.8318,
+      "cv_f1_std": 0.053,
+      "val_f1": 0.878,
       "test_f1": 0.8806,
-      "n_features": 817,
+      "n_features": 819,
       "real_f1": 0.5875
     },
     "#4 Không lọc stopwords (tách từ, 1-2gram)": {
-      "cv_f1_mean": 0.8153,
-      "cv_f1_std": 0.0721,
+      "cv_f1_mean": 0.8139,
+      "cv_f1_std": 0.0699,
       "val_f1": 0.8877,
-      "test_f1": 0.8871,
-      "n_features": 2957,
+      "test_f1": 0.8923,
+      "n_features": 2961,
       "real_f1": 0.5875
     },
     "#5 Không tách từ + unigram": {
-      "cv_f1_mean": 0.8133,
-      "cv_f1_std": 0.0575,
+      "cv_f1_mean": 0.8126,
+      "cv_f1_std": 0.0577,
       "val_f1": 0.8704,
-      "test_f1": 0.9181,
-      "n_features": 802,
+      "test_f1": 0.9139,
+      "n_features": 804,
       "real_f1": 0.5217
     }
   },
-  "n_errors_test": 22,
+  "n_errors_test": 21,
   "errors_by_style": {
     "complaint": 6,
     "worker": 5,
     "hr": 4,
     "short": 4,
-    "neutral": 3
+    "neutral": 2
   },
   "error_examples": [
     {
@@ -695,7 +695,7 @@
   "acc_by_style": {
     "complaint": 0.8696,
     "hr": 0.913,
-    "neutral": 0.9348,
+    "neutral": 0.9565,
     "short": 0.913,
     "worker": 0.8913
   },
@@ -741,10 +741,10 @@
   "retrieval": {
     "test": {
       "oracle_top1": 0.8217,
-      "e2e_top1": 0.7478,
+      "e2e_top1": 0.7522,
       "nofilter_top1": 0.6174,
       "oracle_top3": 0.9913,
-      "e2e_top3": 0.9,
+      "e2e_top3": 0.9043,
       "nofilter_top3": 0.8348,
       "oracle_top1_multi_article_classes": 0.7657
     },
@@ -759,10 +759,10 @@
     }
   },
   "ood": {
-    "threshold": 0.2316242616827197,
+    "threshold": 0.23233318899265346,
     "reject_rate": {
       "val": 0.05217391304347826,
-      "test": 0.05217391304347826,
+      "test": 0.04782608695652174,
       "ood_real": 0.18518518518518517,
       "real_in_scope": 0.06896551724137931
     }

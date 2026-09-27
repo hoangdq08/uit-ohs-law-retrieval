@@ -24,7 +24,7 @@ Mỗi dòng: câu hỏi -> Điều đã chọn (lớp). Lý do. Quy tắc tham c
 2. "Ngoài việc cấp phương tiện bảo vệ cá nhân, công ty có phải áp dụng giải pháp kỹ thuật để hạn chế yếu tố nguy hiểm không?" (c2-013) -> **Đ23 (C2)**. Khoản 23.2. Nội dung trùng với Đ16.4, Đ18 (C1). Chọn Đ23 vì câu hỏi đặt giải pháp kỹ thuật trong quan hệ với việc cấp PTBVCN.
 3. "Người lao động có bắt buộc phải sử dụng phương tiện bảo vệ cá nhân đã được cấp trong khi làm việc không?" (c2-003) -> **Đ23 (C2)**. R2: Đ23.1 chuyên biệt thắng Đ6.2.b và Đ17.2 (danh sách nghĩa vụ chung). Seed "NLĐ có phải bảo quản PTBVCN" đã bị loại khỏi C2 vì "bảo quản" chỉ có ở Đ6.2.b/Đ17.2, Đ23 không nói.
 4. "Phương tiện bảo vệ cá nhân đã qua sử dụng ở nơi dễ nhiễm độc có phải được khử độc không?" (c2-012) -> **Đ23 (C2)**. Khoản 23.3.d. Dễ nhầm với Đ18.1 (C1), khoản này nói khử độc cho người lao động chứ không phải cho PTBVCN.
-5. "Công ty có được thu lại tiền khi người lao động làm hỏng phương tiện bảo vệ cá nhân không?" (c2-035) -> **Đ23 (C2)**. Áp 23.3.b (không thu tiền của NLĐ để mua PTBVCN). Luật không nói rõ trường hợp NLĐ làm hỏng do lỗi. Nếu reviewer cho rằng câu này cần văn bản hướng dẫn (Thông tư) thì chuyển sang R7.
+5. (Đã loại) Seed cũ c2-035 "Công ty có được thu lại tiền khi người lao động làm hỏng phương tiện bảo vệ cá nhân không?": Luật không quy định trường hợp NLĐ làm hỏng do lỗi (23.3.b chỉ cấm thu tiền để mua PTBVCN), nên câu này thuộc R7, không dùng làm dữ liệu huấn luyện. Thay bằng seed về khử trùng, tẩy xạ PTBVCN (23.3.d).
 
 ## C3 SUC_KHOE_BOI_DUONG
 

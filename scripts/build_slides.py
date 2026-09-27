@@ -150,7 +150,12 @@ def main() -> None:
     s = d.slide("Tra cứu Điều luật (giai đoạn 2)")
     ret = R["retrieval"]
     cols = list(ret)
-    d.table(s, ["Chỉ số"] + cols, [[k] + [pct(ret[c][k]) for c in cols] for k in ret[cols[0]]], 0.6, 1.6, 7.5, size=13)
+    col_vi = {"test": "Test synthetic", "real": "Câu hỏi thật"}
+    row_vi = {"oracle_top1": "Oracle Top-1", "e2e_top1": "End-to-end Top-1", "nofilter_top1": "No-filter Top-1",
+              "oracle_top3": "Oracle Top-3", "e2e_top3": "End-to-end Top-3", "nofilter_top3": "No-filter Top-3",
+              "oracle_top1_multi_article_classes": "Oracle Top-1 (lớp nhiều Điều)"}
+    d.table(s, ["Chỉ số"] + [col_vi.get(c, c) for c in cols],
+            [[row_vi.get(k, k)] + [pct(ret[c][k]) for c in cols] for k in ret[cols[0]]], 0.6, 1.6, 7.5, size=13)
     d.bullets(s, ["Oracle: biết đúng lớp → đo riêng retrieval", "End-to-end: dùng lớp dự đoán",
                   "No-filter: tìm trên cả 62 Điều (baseline)", "Demo: streamlit run app.py"], left=8.4, width=4.6, size=16)
 
