@@ -184,6 +184,14 @@ def main() -> None:
     rp.table(["Lớp", "Số mẫu", "Số câu gốc", "Số Điều có câu hỏi", "Tỷ lệ"],
              [[r["label_code"], r["so_mau"], r["so_seed"], r["so_dieu"], f"{r['ty_le_%']}%"] for r in R["class_dist"]],
              "Phân bố mẫu theo lớp")
+    rp.p("Nguồn gốc dữ liệu và nhãn (công khai): toàn bộ câu hỏi synthetic do mô hình ngôn ngữ lớn (Claude) sinh, theo "
+         "hướng dẫn gán nhãn của nhóm (docs/labeling-guidelines.md): với mỗi Điều, mô hình viết câu hỏi gốc có căn cứ "
+         "trong Điều đó rồi viết 4 biến thể văn phong. Nhãn lớp không do mô hình chọn mà suy ra tự động từ Điều. Dữ liệu "
+         "được kiểm bằng script tự động (scripts/validate_generated.py): đủ 40 câu gốc mỗi lớp, mỗi câu gốc đủ 5 văn phong "
+         "cùng một Điều, Điều thuộc đúng lớp, mọi Điều của lớp đều có câu hỏi, không có câu trùng, độ dài 2–60 từ. Các câu "
+         "dễ nhầm lớp được ghi lý do chọn Điều trong data/raw/gen/hard_c*.md. Chưa đo độ đồng thuận giữa người gán nhãn. "
+         "[NHÓM ĐIỀN SAU KHI REVIEW, xem docs/team-todo.md: nhóm đã đọc kiểm tra N câu gốc, phát hiện X câu sai, đã sửa/loại "
+         "Y câu.]")
     rp.p("Dữ liệu được chia Train/Validation/Test ≈ 70/15/15 bằng StratifiedGroupKFold với nhóm là câu gốc: mọi biến thể "
          "của cùng một câu gốc nằm trong cùng một tập. Nếu chia ngẫu nhiên, các câu paraphrase gần giống nhau sẽ xuất hiện "
          "ở cả train và test, làm kết quả bị thổi phồng. Notebook kiểm tra giao các nhóm giữa ba tập bằng rỗng.")
@@ -199,6 +207,10 @@ def main() -> None:
              f"Luật ATVSLĐ mà cơ quan nhà nước viện dẫn trong câu trả lời. Tập này không được dùng khi huấn luyện hay "
              f"chọn mô hình. Phân bố lớp lệch (số câu mỗi lớp: {', '.join(map(str, real_support))}).{absent} Đây là các câu "
              f"còn lại sau khi lọc, không phải mẫu đại diện cho tần suất nhu cầu hỏi thực tế.")
+        rp.p("Nhãn câu hỏi thật do mô hình ngôn ngữ lớn (GPT) gán: đọc câu hỏi cùng câu trả lời của cơ quan nhà nước, chọn "
+             "trong phạm vi / ngoài phạm vi / nhiều ý và Điều được viện dẫn, kèm trích dẫn làm căn cứ "
+             "(data/raw/real_labeled.jsonl). [NHÓM ĐIỀN SAU KHI REVIEW, xem docs/team-todo.md: 9 dòng mô hình không chắc "
+             "chắn đã được nhóm review thủ công theo docs/real-label-review.md, đổi X nhãn.]")
 
     # 3
     rp.h("3. Phân tích khám phá dữ liệu (EDA)")
@@ -421,7 +433,9 @@ def main() -> None:
     rp.h("8. Kết luận")
     rp.p(f"Đề tài đã xây dựng được pipeline hoàn chỉnh: corpus 93 Điều luật cập nhật 2024, bộ dữ liệu {R['n_samples']} câu "
          f"hỏi 8 lớp, so sánh 4 mô hình ML với quy trình chống rò rỉ dữ liệu, ablation study, phân tích lỗi và demo tra cứu.")
-    rp.p("Hạn chế: dữ liệu huấn luyện được sinh tự động nên văn phong đồng đều hơn thực tế; tập câu hỏi thật nhỏ; chưa "
+    rp.p("Hạn chế: dữ liệu huấn luyện do mô hình ngôn ngữ lớn sinh nên văn phong đồng đều hơn thực tế và có thể mang thiên "
+         "lệch của mô hình sinh; nhãn câu hỏi thật do mô hình gán, người chỉ review các dòng không chắc chắn; tập câu hỏi "
+         "thật nhỏ; chưa "
          "xử lý câu hỏi nhiều ý và câu ngoài phạm vi (Điều 63–93); chưa tích hợp mức xử phạt hành chính.")
     rp.h("9. Hướng phát triển")
     rp.bullets(["Thu thập và gán nhãn thêm câu hỏi thật, đo độ đồng thuận giữa người gán nhãn (Cohen's kappa).",

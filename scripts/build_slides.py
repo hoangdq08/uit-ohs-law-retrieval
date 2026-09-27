@@ -102,11 +102,11 @@ def main() -> None:
     s = d.slide("Dữ liệu", f"{R['n_samples']} câu hỏi · {R['n_seeds']} câu gốc × 5 văn phong"
                 + (f" · {R['n_real']} câu hỏi thật" if has_real else ""))
     sz = R["split_sizes"]
-    d.bullets(s, [f"Synthetic có kiểm soát: 40 câu gốc/lớp viết từ nội dung Điều luật, 5 văn phong (trung tính, công nhân, HSE, khiếu nại, rút gọn)",
+    d.bullets(s, [f"Synthetic do LLM (Claude) sinh từ nội dung Điều luật: 40 câu gốc/lớp, 5 văn phong; nhãn suy từ Điều, kiểm bằng validator",
                   "Cân bằng lớp: 200 mẫu mỗi lớp",
                   f"Chia theo nhóm câu gốc (StratifiedGroupKFold): train {sz.get('train')} · val {sz.get('val')} · test {sz.get('test')}",
                   "  Mọi paraphrase của một câu gốc nằm cùng 1 tập → không rò rỉ",
-                  ] + ([f"Test thật: {R['n_real']} câu của người dân trên chinhsachonline.chinhphu.vn, nhãn theo Điều mà Bộ trả lời viện dẫn"] if has_real else []),
+                  ] + ([f"Test thật: {R['n_real']} câu của người dân trên chinhsachonline.chinhphu.vn, nhãn (LLM gán, nhóm review dòng chưa chắc) theo Điều mà Bộ trả lời viện dẫn"] if has_real else []),
               width=6.3, size=17)
     d.image(s, "eda_class_distribution", 7.0, 1.7, width=6.0)
 
