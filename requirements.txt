@@ -1,5 +1,5 @@
 underthesea>=6.8
-scikit-learn>=1.5
+scikit-learn==1.9.1  # pinned: models/best_classifier.joblib is committed and must load with the same version
 pandas>=2.2
 numpy>=1.26
 matplotlib>=3.8

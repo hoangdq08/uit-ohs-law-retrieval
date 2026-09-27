@@ -37,11 +37,11 @@ st.title("⚖️ Tra cứu Luật An toàn, vệ sinh lao động")
 st.caption("Luật 84/2015/QH13 (VBHN 14/VBHN-VPQH 2024) · Phạm vi: Điều 1–62 · Đồ án Máy học UIT")
 
 examples = [
-    "Công nhân ngã giàn giáo gãy chân thì công ty có phải trả viện phí không?",
-    "Công ty trả tiền thay cho bồi dưỡng bằng hiện vật có được không?",
+    "Công ty phát tiền thay cho khẩu trang và găng tay bảo hộ có đúng luật không?",
+    "Làm ca đêm trong môi trường độc hại thì được bồi dưỡng bằng hiện vật không?",
     "Bị tai nạn trên đường đi làm có được bảo hiểm trả trợ cấp không?",
-    "Làm việc với máy có yêu cầu nghiêm ngặt thì phải có thẻ an toàn không?",
-    "Xảy ra tai nạn chết người thì phải khai báo với cơ quan nào?",
+    "Làm việc với nồi hơi thì có bắt buộc phải có thẻ an toàn không?",
+    "Xảy ra tai nạn chết người ở công trường thì phải báo cho cơ quan nào?",
 ]
 q = st.text_area("Nhập câu hỏi / tình huống", value=examples[0], height=90)
 st.write("Ví dụ:", " · ".join(f"`{e[:45]}…`" for e in examples[1:]))

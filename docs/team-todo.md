@@ -41,7 +41,22 @@ Lưu ý: `build_report` / `build_slides` **ghi đè** file .docx/.pptx. Chạy l
 - [ ] Slide 1: điền `<tên thành viên>`.
 - [ ] Slide 10 (tra cứu): có thể chèn ảnh demo.
 
-## D. Chuẩn bị trả lời khi thầy hỏi
+## D. Kịch bản demo (đã chạy thử với model hiện tại)
+
+Chạy: `.venv/bin/streamlit run app.py` (model `models/best_classifier.joblib` đã có sẵn trong repo, không cần chạy notebook trước).
+Nếu chạy lại notebook thì model có thể đổi, cần thử lại các câu dưới.
+
+| # | Câu nhập | Kết quả khi thử | Nói gì |
+|---|---|---|---|
+| 1 | Công ty phát tiền thay cho khẩu trang và găng tay bảo hộ có đúng luật không? | C2 Phương tiện bảo vệ cá nhân, Đ23 | Lớp chỉ có 1 Điều, tra cứu đúng ngay |
+| 2 | Làm ca đêm trong môi trường độc hại thì được bồi dưỡng bằng hiện vật không? | C3, Đ24 đứng đầu | Lớp nhiều Điều, retrieval chọn đúng Điều trong lớp |
+| 3 | Xảy ra tai nạn chết người ở công trường thì phải báo cho cơ quan nào? | C4, Đ34 Khai báo đứng đầu | Văn phong đời thường vẫn đúng |
+| 4 | Bị tai nạn trên đường đi làm có được bảo hiểm trả trợ cấp không? | C7, Đ45 Điều kiện hưởng đứng đầu | Phân biệt bảo hiểm (C7) với trách nhiệm công ty (C5) |
+| 5 | Lao động nữ sinh con được nghỉ thai sản mấy tháng? | Vẫn gán C7 với điểm thấp (~0.31), trả Điều không liên quan | **Chủ động nêu hạn chế:** câu ngoài phạm vi (thuộc Luật BHXH) nhưng hệ thống không từ chối, đúng như mục 7.5 báo cáo |
+
+Tránh dùng khi demo: "Công nhân ngã giàn giáo gãy chân thì công ty có phải trả viện phí không?" (đúng lớp C5 nhưng Đ39 đứng trên Đ38, và điểm chỉ 0.23 nên hiện cảnh báo độ tin cậy thấp).
+
+## E. Chuẩn bị trả lời khi thầy hỏi
 
 - **Dữ liệu ở đâu ra?** 1600 câu do LLM (Claude) sinh theo `docs/labeling-guidelines.md`, nhãn lớp suy tự động từ Điều. Kiểm bằng `scripts/validate_generated.py` + nhóm đọc mẫu 40 câu. 29 câu thật từ chinhsachonline.chinhphu.vn, nhãn LLM gán theo Điều mà Bộ viện dẫn, nhóm review dòng chưa chắc.
 - **Vì sao chia theo seed_id?** 5 văn phong của 1 câu gốc gần như cùng nội dung; chia ngẫu nhiên thì paraphrase lọt sang test, điểm bị thổi phồng.
