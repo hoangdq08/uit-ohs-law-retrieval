@@ -20,6 +20,7 @@ RESULTS = ROOT / "reports" / "results.json"
 OUT = ROOT / "reports" / "BaoCao_DoAn_MayHoc.docx"
 REAL_RAW = ROOT / "data" / "raw" / "real_labeled.jsonl"
 QUESTIONS = ROOT / "data" / "processed" / "ohs_questions.csv"
+AGREEMENT = ROOT / "reports" / "agreement.json"
 STYLE_VI = {"neutral": "trung tính", "worker": "công nhân", "hr": "nhân sự/HSE", "complaint": "khiếu nại", "short": "rút gọn"}
 MODEL_VI = {"MultinomialNB": "Multinomial Naive Bayes", "LogisticRegression": "Logistic Regression",
             "LinearSVC": "Linear SVM (LinearSVC)", "RandomForest": "Random Forest"}
@@ -209,8 +210,20 @@ def main() -> None:
              f"còn lại sau khi lọc, không phải mẫu đại diện cho tần suất nhu cầu hỏi thực tế.")
         rp.p("Nhãn câu hỏi thật do mô hình ngôn ngữ lớn (GPT) gán: đọc câu hỏi cùng câu trả lời của cơ quan nhà nước, chọn "
              "trong phạm vi / ngoài phạm vi / nhiều ý và Điều được viện dẫn, kèm trích dẫn làm căn cứ "
-             "(data/raw/real_labeled.jsonl). [NHÓM ĐIỀN SAU KHI REVIEW, xem docs/team-todo.md: 9 dòng mô hình không chắc "
-             "chắn đã được nhóm review thủ công theo docs/real-label-review.md, đổi X nhãn.]")
+             "(data/raw/real_labeled.jsonl).")
+        ag = json.loads(AGREEMENT.read_text(encoding="utf-8")) if AGREEMENT.exists() else None
+        if ag:
+            hh, hl = ag["human_human"], ag["human_vs_llm"]
+            rp.p(f"Kiểm chứng nhãn bằng người: hai thành viên gán nhãn độc lập {ag['n_scored']} câu hỏi thật mà không xem "
+                 f"nhãn của mô hình (scripts/blind_labeling.py). Đồng thuận giữa hai người {pct(hh['agreement'])}, Cohen's "
+                 f"kappa = {hh['cohen_kappa']:.2f}"
+                 + (f"; khi cả hai cùng chọn trong phạm vi, trùng Điều {pct(hh['article_agreement_when_both_in_scope'])}"
+                    if hh.get("article_agreement_when_both_in_scope") is not None else "")
+                 + f". Trên {hl['n_human_consensus']} câu hai người thống nhất, nhãn của mô hình trùng với người "
+                 f"{pct(hl['agreement'])}. Các câu hai người không thống nhất được thảo luận để chốt nhãn cuối.")
+        else:
+            rp.p("[NHÓM ĐIỀN SAU KHI GÁN NHÃN MÙ, xem docs/team-todo.md mục A: chạy `python -m scripts.blind_labeling score` "
+                 "rồi build lại báo cáo, đoạn này sẽ tự điền số đồng thuận.]", italic=True)
 
     # 3
     rp.h("3. Phân tích khám phá dữ liệu (EDA)")
@@ -433,12 +446,16 @@ def main() -> None:
     rp.h("8. Kết luận")
     rp.p(f"Đề tài đã xây dựng được pipeline hoàn chỉnh: corpus 93 Điều luật cập nhật 2024, bộ dữ liệu {R['n_samples']} câu "
          f"hỏi 8 lớp, so sánh 4 mô hình ML với quy trình chống rò rỉ dữ liệu, ablation study, phân tích lỗi và demo tra cứu.")
+    human = AGREEMENT.exists()
     rp.p("Hạn chế: dữ liệu huấn luyện do mô hình ngôn ngữ lớn sinh nên văn phong đồng đều hơn thực tế và có thể mang thiên "
-         "lệch của mô hình sinh; nhãn câu hỏi thật do mô hình gán, người chỉ review các dòng không chắc chắn; tập câu hỏi "
-         "thật nhỏ; chưa "
+         "lệch của mô hình sinh; "
+         + ("nhãn câu hỏi thật do mô hình gán rồi được hai thành viên kiểm chứng độc lập, nhưng chỉ hai người gán nhãn; "
+            if human else "nhãn câu hỏi thật do mô hình gán, chưa có người gán nhãn độc lập; ")
+         + "tập câu hỏi thật nhỏ và lệch lớp; chưa "
          "xử lý câu hỏi nhiều ý và câu ngoài phạm vi (Điều 63–93); chưa tích hợp mức xử phạt hành chính.")
     rp.h("9. Hướng phát triển")
-    rp.bullets(["Thu thập và gán nhãn thêm câu hỏi thật, đo độ đồng thuận giữa người gán nhãn (Cohen's kappa).",
+    rp.bullets([("Thu thập thêm câu hỏi thật cho các lớp đang thiếu (C0, C2, C4, C6) và mở rộng số người gán nhãn."
+                 if human else "Thu thập và gán nhãn thêm câu hỏi thật, đo độ đồng thuận giữa người gán nhãn (Cohen's kappa)."),
                 "Phân loại đa nhãn (multi-label) cho câu hỏi nhiều ý; mở rộng ra Điều 63–93 và các Nghị định, Thông tư hướng dẫn.",
                 "Tích hợp mức xử phạt theo Nghị định 12/2022/NĐ-CP (sau khi kiểm tra hiệu lực).",
                 "Hiệu chỉnh xác suất (CalibratedClassifierCV) để phát hiện câu hỏi ngoài phạm vi.",

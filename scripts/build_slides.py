@@ -13,6 +13,7 @@ from pptx.util import Inches, Pt
 from src.config import FIGURES_DIR, LABELS, ROOT
 
 RESULTS = ROOT / "reports" / "results.json"
+AGREEMENT = ROOT / "reports" / "agreement.json"
 OUT = ROOT / "reports" / "Slide_BaoCao_DoAn.pptx"
 NAVY = RGBColor(0x1A, 0x36, 0x5D)
 ACCENT = RGBColor(0xDD, 0x6B, 0x20)
@@ -106,7 +107,8 @@ def main() -> None:
                   "Cân bằng lớp: 200 mẫu mỗi lớp",
                   f"Chia theo nhóm câu gốc (StratifiedGroupKFold): train {sz.get('train')} · val {sz.get('val')} · test {sz.get('test')}",
                   "  Mọi paraphrase của một câu gốc nằm cùng 1 tập → không rò rỉ",
-                  ] + ([f"Test thật: {R['n_real']} câu của người dân trên chinhsachonline.chinhphu.vn, nhãn (LLM gán, nhóm review dòng chưa chắc) theo Điều mà Bộ trả lời viện dẫn"] if has_real else []),
+                  ] + ([f"Test thật: {R['n_real']} câu của người dân trên chinhsachonline.chinhphu.vn, nhãn LLM gán theo Điều mà Bộ trả lời viện dẫn"
+                        + (", 2 thành viên gán nhãn mù kiểm chứng" if AGREEMENT.exists() else "")] if has_real else []),
               width=6.3, size=17)
     d.image(s, "eda_class_distribution", 7.0, 1.7, width=6.0)
 

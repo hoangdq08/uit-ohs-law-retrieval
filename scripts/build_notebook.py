@@ -61,7 +61,7 @@ md("""
 - **Corpus Điều luật:** 93 Điều (parse từ VBHN 14/VBHN-VPQH bằng `scripts/build_articles.py`). Phạm vi phân loại: Đ1–62, 8 lớp.
 - **Tập câu hỏi chính (synthetic):** do mô hình ngôn ngữ lớn (Claude) sinh từ nội dung từng Điều theo `docs/labeling-guidelines.md`: 40 câu gốc (seed) mỗi lớp, mỗi seed có 5 biến thể văn phong
   (trung tính, công nhân, nhân sự/HSE, khiếu nại, rút gọn). Nhãn **suy ra từ Điều đích** (`label = ARTICLE_TO_LABEL[article_id]`), mô hình sinh không chọn lớp. Kiểm bằng `scripts/validate_generated.py`.
-- **Tập test thật:** câu hỏi của người dân trên Cổng Hỏi đáp chính sách (chinhsachonline.chinhphu.vn). Nhãn do mô hình ngôn ngữ lớn (GPT) gán theo Điều mà cơ quan trả lời viện dẫn, các dòng không chắc được nhóm review (`docs/real-label-review.md`).
+- **Tập test thật:** câu hỏi của người dân trên Cổng Hỏi đáp chính sách (chinhsachonline.chinhphu.vn). Nhãn do mô hình ngôn ngữ lớn (GPT) gán theo Điều mà cơ quan trả lời viện dẫn, sau đó kiểm chứng bằng gán nhãn mù của hai thành viên (`scripts/blind_labeling.py`, kết quả `reports/agreement.json` nếu đã chạy).
 """)
 
 code("""

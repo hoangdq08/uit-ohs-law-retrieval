@@ -128,8 +128,8 @@
       "test": 230
     }
   ],
-  "n_real": 29,
-  "n_real_ood": 81,
+  "n_real": 42,
+  "n_real_ood": 127,
   "len_stats": {
     "count": 1600.0,
     "mean": 20.5,
@@ -202,10 +202,10 @@
       "test_macro_precision": 0.8675838643,
       "test_macro_recall": 0.8616666667,
       "test_macro_f1": 0.8595129595,
-      "real_accuracy": 0.7586206897,
-      "real_macro_precision": 0.4923469388,
-      "real_macro_recall": 0.6253968254,
-      "real_macro_f1": 0.5303454715
+      "real_accuracy": 0.7857142857,
+      "real_macro_precision": 0.518707483,
+      "real_macro_recall": 0.6346320346,
+      "real_macro_f1": 0.5481481481
     },
     "LogisticRegression": {
       "best_params": {
@@ -226,10 +226,10 @@
       "test_macro_precision": 0.9078321628,
       "test_macro_recall": 0.9033333333,
       "test_macro_f1": 0.9032737045,
-      "real_accuracy": 0.7586206897,
-      "real_macro_precision": 0.5697278912,
-      "real_macro_recall": 0.6238095238,
-      "real_macro_f1": 0.5885596344
+      "real_accuracy": 0.7380952381,
+      "real_macro_precision": 0.5989010989,
+      "real_macro_recall": 0.6168831169,
+      "real_macro_f1": 0.6030254207
     },
     "LinearSVC": {
       "best_params": {
@@ -251,10 +251,10 @@
       "test_macro_precision": 0.9059867626,
       "test_macro_recall": 0.9058333333,
       "test_macro_f1": 0.9050665907,
-      "real_accuracy": 0.7931034483,
-      "real_macro_precision": 0.587585034,
-      "real_macro_recall": 0.6396825397,
-      "real_macro_f1": 0.6053663571
+      "real_accuracy": 0.7857142857,
+      "real_macro_precision": 0.6126373626,
+      "real_macro_recall": 0.6359307359,
+      "real_macro_f1": 0.6200322234
     },
     "RandomForest": {
       "best_params": {
@@ -276,10 +276,10 @@
       "test_macro_precision": 0.8702987789,
       "test_macro_recall": 0.8616666667,
       "test_macro_f1": 0.8618777008,
-      "real_accuracy": 0.6551724138,
-      "real_macro_precision": 0.4380952381,
-      "real_macro_recall": 0.5523809524,
-      "real_macro_f1": 0.4698412698
+      "real_accuracy": 0.6666666667,
+      "real_macro_precision": 0.4904761905,
+      "real_macro_recall": 0.5766233766,
+      "real_macro_f1": 0.5115596963
     }
   },
   "best_model": "LinearSVC",
@@ -456,7 +456,7 @@
       0,
       0,
       0,
-      2,
+      3,
       0,
       0,
       0,
@@ -477,10 +477,10 @@
       0,
       0,
       0,
+      1,
+      11,
       0,
-      7,
-      0,
-      1
+      2
     ],
     [
       0,
@@ -498,9 +498,9 @@
       0,
       1,
       0,
+      1,
       0,
-      0,
-      4
+      9
     ]
   ],
   "top_confusions": {
@@ -542,7 +542,7 @@
       "val_f1": 0.8693,
       "test_f1": 0.9051,
       "n_features": 2524,
-      "real_f1": 0.6054
+      "real_f1": 0.62
     },
     "#2 Không tách từ (không stopwords, 1-2gram)": {
       "cv_f1_mean": 0.8215,
@@ -550,7 +550,7 @@
       "val_f1": 0.867,
       "test_f1": 0.9293,
       "n_features": 3363,
-      "real_f1": 0.5707
+      "real_f1": 0.5859
     },
     "#3 Chỉ unigram (tách từ + stopwords)": {
       "cv_f1_mean": 0.8318,
@@ -558,7 +558,7 @@
       "val_f1": 0.878,
       "test_f1": 0.8806,
       "n_features": 819,
-      "real_f1": 0.5875
+      "real_f1": 0.6093
     },
     "#4 Không lọc stopwords (tách từ, 1-2gram)": {
       "cv_f1_mean": 0.8139,
@@ -566,7 +566,7 @@
       "val_f1": 0.8877,
       "test_f1": 0.8923,
       "n_features": 2961,
-      "real_f1": 0.5875
+      "real_f1": 0.6204
     },
     "#5 Không tách từ + unigram": {
       "cv_f1_mean": 0.8126,
@@ -574,7 +574,7 @@
       "val_f1": 0.8704,
       "test_f1": 0.9139,
       "n_features": 804,
-      "real_f1": 0.5217
+      "real_f1": 0.5549
     }
   },
   "n_errors_test": 21,
@@ -735,9 +735,27 @@
       "article_id": 3,
       "label_code": "QUY_DINH_CHUNG",
       "pred_code": "CHE_DO_BOI_THUONG"
+    },
+    {
+      "question": "Tôi làm việc tại nhà máy sản xuất tinh bột mỳ theo hợp đồng lao động ký với nhà máy là 1 năm. Trong lúc kiểm tra tinh bột mỳ vào thiết bị sấy, tôi bị bột mỳ bắn vào mặt và bị ngã gãy tay. Tuy nhiên tôi không được giải quyết chế độ tai nạn lao động vì nhà máy không đóng BHXH cho tôi. Vậy, tôi phải làm thủ tục gì để được hưởng chế độ tai nạn lao động?",
+      "article_id": 39,
+      "label_code": "CHE_DO_BOI_THUONG",
+      "pred_code": "BAO_HIEM_TNLD"
+    },
+    {
+      "question": "Tôi xin hỏi, người lao động làm công việc cung cấp thức ăn cho khách trên tàu hỏa bị đột quỵ chết trong giờ làm việc thì có được tính là tai nạn lao động không? Công việc phục vụ hành khách trên các đoàn tàu hỏa có phải công việc nặng nhọc không?",
+      "article_id": 40,
+      "label_code": "CHE_DO_BOI_THUONG",
+      "pred_code": "KHAI_BAO_DIEU_TRA"
+    },
+    {
+      "question": "Công ty tôi có lao động đang hưởng lương hưu, theo quy định công ty đã trả lại phần đóng BHXH, BHTN, BHYT cho người lao động. Hiện người lao động đề nghị công ty phải đóng 0.5% tiền bảo hiểm tai nạn lao động, bệnh nghề nghiệp. Xin hỏi, yêu cầu này của người lao động là đúng hay sai?",
+      "article_id": 43,
+      "label_code": "BAO_HIEM_TNLD",
+      "pred_code": "CHE_DO_BOI_THUONG"
     }
   ],
-  "real_len_mean": 127.3103448275862,
+  "real_len_mean": 106.23809523809524,
   "retrieval": {
     "test": {
       "oracle_top1": 0.8217,
@@ -749,13 +767,13 @@
       "oracle_top1_multi_article_classes": 0.7657
     },
     "real": {
-      "oracle_top1": 0.6552,
-      "e2e_top1": 0.5517,
-      "nofilter_top1": 0.4483,
-      "oracle_top3": 0.9655,
-      "e2e_top3": 0.7586,
-      "nofilter_top3": 0.7931,
-      "oracle_top1_multi_article_classes": 0.6429
+      "oracle_top1": 0.5952,
+      "e2e_top1": 0.5,
+      "nofilter_top1": 0.4286,
+      "oracle_top3": 0.9286,
+      "e2e_top3": 0.7143,
+      "nofilter_top3": 0.7381,
+      "oracle_top1_multi_article_classes": 0.5854
     }
   },
   "ood": {
@@ -763,8 +781,8 @@
     "reject_rate": {
       "val": 0.05217391304347826,
       "test": 0.04782608695652174,
-      "ood_real": 0.18518518518518517,
-      "real_in_scope": 0.06896551724137931
+      "ood_real": 0.16535433070866143,
+      "real_in_scope": 0.07142857142857142
     }
   }
 }

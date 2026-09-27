@@ -96,4 +96,4 @@ Chỉ dòng 33 có thể đổi lớp (ảnh hưởng F1 câu thật). Dòng 64 
    .venv/bin/jupyter nbconvert --to notebook --execute --inplace notebooks/uit_ohs_law_retrieval.ipynb --ExecutePreprocessor.timeout=1800
    .venv/bin/python -m scripts.build_report && .venv/bin/python -m scripts.build_slides
    ```
-3. Ghi vào báo cáo: "9 nhãn chưa chắc đã được nhóm review thủ công, đổi X nhãn".
+3. Không cần ghi tay vào báo cáo: việc kiểm chứng nhãn nay làm bằng gán nhãn mù (`docs/team-todo.md` mục A.1), báo cáo tự lấy số từ `reports/agreement.json`. File này chỉ là ghi chú tham khảo khi thảo luận các dòng chưa chắc (tập thật đã mở rộng lên 176 dòng, các dòng mới chưa chắc: 124, 130–133, 138, 141, 145, 174, 175).
