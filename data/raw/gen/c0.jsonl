@@ -1,0 +1,200 @@
+{"seed_id": "c0-001", "article_id": 1, "style": "neutral", "question": "Luật An toàn, vệ sinh lao động điều chỉnh những vấn đề gì?"}
+{"seed_id": "c0-001", "article_id": 1, "style": "worker", "question": "Cái luật an toàn vệ sinh lao động đó nó quy định về mấy chuyện gì vậy anh?"}
+{"seed_id": "c0-001", "article_id": 1, "style": "hr", "question": "Phạm vi điều chỉnh của Luật An toàn, vệ sinh lao động bao gồm những nội dung nào?"}
+{"seed_id": "c0-001", "article_id": 1, "style": "complaint", "question": "Công ty cứ bảo luật an toàn lao động chẳng liên quan gì tới vụ của tôi, vậy rốt cuộc luật này quy định những gì?"}
+{"seed_id": "c0-001", "article_id": 1, "style": "short", "question": "Phạm vi điều chỉnh luật ATVSLĐ"}
+{"seed_id": "c0-002", "article_id": 2, "style": "neutral", "question": "Người đang thử việc có thuộc đối tượng áp dụng của Luật An toàn, vệ sinh lao động không?"}
+{"seed_id": "c0-002", "article_id": 2, "style": "worker", "question": "Em mới vô thử việc ở xưởng may được hai tuần, vậy luật an toàn lao động có áp cho em không?"}
+{"seed_id": "c0-002", "article_id": 2, "style": "hr", "question": "Đối với học viên học nghề, tập nghề và người thử việc tại doanh nghiệp, Luật An toàn, vệ sinh lao động có được áp dụng không?"}
+{"seed_id": "c0-002", "article_id": 2, "style": "complaint", "question": "Công ty nói tôi chỉ là người học việc nên không được luật an toàn lao động bảo vệ, như vậy có đúng không?"}
+{"seed_id": "c0-002", "article_id": 2, "style": "short", "question": "Thử việc có áp dụng luật ATVSLĐ?"}
+{"seed_id": "c0-003", "article_id": 2, "style": "neutral", "question": "Người lao động nước ngoài làm việc tại Việt Nam có chịu sự điều chỉnh của Luật An toàn, vệ sinh lao động không?"}
+{"seed_id": "c0-003", "article_id": 2, "style": "worker", "question": "Mấy ông kỹ sư Hàn Quốc làm chung nhà máy với tụi tôi thì có bị luật an toàn lao động Việt Nam áp dụng không?"}
+{"seed_id": "c0-003", "article_id": 2, "style": "hr", "question": "Doanh nghiệp FDI có chuyên gia nước ngoài thì nhóm lao động này có thuộc đối tượng áp dụng Luật An toàn, vệ sinh lao động không?"}
+{"seed_id": "c0-003", "article_id": 2, "style": "complaint", "question": "Sếp người nước ngoài bảo luật an toàn lao động Việt Nam chỉ dành cho người Việt, chuyện đó có đúng không?"}
+{"seed_id": "c0-003", "article_id": 2, "style": "short", "question": "Lao động nước ngoài áp dụng luật ATVSLĐ?"}
+{"seed_id": "c0-004", "article_id": 2, "style": "neutral", "question": "Người lao động làm việc không theo hợp đồng lao động có thuộc đối tượng áp dụng của Luật An toàn, vệ sinh lao động không?"}
+{"seed_id": "c0-004", "article_id": 2, "style": "worker", "question": "Tôi làm thợ hồ tự do, không có ký hợp đồng gì hết, vậy luật an toàn lao động có tính tôi vào không?"}
+{"seed_id": "c0-004", "article_id": 2, "style": "hr", "question": "Lao động tự do không giao kết hợp đồng lao động có nằm trong nhóm đối tượng áp dụng của Luật An toàn, vệ sinh lao động không?"}
+{"seed_id": "c0-004", "article_id": 2, "style": "complaint", "question": "Chủ thầu nói tôi làm miệng không có hợp đồng nên luật an toàn lao động không áp dụng, vậy tôi có bị loại khỏi luật không?"}
+{"seed_id": "c0-004", "article_id": 2, "style": "short", "question": "Lao động tự do có thuộc luật ATVSLĐ?"}
+{"seed_id": "c0-005", "article_id": 3, "style": "neutral", "question": "Theo luật, tai nạn lao động được hiểu như thế nào?"}
+{"seed_id": "c0-005", "article_id": 3, "style": "worker", "question": "Sao mới gọi là tai nạn lao động vậy, bị trầy tay lúc đang đứng máy có tính không?"}
+{"seed_id": "c0-005", "article_id": 3, "style": "hr", "question": "Khái niệm tai nạn lao động được Luật An toàn, vệ sinh lao động định nghĩa ra sao?"}
+{"seed_id": "c0-005", "article_id": 3, "style": "complaint", "question": "Tôi bị máy dập kẹp ngón tay trong ca làm mà công ty bảo đó không phải tai nạn lao động, vậy luật định nghĩa tai nạn lao động là gì?"}
+{"seed_id": "c0-005", "article_id": 3, "style": "short", "question": "Định nghĩa tai nạn lao động"}
+{"seed_id": "c0-006", "article_id": 3, "style": "neutral", "question": "Bệnh nghề nghiệp là gì theo Luật An toàn, vệ sinh lao động?"}
+{"seed_id": "c0-006", "article_id": 3, "style": "worker", "question": "Anh ơi bệnh nghề nghiệp nghĩa là bệnh kiểu gì, bệnh do hít bụi lâu năm trong xưởng có tính là bệnh nghề nghiệp không?"}
+{"seed_id": "c0-006", "article_id": 3, "style": "hr", "question": "Luật quy định khái niệm bệnh nghề nghiệp như thế nào để làm căn cứ phân biệt với bệnh thông thường?"}
+{"seed_id": "c0-006", "article_id": 3, "style": "complaint", "question": "Công ty nói bệnh phổi của tôi chỉ là bệnh thường chứ không phải bệnh nghề nghiệp, vậy luật hiểu bệnh nghề nghiệp là bệnh gì?"}
+{"seed_id": "c0-006", "article_id": 3, "style": "short", "question": "Bệnh nghề nghiệp nghĩa là gì"}
+{"seed_id": "c0-007", "article_id": 3, "style": "neutral", "question": "Yếu tố nguy hiểm trong quá trình lao động là gì?"}
+{"seed_id": "c0-007", "article_id": 3, "style": "worker", "question": "Người ta hay nói yếu tố nguy hiểm ở xưởng, vậy cụ thể nó là cái gì?"}
+{"seed_id": "c0-007", "article_id": 3, "style": "hr", "question": "Luật An toàn, vệ sinh lao động định nghĩa yếu tố nguy hiểm như thế nào?"}
+{"seed_id": "c0-007", "article_id": 3, "style": "complaint", "question": "Tổ trưởng bảo lưỡi cưa để hở không phải yếu tố nguy hiểm, vậy theo luật yếu tố nguy hiểm được hiểu là gì?"}
+{"seed_id": "c0-007", "article_id": 3, "style": "short", "question": "Khái niệm yếu tố nguy hiểm"}
+{"seed_id": "c0-008", "article_id": 3, "style": "neutral", "question": "Yếu tố có hại theo Luật An toàn, vệ sinh lao động được hiểu thế nào?"}
+{"seed_id": "c0-008", "article_id": 3, "style": "worker", "question": "Bụi với tiếng ồn trong xưởng dệt có được gọi là yếu tố có hại không, yếu tố có hại là sao?"}
+{"seed_id": "c0-008", "article_id": 3, "style": "hr", "question": "Đề nghị giải thích khái niệm yếu tố có hại trong môi trường lao động theo quy định của Luật."}
+{"seed_id": "c0-008", "article_id": 3, "style": "complaint", "question": "Công ty cãi rằng hơi dung môi chẳng phải yếu tố có hại, vậy luật định nghĩa yếu tố có hại ra sao?"}
+{"seed_id": "c0-008", "article_id": 3, "style": "short", "question": "Yếu tố có hại là gì"}
+{"seed_id": "c0-009", "article_id": 3, "style": "neutral", "question": "An toàn lao động và vệ sinh lao động khác nhau như thế nào?"}
+{"seed_id": "c0-009", "article_id": 3, "style": "worker", "question": "An toàn lao động với vệ sinh lao động nghe na ná nhau, rốt cuộc khác nhau chỗ nào?"}
+{"seed_id": "c0-009", "article_id": 3, "style": "hr", "question": "Phân biệt khái niệm an toàn lao động và vệ sinh lao động theo điều giải thích từ ngữ của Luật."}
+{"seed_id": "c0-009", "article_id": 3, "style": "complaint", "question": "Công ty chỉ lo an toàn lao động mà bỏ qua vệ sinh lao động, vậy hai khái niệm này luật giải thích khác nhau ra sao?"}
+{"seed_id": "c0-009", "article_id": 3, "style": "short", "question": "An toàn khác vệ sinh lao động?"}
+{"seed_id": "c0-010", "article_id": 3, "style": "neutral", "question": "Thế nào là sự cố kỹ thuật gây mất an toàn, vệ sinh lao động nghiêm trọng?"}
+{"seed_id": "c0-010", "article_id": 3, "style": "worker", "question": "Nổ nồi hơi làm cả xưởng phải chạy ra thì có gọi là sự cố kỹ thuật nghiêm trọng không, sự cố nghiêm trọng là sao?"}
+{"seed_id": "c0-010", "article_id": 3, "style": "hr", "question": "Tiêu chí để xác định một sự cố kỹ thuật gây mất an toàn, vệ sinh lao động là nghiêm trọng được luật giải thích như thế nào?"}
+{"seed_id": "c0-010", "article_id": 3, "style": "complaint", "question": "Bồn hóa chất rò rỉ lan sang cả khu dân cư mà công ty vẫn nói chỉ là sự cố nhỏ, vậy luật định nghĩa sự cố nghiêm trọng thế nào?"}
+{"seed_id": "c0-010", "article_id": 3, "style": "short", "question": "Định nghĩa sự cố kỹ thuật nghiêm trọng"}
+{"seed_id": "c0-011", "article_id": 3, "style": "neutral", "question": "Quan trắc môi trường lao động là gì?"}
+{"seed_id": "c0-011", "article_id": 3, "style": "worker", "question": "Mấy người mang máy vô xưởng đo bụi, đo ồn, cái đó gọi là quan trắc môi trường lao động hả, nghĩa là gì vậy?"}
+{"seed_id": "c0-011", "article_id": 3, "style": "hr", "question": "Khái niệm quan trắc môi trường lao động được Luật An toàn, vệ sinh lao động giải thích như thế nào?"}
+{"seed_id": "c0-011", "article_id": 3, "style": "complaint", "question": "Công ty chỉ cho người đi nhìn qua rồi gọi là quan trắc môi trường, vậy theo luật quan trắc môi trường lao động thực chất là hoạt động gì?"}
+{"seed_id": "c0-011", "article_id": 3, "style": "short", "question": "Định nghĩa quan trắc môi trường lao động"}
+{"seed_id": "c0-012", "article_id": 4, "style": "neutral", "question": "Nhà nước có những chính sách gì về an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-012", "article_id": 4, "style": "worker", "question": "Nhà nước có chính sách gì để lo cho an toàn của dân lao động tụi tôi không?"}
+{"seed_id": "c0-012", "article_id": 4, "style": "hr", "question": "Chính sách của Nhà nước về an toàn, vệ sinh lao động được Luật quy định gồm những nội dung nào?"}
+{"seed_id": "c0-012", "article_id": 4, "style": "complaint", "question": "Doanh nghiệp nhỏ như chúng tôi than chẳng được hỗ trợ gì, vậy Nhà nước có chính sách nào về an toàn, vệ sinh lao động không?"}
+{"seed_id": "c0-012", "article_id": 4, "style": "short", "question": "Chính sách nhà nước về ATVSLĐ"}
+{"seed_id": "c0-013", "article_id": 4, "style": "neutral", "question": "Nhà nước có chính sách hỗ trợ phòng ngừa tai nạn lao động cho các ngành có nguy cơ cao không?"}
+{"seed_id": "c0-013", "article_id": 4, "style": "worker", "question": "Ngành mỏ với xây dựng hay có người chết, nhà nước có chính sách hỗ trợ phòng tai nạn cho mấy ngành này không?"}
+{"seed_id": "c0-013", "article_id": 4, "style": "hr", "question": "Chính sách hỗ trợ của Nhà nước đối với ngành, lĩnh vực có nguy cơ cao về tai nạn lao động, bệnh nghề nghiệp được quy định thế nào?"}
+{"seed_id": "c0-013", "article_id": 4, "style": "complaint", "question": "Chúng tôi làm khai khoáng rủi ro cao mà chưa thấy Nhà nước có chính sách gì, luật có nói Nhà nước hỗ trợ phòng ngừa cho ngành này không?"}
+{"seed_id": "c0-013", "article_id": 4, "style": "short", "question": "Nhà nước hỗ trợ ngành nguy cơ cao"}
+{"seed_id": "c0-014", "article_id": 5, "style": "neutral", "question": "Những nguyên tắc bảo đảm an toàn, vệ sinh lao động là gì?"}
+{"seed_id": "c0-014", "article_id": 5, "style": "worker", "question": "Làm an toàn lao động thì phải theo mấy nguyên tắc gì vậy?"}
+{"seed_id": "c0-014", "article_id": 5, "style": "hr", "question": "Luật quy định các nguyên tắc cơ bản nào trong công tác bảo đảm an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-014", "article_id": 5, "style": "complaint", "question": "Công ty làm an toàn lao động kiểu đối phó, vậy luật đặt ra nguyên tắc gì mà họ phải tuân theo?"}
+{"seed_id": "c0-014", "article_id": 5, "style": "short", "question": "Nguyên tắc bảo đảm ATVSLĐ"}
+{"seed_id": "c0-015", "article_id": 5, "style": "neutral", "question": "Trong bảo đảm an toàn, vệ sinh lao động, biện pháp nào được ưu tiên theo nguyên tắc của luật?"}
+{"seed_id": "c0-015", "article_id": 5, "style": "worker", "question": "Luật có nói là phải lo phòng ngừa trước chứ không phải đợi xảy ra tai nạn mới xử lý không?"}
+{"seed_id": "c0-015", "article_id": 5, "style": "hr", "question": "Nguyên tắc ưu tiên các biện pháp phòng ngừa, loại trừ, kiểm soát yếu tố nguy hiểm, yếu tố có hại được luật quy định như thế nào?"}
+{"seed_id": "c0-015", "article_id": 5, "style": "complaint", "question": "Công ty toàn đợi có người bị thương rồi mới xử lý, luật có nguyên tắc nào buộc ưu tiên phòng ngừa, loại trừ nguy cơ không?"}
+{"seed_id": "c0-015", "article_id": 5, "style": "short", "question": "Nguyên tắc ưu tiên phòng ngừa"}
+{"seed_id": "c0-016", "article_id": 6, "style": "neutral", "question": "Người lao động có quyền từ chối làm công việc có nguy cơ tai nạn đe dọa tính mạng mà vẫn được trả đủ lương không?"}
+{"seed_id": "c0-016", "article_id": 6, "style": "worker", "question": "Giàn giáo lung lay muốn sập, tôi không chịu leo lên thì có bị trừ lương không?"}
+{"seed_id": "c0-016", "article_id": 6, "style": "hr", "question": "Trường hợp người lao động từ chối làm việc khi thấy rõ nguy cơ tai nạn đe dọa nghiêm trọng tính mạng thì quyền lợi tiền lương được xử lý thế nào?"}
+{"seed_id": "c0-016", "article_id": 6, "style": "complaint", "question": "Tôi không chịu xuống hầm lò đang có khí độc nên bị sếp dọa trừ lương, chuyện đó có đúng luật không?"}
+{"seed_id": "c0-016", "article_id": 6, "style": "short", "question": "Từ chối việc nguy hiểm có được lương?"}
+{"seed_id": "c0-017", "article_id": 6, "style": "neutral", "question": "Khi rời khỏi nơi làm việc vì thấy nguy hiểm đến tính mạng, người lao động phải báo cáo cho ai?"}
+{"seed_id": "c0-017", "article_id": 6, "style": "worker", "question": "Thấy dây điện chập tóe lửa tôi bỏ chạy ra ngoài, vậy tôi phải báo cho ai thì mới không bị coi là tự ý bỏ việc?"}
+{"seed_id": "c0-017", "article_id": 6, "style": "hr", "question": "Người lao động thực hiện quyền rời bỏ nơi làm việc nguy hiểm có nghĩa vụ báo ngay cho ai để có phương án xử lý?"}
+{"seed_id": "c0-017", "article_id": 6, "style": "complaint", "question": "Tôi rời chỗ làm vì máy bốc khói, quản đốc bảo tôi vi phạm kỷ luật vì không báo, vậy luật bắt tôi phải báo cho ai?"}
+{"seed_id": "c0-017", "article_id": 6, "style": "short", "question": "Rời nơi làm nguy hiểm báo ai?"}
+{"seed_id": "c0-018", "article_id": 6, "style": "neutral", "question": "Sau khi điều trị ổn định tai nạn lao động, người lao động có quyền yêu cầu công ty bố trí công việc phù hợp không?"}
+{"seed_id": "c0-018", "article_id": 6, "style": "worker", "question": "Tôi bị gãy chân do tai nạn ở xưởng, giờ lành rồi mà đứng máy không nổi, có được xin sếp đổi việc nhẹ hơn không?"}
+{"seed_id": "c0-018", "article_id": 6, "style": "hr", "question": "Quyền yêu cầu bố trí công việc phù hợp của người lao động sau khi điều trị ổn định tai nạn lao động, bệnh nghề nghiệp được quy định ra sao?"}
+{"seed_id": "c0-018", "article_id": 6, "style": "complaint", "question": "Điều trị bệnh nghề nghiệp xong tôi xin chuyển việc nhẹ nhưng công ty không chịu, tôi có quyền yêu cầu không?"}
+{"seed_id": "c0-018", "article_id": 6, "style": "short", "question": "Xin đổi việc phù hợp sau tai nạn"}
+{"seed_id": "c0-019", "article_id": 6, "style": "neutral", "question": "Người lao động làm việc theo hợp đồng có những nghĩa vụ gì về an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-019", "article_id": 6, "style": "worker", "question": "Đi làm công nhân thì mình có trách nhiệm gì về an toàn lao động vậy?"}
+{"seed_id": "c0-019", "article_id": 6, "style": "hr", "question": "Đề nghị nêu các nghĩa vụ về an toàn, vệ sinh lao động của người lao động có giao kết hợp đồng lao động."}
+{"seed_id": "c0-019", "article_id": 6, "style": "complaint", "question": "Có tai nạn là công ty đổ hết lỗi cho công nhân, vậy nghĩa vụ an toàn của người lao động theo luật thực ra gồm những gì?"}
+{"seed_id": "c0-019", "article_id": 6, "style": "short", "question": "Nghĩa vụ ATVSLĐ của người lao động"}
+{"seed_id": "c0-020", "article_id": 6, "style": "neutral", "question": "Người lao động làm việc không theo hợp đồng lao động có những quyền gì về an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-020", "article_id": 6, "style": "worker", "question": "Tôi chạy xe ôm với làm thuê tự do, vậy tôi có quyền lợi gì về an toàn lao động không?"}
+{"seed_id": "c0-020", "article_id": 6, "style": "hr", "question": "Quyền về an toàn, vệ sinh lao động của lao động tự do, không giao kết hợp đồng lao động được luật quy định như thế nào?"}
+{"seed_id": "c0-020", "article_id": 6, "style": "complaint", "question": "Người ta bảo làm tự do thì chẳng có quyền gì về an toàn lao động, luật có công nhận quyền nào cho tôi không?"}
+{"seed_id": "c0-020", "article_id": 6, "style": "short", "question": "Quyền của lao động không hợp đồng"}
+{"seed_id": "c0-021", "article_id": 6, "style": "neutral", "question": "Người lao động không có hợp đồng lao động có nghĩa vụ gì về an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-021", "article_id": 6, "style": "worker", "question": "Làm thợ điện tự do nhận việc lẻ thì tôi phải tự chịu trách nhiệm an toàn cho mình với người xung quanh hả?"}
+{"seed_id": "c0-021", "article_id": 6, "style": "hr", "question": "Nghĩa vụ về an toàn, vệ sinh lao động của người lao động làm việc không theo hợp đồng lao động gồm những gì?"}
+{"seed_id": "c0-021", "article_id": 6, "style": "complaint", "question": "Hàng xóm trách tôi làm hàn tự do gây nguy hiểm cho họ, vậy luật bắt người làm tự do có nghĩa vụ gì về an toàn?"}
+{"seed_id": "c0-021", "article_id": 6, "style": "short", "question": "Nghĩa vụ an toàn lao động tự do"}
+{"seed_id": "c0-022", "article_id": 6, "style": "neutral", "question": "Người lao động có quyền khiếu nại, tố cáo hoặc khởi kiện về an toàn, vệ sinh lao động không?"}
+{"seed_id": "c0-022", "article_id": 6, "style": "worker", "question": "Công ty để xưởng mất an toàn hoài, tôi có được quyền đi thưa kiện không?"}
+{"seed_id": "c0-022", "article_id": 6, "style": "hr", "question": "Người lao động có những quyền khiếu nại, tố cáo, khởi kiện nào khi quyền về an toàn, vệ sinh lao động bị vi phạm?"}
+{"seed_id": "c0-022", "article_id": 6, "style": "complaint", "question": "Công ty không chịu sửa hệ thống điện rò rỉ dù tôi báo nhiều lần, tôi có kiện công ty được không?"}
+{"seed_id": "c0-022", "article_id": 6, "style": "short", "question": "Người lao động có được khởi kiện?"}
+{"seed_id": "c0-023", "article_id": 7, "style": "neutral", "question": "Người sử dụng lao động có những quyền gì về an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-023", "article_id": 7, "style": "worker", "question": "Chủ xưởng thì có quyền gì với công nhân về chuyện an toàn lao động?"}
+{"seed_id": "c0-023", "article_id": 7, "style": "hr", "question": "Quyền của người sử dụng lao động trong công tác an toàn, vệ sinh lao động được luật quy định như thế nào?"}
+{"seed_id": "c0-023", "article_id": 7, "style": "complaint", "question": "Chủ doanh nghiệp tôi than luật chỉ toàn nghĩa vụ, vậy doanh nghiệp có quyền gì về an toàn lao động không?"}
+{"seed_id": "c0-023", "article_id": 7, "style": "short", "question": "Quyền của người sử dụng lao động"}
+{"seed_id": "c0-024", "article_id": 7, "style": "neutral", "question": "Công ty có được kỷ luật người lao động vi phạm quy định an toàn, vệ sinh lao động không?"}
+{"seed_id": "c0-024", "article_id": 7, "style": "worker", "question": "Tôi hút thuốc gần kho xăng bị sếp ghi biên bản kỷ luật, sếp có quyền làm vậy không?"}
+{"seed_id": "c0-024", "article_id": 7, "style": "hr", "question": "Người sử dụng lao động có quyền khen thưởng và xử lý kỷ luật người lao động trong việc chấp hành an toàn, vệ sinh lao động hay không?"}
+{"seed_id": "c0-024", "article_id": 7, "style": "complaint", "question": "Tôi quên móc dây an toàn một lần mà bị kỷ luật, công ty có quyền kỷ luật vì chuyện an toàn không?"}
+{"seed_id": "c0-024", "article_id": 7, "style": "short", "question": "Kỷ luật vi phạm an toàn lao động"}
+{"seed_id": "c0-025", "article_id": 7, "style": "neutral", "question": "Công ty có quyền huy động người lao động tham gia ứng cứu khẩn cấp khi xảy ra sự cố không?"}
+{"seed_id": "c0-025", "article_id": 7, "style": "worker", "question": "Kho cháy mà sếp gọi cả tổ ra phụ chữa cháy, sếp có quyền bắt vậy không?"}
+{"seed_id": "c0-025", "article_id": 7, "style": "hr", "question": "Quyền huy động người lao động tham gia ứng cứu khẩn cấp, khắc phục sự cố, tai nạn lao động của người sử dụng lao động được quy định ở đâu?"}
+{"seed_id": "c0-025", "article_id": 7, "style": "complaint", "question": "Công ty bắt tôi đang nghỉ ca cũng phải vào khắc phục vụ sập kho, công ty có quyền huy động như vậy không?"}
+{"seed_id": "c0-025", "article_id": 7, "style": "short", "question": "Công ty huy động người ứng cứu"}
+{"seed_id": "c0-026", "article_id": 7, "style": "neutral", "question": "Khi xây dựng nội quy an toàn, vệ sinh lao động, công ty có phải lấy ý kiến công đoàn cơ sở không?"}
+{"seed_id": "c0-026", "article_id": 7, "style": "worker", "question": "Sếp tự ra nội quy an toàn rồi dán lên, không hỏi công đoàn gì hết, vậy có được không?"}
+{"seed_id": "c0-026", "article_id": 7, "style": "hr", "question": "Người sử dụng lao động có nghĩa vụ lấy ý kiến Ban chấp hành công đoàn cơ sở khi xây dựng kế hoạch, nội quy, quy trình an toàn không?"}
+{"seed_id": "c0-026", "article_id": 7, "style": "complaint", "question": "Công ty ban hành quy trình an toàn mới mà không hỏi ý kiến công đoàn, chúng tôi có phản đối được không?"}
+{"seed_id": "c0-026", "article_id": 7, "style": "short", "question": "Nội quy an toàn có hỏi công đoàn?"}
+{"seed_id": "c0-027", "article_id": 7, "style": "neutral", "question": "Người sử dụng lao động có những nghĩa vụ gì về an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-027", "article_id": 7, "style": "worker", "question": "Chủ xưởng phải lo cho công nhân những gì về an toàn lao động?"}
+{"seed_id": "c0-027", "article_id": 7, "style": "hr", "question": "Đề nghị liệt kê các nghĩa vụ chung về an toàn, vệ sinh lao động của người sử dụng lao động theo luật."}
+{"seed_id": "c0-027", "article_id": 7, "style": "complaint", "question": "Công ty tôi chẳng làm gì về an toàn lao động hết, vậy luật bắt doanh nghiệp có những nghĩa vụ nào?"}
+{"seed_id": "c0-027", "article_id": 7, "style": "short", "question": "Nghĩa vụ của doanh nghiệp về ATVSLĐ"}
+{"seed_id": "c0-028", "article_id": 8, "style": "neutral", "question": "Mặt trận Tổ quốc Việt Nam có trách nhiệm gì trong công tác an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-028", "article_id": 8, "style": "worker", "question": "Mặt trận Tổ quốc với mấy hội đoàn thể thì có dính gì tới chuyện an toàn lao động không?"}
+{"seed_id": "c0-028", "article_id": 8, "style": "hr", "question": "Quyền và trách nhiệm của Mặt trận Tổ quốc Việt Nam, các tổ chức thành viên và tổ chức xã hội trong lĩnh vực an toàn, vệ sinh lao động là gì?"}
+{"seed_id": "c0-028", "article_id": 8, "style": "complaint", "question": "Tôi muốn nhờ Mặt trận Tổ quốc phản ánh chuyện xưởng mất an toàn, luật có giao cho Mặt trận quyền kiến nghị xử lý vi phạm không?"}
+{"seed_id": "c0-028", "article_id": 8, "style": "short", "question": "Vai trò Mặt trận Tổ quốc về ATVSLĐ"}
+{"seed_id": "c0-029", "article_id": 9, "style": "neutral", "question": "Tổ chức công đoàn có được đại diện người lao động khởi kiện khi quyền về an toàn, vệ sinh lao động bị xâm phạm không?"}
+{"seed_id": "c0-029", "article_id": 9, "style": "worker", "question": "Tôi không rành chuyện kiện tụng, công đoàn có đứng ra kiện công ty giùm tôi được không?"}
+{"seed_id": "c0-029", "article_id": 9, "style": "hr", "question": "Điều kiện để tổ chức công đoàn đại diện cho người lao động khởi kiện về an toàn, vệ sinh lao động là gì?"}
+{"seed_id": "c0-029", "article_id": 9, "style": "complaint", "question": "Cả tổ bị công ty bắt làm trong môi trường độc hại, công đoàn có quyền đại diện tập thể kiện công ty không?"}
+{"seed_id": "c0-029", "article_id": 9, "style": "short", "question": "Công đoàn kiện thay người lao động"}
+{"seed_id": "c0-030", "article_id": 9, "style": "neutral", "question": "Tổ chức công đoàn có quyền tham gia xây dựng chính sách, pháp luật về an toàn, vệ sinh lao động không?"}
+{"seed_id": "c0-030", "article_id": 9, "style": "worker", "question": "Công đoàn có được góp ý vô luật an toàn lao động của nhà nước không?"}
+{"seed_id": "c0-030", "article_id": 9, "style": "hr", "question": "Vai trò của tổ chức công đoàn trong việc tham gia xây dựng, kiến nghị sửa đổi chính sách, pháp luật về an toàn, vệ sinh lao động như thế nào?"}
+{"seed_id": "c0-030", "article_id": 9, "style": "complaint", "question": "Chúng tôi thấy quy định an toàn cho ngành may còn thiếu, công đoàn có quyền kiến nghị Nhà nước sửa luật không?"}
+{"seed_id": "c0-030", "article_id": 9, "style": "short", "question": "Công đoàn góp ý chính sách ATVSLĐ"}
+{"seed_id": "c0-031", "article_id": 10, "style": "neutral", "question": "Nếu công ty không khai báo tai nạn lao động thì công đoàn cơ sở có trách nhiệm gì?"}
+{"seed_id": "c0-031", "article_id": 10, "style": "worker", "question": "Đồng nghiệp tôi bị máy cán dập tay mà sếp im luôn không khai báo, công đoàn công ty phải làm gì?"}
+{"seed_id": "c0-031", "article_id": 10, "style": "hr", "question": "Trường hợp người sử dụng lao động không thực hiện nghĩa vụ khai báo tai nạn lao động, trách nhiệm của công đoàn cơ sở được quy định ra sao?"}
+{"seed_id": "c0-031", "article_id": 10, "style": "complaint", "question": "Công ty giấu vụ tai nạn ở xưởng, công đoàn cơ sở có phải báo lên cơ quan nhà nước không?"}
+{"seed_id": "c0-031", "article_id": 10, "style": "short", "question": "Giấu tai nạn, công đoàn phải làm gì?"}
+{"seed_id": "c0-032", "article_id": 10, "style": "neutral", "question": "Doanh nghiệp chưa có công đoàn cơ sở thì ai thực hiện quyền, trách nhiệm về an toàn, vệ sinh lao động thay công đoàn?"}
+{"seed_id": "c0-032", "article_id": 10, "style": "worker", "question": "Xưởng tôi nhỏ, không có công đoàn, vậy có ai đứng ra bảo vệ công nhân chuyện an toàn không?"}
+{"seed_id": "c0-032", "article_id": 10, "style": "hr", "question": "Tại cơ sở sản xuất, kinh doanh chưa thành lập công đoàn cơ sở, tổ chức nào thực hiện quyền, trách nhiệm của công đoàn cơ sở về an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-032", "article_id": 10, "style": "complaint", "question": "Công ty không cho lập công đoàn nên chúng tôi không biết nhờ ai, luật có cho công đoàn cấp trên đứng ra thay không?"}
+{"seed_id": "c0-032", "article_id": 10, "style": "short", "question": "Không có công đoàn cơ sở thì sao?"}
+{"seed_id": "c0-033", "article_id": 11, "style": "neutral", "question": "Hội nông dân Việt Nam có quyền và trách nhiệm gì về an toàn, vệ sinh lao động?"}
+{"seed_id": "c0-033", "article_id": 11, "style": "worker", "question": "Bà con phun thuốc sâu hay bị ngộ độc, vậy Hội nông dân có vai trò gì trong chuyện an toàn lao động cho nông dân?"}
+{"seed_id": "c0-033", "article_id": 11, "style": "hr", "question": "Luật quy định quyền, trách nhiệm của Hội nông dân Việt Nam trong công tác an toàn, vệ sinh lao động cho nông dân như thế nào?"}
+{"seed_id": "c0-033", "article_id": 11, "style": "complaint", "question": "Nông dân bị tai nạn khi chạy máy tuốt lúa mà không ai điều tra, Hội nông dân có được tham gia điều tra không?"}
+{"seed_id": "c0-033", "article_id": 11, "style": "short", "question": "Trách nhiệm Hội nông dân về ATVSLĐ"}
+{"seed_id": "c0-034", "article_id": 12, "style": "neutral", "question": "Che giấu hoặc khai báo sai sự thật về tai nạn lao động có bị cấm không?"}
+{"seed_id": "c0-034", "article_id": 12, "style": "worker", "question": "Sếp bảo đừng nói ra vụ tôi bị đứt tay, khai là tự té ở nhà, làm vậy có phạm luật không?"}
+{"seed_id": "c0-034", "article_id": 12, "style": "hr", "question": "Hành vi báo cáo sai sự thật về tai nạn lao động, bệnh nghề nghiệp có thuộc nhóm hành vi bị nghiêm cấm không?"}
+{"seed_id": "c0-034", "article_id": 12, "style": "complaint", "question": "Công ty ép tôi ký giấy nói tai nạn xảy ra ngoài giờ làm để khỏi báo cáo, như vậy có phải hành vi bị cấm không?"}
+{"seed_id": "c0-034", "article_id": 12, "style": "short", "question": "Giấu tai nạn lao động có bị cấm?"}
+{"seed_id": "c0-035", "article_id": 12, "style": "neutral", "question": "Buộc người lao động tiếp tục làm việc khi nguy cơ tai nạn đe dọa tính mạng chưa được khắc phục có bị cấm không?"}
+{"seed_id": "c0-035", "article_id": 12, "style": "worker", "question": "Khung sắt còn nứt mà quản đốc vẫn ép tụi tôi làm tiếp, vậy có phạm luật không?"}
+{"seed_id": "c0-035", "article_id": 12, "style": "hr", "question": "Việc người sử dụng lao động không cho người lao động rời khỏi nơi làm việc khi có nguy cơ tai nạn nghiêm trọng có phải là hành vi bị nghiêm cấm?"}
+{"seed_id": "c0-035", "article_id": 12, "style": "complaint", "question": "Hầm lò có dấu hiệu sạt mà công ty vẫn khóa cửa không cho ra, luật có cấm công ty làm vậy không?"}
+{"seed_id": "c0-035", "article_id": 12, "style": "short", "question": "Ép làm nơi nguy hiểm có bị cấm?"}
+{"seed_id": "c0-036", "article_id": 12, "style": "neutral", "question": "Trốn đóng, chậm đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp có phải hành vi bị nghiêm cấm không?"}
+{"seed_id": "c0-036", "article_id": 12, "style": "worker", "question": "Công ty trừ lương mà không đóng bảo hiểm tai nạn cho tụi tôi, vậy có phạm luật không?"}
+{"seed_id": "c0-036", "article_id": 12, "style": "hr", "question": "Chậm đóng tiền bảo hiểm tai nạn lao động, bệnh nghề nghiệp có thuộc danh mục hành vi bị nghiêm cấm của Luật không?"}
+{"seed_id": "c0-036", "article_id": 12, "style": "complaint", "question": "Công ty nợ tiền bảo hiểm tai nạn lao động mấy tháng liền, chuyện này luật có cấm không?"}
+{"seed_id": "c0-036", "article_id": 12, "style": "short", "question": "Chậm đóng bảo hiểm TNLĐ có bị cấm?"}
+{"seed_id": "c0-037", "article_id": 12, "style": "neutral", "question": "Sử dụng máy, thiết bị có yêu cầu nghiêm ngặt chưa được kiểm định có bị cấm không?"}
+{"seed_id": "c0-037", "article_id": 12, "style": "worker", "question": "Xe nâng trong kho chưa ai kiểm định gì mà sếp vẫn bắt chạy, vậy có phạm luật không?"}
+{"seed_id": "c0-037", "article_id": 12, "style": "hr", "question": "Việc đưa vào sử dụng thiết bị áp lực có kết quả kiểm định không đạt có thuộc hành vi bị nghiêm cấm không?"}
+{"seed_id": "c0-037", "article_id": 12, "style": "complaint", "question": "Công ty mua cần cẩu cũ không rõ nguồn gốc về cho tụi tôi dùng, luật có cấm chuyện này không?"}
+{"seed_id": "c0-037", "article_id": 12, "style": "short", "question": "Dùng máy chưa kiểm định có bị cấm?"}
+{"seed_id": "c0-038", "article_id": 12, "style": "neutral", "question": "Phân biệt đối xử với người lao động vì họ từ chối làm công việc nguy hiểm có bị cấm không?"}
+{"seed_id": "c0-038", "article_id": 12, "style": "worker", "question": "Từ hôm tôi không chịu leo cột điện lúc mưa bão, sếp toàn giao việc cực và cắt thưởng, sếp làm vậy có bị luật cấm không?"}
+{"seed_id": "c0-038", "article_id": 12, "style": "hr", "question": "Việc người sử dụng lao động đối xử bất lợi với người lao động đã thực hiện quyền từ chối công việc nguy hiểm có thuộc hành vi bị nghiêm cấm không?"}
+{"seed_id": "c0-038", "article_id": 12, "style": "complaint", "question": "Tôi bị chuyển sang bộ phận khác chỉ vì hôm trước không chịu vào khu hóa chất rò rỉ, công ty làm vậy có vi phạm điều cấm không?"}
+{"seed_id": "c0-038", "article_id": 12, "style": "short", "question": "Trù dập người từ chối việc nguy hiểm?"}
+{"seed_id": "c0-039", "article_id": 12, "style": "neutral", "question": "Cho người lao động làm công việc có yêu cầu nghiêm ngặt về an toàn khi chưa được huấn luyện có bị cấm không?"}
+{"seed_id": "c0-039", "article_id": 12, "style": "worker", "question": "Em mới vô làm hai ngày chưa học an toàn gì mà tổ trưởng đã cho leo lên vận hành cẩu trục, vậy có phạm luật không?"}
+{"seed_id": "c0-039", "article_id": 12, "style": "hr", "question": "Bố trí lao động mới làm công việc có yêu cầu nghiêm ngặt khi chưa qua huấn luyện an toàn, vệ sinh lao động có thuộc hành vi bị nghiêm cấm không?"}
+{"seed_id": "c0-039", "article_id": 12, "style": "complaint", "question": "Công ty bắt tôi hàn trong bồn kín mà chưa hề cho đi huấn luyện, luật có cấm công ty làm vậy không?"}
+{"seed_id": "c0-039", "article_id": 12, "style": "short", "question": "Chưa huấn luyện làm việc nghiêm ngặt, cấm?"}
+{"seed_id": "c0-040", "article_id": 12, "style": "neutral", "question": "Công ty trả tiền thay cho bồi dưỡng bằng hiện vật có được không?"}
+{"seed_id": "c0-040", "article_id": 12, "style": "worker", "question": "Sếp không phát sữa nữa mà cộng thêm vô lương mấy chục ngàn, làm vậy có đúng luật không?"}
+{"seed_id": "c0-040", "article_id": 12, "style": "hr", "question": "Việc quy đổi bồi dưỡng bằng hiện vật thành tiền mặt chi trả cho người lao động có bị luật nghiêm cấm không?"}
+{"seed_id": "c0-040", "article_id": 12, "style": "complaint", "question": "Công ty cắt suất bồi dưỡng hiện vật rồi đưa tiền cho tụi tôi tự mua, vậy có vi phạm hành vi bị cấm không?"}
+{"seed_id": "c0-040", "article_id": 12, "style": "short", "question": "Trả tiền thay bồi dưỡng hiện vật?"}

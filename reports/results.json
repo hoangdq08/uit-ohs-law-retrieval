@@ -1,0 +1,770 @@
+{
+  "n_samples": 1600,
+  "n_seeds": 320,
+  "class_dist": [
+    {
+      "label_id": 0,
+      "label_code": "QUY_DINH_CHUNG",
+      "so_mau": 200,
+      "so_seed": 40,
+      "so_dieu": 12,
+      "ty_le_%": 12.5
+    },
+    {
+      "label_id": 1,
+      "label_code": "BIEN_PHAP_PHONG_NGUA",
+      "so_mau": 200,
+      "so_seed": 40,
+      "so_dieu": 15,
+      "ty_le_%": 12.5
+    },
+    {
+      "label_id": 2,
+      "label_code": "PHUONG_TIEN_BAO_HO",
+      "so_mau": 200,
+      "so_seed": 40,
+      "so_dieu": 1,
+      "ty_le_%": 12.5
+    },
+    {
+      "label_id": 3,
+      "label_code": "SUC_KHOE_BOI_DUONG",
+      "so_mau": 200,
+      "so_seed": 40,
+      "so_dieu": 4,
+      "ty_le_%": 12.5
+    },
+    {
+      "label_id": 4,
+      "label_code": "KHAI_BAO_DIEU_TRA",
+      "so_mau": 200,
+      "so_seed": 40,
+      "so_dieu": 4,
+      "ty_le_%": 12.5
+    },
+    {
+      "label_id": 5,
+      "label_code": "CHE_DO_BOI_THUONG",
+      "so_mau": 200,
+      "so_seed": 40,
+      "so_dieu": 3,
+      "ty_le_%": 12.5
+    },
+    {
+      "label_id": 6,
+      "label_code": "HUAN_LUYEN_ATLD",
+      "so_mau": 200,
+      "so_seed": 40,
+      "so_dieu": 1,
+      "ty_le_%": 12.5
+    },
+    {
+      "label_id": 7,
+      "label_code": "BAO_HIEM_TNLD",
+      "so_mau": 200,
+      "so_seed": 40,
+      "so_dieu": 22,
+      "ty_le_%": 12.5
+    }
+  ],
+  "split_sizes": {
+    "train": 1140,
+    "test": 230,
+    "val": 230
+  },
+  "split_table": [
+    {
+      "label_code": "QUY_DINH_CHUNG",
+      "train": 145,
+      "val": 30,
+      "test": 25
+    },
+    {
+      "label_code": "BIEN_PHAP_PHONG_NGUA",
+      "train": 140,
+      "val": 30,
+      "test": 30
+    },
+    {
+      "label_code": "PHUONG_TIEN_BAO_HO",
+      "train": 145,
+      "val": 30,
+      "test": 25
+    },
+    {
+      "label_code": "SUC_KHOE_BOI_DUONG",
+      "train": 140,
+      "val": 30,
+      "test": 30
+    },
+    {
+      "label_code": "KHAI_BAO_DIEU_TRA",
+      "train": 145,
+      "val": 25,
+      "test": 30
+    },
+    {
+      "label_code": "CHE_DO_BOI_THUONG",
+      "train": 140,
+      "val": 30,
+      "test": 30
+    },
+    {
+      "label_code": "HUAN_LUYEN_ATLD",
+      "train": 140,
+      "val": 30,
+      "test": 30
+    },
+    {
+      "label_code": "BAO_HIEM_TNLD",
+      "train": 145,
+      "val": 25,
+      "test": 30
+    },
+    {
+      "label_code": "TỔNG",
+      "train": 1140,
+      "val": 230,
+      "test": 230
+    }
+  ],
+  "n_real": 29,
+  "n_real_ood": 81,
+  "len_stats": {
+    "count": 1600.0,
+    "mean": 20.5,
+    "std": 8.2,
+    "min": 5.0,
+    "25%": 16.0,
+    "50%": 22.0,
+    "75%": 26.0,
+    "max": 42.0
+  },
+  "len_by_style": {
+    "complaint": 25.8,
+    "hr": 29.2,
+    "neutral": 20.1,
+    "short": 7.2,
+    "worker": 20.1
+  },
+  "top_terms": {
+    "QUY_DINH_CHUNG": "lao_động, luật, vệ_sinh lao_động, có, vệ_sinh, gì, an_toàn vệ_sinh, an_toàn",
+    "BIEN_PHAP_PHONG_NGUA": "không, có, yêu_cầu, thiết_bị, phải, an_toàn, máy, nghiêm_ngặt",
+    "PHUONG_TIEN_BAO_HO": "bảo_hộ, không, có, cấp, bảo_vệ, phương_tiện, cá_nhân, phương_tiện bảo_vệ",
+    "SUC_KHOE_BOI_DUONG": "khám, bồi_dưỡng, khỏe, sức, sức khỏe, hiện_vật, được, không",
+    "KHAI_BAO_DIEU_TRA": "điều_tra, tai_nạn, đoàn, lao_động, tai_nạn lao_động, đoàn điều_tra, vụ, chết",
+    "CHE_DO_BOI_THUONG": "công_ty, bồi_thường, tai_nạn, trả, lao_động, người, không, có",
+    "HUAN_LUYEN_ATLD": "huấn_luyện, an_toàn, huấn_luyện an_toàn, có, không, thẻ, phải, học",
+    "BAO_HIEM_TNLD": "bảo_hiểm, tai_nạn, tai_nạn lao_động, lao_động, hưởng, bảo_hiểm tai_nạn, trợ_cấp, được"
+  },
+  "preprocess_examples": [
+    {
+      "question": "Đồ bảo hộ toàn hàng chợ không có tem mác gì, công ty phát cho vậy có được không?",
+      "normalize": "đồ bảo hộ toàn hàng chợ không có tem mác gì công ty phát cho vậy có được không",
+      "full (tách từ + stopwords)": "đồ bảo_hộ toàn hàng chợ không có tem_mác gì công_ty phát có được không",
+      "không tách từ": "đồ bảo hộ toàn hàng chợ không có tem mác gì công ty phát cho vậy có được không"
+    },
+    {
+      "question": "Phương án an toàn xây xưởng mới",
+      "normalize": "phương án an toàn xây xưởng mới",
+      "full (tách từ + stopwords)": "phương_án an_toàn xây xưởng mới",
+      "không tách từ": "phương án an toàn xây xưởng mới"
+    },
+    {
+      "question": "Công ty ép tôi ký giấy nói tai nạn xảy ra ngoài giờ làm để khỏi báo cáo, như vậy có phải hành vi bị cấm không?",
+      "normalize": "công ty ép tôi ký giấy nói tai nạn xảy ra ngoài giờ làm để khỏi báo cáo như vậy có phải hành vi bị cấm không",
+      "full (tách từ + stopwords)": "công_ty ép ký giấy nói tai_nạn xảy ngoài giờ làm khỏi báo_cáo như_vậy có phải hành_vi cấm không",
+      "không tách từ": "công ty ép tôi ký giấy nói tai nạn xảy ra ngoài giờ làm để khỏi báo cáo như vậy có phải hành vi bị cấm không"
+    },
+    {
+      "question": "Mặt trận Tổ quốc Việt Nam có trách nhiệm gì trong công tác an toàn, vệ sinh lao động?",
+      "normalize": "mặt trận tổ quốc việt nam có trách nhiệm gì trong công tác an toàn vệ sinh lao động",
+      "full (tách từ + stopwords)": "mặt_trận tổ_quốc việt_nam có trách_nhiệm gì công_tác an_toàn vệ_sinh lao_động",
+      "không tách từ": "mặt trận tổ quốc việt nam có trách nhiệm gì trong công tác an toàn vệ sinh lao động"
+    }
+  ],
+  "models": {
+    "MultinomialNB": {
+      "best_params": {
+        "clf__alpha": 0.5
+      },
+      "cv_macro_f1": 0.7796952637,
+      "fit_seconds": 1.8,
+      "train_accuracy": 0.9833333333,
+      "train_macro_precision": 0.9833702628,
+      "train_macro_recall": 0.9834359606,
+      "train_macro_f1": 0.9832763234,
+      "val_accuracy": 0.8173913043,
+      "val_macro_precision": 0.8239606552,
+      "val_macro_recall": 0.82,
+      "val_macro_f1": 0.8121290581,
+      "test_accuracy": 0.8652173913,
+      "test_macro_precision": 0.8721246645,
+      "test_macro_recall": 0.8666666667,
+      "test_macro_f1": 0.8634590824,
+      "real_accuracy": 0.7586206897,
+      "real_macro_precision": 0.4920634921,
+      "real_macro_recall": 0.6253968254,
+      "real_macro_f1": 0.5324675325
+    },
+    "LogisticRegression": {
+      "best_params": {
+        "clf__C": 1.0,
+        "clf__class_weight": "balanced"
+      },
+      "cv_macro_f1": 0.833053679,
+      "fit_seconds": 0.5,
+      "train_accuracy": 0.9912280702,
+      "train_macro_precision": 0.9912260677,
+      "train_macro_recall": 0.9913485222,
+      "train_macro_f1": 0.9912083773,
+      "val_accuracy": 0.8608695652,
+      "val_macro_precision": 0.8652276608,
+      "val_macro_recall": 0.8633333333,
+      "val_macro_f1": 0.8613879403,
+      "test_accuracy": 0.9043478261,
+      "test_macro_precision": 0.9078321628,
+      "test_macro_recall": 0.9033333333,
+      "test_macro_f1": 0.9032737045,
+      "real_accuracy": 0.7586206897,
+      "real_macro_precision": 0.5697278912,
+      "real_macro_recall": 0.6238095238,
+      "real_macro_f1": 0.5885596344
+    },
+    "LinearSVC": {
+      "best_params": {
+        "clf__C": 1.0,
+        "clf__class_weight": "balanced",
+        "clf__loss": "hinge"
+      },
+      "cv_macro_f1": 0.8258179664,
+      "fit_seconds": 0.4,
+      "train_accuracy": 0.999122807,
+      "train_macro_precision": 0.9991134752,
+      "train_macro_recall": 0.999137931,
+      "train_macro_f1": 0.9991226342,
+      "val_accuracy": 0.8695652174,
+      "val_macro_precision": 0.8718864469,
+      "val_macro_recall": 0.8716666667,
+      "val_macro_f1": 0.8692681241,
+      "test_accuracy": 0.9043478261,
+      "test_macro_precision": 0.901820096,
+      "test_macro_recall": 0.9016666667,
+      "test_macro_f1": 0.9007499656,
+      "real_accuracy": 0.7931034483,
+      "real_macro_precision": 0.587585034,
+      "real_macro_recall": 0.6396825397,
+      "real_macro_f1": 0.6053663571
+    },
+    "RandomForest": {
+      "best_params": {
+        "clf__max_depth": 50,
+        "clf__min_samples_leaf": 1,
+        "clf__n_estimators": 200
+      },
+      "cv_macro_f1": 0.8121732451,
+      "fit_seconds": 3.5,
+      "train_accuracy": 0.999122807,
+      "train_macro_precision": 0.9991134752,
+      "train_macro_recall": 0.999137931,
+      "train_macro_f1": 0.9991226342,
+      "val_accuracy": 0.8304347826,
+      "val_macro_precision": 0.8358602572,
+      "val_macro_recall": 0.8316666667,
+      "val_macro_f1": 0.8281631265,
+      "test_accuracy": 0.8652173913,
+      "test_macro_precision": 0.8746216607,
+      "test_macro_recall": 0.8658333333,
+      "test_macro_f1": 0.865871349,
+      "real_accuracy": 0.6206896552,
+      "real_macro_precision": 0.4166666667,
+      "real_macro_recall": 0.5380952381,
+      "real_macro_f1": 0.4371021136
+    }
+  },
+  "best_model": "LinearSVC",
+  "train_val_gap": {
+    "MultinomialNB": 0.1712,
+    "LogisticRegression": 0.1298,
+    "LinearSVC": 0.1298,
+    "RandomForest": 0.1709
+  },
+  "per_class_test": {
+    "QUY_DINH_CHUNG": {
+      "precision": 0.6786,
+      "recall": 0.76,
+      "f1-score": 0.717,
+      "support": 25.0
+    },
+    "BIEN_PHAP_PHONG_NGUA": {
+      "precision": 0.8148,
+      "recall": 0.7333,
+      "f1-score": 0.7719,
+      "support": 30.0
+    },
+    "PHUONG_TIEN_BAO_HO": {
+      "precision": 0.8846,
+      "recall": 0.92,
+      "f1-score": 0.902,
+      "support": 25.0
+    },
+    "SUC_KHOE_BOI_DUONG": {
+      "precision": 0.9667,
+      "recall": 0.9667,
+      "f1-score": 0.9667,
+      "support": 30.0
+    },
+    "KHAI_BAO_DIEU_TRA": {
+      "precision": 0.9355,
+      "recall": 0.9667,
+      "f1-score": 0.9508,
+      "support": 30.0
+    },
+    "CHE_DO_BOI_THUONG": {
+      "precision": 0.9667,
+      "recall": 0.9667,
+      "f1-score": 0.9667,
+      "support": 30.0
+    },
+    "HUAN_LUYEN_ATLD": {
+      "precision": 0.9677,
+      "recall": 1.0,
+      "f1-score": 0.9836,
+      "support": 30.0
+    },
+    "BAO_HIEM_TNLD": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9474,
+      "support": 30.0
+    }
+  },
+  "cm_test (synthetic)": [
+    [
+      19,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      22,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      23,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      29,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      29,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      29,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      27
+    ]
+  ],
+  "cm_test thật": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "top_confusions": {
+    "BIEN_PHAP_PHONG_NGUA -> QUY_DINH_CHUNG": 30,
+    "QUY_DINH_CHUNG -> BIEN_PHAP_PHONG_NGUA": 13,
+    "KHAI_BAO_DIEU_TRA -> QUY_DINH_CHUNG": 12,
+    "BIEN_PHAP_PHONG_NGUA -> KHAI_BAO_DIEU_TRA": 6,
+    "BIEN_PHAP_PHONG_NGUA -> HUAN_LUYEN_ATLD": 5,
+    "CHE_DO_BOI_THUONG -> SUC_KHOE_BOI_DUONG": 5,
+    "BAO_HIEM_TNLD -> CHE_DO_BOI_THUONG": 5,
+    "BAO_HIEM_TNLD -> PHUONG_TIEN_BAO_HO": 4
+  },
+  "rf_top_features": {
+    "huấn_luyện": 0.03092,
+    "bảo_hiểm": 0.02714,
+    "an_toàn": 0.02031,
+    "tai_nạn": 0.02023,
+    "điều_tra": 0.01897,
+    "bảo_hộ": 0.01615,
+    "bồi_thường": 0.01586,
+    "bồi_dưỡng": 0.01539,
+    "khám": 0.01493,
+    "cấp": 0.01152,
+    "trả": 0.01129,
+    "huấn_luyện an_toàn": 0.01049,
+    "có": 0.00866,
+    "sức": 0.00866,
+    "công_ty": 0.00844,
+    "khỏe": 0.00836,
+    "sức khỏe": 0.00812,
+    "không": 0.00768,
+    "đồ bảo_hộ": 0.00734,
+    "tai_nạn lao_động": 0.00726
+  },
+  "ablation": {
+    "#1 Full (tách từ + stopwords + 1-2gram)": {
+      "cv_f1_mean": 0.8258,
+      "cv_f1_std": 0.065,
+      "val_f1": 0.8693,
+      "test_f1": 0.9007,
+      "n_features": 2520,
+      "real_f1": 0.6054
+    },
+    "#2 Không tách từ (không stopwords, 1-2gram)": {
+      "cv_f1_mean": 0.8213,
+      "cv_f1_std": 0.0611,
+      "val_f1": 0.863,
+      "test_f1": 0.9293,
+      "n_features": 3358,
+      "real_f1": 0.5707
+    },
+    "#3 Chỉ unigram (tách từ + stopwords)": {
+      "cv_f1_mean": 0.8279,
+      "cv_f1_std": 0.0552,
+      "val_f1": 0.8822,
+      "test_f1": 0.8806,
+      "n_features": 817,
+      "real_f1": 0.5875
+    },
+    "#4 Không lọc stopwords (tách từ, 1-2gram)": {
+      "cv_f1_mean": 0.8153,
+      "cv_f1_std": 0.0721,
+      "val_f1": 0.8877,
+      "test_f1": 0.8871,
+      "n_features": 2957,
+      "real_f1": 0.5875
+    },
+    "#5 Không tách từ + unigram": {
+      "cv_f1_mean": 0.8133,
+      "cv_f1_std": 0.0575,
+      "val_f1": 0.8704,
+      "test_f1": 0.9181,
+      "n_features": 802,
+      "real_f1": 0.5217
+    }
+  },
+  "n_errors_test": 22,
+  "errors_by_style": {
+    "complaint": 6,
+    "worker": 5,
+    "hr": 4,
+    "short": 4,
+    "neutral": 3
+  },
+  "error_examples": [
+    {
+      "question": "Công ty có được kỷ luật người lao động vi phạm quy định an toàn, vệ sinh lao động không?",
+      "article_id": 7,
+      "true_code": "QUY_DINH_CHUNG",
+      "pred_code": "BIEN_PHAP_PHONG_NGUA",
+      "style": "neutral"
+    },
+    {
+      "question": "Tôi quên móc dây an toàn một lần mà bị kỷ luật, công ty có quyền kỷ luật vì chuyện an toàn không?",
+      "article_id": 7,
+      "true_code": "QUY_DINH_CHUNG",
+      "pred_code": "PHUONG_TIEN_BAO_HO",
+      "style": "complaint"
+    },
+    {
+      "question": "Công ty có quyền huy động người lao động tham gia ứng cứu khẩn cấp khi xảy ra sự cố không?",
+      "article_id": 7,
+      "true_code": "QUY_DINH_CHUNG",
+      "pred_code": "BIEN_PHAP_PHONG_NGUA",
+      "style": "neutral"
+    },
+    {
+      "question": "Quyền huy động người lao động tham gia ứng cứu khẩn cấp, khắc phục sự cố, tai nạn lao động của người sử dụng lao động được quy định ở đâu?",
+      "article_id": 7,
+      "true_code": "QUY_DINH_CHUNG",
+      "pred_code": "BIEN_PHAP_PHONG_NGUA",
+      "style": "hr"
+    },
+    {
+      "question": "Công ty bắt tôi đang nghỉ ca cũng phải vào khắc phục vụ sập kho, công ty có quyền huy động như vậy không?",
+      "article_id": 7,
+      "true_code": "QUY_DINH_CHUNG",
+      "pred_code": "BIEN_PHAP_PHONG_NGUA",
+      "style": "complaint"
+    },
+    {
+      "question": "Công ty huy động người ứng cứu",
+      "article_id": 7,
+      "true_code": "QUY_DINH_CHUNG",
+      "pred_code": "BIEN_PHAP_PHONG_NGUA",
+      "style": "short"
+    },
+    {
+      "question": "Công ty hay nói xây dựng văn hóa an toàn, vậy việc đó là ai phải lo?",
+      "article_id": 20,
+      "true_code": "BIEN_PHAP_PHONG_NGUA",
+      "pred_code": "QUY_DINH_CHUNG",
+      "style": "worker"
+    },
+    {
+      "question": "Trách nhiệm phối hợp giữa người sử dụng lao động và Ban chấp hành công đoàn cơ sở trong xây dựng văn hóa an toàn lao động được quy định ra sao?",
+      "article_id": 20,
+      "true_code": "BIEN_PHAP_PHONG_NGUA",
+      "pred_code": "QUY_DINH_CHUNG",
+      "style": "hr"
+    },
+    {
+      "question": "Công ty chỉ treo khẩu hiệu mà không làm gì để xây dựng văn hóa an toàn, luật giao trách nhiệm này cho ai?",
+      "article_id": 20,
+      "true_code": "BIEN_PHAP_PHONG_NGUA",
+      "pred_code": "QUY_DINH_CHUNG",
+      "style": "complaint"
+    },
+    {
+      "question": "Xây dựng văn hóa an toàn lao động",
+      "article_id": 20,
+      "true_code": "BIEN_PHAP_PHONG_NGUA",
+      "pred_code": "QUY_DINH_CHUNG",
+      "style": "short"
+    },
+    {
+      "question": "Xưởng mới mua nồi hơi về lắp, có phải đi khai báo với cơ quan nhà nước không?",
+      "article_id": 30,
+      "true_code": "BIEN_PHAP_PHONG_NGUA",
+      "pred_code": "KHAI_BAO_DIEU_TRA",
+      "style": "worker"
+    },
+    {
+      "question": "Công ty thanh lý cần trục cũ mà không khai báo với cơ quan nào, như vậy có đúng quy định không?",
+      "article_id": 30,
+      "true_code": "BIEN_PHAP_PHONG_NGUA",
+      "pred_code": "KHAI_BAO_DIEU_TRA",
+      "style": "complaint"
+    },
+    {
+      "question": "Bên kiểm định tới thấy chỗ đặt nồi hơi không an toàn nên bỏ về không kiểm, họ có quyền làm vậy không?",
+      "article_id": 32,
+      "true_code": "BIEN_PHAP_PHONG_NGUA",
+      "pred_code": "QUY_DINH_CHUNG",
+      "style": "worker"
+    },
+    {
+      "question": "Đơn vị kiểm định từ chối kiểm định cần trục của công ty với lý do hiện trường không an toàn, họ làm vậy có đúng quyền không?",
+      "article_id": 32,
+      "true_code": "BIEN_PHAP_PHONG_NGUA",
+      "pred_code": "QUY_DINH_CHUNG",
+      "style": "complaint"
+    },
+    {
+      "question": "Nguyên tắc trang cấp đúng đối tượng làm công việc có yếu tố nguy hiểm, yếu tố có hại được áp dụng như thế nào?",
+      "article_id": 23,
+      "true_code": "PHUONG_TIEN_BAO_HO",
+      "pred_code": "QUY_DINH_CHUNG",
+      "style": "hr"
+    }
+  ],
+  "acc_by_style": {
+    "complaint": 0.8696,
+    "hr": 0.913,
+    "neutral": 0.9348,
+    "short": 0.913,
+    "worker": 0.8913
+  },
+  "real_error_examples": [
+    {
+      "question": "Tôi là công nhân. Trên tuyến đường đi làm buổi sáng từ nhà đến công ty tôi bị tai nạn giao thông dẫn đến gãy xương cẳng chân trái. Công ty kết luận, tôi không được hưởng chế độ tai nạn lao động, chỉ được nghỉ ốm và hưởng chế độ BHXH. Xin hỏi, công ty trả lời tôi như trên là đúng hay sai? Nếu sai tôi cần làm gì để bảo vệ quyền lợi của mình?",
+      "article_id": 39,
+      "label_code": "CHE_DO_BOI_THUONG",
+      "pred_code": "BAO_HIEM_TNLD"
+    },
+    {
+      "question": "Tôi làm công việc khai thác mỏ hầm lò, bị tai nạn lao động với tỷ lệ thương tật là 70%. Theo quy định tại công ty tôi, trường hợp người lao động bị thương tật trên 61% sẽ không được làm việc dưới mỏ hầm lò mà phải chuyển lên làm việc tại mặt bằng. Tuy nhiên, tôi nhận thấy sức khoẻ vẫn đáp ứng được điều kiện của công việc. Xin hỏi, tôi có thể xin đi khám đánh giá lại sức khoẻ để đủ điều kiện làm việc trong môi trường hầm lò được không?",
+      "article_id": 47,
+      "label_code": "BAO_HIEM_TNLD",
+      "pred_code": "SUC_KHOE_BOI_DUONG"
+    },
+    {
+      "question": "Tôi bị tai nạn tại doanh nghiệp, mất khả năng lao động và suy giảm sức khoẻ lao động. Doanh nghiệp đã không bố trí công việc sau khi thời gian tôi phục hồi và ép người lao động nghỉ việc. Xin hỏi, doanh nghiệp làm vậy có vi phạm không? Tôi phải làm gì để bảo vệ quyền lợi của bản thân?",
+      "article_id": 38,
+      "label_code": "CHE_DO_BOI_THUONG",
+      "pred_code": "QUY_DINH_CHUNG"
+    },
+    {
+      "question": "Tôi sinh tháng 10/1963, làm công nhân đo đếm vải, trải vải từ tháng 6/1994 đến nay. Vậy, những người làm việc trong ngành may, dệt và một số ngành đặc thù như giầy, mộc, mũ nhựa có được tính là ngành nặng nhọc, độc hại khi nghỉ chế độ hưu trí không? Năm 2019 tôi nghỉ hưu thì quá trình công tác có được tính là làm nghề nặng nhọc độc hại không?",
+      "article_id": 22,
+      "label_code": "BIEN_PHAP_PHONG_NGUA",
+      "pred_code": "BAO_HIEM_TNLD"
+    },
+    {
+      "question": "Công ty tôi có một lao động đến giờ đi làm dắt xe ra vỉa hè để đi làm thì bị choáng ngã dẫn đến gãy xương, giám định tỷ lệ suy giảm sức lao động là 40%. Vậy, trường hợp này có được tính là trong thời gian và cung đường hợp lý để đủ điều kiện giải quyết chế độ tai nạn lao động không? Trường hợp người lao động này bị choáng, tự ngã và có người làm chứng.",
+      "article_id": 35,
+      "label_code": "KHAI_BAO_DIEU_TRA",
+      "pred_code": "BAO_HIEM_TNLD"
+    },
+    {
+      "question": "Người lao động bị tai nạn do mình tự gây ra hoặc do vi phạm giao thông, xảy ra từ đường đi làm đến nơi làm việc có được công nhận là tai nạn lao động không?",
+      "article_id": 3,
+      "label_code": "QUY_DINH_CHUNG",
+      "pred_code": "CHE_DO_BOI_THUONG"
+    }
+  ],
+  "real_len_mean": 127.3103448275862,
+  "retrieval": {
+    "test": {
+      "oracle_top1": 0.8217,
+      "e2e_top1": 0.7478,
+      "nofilter_top1": 0.6174,
+      "oracle_top3": 0.9913,
+      "e2e_top3": 0.9,
+      "nofilter_top3": 0.8348,
+      "oracle_top1_multi_article_classes": 0.7657
+    },
+    "real": {
+      "oracle_top1": 0.6552,
+      "e2e_top1": 0.5517,
+      "nofilter_top1": 0.4483,
+      "oracle_top3": 0.9655,
+      "e2e_top3": 0.7586,
+      "nofilter_top3": 0.7931,
+      "oracle_top1_multi_article_classes": 0.6429
+    }
+  },
+  "ood": {
+    "threshold": 0.2316242616827197,
+    "reject_rate": {
+      "val": 0.05217391304347826,
+      "test": 0.05217391304347826,
+      "ood_real": 0.18518518518518517,
+      "real_in_scope": 0.06896551724137931
+    }
+  }
+}

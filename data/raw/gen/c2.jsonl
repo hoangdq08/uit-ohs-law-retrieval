@@ -1,0 +1,200 @@
+{"seed_id": "c2-001", "article_id": 23, "style": "neutral", "question": "Những người lao động nào được người sử dụng lao động trang cấp phương tiện bảo vệ cá nhân?"}
+{"seed_id": "c2-001", "article_id": 23, "style": "worker", "question": "Làm ở xưởng thì ai mới được phát đồ bảo hộ, tôi làm phụ kho có được không?"}
+{"seed_id": "c2-001", "article_id": 23, "style": "hr", "question": "Đối tượng người lao động được trang cấp phương tiện bảo vệ cá nhân theo Luật An toàn, vệ sinh lao động là ai?"}
+{"seed_id": "c2-001", "article_id": 23, "style": "complaint", "question": "Tôi làm ở khu có bụi hóa chất mà công ty nói tôi không thuộc diện được cấp đồ bảo hộ, vậy ai mới được cấp?"}
+{"seed_id": "c2-001", "article_id": 23, "style": "short", "question": "Ai được cấp đồ bảo hộ?"}
+{"seed_id": "c2-002", "article_id": 23, "style": "neutral", "question": "Công ty có bắt buộc phải cấp đồ bảo hộ lao động cho công nhân làm việc có yếu tố nguy hiểm không?"}
+{"seed_id": "c2-002", "article_id": 23, "style": "worker", "question": "Làm thợ hàn mà sếp không phát cho cái mặt nạ hàn nào, công ty có phải cấp không?"}
+{"seed_id": "c2-002", "article_id": 23, "style": "hr", "question": "Nghĩa vụ trang cấp đầy đủ phương tiện bảo vệ cá nhân của người sử dụng lao động đối với công việc có yếu tố nguy hiểm, có hại được quy định thế nào?"}
+{"seed_id": "c2-002", "article_id": 23, "style": "complaint", "question": "Công ty không cấp đồ bảo hộ cho tụi tôi dù làm ngoài công trường, chúng tôi có kiện được không?"}
+{"seed_id": "c2-002", "article_id": 23, "style": "short", "question": "Công ty không cấp đồ bảo hộ"}
+{"seed_id": "c2-003", "article_id": 23, "style": "neutral", "question": "Người lao động có bắt buộc phải sử dụng phương tiện bảo vệ cá nhân đã được cấp trong khi làm việc không?"}
+{"seed_id": "c2-003", "article_id": 23, "style": "worker", "question": "Đeo khẩu trang với kính suốt ca nóng quá, tôi tháo ra được không hay bắt buộc phải đeo?"}
+{"seed_id": "c2-003", "article_id": 23, "style": "hr", "question": "Nghĩa vụ sử dụng phương tiện bảo vệ cá nhân trong suốt quá trình làm việc của người lao động được luật quy định ra sao?"}
+{"seed_id": "c2-003", "article_id": 23, "style": "complaint", "question": "Tổ trưởng bắt tôi đội mũ bảo hộ cả ngày dù trời nóng, tôi không đội thì có sai luật không?"}
+{"seed_id": "c2-003", "article_id": 23, "style": "short", "question": "Có bắt buộc đeo đồ bảo hộ?"}
+{"seed_id": "c2-004", "article_id": 23, "style": "neutral", "question": "Phương tiện bảo vệ cá nhân được trang cấp phải bảo đảm chất lượng theo tiêu chuẩn nào?"}
+{"seed_id": "c2-004", "article_id": 23, "style": "worker", "question": "Găng tay công ty phát mỏng dính, đụng hóa chất là rách, đồ bảo hộ vậy có đạt chuẩn không?"}
+{"seed_id": "c2-004", "article_id": 23, "style": "hr", "question": "Yêu cầu về chất lượng phương tiện bảo vệ cá nhân theo tiêu chuẩn, quy chuẩn kỹ thuật quốc gia khi trang cấp là gì?"}
+{"seed_id": "c2-004", "article_id": 23, "style": "complaint", "question": "Công ty mua giày bảo hộ hàng dỏm, đi hai tuần là bung đế, chuyện này có vi phạm quy định trang cấp không?"}
+{"seed_id": "c2-004", "article_id": 23, "style": "short", "question": "Chất lượng đồ bảo hộ theo chuẩn nào?"}
+{"seed_id": "c2-005", "article_id": 23, "style": "neutral", "question": "Công ty có được phát tiền thay cho việc trang cấp phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-005", "article_id": 23, "style": "worker", "question": "Sếp không phát đồ bảo hộ mà đưa mỗi người một trăm ngàn tự lo, vậy có được không?"}
+{"seed_id": "c2-005", "article_id": 23, "style": "hr", "question": "Việc chi trả tiền mặt thay cho trang cấp phương tiện bảo vệ cá nhân có trái với nguyên tắc trang cấp của Luật không?"}
+{"seed_id": "c2-005", "article_id": 23, "style": "complaint", "question": "Công ty đưa tiền rồi phủi tay chuyện đồ bảo hộ, tôi mua đồ rẻ bị tai nạn thì công ty có sai ngay từ đầu không?"}
+{"seed_id": "c2-005", "article_id": 23, "style": "short", "question": "Phát tiền thay đồ bảo hộ được không?"}
+{"seed_id": "c2-006", "article_id": 23, "style": "neutral", "question": "Công ty có được buộc người lao động tự mua phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-006", "article_id": 23, "style": "worker", "question": "Vô làm bữa đầu sếp bảo tự ra chợ mua giày bảo hộ với nón, vậy có đúng không?"}
+{"seed_id": "c2-006", "article_id": 23, "style": "hr", "question": "Người sử dụng lao động có được yêu cầu người lao động tự trang bị phương tiện bảo vệ cá nhân bằng chi phí cá nhân không?"}
+{"seed_id": "c2-006", "article_id": 23, "style": "complaint", "question": "Công ty bắt tôi tự bỏ tiền mua dây đai an toàn mới được leo giàn giáo, như vậy có sai luật không?"}
+{"seed_id": "c2-006", "article_id": 23, "style": "short", "question": "Công nhân phải tự mua đồ bảo hộ?"}
+{"seed_id": "c2-007", "article_id": 23, "style": "neutral", "question": "Công ty có được thu tiền của người lao động để mua phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-007", "article_id": 23, "style": "worker", "question": "Cuối tháng thấy phiếu lương bị trừ tiền đồ bảo hộ, công ty trừ vậy có được không?"}
+{"seed_id": "c2-007", "article_id": 23, "style": "hr", "question": "Việc khấu trừ tiền lương của người lao động để chi mua phương tiện bảo vệ cá nhân có phù hợp với quy định của Luật không?"}
+{"seed_id": "c2-007", "article_id": 23, "style": "complaint", "question": "Công ty trừ vào lương của cả tổ tiền mua khẩu trang phòng độc, chúng tôi có đòi lại được không?"}
+{"seed_id": "c2-007", "article_id": 23, "style": "short", "question": "Trừ lương mua đồ bảo hộ được không?"}
+{"seed_id": "c2-008", "article_id": 23, "style": "neutral", "question": "Phương tiện bảo vệ cá nhân có phải được cấp đúng chủng loại phù hợp với công việc không?"}
+{"seed_id": "c2-008", "article_id": 23, "style": "worker", "question": "Tôi làm hóa chất mà công ty phát khẩu trang vải y như đi chợ, vậy có đúng loại không?"}
+{"seed_id": "c2-008", "article_id": 23, "style": "hr", "question": "Nguyên tắc trang cấp đúng chủng loại phương tiện bảo vệ cá nhân phù hợp với yếu tố nguy hiểm, có hại của từng công việc là gì?"}
+{"seed_id": "c2-008", "article_id": 23, "style": "complaint", "question": "Làm phun thuốc trừ sâu mà công ty chỉ cấp khẩu trang y tế thay vì mặt nạ phòng độc, tôi có khiếu nại được không?"}
+{"seed_id": "c2-008", "article_id": 23, "style": "short", "question": "Đồ bảo hộ phải đúng chủng loại?"}
+{"seed_id": "c2-009", "article_id": 23, "style": "neutral", "question": "Phương tiện bảo vệ cá nhân có phải được cấp đủ số lượng cho người lao động không?"}
+{"seed_id": "c2-009", "article_id": 23, "style": "worker", "question": "Cả tổ mười người mà chỉ có ba cái nón bảo hộ xài chung, vậy có được không?"}
+{"seed_id": "c2-009", "article_id": 23, "style": "hr", "question": "Yêu cầu trang cấp đủ số lượng phương tiện bảo vệ cá nhân cho từng người lao động được quy định ra sao?"}
+{"seed_id": "c2-009", "article_id": 23, "style": "complaint", "question": "Công ty phát một bộ quần áo bảo hộ cho cả năm, rách rồi không cấp thêm, như vậy có vi phạm quy định không?"}
+{"seed_id": "c2-009", "article_id": 23, "style": "short", "question": "Cấp đủ số lượng đồ bảo hộ"}
+{"seed_id": "c2-010", "article_id": 23, "style": "neutral", "question": "Trang cấp phương tiện bảo vệ cá nhân có phải đúng đối tượng không?"}
+{"seed_id": "c2-010", "article_id": 23, "style": "worker", "question": "Đồ bảo hộ toàn phát cho mấy người văn phòng còn tụi tôi đứng máy lại không có, vậy có đúng không?"}
+{"seed_id": "c2-010", "article_id": 23, "style": "hr", "question": "Nguyên tắc trang cấp đúng đối tượng làm công việc có yếu tố nguy hiểm, yếu tố có hại được áp dụng như thế nào?"}
+{"seed_id": "c2-010", "article_id": 23, "style": "complaint", "question": "Công ty chỉ phát mặt nạ phòng độc cho quản lý đi kiểm tra, còn công nhân trực tiếp pha hóa chất thì không, như vậy có sai không?"}
+{"seed_id": "c2-010", "article_id": 23, "style": "short", "question": "Cấp đồ bảo hộ đúng đối tượng"}
+{"seed_id": "c2-011", "article_id": 23, "style": "neutral", "question": "Công ty có trách nhiệm hướng dẫn và giám sát người lao động sử dụng phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-011", "article_id": 23, "style": "worker", "question": "Phát mặt nạ phòng độc mà không ai chỉ cách đeo cho kín, công ty có phải hướng dẫn không?"}
+{"seed_id": "c2-011", "article_id": 23, "style": "hr", "question": "Trách nhiệm hướng dẫn, giám sát việc sử dụng phương tiện bảo vệ cá nhân của người sử dụng lao động được quy định thế nào?"}
+{"seed_id": "c2-011", "article_id": 23, "style": "complaint", "question": "Công ty phát dây an toàn xong bỏ đó, không ai kiểm tra công nhân có móc dây không, như vậy có đúng trách nhiệm không?"}
+{"seed_id": "c2-011", "article_id": 23, "style": "short", "question": "Hướng dẫn sử dụng đồ bảo hộ"}
+{"seed_id": "c2-012", "article_id": 23, "style": "neutral", "question": "Phương tiện bảo vệ cá nhân đã qua sử dụng ở nơi dễ nhiễm độc có phải được khử độc không?"}
+{"seed_id": "c2-012", "article_id": 23, "style": "worker", "question": "Đồ bảo hộ mặc trong khu hóa chất về cứ treo đó mai mặc tiếp, công ty có phải lo giặt khử độc không?"}
+{"seed_id": "c2-012", "article_id": 23, "style": "hr", "question": "Yêu cầu tổ chức khử độc, khử trùng, tẩy xạ đối với phương tiện bảo vệ cá nhân đã qua sử dụng ở nơi dễ nhiễm độc, nhiễm trùng, nhiễm xạ là gì?"}
+{"seed_id": "c2-012", "article_id": 23, "style": "complaint", "question": "Công ty bắt chúng tôi tự mang đồ bảo hộ dính hóa chất về nhà giặt, như vậy có sai quy định không?"}
+{"seed_id": "c2-012", "article_id": 23, "style": "short", "question": "Khử độc đồ bảo hộ đã dùng"}
+{"seed_id": "c2-013", "article_id": 23, "style": "neutral", "question": "Ngoài việc cấp phương tiện bảo vệ cá nhân, công ty có phải áp dụng giải pháp kỹ thuật để hạn chế yếu tố nguy hiểm không?"}
+{"seed_id": "c2-013", "article_id": 23, "style": "worker", "question": "Công ty cứ phát khẩu trang rồi thôi chứ không lắp quạt hút bụi, vậy có đủ không?"}
+{"seed_id": "c2-013", "article_id": 23, "style": "hr", "question": "Nghĩa vụ thực hiện giải pháp công nghệ, kỹ thuật, thiết bị để loại trừ hoặc hạn chế tối đa yếu tố nguy hiểm, có hại được quy định trong điều về phương tiện bảo vệ cá nhân như thế nào?"}
+{"seed_id": "c2-013", "article_id": 23, "style": "complaint", "question": "Công ty chỉ đưa nút tai chống ồn chứ không chịu giảm tiếng ồn của máy dập, như vậy có làm đủ trách nhiệm không?"}
+{"seed_id": "c2-013", "article_id": 23, "style": "short", "question": "Giải pháp kỹ thuật ngoài đồ bảo hộ"}
+{"seed_id": "c2-014", "article_id": 23, "style": "neutral", "question": "Cơ quan nào quy định chế độ trang cấp phương tiện bảo vệ cá nhân trong lao động?"}
+{"seed_id": "c2-014", "article_id": 23, "style": "worker", "question": "Nghề nào được phát đồ bảo hộ gì là ai quy định vậy, có văn bản nào không?"}
+{"seed_id": "c2-014", "article_id": 23, "style": "hr", "question": "Thẩm quyền quy định chế độ trang cấp phương tiện bảo vệ cá nhân trong lao động được Luật giao cho cơ quan nào?"}
+{"seed_id": "c2-014", "article_id": 23, "style": "complaint", "question": "Công ty nói chế độ cấp đồ bảo hộ do công ty tự quyết, vậy theo luật cơ quan nào mới có quyền quy định chế độ này?"}
+{"seed_id": "c2-014", "article_id": 23, "style": "short", "question": "Ai quy định chế độ trang cấp?"}
+{"seed_id": "c2-015", "article_id": 23, "style": "neutral", "question": "Công nhân xây dựng làm việc trên cao có được cấp dây đai an toàn không?"}
+{"seed_id": "c2-015", "article_id": 23, "style": "worker", "question": "Leo giàn giáo tầng mười mà không có dây đai móc vô, công ty có phải phát dây đai cho tụi tôi không?"}
+{"seed_id": "c2-015", "article_id": 23, "style": "hr", "question": "Đối với người lao động thi công trên cao, việc trang cấp dây an toàn chống rơi ngã có thuộc nghĩa vụ trang cấp phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-015", "article_id": 23, "style": "complaint", "question": "Thầu phụ bắt tụi tôi leo lên mái tôn không có dây đai gì hết, có đòi công ty cấp được không?"}
+{"seed_id": "c2-015", "article_id": 23, "style": "short", "question": "Dây đai an toàn làm trên cao"}
+{"seed_id": "c2-016", "article_id": 23, "style": "neutral", "question": "Người lao động làm việc nơi có tiếng ồn lớn có được cấp nút tai chống ồn không?"}
+{"seed_id": "c2-016", "article_id": 23, "style": "worker", "question": "Đứng máy dệt ồn điếc tai cả ngày mà không có cái bịt tai nào, công ty có phải phát không?"}
+{"seed_id": "c2-016", "article_id": 23, "style": "hr", "question": "Trường hợp tiếng ồn tại vị trí làm việc là yếu tố có hại, người lao động có được trang cấp phương tiện chống ồn cá nhân không?"}
+{"seed_id": "c2-016", "article_id": 23, "style": "complaint", "question": "Tôi bị ù tai vì làm cạnh máy nghiền mà xin nút tai chống ồn công ty không cho, như vậy có đúng không?"}
+{"seed_id": "c2-016", "article_id": 23, "style": "short", "question": "Cấp nút tai chống ồn"}
+{"seed_id": "c2-017", "article_id": 23, "style": "neutral", "question": "Thợ hàn có được cấp kính hoặc mặt nạ hàn bảo vệ mắt không?"}
+{"seed_id": "c2-017", "article_id": 23, "style": "worker", "question": "Hàn điện chói mắt đau rát mà công ty không phát mặt nạ hàn, có được đòi không?"}
+{"seed_id": "c2-017", "article_id": 23, "style": "hr", "question": "Người lao động làm công việc hàn có phát sinh tia hồ quang có thuộc đối tượng được trang cấp phương tiện bảo vệ mắt không?"}
+{"seed_id": "c2-017", "article_id": 23, "style": "complaint", "question": "Tôi bị viêm mắt vì hàn không có mặt nạ, công ty có vi phạm nghĩa vụ trang cấp đồ bảo hộ không?"}
+{"seed_id": "c2-017", "article_id": 23, "style": "short", "question": "Thợ hàn được cấp mặt nạ?"}
+{"seed_id": "c2-018", "article_id": 23, "style": "neutral", "question": "Người lao động tiếp xúc hóa chất có được cấp găng tay, quần áo chống hóa chất không?"}
+{"seed_id": "c2-018", "article_id": 23, "style": "worker", "question": "Pha thuốc tẩy trong xưởng nhuộm tay bị bỏng rộp, công ty có phải phát găng tay chống hóa chất không?"}
+{"seed_id": "c2-018", "article_id": 23, "style": "hr", "question": "Việc trang cấp găng tay, quần áo chống hóa chất cho người lao động trực tiếp tiếp xúc hóa chất ăn mòn được luật quy định như thế nào?"}
+{"seed_id": "c2-018", "article_id": 23, "style": "complaint", "question": "Công ty để tụi tôi pha axit bằng tay không, xin găng tay thì bảo tốn kém, như vậy có vi phạm không?"}
+{"seed_id": "c2-018", "article_id": 23, "style": "short", "question": "Găng tay chống hóa chất cho công nhân"}
+{"seed_id": "c2-019", "article_id": 23, "style": "neutral", "question": "Người lao động làm việc trong môi trường bụi có được cấp khẩu trang chống bụi không?"}
+{"seed_id": "c2-019", "article_id": 23, "style": "worker", "question": "Làm ở mỏ đá bụi trắng xóa mà tự mua khẩu trang, công ty có phải phát cho không?"}
+{"seed_id": "c2-019", "article_id": 23, "style": "hr", "question": "Đối với vị trí làm việc có nồng độ bụi cao, người lao động có quyền được trang cấp khẩu trang, mặt nạ chống bụi không?"}
+{"seed_id": "c2-019", "article_id": 23, "style": "complaint", "question": "Tôi làm ở nhà máy xi măng mà công ty chỉ phát khẩu trang một lần rồi thôi, tôi có quyền đòi cấp thêm không?"}
+{"seed_id": "c2-019", "article_id": 23, "style": "short", "question": "Khẩu trang chống bụi cho công nhân"}
+{"seed_id": "c2-020", "article_id": 23, "style": "neutral", "question": "Người lao động có được cấp giày bảo hộ khi làm việc có nguy cơ vật nặng rơi vào chân không?"}
+{"seed_id": "c2-020", "article_id": 23, "style": "worker", "question": "Khiêng thép cả ngày mà đi dép lào, công ty có phải phát giày mũi sắt không?"}
+{"seed_id": "c2-020", "article_id": 23, "style": "hr", "question": "Việc trang cấp giày bảo hộ chống va đập cho người lao động bốc xếp vật nặng có thuộc nghĩa vụ trang cấp phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-020", "article_id": 23, "style": "complaint", "question": "Tôi bị cuộn thép đè dập ngón chân vì công ty không cấp giày bảo hộ, công ty có sai không?"}
+{"seed_id": "c2-020", "article_id": 23, "style": "short", "question": "Giày bảo hộ cho công nhân bốc xếp"}
+{"seed_id": "c2-021", "article_id": 23, "style": "neutral", "question": "Công nhân làm việc ở công trường có phải đội mũ bảo hộ không?"}
+{"seed_id": "c2-021", "article_id": 23, "style": "worker", "question": "Ra công trường mà quên nón bảo hộ thì có sao không, có bắt buộc đội không?"}
+{"seed_id": "c2-021", "article_id": 23, "style": "hr", "question": "Người lao động tại công trường xây dựng có nghĩa vụ đội mũ bảo hộ đã được trang cấp trong suốt thời gian làm việc không?"}
+{"seed_id": "c2-021", "article_id": 23, "style": "complaint", "question": "Giám sát lập biên bản vì tôi không đội mũ bảo hộ, trong khi tôi thấy chẳng cần, vậy luật có bắt đội không?"}
+{"seed_id": "c2-021", "article_id": 23, "style": "short", "question": "Bắt buộc đội mũ bảo hộ?"}
+{"seed_id": "c2-022", "article_id": 23, "style": "neutral", "question": "Người thử việc làm công việc có yếu tố nguy hiểm có được cấp phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-022", "article_id": 23, "style": "worker", "question": "Em mới thử việc mà sếp bảo ký chính thức mới phát đồ bảo hộ, vậy có đúng không?"}
+{"seed_id": "c2-022", "article_id": 23, "style": "hr", "question": "Người lao động trong thời gian thử việc làm công việc có yếu tố nguy hiểm, có hại có được trang cấp phương tiện bảo vệ cá nhân như lao động chính thức không?"}
+{"seed_id": "c2-022", "article_id": 23, "style": "complaint", "question": "Công ty không cấp đồ bảo hộ cho người thử việc với lý do chưa phải nhân viên chính thức, như vậy có trái luật không?"}
+{"seed_id": "c2-022", "article_id": 23, "style": "short", "question": "Người thử việc có được cấp bảo hộ?"}
+{"seed_id": "c2-023", "article_id": 23, "style": "neutral", "question": "Phương tiện bảo vệ cá nhân hư hỏng thì công ty có phải thay mới không?"}
+{"seed_id": "c2-023", "article_id": 23, "style": "worker", "question": "Mặt nạ phòng độc bị nứt kính rồi mà sếp bảo ráng xài tiếp, có được đòi đổi cái mới không?"}
+{"seed_id": "c2-023", "article_id": 23, "style": "hr", "question": "Khi phương tiện bảo vệ cá nhân không còn bảo đảm chất lượng do hư hỏng, người sử dụng lao động có phải trang cấp thay thế không?"}
+{"seed_id": "c2-023", "article_id": 23, "style": "complaint", "question": "Găng tay cách điện bị thủng mà công ty không chịu đổi, bắt tụi tôi đấu điện tiếp, tôi có khiếu nại được không?"}
+{"seed_id": "c2-023", "article_id": 23, "style": "short", "question": "Đồ bảo hộ hư có được thay?"}
+{"seed_id": "c2-024", "article_id": 23, "style": "neutral", "question": "Phương tiện bảo vệ cá nhân không vừa kích cỡ có được coi là trang cấp đúng quy định không?"}
+{"seed_id": "c2-024", "article_id": 23, "style": "worker", "question": "Công ty phát quần áo bảo hộ size bự thùng thình, dễ bị máy cuốn vô, vậy có được không?"}
+{"seed_id": "c2-024", "article_id": 23, "style": "hr", "question": "Việc trang cấp phương tiện bảo vệ cá nhân không phù hợp kích cỡ người sử dụng có đáp ứng nguyên tắc đúng chủng loại, bảo đảm chất lượng không?"}
+{"seed_id": "c2-024", "article_id": 23, "style": "complaint", "question": "Tôi nữ nhỏ người mà công ty phát giày bảo hộ size nam quá to, đi vấp té hoài, như vậy có đúng quy định không?"}
+{"seed_id": "c2-024", "article_id": 23, "style": "short", "question": "Đồ bảo hộ không vừa cỡ"}
+{"seed_id": "c2-025", "article_id": 23, "style": "neutral", "question": "Người lao động từ chối sử dụng phương tiện bảo vệ cá nhân thì có vi phạm nghĩa vụ không?"}
+{"seed_id": "c2-025", "article_id": 23, "style": "worker", "question": "Tôi thấy đeo kính bảo hộ vướng víu nên không đeo, vậy có sai luật không?"}
+{"seed_id": "c2-025", "article_id": 23, "style": "hr", "question": "Hành vi người lao động không sử dụng phương tiện bảo vệ cá nhân đã được trang cấp trong quá trình làm việc có trái với nghĩa vụ luật định không?"}
+{"seed_id": "c2-025", "article_id": 23, "style": "complaint", "question": "Công ty trách tôi không đeo mặt nạ nên mới bị ngộ độc khí, trong khi tôi nghĩ việc đeo là tùy mình, ai đúng?"}
+{"seed_id": "c2-025", "article_id": 23, "style": "short", "question": "Không đeo bảo hộ có vi phạm?"}
+{"seed_id": "c2-026", "article_id": 23, "style": "neutral", "question": "Công ty có được cấp phương tiện bảo vệ cá nhân không đạt quy chuẩn kỹ thuật quốc gia không?"}
+{"seed_id": "c2-026", "article_id": 23, "style": "worker", "question": "Đồ bảo hộ toàn hàng chợ không có tem mác gì, công ty phát cho vậy có được không?"}
+{"seed_id": "c2-026", "article_id": 23, "style": "hr", "question": "Phương tiện bảo vệ cá nhân không có chứng nhận phù hợp tiêu chuẩn, quy chuẩn kỹ thuật quốc gia có được dùng để trang cấp cho người lao động không?"}
+{"seed_id": "c2-026", "article_id": 23, "style": "complaint", "question": "Công ty mua mũ bảo hộ không rõ nguồn gốc, bị vật rơi trúng là vỡ ngay, tôi có kiện công ty được không?"}
+{"seed_id": "c2-026", "article_id": 23, "style": "short", "question": "Đồ bảo hộ không đạt quy chuẩn"}
+{"seed_id": "c2-027", "article_id": 23, "style": "neutral", "question": "Nhân viên y tế tiếp xúc nguồn lây nhiễm có được cấp phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-027", "article_id": 23, "style": "worker", "question": "Tụi tôi làm hộ lý khu cách ly phải tự mua đồ phòng hộ, bệnh viện có phải cấp không?"}
+{"seed_id": "c2-027", "article_id": 23, "style": "hr", "question": "Người lao động ngành y tế làm việc tại nơi có yếu tố lây nhiễm có thuộc đối tượng được trang cấp phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-027", "article_id": 23, "style": "complaint", "question": "Phòng khám bắt điều dưỡng tự mua bộ đồ phòng hộ để vào khu bệnh truyền nhiễm, như vậy có sai luật không?"}
+{"seed_id": "c2-027", "article_id": 23, "style": "short", "question": "Nhân viên y tế cấp đồ phòng hộ?"}
+{"seed_id": "c2-028", "article_id": 23, "style": "neutral", "question": "Người lao động làm việc với điện có được cấp găng tay, ủng cách điện không?"}
+{"seed_id": "c2-028", "article_id": 23, "style": "worker", "question": "Thợ điện leo trụ mà công ty không có găng cách điện, có được đòi phát không?"}
+{"seed_id": "c2-028", "article_id": 23, "style": "hr", "question": "Việc trang cấp dụng cụ cách điện cá nhân cho người lao động làm công việc có nguy cơ điện giật được quy định thế nào?"}
+{"seed_id": "c2-028", "article_id": 23, "style": "complaint", "question": "Công ty điện lực nhỏ bắt tụi tôi sửa đường dây mà không phát ủng cách điện, chúng tôi có quyền khiếu nại không?"}
+{"seed_id": "c2-028", "article_id": 23, "style": "short", "question": "Găng tay cách điện cho thợ điện"}
+{"seed_id": "c2-029", "article_id": 23, "style": "neutral", "question": "Công ty có phải cấp áo phản quang cho người lao động làm việc trên đường giao thông không?"}
+{"seed_id": "c2-029", "article_id": 23, "style": "worker", "question": "Quét đường ban đêm xe chạy ào ào mà không có áo phản quang, công ty có phải phát không?"}
+{"seed_id": "c2-029", "article_id": 23, "style": "hr", "question": "Người lao động thực hiện công việc trên đường giao thông có được trang cấp áo phản quang như một phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-029", "article_id": 23, "style": "complaint", "question": "Công nhân môi trường bị xe tông vì không có áo phản quang, công ty không cấp thì có vi phạm không?"}
+{"seed_id": "c2-029", "article_id": 23, "style": "short", "question": "Áo phản quang cho công nhân đường"}
+{"seed_id": "c2-030", "article_id": 23, "style": "neutral", "question": "Nguyên tắc trang cấp phương tiện bảo vệ cá nhân gồm những gì?"}
+{"seed_id": "c2-030", "article_id": 23, "style": "worker", "question": "Công ty phát đồ bảo hộ thì phải theo mấy nguyên tắc gì vậy?"}
+{"seed_id": "c2-030", "article_id": 23, "style": "hr", "question": "Đề nghị nêu đầy đủ các nguyên tắc người sử dụng lao động phải bảo đảm khi trang cấp phương tiện bảo vệ cá nhân."}
+{"seed_id": "c2-030", "article_id": 23, "style": "complaint", "question": "Công ty phát đồ bảo hộ tùy hứng, lúc có lúc không, vậy luật đặt ra những nguyên tắc trang cấp nào để tôi đối chiếu?"}
+{"seed_id": "c2-030", "article_id": 23, "style": "short", "question": "Nguyên tắc trang cấp đồ bảo hộ"}
+{"seed_id": "c2-031", "article_id": 23, "style": "neutral", "question": "Người lao động vào bồn chứa, không gian kín có khí độc có được cấp mặt nạ phòng độc, bình dưỡng khí không?"}
+{"seed_id": "c2-031", "article_id": 23, "style": "worker", "question": "Chui vô bồn chứa dầu cạo cặn mà không có mặt nạ gì hết, công ty có phải phát bình thở cho tụi tôi không?"}
+{"seed_id": "c2-031", "article_id": 23, "style": "hr", "question": "Đối với công việc trong không gian kín có nguy cơ thiếu oxy, khí độc, người sử dụng lao động có nghĩa vụ trang cấp mặt nạ phòng độc, thiết bị thở cá nhân không?"}
+{"seed_id": "c2-031", "article_id": 23, "style": "complaint", "question": "Hai anh em bị ngất trong hầm biogas vì công ty không cấp mặt nạ phòng độc, gia đình có kiện công ty vì không cấp đồ bảo hộ được không?"}
+{"seed_id": "c2-031", "article_id": 23, "style": "short", "question": "Mặt nạ phòng độc làm trong bồn kín"}
+{"seed_id": "c2-032", "article_id": 23, "style": "neutral", "question": "Công nhân thời vụ làm công việc có yếu tố có hại có được cấp đồ bảo hộ không?"}
+{"seed_id": "c2-032", "article_id": 23, "style": "worker", "question": "Tụi tôi làm thời vụ ba tháng thu hoạch muối, có được phát đồ bảo hộ như người làm lâu năm không?"}
+{"seed_id": "c2-032", "article_id": 23, "style": "hr", "question": "Người lao động mùa vụ, ngắn hạn làm công việc có yếu tố nguy hiểm, có hại có được trang cấp phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-032", "article_id": 23, "style": "complaint", "question": "Công ty chỉ cấp đồ bảo hộ cho nhân viên chính thức còn tụi tôi làm thời vụ thì không, như vậy có đúng không?"}
+{"seed_id": "c2-032", "article_id": 23, "style": "short", "question": "Lao động thời vụ được cấp bảo hộ?"}
+{"seed_id": "c2-033", "article_id": 23, "style": "neutral", "question": "Người lao động làm việc với tia phóng xạ có được cấp phương tiện bảo vệ cá nhân chuyên dụng không?"}
+{"seed_id": "c2-033", "article_id": 23, "style": "worker", "question": "Tôi làm chụp X-quang cho xưởng kiểm tra mối hàn, có được phát áo chì không?"}
+{"seed_id": "c2-033", "article_id": 23, "style": "hr", "question": "Đối với người lao động tiếp xúc nguồn bức xạ ion hóa, nghĩa vụ trang cấp phương tiện bảo vệ cá nhân phù hợp được áp dụng như thế nào?"}
+{"seed_id": "c2-033", "article_id": 23, "style": "complaint", "question": "Công ty để tụi tôi chụp phim công nghiệp mà không có áo chì, như vậy công ty có vi phạm nghĩa vụ trang cấp không?"}
+{"seed_id": "c2-033", "article_id": 23, "style": "short", "question": "Áo chì cho người làm phóng xạ"}
+{"seed_id": "c2-034", "article_id": 23, "style": "neutral", "question": "Người lao động làm việc trong kho lạnh có được cấp quần áo giữ nhiệt bảo hộ không?"}
+{"seed_id": "c2-034", "article_id": 23, "style": "worker", "question": "Vô kho đông lạnh âm mấy chục độ mà mặc đồ thường, công ty có phải phát áo giữ ấm bảo hộ không?"}
+{"seed_id": "c2-034", "article_id": 23, "style": "hr", "question": "Nhiệt độ thấp tại kho lạnh có thuộc yếu tố có hại làm phát sinh nghĩa vụ trang cấp quần áo bảo hộ giữ nhiệt không?"}
+{"seed_id": "c2-034", "article_id": 23, "style": "complaint", "question": "Làm kho cá đông lạnh bị cóng tay chân mà xin áo bảo hộ lạnh công ty không cấp, tôi có khiếu nại được không?"}
+{"seed_id": "c2-034", "article_id": 23, "style": "short", "question": "Đồ bảo hộ kho lạnh"}
+{"seed_id": "c2-035", "article_id": 23, "style": "neutral", "question": "Công ty có được thu lại tiền khi người lao động làm hỏng phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-035", "article_id": 23, "style": "worker", "question": "Làm rách găng tay bảo hộ mà sếp bắt đền tiền mua cái mới, vậy có đúng không?"}
+{"seed_id": "c2-035", "article_id": 23, "style": "hr", "question": "Việc thu tiền của người lao động để mua phương tiện bảo vệ cá nhân thay thế khi bị hư hỏng có phù hợp nguyên tắc trang cấp không?"}
+{"seed_id": "c2-035", "article_id": 23, "style": "complaint", "question": "Tôi làm rách áo bảo hộ trong lúc làm việc mà công ty bắt đền tiền mua áo mới, như vậy có trái luật không?"}
+{"seed_id": "c2-035", "article_id": 23, "style": "short", "question": "Bắt đền tiền đồ bảo hộ hư"}
+{"seed_id": "c2-036", "article_id": 23, "style": "neutral", "question": "Người lao động lái xe nâng có được cấp phương tiện bảo vệ cá nhân không?"}
+{"seed_id": "c2-036", "article_id": 23, "style": "worker", "question": "Lái xe nâng trong kho cũng có nguy cơ hàng rớt trúng đầu, công ty có phải phát nón với giày bảo hộ không?"}
+{"seed_id": "c2-036", "article_id": 23, "style": "hr", "question": "Người lao động vận hành xe nâng hàng có được trang cấp phương tiện bảo vệ cá nhân phù hợp với yếu tố nguy hiểm của công việc không?"}
+{"seed_id": "c2-036", "article_id": 23, "style": "complaint", "question": "Tôi lái xe nâng bị thùng hàng rơi trúng vai mà công ty chưa bao giờ phát nón bảo hộ, như vậy có vi phạm không?"}
+{"seed_id": "c2-036", "article_id": 23, "style": "short", "question": "Tài xế xe nâng được cấp bảo hộ?"}
+{"seed_id": "c2-037", "article_id": 23, "style": "neutral", "question": "Nông dân làm thuê phun thuốc bảo vệ thực vật cho trang trại có được chủ trang trại cấp đồ bảo hộ không?"}
+{"seed_id": "c2-037", "article_id": 23, "style": "worker", "question": "Làm thuê phun thuốc sâu cho chủ vườn, chủ có phải phát đồ bảo hộ với mặt nạ cho mình không?"}
+{"seed_id": "c2-037", "article_id": 23, "style": "hr", "question": "Người sử dụng lao động là chủ trang trại có nghĩa vụ trang cấp phương tiện bảo vệ cá nhân cho người lao động phun thuốc bảo vệ thực vật không?"}
+{"seed_id": "c2-037", "article_id": 23, "style": "complaint", "question": "Chủ trang trại bắt tôi phun thuốc trừ cỏ mà không phát đồ bảo hộ, tôi bị ngộ độc thì có kiện được không?"}
+{"seed_id": "c2-037", "article_id": 23, "style": "short", "question": "Phun thuốc sâu có được cấp bảo hộ?"}
+{"seed_id": "c2-038", "article_id": 23, "style": "neutral", "question": "Phương tiện bảo vệ cá nhân có phải phù hợp với từng yếu tố nguy hiểm, có hại của công việc cụ thể không?"}
+{"seed_id": "c2-038", "article_id": 23, "style": "worker", "question": "Làm sơn tĩnh điện mà được phát nón vải với khẩu trang giấy, vậy có hợp với việc mình làm không?"}
+{"seed_id": "c2-038", "article_id": 23, "style": "hr", "question": "Việc lựa chọn chủng loại phương tiện bảo vệ cá nhân phải căn cứ vào yếu tố nguy hiểm, yếu tố có hại của vị trí công việc như thế nào?"}
+{"seed_id": "c2-038", "article_id": 23, "style": "complaint", "question": "Công ty phát cùng một loại đồ bảo hộ cho tất cả bộ phận bất kể công việc khác nhau, như vậy có đúng nguyên tắc không?"}
+{"seed_id": "c2-038", "article_id": 23, "style": "short", "question": "Đồ bảo hộ phải phù hợp công việc"}
+{"seed_id": "c2-039", "article_id": 23, "style": "neutral", "question": "Sau khi trang cấp, công ty có phải kiểm tra người lao động sử dụng phương tiện bảo vệ cá nhân đúng cách không?"}
+{"seed_id": "c2-039", "article_id": 23, "style": "worker", "question": "Phát dây an toàn rồi mà tụi tôi móc sai chỗ cũng không ai nhắc, công ty có phải kiểm tra không?"}
+{"seed_id": "c2-039", "article_id": 23, "style": "hr", "question": "Yêu cầu giám sát việc sử dụng phương tiện bảo vệ cá nhân đúng cách sau khi trang cấp thuộc trách nhiệm của ai?"}
+{"seed_id": "c2-039", "article_id": 23, "style": "complaint", "question": "Công nhân té từ giàn giáo vì móc dây an toàn sai mà công ty chưa từng giám sát, công ty có phần trách nhiệm không?"}
+{"seed_id": "c2-039", "article_id": 23, "style": "short", "question": "Giám sát dùng đồ bảo hộ"}
+{"seed_id": "c2-040", "article_id": 23, "style": "neutral", "question": "Người lao động làm việc trên sông nước có được cấp áo phao cứu sinh không?"}
+{"seed_id": "c2-040", "article_id": 23, "style": "worker", "question": "Tụi tôi chạy sà lan chở cát mà chẳng ai có áo phao, chủ ghe có phải phát không?"}
+{"seed_id": "c2-040", "article_id": 23, "style": "hr", "question": "Đối với công việc trên phương tiện thủy nội địa có nguy cơ đuối nước, người sử dụng lao động có nghĩa vụ trang cấp áo phao cá nhân không?"}
+{"seed_id": "c2-040", "article_id": 23, "style": "complaint", "question": "Thợ nạo vét kênh bị rơi xuống nước suýt chết vì công ty không cấp áo phao, chúng tôi có khiếu nại được không?"}
+{"seed_id": "c2-040", "article_id": 23, "style": "short", "question": "Áo phao cho người làm trên sông"}

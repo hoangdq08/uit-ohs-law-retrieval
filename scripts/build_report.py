@@ -292,8 +292,10 @@ def main() -> None:
         rp.table(["Câu hỏi thật", "Điều", "Nhãn thật", "Dự đoán"],
                  [[e["question"][:300], e["article_id"], e["label_code"], e["pred_code"]] for e in R["real_error_examples"][:8]],
                  "Ví dụ câu hỏi thật bị phân loại sai")
-    rp.p("Các nguyên nhân lỗi thường gặp (nhóm cần đối chiếu với bảng trên): (1) giao thoa ngữ nghĩa giữa trách nhiệm "
-         "của doanh nghiệp (C5) và chế độ bảo hiểm (C7) khi câu hỏi nhắc cả “công ty” và “bảo hiểm”; (2) câu hỏi ngắn "
+    top_pair = next(iter(R.get("top_confusions", {})), "hai lớp gần nghĩa")
+    rp.p("Các nguyên nhân lỗi thường gặp (nhóm cần đối chiếu với bảng trên): (1) giao thoa ngữ nghĩa giữa các lớp "
+         f"dùng chung từ vựng, rõ nhất ở cặp {top_pair} trên test synthetic, và giữa trách nhiệm doanh nghiệp (C5) với "
+         "chế độ bảo hiểm (C7) trên câu hỏi thật; (2) câu hỏi ngắn "
          "thiếu ngữ cảnh; (3) câu hỏi thật hỏi nhiều ý hoặc dẫn chiếu Nghị định/Thông tư; (4) từ ngữ đời thường không có "
          "trong tập huấn luyện.", italic=True)
 
@@ -321,8 +323,8 @@ def main() -> None:
              f"Nghị định/Thông tư) nên được đánh dấu ngoài phạm vi. Dùng xác suất lớn nhất của Logistic Regression làm độ tin "
              f"cậy, ngưỡng chọn tại phân vị 5% trên validation ({o['threshold']:.3f}). Tỷ lệ bị từ chối: câu ngoài phạm vi "
              f"{pct(rr.get('ood_real'))}, câu thật trong phạm vi {pct(rr.get('real_in_scope'))}, test synthetic {pct(rr.get('test'))}.")
-        rp.p(("Độ tin cậy max-softmax hầu như không phân biệt được câu ngoài phạm vi: mô hình vẫn tự tin gán các câu về "
-              "bảo hiểm xã hội vào C5/C7 vì dùng chung từ vựng. Cần tập huấn luyện có lớp ngoài phạm vi hoặc phương pháp "
+        rp.p(("Độ tin cậy max-softmax phân biệt kém câu ngoài phạm vi: phần lớn câu ngoài phạm vi vẫn vượt ngưỡng, "
+              "giả thuyết là do câu về bảo hiểm xã hội dùng chung từ vựng với C5/C7. Cần tập huấn luyện có lớp ngoài phạm vi hoặc phương pháp "
               "phát hiện OOD tốt hơn.") if rr.get("ood_real", 0) < 0.3 else
              "Ngưỡng độ tin cậy từ chối được phần lớn câu ngoài phạm vi, có thể dùng trong demo.")
         rp.fig("ood_confidence", "Phân bố độ tin cậy: trong phạm vi và ngoài phạm vi", 13)

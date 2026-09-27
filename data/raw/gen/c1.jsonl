@@ -1,0 +1,200 @@
+{"seed_id": "c1-001", "article_id": 13, "style": "neutral", "question": "Công ty có trách nhiệm thông tin, tuyên truyền cho người lao động về các yếu tố nguy hiểm tại nơi làm việc không?"}
+{"seed_id": "c1-001", "article_id": 13, "style": "worker", "question": "Vô làm ở nhà máy hóa chất mà không ai nói cho biết chỗ nào nguy hiểm, công ty có phải nói cho tụi tôi biết không?"}
+{"seed_id": "c1-001", "article_id": 13, "style": "hr", "question": "Nghĩa vụ thông tin, tuyên truyền, giáo dục về an toàn, vệ sinh lao động của người sử dụng lao động đối với người lao động được quy định như thế nào?"}
+{"seed_id": "c1-001", "article_id": 13, "style": "complaint", "question": "Công ty chưa bao giờ phổ biến về các nguy cơ ở xưởng sơn, như vậy công ty có vi phạm trách nhiệm tuyên truyền không?"}
+{"seed_id": "c1-001", "article_id": 13, "style": "short", "question": "Công ty tuyên truyền yếu tố nguy hiểm"}
+{"seed_id": "c1-002", "article_id": 13, "style": "neutral", "question": "Khách đến thăm, làm việc tại cơ sở có phải được hướng dẫn quy định về an toàn, vệ sinh lao động không?"}
+{"seed_id": "c1-002", "article_id": 13, "style": "worker", "question": "Có đoàn khách vô tham quan xưởng đúc, có cần chỉ cho họ mấy quy định an toàn không?"}
+{"seed_id": "c1-002", "article_id": 13, "style": "hr", "question": "Doanh nghiệp có trách nhiệm hướng dẫn quy định an toàn, vệ sinh lao động cho khách, đối tác đến làm việc tại cơ sở không?"}
+{"seed_id": "c1-002", "article_id": 13, "style": "complaint", "question": "Tôi vào nhà máy giao hàng mà không ai chỉ dẫn quy định an toàn gì, nhà máy như vậy có làm sai trách nhiệm không?"}
+{"seed_id": "c1-002", "article_id": 13, "style": "short", "question": "Hướng dẫn an toàn cho khách tham quan"}
+{"seed_id": "c1-003", "article_id": 13, "style": "neutral", "question": "Nhà sản xuất có phải cung cấp thông tin về biện pháp an toàn kèm theo sản phẩm có khả năng gây mất an toàn không?"}
+{"seed_id": "c1-003", "article_id": 13, "style": "worker", "question": "Mua cái máy cắt về mà không có giấy hướng dẫn an toàn gì hết, hãng sản xuất có phải đưa hướng dẫn không?"}
+{"seed_id": "c1-003", "article_id": 13, "style": "hr", "question": "Trách nhiệm cung cấp thông tin về biện pháp bảo đảm an toàn, vệ sinh lao động của nhà sản xuất đối với hàng hóa có nguy cơ gây mất an toàn được quy định thế nào?"}
+{"seed_id": "c1-003", "article_id": 13, "style": "complaint", "question": "Hãng sản xuất hóa chất tẩy rửa công nghiệp không ghi cảnh báo, không kèm hướng dẫn an toàn, họ có vi phạm nghĩa vụ thông tin không?"}
+{"seed_id": "c1-003", "article_id": 13, "style": "short", "question": "Hãng sản xuất phải kèm hướng dẫn?"}
+{"seed_id": "c1-004", "article_id": 15, "style": "neutral", "question": "Ai có trách nhiệm xây dựng và ban hành nội quy, quy trình bảo đảm an toàn, vệ sinh lao động?"}
+{"seed_id": "c1-004", "article_id": 15, "style": "worker", "question": "Nội quy an toàn dán ở xưởng là do ai soạn ra vậy, công ty hay nhà nước?"}
+{"seed_id": "c1-004", "article_id": 15, "style": "hr", "question": "Trách nhiệm xây dựng, ban hành và tổ chức thực hiện nội quy, quy trình an toàn, vệ sinh lao động thuộc về chủ thể nào?"}
+{"seed_id": "c1-004", "article_id": 15, "style": "complaint", "question": "Xưởng tôi làm cả năm mà chẳng có nội quy an toàn nào, công ty có bắt buộc phải ban hành nội quy không?"}
+{"seed_id": "c1-004", "article_id": 15, "style": "short", "question": "Ai ban hành nội quy an toàn?"}
+{"seed_id": "c1-005", "article_id": 15, "style": "neutral", "question": "Công ty xây dựng nội quy an toàn, vệ sinh lao động dựa trên những căn cứ nào?"}
+{"seed_id": "c1-005", "article_id": 15, "style": "worker", "question": "Công ty soạn nội quy an toàn thì dựa vô đâu, hay tự nghĩ ra sao cũng được?"}
+{"seed_id": "c1-005", "article_id": 15, "style": "hr", "question": "Khi soạn thảo quy trình an toàn cho dây chuyền mới, doanh nghiệp cần căn cứ vào những tiêu chuẩn, quy chuẩn nào?"}
+{"seed_id": "c1-005", "article_id": 15, "style": "complaint", "question": "Nội quy an toàn công ty viết ra toàn mấy điều vô lý không theo quy chuẩn nào, luật yêu cầu nội quy phải căn cứ vào đâu?"}
+{"seed_id": "c1-005", "article_id": 15, "style": "short", "question": "Căn cứ xây dựng quy trình an toàn"}
+{"seed_id": "c1-006", "article_id": 16, "style": "neutral", "question": "Nơi làm việc phải đạt những yêu cầu gì về bụi, tiếng ồn, độ thoáng?"}
+{"seed_id": "c1-006", "article_id": 16, "style": "worker", "question": "Xưởng mộc bụi mù mịt, ồn muốn điếc tai, công ty có phải làm cho chỗ làm đạt chuẩn không?"}
+{"seed_id": "c1-006", "article_id": 16, "style": "hr", "question": "Yêu cầu của luật đối với không gian, độ thoáng, bụi, hơi khí độc, tiếng ồn, độ rung tại nơi làm việc là gì?"}
+{"seed_id": "c1-006", "article_id": 16, "style": "complaint", "question": "Xưởng nóng hầm hập lại không có quạt hút, tôi phản ánh mãi mà công ty không cải thiện, luật có bắt nơi làm việc đạt yêu cầu không?"}
+{"seed_id": "c1-006", "article_id": 16, "style": "short", "question": "Yêu cầu bụi, ồn nơi làm việc"}
+{"seed_id": "c1-007", "article_id": 16, "style": "neutral", "question": "Công ty có phải bố trí đủ buồng tắm, buồng vệ sinh tại nơi làm việc không?"}
+{"seed_id": "c1-007", "article_id": 16, "style": "worker", "question": "Làm ở lò than dơ hết người mà xưởng không có chỗ tắm, công ty có phải xây nhà tắm không?"}
+{"seed_id": "c1-007", "article_id": 16, "style": "hr", "question": "Quy định về việc bảo đảm đủ buồng tắm, buồng vệ sinh phù hợp tại nơi làm việc được luật đặt ra như thế nào?"}
+{"seed_id": "c1-007", "article_id": 16, "style": "complaint", "question": "Cả xưởng hai trăm người mà chỉ có một nhà vệ sinh, công ty làm vậy có sai luật không?"}
+{"seed_id": "c1-007", "article_id": 16, "style": "short", "question": "Buồng tắm, nhà vệ sinh tại xưởng"}
+{"seed_id": "c1-008", "article_id": 16, "style": "neutral", "question": "Biển cảnh báo an toàn đối với máy, thiết bị có yêu cầu nghiêm ngặt phải được đặt như thế nào?"}
+{"seed_id": "c1-008", "article_id": 16, "style": "worker", "question": "Công nhân người dân tộc không đọc rành tiếng Việt, bảng cảnh báo ở máy có phải ghi thêm tiếng của họ không?"}
+{"seed_id": "c1-008", "article_id": 16, "style": "hr", "question": "Yêu cầu về ngôn ngữ và vị trí đặt biển cảnh báo, bảng chỉ dẫn an toàn đối với thiết bị, hóa chất nghiêm ngặt là gì?"}
+{"seed_id": "c1-008", "article_id": 16, "style": "complaint", "question": "Kho hóa chất của công ty không có một tấm biển cảnh báo nào, như vậy có vi phạm quy định không?"}
+{"seed_id": "c1-008", "article_id": 16, "style": "short", "question": "Biển cảnh báo phải ghi tiếng gì?"}
+{"seed_id": "c1-009", "article_id": 16, "style": "neutral", "question": "Công ty có phải định kỳ kiểm tra, bảo dưỡng máy móc, nhà xưởng, kho tàng không?"}
+{"seed_id": "c1-009", "article_id": 16, "style": "worker", "question": "Mái xưởng dột, máy thì rỉ sét cả năm không ai sửa, công ty có phải bảo trì định kỳ không?"}
+{"seed_id": "c1-009", "article_id": 16, "style": "hr", "question": "Nghĩa vụ định kỳ kiểm tra, bảo dưỡng máy, thiết bị, vật tư, nhà xưởng, kho tàng của người sử dụng lao động được quy định ra sao?"}
+{"seed_id": "c1-009", "article_id": 16, "style": "complaint", "question": "Máy ép nhựa hư dây curoa mấy tháng mà công ty không bảo dưỡng, bắt tụi tôi chạy tiếp, vậy công ty có sai không?"}
+{"seed_id": "c1-009", "article_id": 16, "style": "short", "question": "Bảo dưỡng định kỳ máy và nhà xưởng"}
+{"seed_id": "c1-010", "article_id": 16, "style": "neutral", "question": "Máy móc, vật tư, hóa chất tại nơi làm việc phải được sử dụng và bảo quản theo yêu cầu gì?"}
+{"seed_id": "c1-010", "article_id": 16, "style": "worker", "question": "Hóa chất trong xưởng để lung tung chung với đồ ăn, vậy có quy định phải cất giữ đúng cách không?"}
+{"seed_id": "c1-010", "article_id": 16, "style": "hr", "question": "Yêu cầu về việc sử dụng, vận hành, bảo trì, bảo quản máy, thiết bị, vật tư, chất tại nơi làm việc theo quy chuẩn kỹ thuật được luật quy định thế nào?"}
+{"seed_id": "c1-010", "article_id": 16, "style": "complaint", "question": "Công ty cho vận hành máy trộn sai hướng dẫn kỹ thuật để chạy cho nhanh, luật có bắt phải vận hành đúng quy chuẩn không?"}
+{"seed_id": "c1-010", "article_id": 16, "style": "short", "question": "Vận hành máy theo quy chuẩn kỹ thuật"}
+{"seed_id": "c1-011", "article_id": 17, "style": "neutral", "question": "Người lao động có trách nhiệm ngăn chặn hành vi vi phạm quy định an toàn tại nơi làm việc không?"}
+{"seed_id": "c1-011", "article_id": 17, "style": "worker", "question": "Thấy thằng bạn cùng tổ tháo tấm che máy ra cho chạy nhanh, tôi có phải can nó không?"}
+{"seed_id": "c1-011", "article_id": 17, "style": "hr", "question": "Trách nhiệm của người lao động trong việc ngăn chặn nguy cơ trực tiếp gây mất an toàn và hành vi vi phạm của người khác được quy định ra sao?"}
+{"seed_id": "c1-011", "article_id": 17, "style": "complaint", "question": "Tôi bị kỷ luật chung vì không cản đồng nghiệp hút thuốc trong kho sơn, luật có bắt người lao động phải ngăn chặn vi phạm không?"}
+{"seed_id": "c1-011", "article_id": 17, "style": "short", "question": "Công nhân ngăn chặn vi phạm an toàn"}
+{"seed_id": "c1-012", "article_id": 17, "style": "neutral", "question": "Người lao động có phải nắm vững kiến thức, kỹ năng về biện pháp bảo đảm an toàn tại nơi làm việc không?"}
+{"seed_id": "c1-012", "article_id": 17, "style": "worker", "question": "Làm công nhân có cần phải tự biết mấy cách làm an toàn không, hay chỉ cần làm theo sếp?"}
+{"seed_id": "c1-012", "article_id": 17, "style": "hr", "question": "Yêu cầu đối với người lao động về tuân thủ pháp luật và nắm vững kiến thức, kỹ năng an toàn, vệ sinh lao động tại nơi làm việc là gì?"}
+{"seed_id": "c1-012", "article_id": 17, "style": "complaint", "question": "Tai nạn xảy ra công ty lại trách tôi không nắm kỹ năng an toàn, luật có buộc người lao động phải nắm vững kiến thức đó không?"}
+{"seed_id": "c1-012", "article_id": 17, "style": "short", "question": "Công nhân phải nắm kỹ năng an toàn?"}
+{"seed_id": "c1-013", "article_id": 18, "style": "neutral", "question": "Công ty có phải thực hiện khử độc, khử trùng cho người lao động làm việc ở nơi có yếu tố gây nhiễm độc không?"}
+{"seed_id": "c1-013", "article_id": 18, "style": "worker", "question": "Làm ở bãi rác với lò mổ dễ nhiễm trùng lắm, công ty có phải khử trùng cho tụi tôi không?"}
+{"seed_id": "c1-013", "article_id": 18, "style": "hr", "question": "Biện pháp khử độc, khử trùng đối với người lao động làm việc tại nơi có yếu tố gây nhiễm độc, nhiễm trùng được quy định như thế nào?"}
+{"seed_id": "c1-013", "article_id": 18, "style": "complaint", "question": "Tụi tôi làm trong khu xử lý nước thải bệnh viện mà công ty không cho khử trùng gì sau ca, như vậy có sai luật không?"}
+{"seed_id": "c1-013", "article_id": 18, "style": "short", "question": "Khử độc cho người làm nơi nhiễm độc"}
+{"seed_id": "c1-014", "article_id": 18, "style": "neutral", "question": "Công ty phải tổ chức quan trắc môi trường lao động bao lâu một lần?"}
+{"seed_id": "c1-014", "article_id": 18, "style": "worker", "question": "Mấy người đo bụi đo ồn trong xưởng thì bao lâu phải tới đo một lần vậy?"}
+{"seed_id": "c1-014", "article_id": 18, "style": "hr", "question": "Tần suất tối thiểu tổ chức quan trắc môi trường lao động để đánh giá yếu tố có hại theo luật là bao nhiêu?"}
+{"seed_id": "c1-014", "article_id": 18, "style": "complaint", "question": "Ba năm nay công ty chưa hề cho đo môi trường lao động ở xưởng xi mạ, như vậy có vi phạm không?"}
+{"seed_id": "c1-014", "article_id": 18, "style": "short", "question": "Quan trắc môi trường mấy lần một năm?"}
+{"seed_id": "c1-015", "article_id": 18, "style": "neutral", "question": "Đơn vị tổ chức quan trắc môi trường lao động phải đáp ứng điều kiện gì?"}
+{"seed_id": "c1-015", "article_id": 18, "style": "worker", "question": "Công ty thuê đại một nhóm không có máy móc gì tới đo môi trường, vậy có được không?"}
+{"seed_id": "c1-015", "article_id": 18, "style": "hr", "question": "Yêu cầu về cơ sở vật chất, trang thiết bị và nhân lực đối với tổ chức quan trắc môi trường lao động được luật quy định thế nào?"}
+{"seed_id": "c1-015", "article_id": 18, "style": "complaint", "question": "Kết quả quan trắc do một đơn vị không đủ thiết bị thực hiện, chúng tôi có quyền cho rằng kết quả đó không hợp lệ không?"}
+{"seed_id": "c1-015", "article_id": 18, "style": "short", "question": "Điều kiện đơn vị quan trắc môi trường"}
+{"seed_id": "c1-016", "article_id": 18, "style": "neutral", "question": "Đối với yếu tố nguy hiểm, công ty phải kiểm tra, đánh giá ít nhất bao lâu một lần?"}
+{"seed_id": "c1-016", "article_id": 18, "style": "worker", "question": "Mấy chỗ dễ té ngã, điện hở trong xưởng thì công ty phải rà soát kiểm tra lại mỗi năm mấy lần?"}
+{"seed_id": "c1-016", "article_id": 18, "style": "hr", "question": "Quy định về kiểm soát thường xuyên và kiểm tra, đánh giá định kỳ yếu tố nguy hiểm tại nơi làm việc là gì?"}
+{"seed_id": "c1-016", "article_id": 18, "style": "complaint", "question": "Công ty chưa bao giờ đánh giá lại các nguy cơ điện giật, cháy nổ ở xưởng, luật có bắt kiểm tra định kỳ không?"}
+{"seed_id": "c1-016", "article_id": 18, "style": "short", "question": "Tần suất đánh giá yếu tố nguy hiểm"}
+{"seed_id": "c1-017", "article_id": 18, "style": "neutral", "question": "Sau khi có kết quả quan trắc môi trường lao động, công ty có phải thông báo cho người lao động không?"}
+{"seed_id": "c1-017", "article_id": 18, "style": "worker", "question": "Đo môi trường xong rồi mà công ty giấu kết quả, tụi tôi có được biết không?"}
+{"seed_id": "c1-017", "article_id": 18, "style": "hr", "question": "Trách nhiệm của người sử dụng lao động ngay sau khi có kết quả quan trắc môi trường lao động và đánh giá yếu tố nguy hiểm là gì?"}
+{"seed_id": "c1-017", "article_id": 18, "style": "complaint", "question": "Công đoàn xin xem kết quả quan trắc bụi silic mà công ty không đưa, công ty làm vậy có đúng không?"}
+{"seed_id": "c1-017", "article_id": 18, "style": "short", "question": "Công khai kết quả quan trắc"}
+{"seed_id": "c1-018", "article_id": 19, "style": "neutral", "question": "Công ty có phải xây dựng phương án xử lý sự cố và định kỳ diễn tập ứng cứu khẩn cấp không?"}
+{"seed_id": "c1-018", "article_id": 19, "style": "worker", "question": "Xưởng gas lớn vậy mà chưa bao giờ tập chạy thoát khi có sự cố, công ty có phải tổ chức tập không?"}
+{"seed_id": "c1-018", "article_id": 19, "style": "hr", "question": "Yêu cầu về phương án xử lý sự cố kỹ thuật gây mất an toàn nghiêm trọng và diễn tập định kỳ đối với doanh nghiệp là gì?"}
+{"seed_id": "c1-018", "article_id": 19, "style": "complaint", "question": "Nhà máy hóa chất không có phương án ứng cứu nào, lỡ nổ thì không ai biết làm gì, như vậy có vi phạm quy định không?"}
+{"seed_id": "c1-018", "article_id": 19, "style": "short", "question": "Diễn tập ứng cứu sự cố khẩn cấp"}
+{"seed_id": "c1-019", "article_id": 19, "style": "neutral", "question": "Công ty có phải trang bị phương tiện kỹ thuật, y tế để sơ cứu kịp thời khi xảy ra tai nạn không?"}
+{"seed_id": "c1-019", "article_id": 19, "style": "worker", "question": "Xưởng không có nổi cái tủ thuốc hay băng ca, lỡ ai bị thương thì lấy gì sơ cứu, công ty có phải sắm không?"}
+{"seed_id": "c1-019", "article_id": 19, "style": "hr", "question": "Doanh nghiệp phải chuẩn bị phương tiện kỹ thuật, y tế nào để bảo đảm ứng cứu, sơ cứu kịp thời khi có tai nạn lao động?"}
+{"seed_id": "c1-019", "article_id": 19, "style": "complaint", "question": "Công nhân bị bỏng mà xưởng không có đồ sơ cứu phải chờ xe ngoài tới, công ty có trách nhiệm trang bị sẵn không?"}
+{"seed_id": "c1-019", "article_id": 19, "style": "short", "question": "Trang bị phương tiện sơ cứu tại xưởng"}
+{"seed_id": "c1-020", "article_id": 19, "style": "neutral", "question": "Khi có nguy cơ xảy ra sự cố nghiêm trọng, công ty phải làm gì với máy móc và hoạt động đang diễn ra?"}
+{"seed_id": "c1-020", "article_id": 19, "style": "worker", "question": "Thấy nồi hơi kêu rít bất thường, sếp có phải cho dừng máy ngay không hay vẫn chạy tiếp?"}
+{"seed_id": "c1-020", "article_id": 19, "style": "hr", "question": "Trách nhiệm ra lệnh ngừng ngay hoạt động của máy, thiết bị khi có nguy cơ sự cố kỹ thuật nghiêm trọng được quy định thế nào?"}
+{"seed_id": "c1-020", "article_id": 19, "style": "complaint", "question": "Đường ống khí bị rò mà quản đốc không cho dừng máy, cứ bảo chạy cho kịp đơn hàng, vậy công ty có làm sai trách nhiệm xử lý sự cố không?"}
+{"seed_id": "c1-020", "article_id": 19, "style": "short", "question": "Dừng máy khi có nguy cơ sự cố"}
+{"seed_id": "c1-021", "article_id": 19, "style": "neutral", "question": "Sự cố kỹ thuật nghiêm trọng vượt quá khả năng ứng phó của cơ sở thì phải xử lý như thế nào?"}
+{"seed_id": "c1-021", "article_id": 19, "style": "worker", "question": "Cháy kho lớn quá công ty dập không nổi thì phải báo lên đâu để có người tới cứu?"}
+{"seed_id": "c1-021", "article_id": 19, "style": "hr", "question": "Quy trình báo cáo cơ quan cấp trên để huy động lực lượng ứng cứu khi sự cố vượt quá khả năng của doanh nghiệp và địa phương là gì?"}
+{"seed_id": "c1-021", "article_id": 19, "style": "complaint", "question": "Vụ nổ hóa chất lan sang mấy xưởng bên cạnh mà công ty chỉ tự xoay xở, không báo để huy động hỗ trợ, như vậy có đúng không?"}
+{"seed_id": "c1-021", "article_id": 19, "style": "short", "question": "Sự cố vượt khả năng ứng phó"}
+{"seed_id": "c1-022", "article_id": 20, "style": "neutral", "question": "Ai có trách nhiệm xây dựng văn hóa an toàn lao động tại nơi làm việc?"}
+{"seed_id": "c1-022", "article_id": 20, "style": "worker", "question": "Công ty hay nói xây dựng văn hóa an toàn, vậy việc đó là ai phải lo?"}
+{"seed_id": "c1-022", "article_id": 20, "style": "hr", "question": "Trách nhiệm phối hợp giữa người sử dụng lao động và Ban chấp hành công đoàn cơ sở trong xây dựng văn hóa an toàn lao động được quy định ra sao?"}
+{"seed_id": "c1-022", "article_id": 20, "style": "complaint", "question": "Công ty chỉ treo khẩu hiệu mà không làm gì để xây dựng văn hóa an toàn, luật giao trách nhiệm này cho ai?"}
+{"seed_id": "c1-022", "article_id": 20, "style": "short", "question": "Xây dựng văn hóa an toàn lao động"}
+{"seed_id": "c1-023", "article_id": 20, "style": "neutral", "question": "Công ty có phải tổ chức cho người lao động tham gia hoạt động cải thiện điều kiện lao động không?"}
+{"seed_id": "c1-023", "article_id": 20, "style": "worker", "question": "Tụi tôi có sáng kiến làm xưởng mát hơn, công ty có phải cho công nhân tham gia cải thiện điều kiện làm việc không?"}
+{"seed_id": "c1-023", "article_id": 20, "style": "hr", "question": "Người sử dụng lao động có nghĩa vụ thường xuyên tổ chức cho người lao động tham gia hoạt động cải thiện điều kiện lao động không?"}
+{"seed_id": "c1-023", "article_id": 20, "style": "complaint", "question": "Công ty không bao giờ cho công nhân góp ý hay tham gia cải thiện điều kiện làm việc, như vậy có trái luật không?"}
+{"seed_id": "c1-023", "article_id": 20, "style": "short", "question": "Công nhân tham gia cải thiện điều kiện"}
+{"seed_id": "c1-024", "article_id": 22, "style": "neutral", "question": "Danh mục nghề, công việc nặng nhọc, độc hại, nguy hiểm do cơ quan nào ban hành?"}
+{"seed_id": "c1-024", "article_id": 22, "style": "worker", "question": "Muốn biết nghề hàn của tôi có nằm trong danh sách nghề độc hại không thì cái danh sách đó ai ra?"}
+{"seed_id": "c1-024", "article_id": 22, "style": "hr", "question": "Thẩm quyền ban hành Danh mục nghề, công việc nặng nhọc, độc hại, nguy hiểm và đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc về ai?"}
+{"seed_id": "c1-024", "article_id": 22, "style": "complaint", "question": "Công ty nói nghề của tôi không thuộc nghề độc hại vì không có trong danh mục, vậy danh mục này do ai ban hành để tôi kiểm tra?"}
+{"seed_id": "c1-024", "article_id": 22, "style": "short", "question": "Ai ban hành danh mục nghề độc hại?"}
+{"seed_id": "c1-025", "article_id": 22, "style": "neutral", "question": "Nghề, công việc nặng nhọc, độc hại, nguy hiểm được phân loại dựa trên căn cứ nào?"}
+{"seed_id": "c1-025", "article_id": 22, "style": "worker", "question": "Dựa vô đâu mà người ta xếp nghề này là nặng nhọc độc hại còn nghề kia thì không?"}
+{"seed_id": "c1-025", "article_id": 22, "style": "hr", "question": "Tiêu chí phân loại nghề, công việc nặng nhọc, độc hại, nguy hiểm và đặc biệt nặng nhọc, độc hại, nguy hiểm được luật xác định như thế nào?"}
+{"seed_id": "c1-025", "article_id": 22, "style": "complaint", "question": "Tôi làm sơn tàu cả ngày ngửi dung môi mà không được xếp vào nghề độc hại, cách phân loại nghề độc hại dựa trên cơ sở nào?"}
+{"seed_id": "c1-025", "article_id": 22, "style": "short", "question": "Căn cứ phân loại nghề độc hại"}
+{"seed_id": "c1-026", "article_id": 22, "style": "neutral", "question": "Cơ quan nào quy định tiêu chuẩn phân loại lao động theo điều kiện lao động?"}
+{"seed_id": "c1-026", "article_id": 22, "style": "worker", "question": "Cái vụ xếp loại điều kiện lao động nặng hay nhẹ là ai đặt ra tiêu chuẩn vậy?"}
+{"seed_id": "c1-026", "article_id": 22, "style": "hr", "question": "Thẩm quyền quy định tiêu chuẩn phân loại lao động theo điều kiện lao động được luật giao cho cơ quan nào?"}
+{"seed_id": "c1-026", "article_id": 22, "style": "complaint", "question": "Công ty tự xếp điều kiện lao động của tụi tôi là bình thường, vậy tiêu chuẩn phân loại lao động theo điều kiện lao động do ai quy định?"}
+{"seed_id": "c1-026", "article_id": 22, "style": "short", "question": "Tiêu chuẩn phân loại điều kiện lao động"}
+{"seed_id": "c1-027", "article_id": 25, "style": "neutral", "question": "Công ty có trách nhiệm gì về thời gian tiếp xúc với yếu tố có hại của người lao động?"}
+{"seed_id": "c1-027", "article_id": 25, "style": "worker", "question": "Đứng cạnh lò nung nóng cả ngày không nghỉ, công ty có phải giới hạn thời gian cho tụi tôi đứng đó không?"}
+{"seed_id": "c1-027", "article_id": 25, "style": "hr", "question": "Nghĩa vụ bảo đảm thời gian tiếp xúc với yếu tố nguy hiểm, yếu tố có hại nằm trong giới hạn an toàn theo quy chuẩn kỹ thuật được quy định thế nào?"}
+{"seed_id": "c1-027", "article_id": 25, "style": "complaint", "question": "Công ty bắt tôi làm liên tục trong phòng phun sơn vượt quá giới hạn cho phép, như vậy có trái luật không?"}
+{"seed_id": "c1-027", "article_id": 25, "style": "short", "question": "Giới hạn thời gian tiếp xúc độc hại"}
+{"seed_id": "c1-028", "article_id": 25, "style": "neutral", "question": "Thời giờ làm việc của người làm nghề đặc biệt nặng nhọc, độc hại, nguy hiểm được áp dụng theo quy định nào?"}
+{"seed_id": "c1-028", "article_id": 25, "style": "worker", "question": "Làm thợ lặn là nghề đặc biệt nguy hiểm thì giờ làm có khác người thường không, theo luật nào?"}
+{"seed_id": "c1-028", "article_id": 25, "style": "hr", "question": "Căn cứ pháp lý xác định thời giờ làm việc đối với người lao động làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm là gì?"}
+{"seed_id": "c1-028", "article_id": 25, "style": "complaint", "question": "Tôi làm nghề đặc biệt độc hại mà công ty vẫn bắt làm giờ như văn phòng, luật an toàn lao động nói thời giờ làm việc của tụi tôi theo đâu?"}
+{"seed_id": "c1-028", "article_id": 25, "style": "short", "question": "Giờ làm nghề đặc biệt nặng nhọc"}
+{"seed_id": "c1-029", "article_id": 28, "style": "neutral", "question": "Máy, thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động là gì?"}
+{"seed_id": "c1-029", "article_id": 28, "style": "worker", "question": "Người ta nói xe nâng, nồi hơi là máy nghiêm ngặt, vậy máy nghiêm ngặt nghĩa là sao?"}
+{"seed_id": "c1-029", "article_id": 28, "style": "hr", "question": "Khái niệm máy, thiết bị, vật tư, chất có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động được luật xác định như thế nào?"}
+{"seed_id": "c1-029", "article_id": 28, "style": "complaint", "question": "Công ty cãi rằng cái bình khí nén của xưởng không phải thiết bị nghiêm ngặt, vậy luật hiểu thiết bị nghiêm ngặt là gì?"}
+{"seed_id": "c1-029", "article_id": 28, "style": "short", "question": "Thiết bị nghiêm ngặt là gì"}
+{"seed_id": "c1-030", "article_id": 28, "style": "neutral", "question": "Danh mục máy, thiết bị, vật tư, chất có yêu cầu nghiêm ngặt về an toàn do ai ban hành?"}
+{"seed_id": "c1-030", "article_id": 28, "style": "worker", "question": "Muốn biết máy của xưởng có thuộc loại nghiêm ngặt không thì tra danh sách của ai ban hành?"}
+{"seed_id": "c1-030", "article_id": 28, "style": "hr", "question": "Thẩm quyền ban hành Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động được quy định ra sao?"}
+{"seed_id": "c1-030", "article_id": 28, "style": "complaint", "question": "Công ty bảo máy cắt plasma không nằm trong danh mục nghiêm ngặt, vậy danh mục đó do ai ban hành để tôi đối chiếu?"}
+{"seed_id": "c1-030", "article_id": 28, "style": "short", "question": "Ai ban hành danh mục máy nghiêm ngặt?"}
+{"seed_id": "c1-031", "article_id": 29, "style": "neutral", "question": "Khi xây dựng mới cơ sở có sử dụng thiết bị nghiêm ngặt, chủ đầu tư có phải lập phương án bảo đảm an toàn, vệ sinh lao động không?"}
+{"seed_id": "c1-031", "article_id": 29, "style": "worker", "question": "Công ty mở rộng xưởng để đặt thêm lò hơi, có cần làm phương án an toàn nộp kèm hồ sơ xin phép xây dựng không?"}
+{"seed_id": "c1-031", "article_id": 29, "style": "hr", "question": "Hồ sơ xin cấp giấy phép xây dựng mới, mở rộng, cải tạo cơ sở lưu giữ chất có yêu cầu nghiêm ngặt có bắt buộc kèm phương án bảo đảm an toàn, vệ sinh lao động không?"}
+{"seed_id": "c1-031", "article_id": 29, "style": "complaint", "question": "Chủ đầu tư cải tạo kho chứa hóa chất mà không lập phương án an toàn gì hết, như vậy có đúng quy định không?"}
+{"seed_id": "c1-031", "article_id": 29, "style": "short", "question": "Phương án an toàn xây xưởng mới"}
+{"seed_id": "c1-032", "article_id": 29, "style": "neutral", "question": "Phương án bảo đảm an toàn, vệ sinh lao động khi xây dựng công trình phải có những nội dung chủ yếu nào?"}
+{"seed_id": "c1-032", "article_id": 29, "style": "worker", "question": "Làm cái phương án an toàn cho xưởng mới thì phải ghi mấy mục gì trong đó?"}
+{"seed_id": "c1-032", "article_id": 29, "style": "hr", "question": "Đề nghị nêu các nội dung bắt buộc của phương án bảo đảm an toàn, vệ sinh lao động trong hồ sơ cấp phép xây dựng cơ sở có thiết bị nghiêm ngặt."}
+{"seed_id": "c1-032", "article_id": 29, "style": "complaint", "question": "Phương án an toàn của dự án kho gas chỉ có một trang ghi chung chung, luật yêu cầu phương án phải có nội dung gì?"}
+{"seed_id": "c1-032", "article_id": 29, "style": "short", "question": "Nội dung phương án bảo đảm ATVSLĐ"}
+{"seed_id": "c1-033", "article_id": 30, "style": "neutral", "question": "Máy, thiết bị có yêu cầu nghiêm ngặt phải đáp ứng những yêu cầu gì về nguồn gốc, thời hạn sử dụng và chất lượng?"}
+{"seed_id": "c1-033", "article_id": 30, "style": "worker", "question": "Công ty mua pa lăng cũ trôi nổi không rõ xuất xứ về xài, vậy máy nghiêm ngặt có phải rõ nguồn gốc không?"}
+{"seed_id": "c1-033", "article_id": 30, "style": "hr", "question": "Điều kiện về xuất xứ, thời hạn sử dụng, chất lượng đối với máy, thiết bị, vật tư có yêu cầu nghiêm ngặt khi đưa vào sử dụng là gì?"}
+{"seed_id": "c1-033", "article_id": 30, "style": "complaint", "question": "Thang máy chở hàng của xưởng đã quá hạn sử dụng mà công ty vẫn cho chạy, luật yêu cầu thiết bị nghiêm ngặt phải thế nào?"}
+{"seed_id": "c1-033", "article_id": 30, "style": "short", "question": "Yêu cầu nguồn gốc thiết bị nghiêm ngặt"}
+{"seed_id": "c1-034", "article_id": 30, "style": "neutral", "question": "Khi đưa máy, thiết bị có yêu cầu nghiêm ngặt vào sử dụng hoặc thải bỏ thì có phải khai báo không?"}
+{"seed_id": "c1-034", "article_id": 30, "style": "worker", "question": "Xưởng mới mua nồi hơi về lắp, có phải đi khai báo với cơ quan nhà nước không?"}
+{"seed_id": "c1-034", "article_id": 30, "style": "hr", "question": "Thủ tục khai báo với cơ quan chuyên môn cấp tỉnh khi đưa vào sử dụng hoặc thải bỏ máy, thiết bị nghiêm ngặt được quy định như thế nào?"}
+{"seed_id": "c1-034", "article_id": 30, "style": "complaint", "question": "Công ty thanh lý cần trục cũ mà không khai báo với cơ quan nào, như vậy có đúng quy định không?"}
+{"seed_id": "c1-034", "article_id": 30, "style": "short", "question": "Khai báo thiết bị nghiêm ngặt mới"}
+{"seed_id": "c1-035", "article_id": 30, "style": "neutral", "question": "Trong quá trình sử dụng thiết bị nghiêm ngặt, tổ chức, cá nhân phải lập và lưu giữ hồ sơ gì?"}
+{"seed_id": "c1-035", "article_id": 30, "style": "worker", "question": "Mấy cái bình chịu áp lực trong xưởng có cần làm sổ sách hồ sơ kỹ thuật lưu lại không?"}
+{"seed_id": "c1-035", "article_id": 30, "style": "hr", "question": "Nghĩa vụ định kỳ kiểm tra, bảo dưỡng và lập, lưu giữ hồ sơ kỹ thuật an toàn đối với máy, thiết bị nghiêm ngặt là gì?"}
+{"seed_id": "c1-035", "article_id": 30, "style": "complaint", "question": "Đoàn kiểm tra hỏi hồ sơ kỹ thuật an toàn của xe nâng mà công ty không có, như vậy công ty có sai không?"}
+{"seed_id": "c1-035", "article_id": 30, "style": "short", "question": "Hồ sơ kỹ thuật an toàn máy"}
+{"seed_id": "c1-036", "article_id": 31, "style": "neutral", "question": "Máy, thiết bị có yêu cầu nghiêm ngặt về an toàn lao động phải được kiểm định khi nào?"}
+{"seed_id": "c1-036", "article_id": 31, "style": "worker", "question": "Cẩu tháp ở công trường thì bao giờ mới phải đem đi kiểm định, mua về là xài luôn được không?"}
+{"seed_id": "c1-036", "article_id": 31, "style": "hr", "question": "Quy định về kiểm định lần đầu trước khi đưa vào sử dụng và kiểm định định kỳ đối với thiết bị có yêu cầu nghiêm ngặt là gì?"}
+{"seed_id": "c1-036", "article_id": 31, "style": "complaint", "question": "Máy nén khí của xưởng xài năm năm rồi chưa kiểm định lại lần nào, luật có bắt kiểm định định kỳ không?"}
+{"seed_id": "c1-036", "article_id": 31, "style": "short", "question": "Khi nào phải kiểm định thiết bị?"}
+{"seed_id": "c1-037", "article_id": 31, "style": "neutral", "question": "Ai được thực hiện kiểm định máy, thiết bị có yêu cầu nghiêm ngặt về an toàn lao động?"}
+{"seed_id": "c1-037", "article_id": 31, "style": "worker", "question": "Công ty tự cho thợ bảo trì kiểm định cái cần cẩu thì có được không hay phải thuê bên ngoài?"}
+{"seed_id": "c1-037", "article_id": 31, "style": "hr", "question": "Chủ thể thực hiện hoạt động kiểm định kỹ thuật an toàn lao động đối với máy, thiết bị nghiêm ngặt theo luật là ai?"}
+{"seed_id": "c1-037", "article_id": 31, "style": "complaint", "question": "Công ty nhờ người quen ký giấy kiểm định cho nồi hơi mà người đó không thuộc tổ chức kiểm định nào, vậy có hợp lệ không?"}
+{"seed_id": "c1-037", "article_id": 31, "style": "short", "question": "Đơn vị nào được kiểm định?"}
+{"seed_id": "c1-038", "article_id": 31, "style": "neutral", "question": "Việc kiểm định máy, thiết bị có yêu cầu nghiêm ngặt phải bảo đảm những yêu cầu gì?"}
+{"seed_id": "c1-038", "article_id": 31, "style": "worker", "question": "Kiểm định máy mà làm qua loa, không cho ai xem kết quả thì có được không?"}
+{"seed_id": "c1-038", "article_id": 31, "style": "hr", "question": "Nguyên tắc chính xác, công khai, minh bạch trong hoạt động kiểm định thiết bị nghiêm ngặt về an toàn lao động được quy định như thế nào?"}
+{"seed_id": "c1-038", "article_id": 31, "style": "complaint", "question": "Kết quả kiểm định thang nâng công ty giữ kín, không cho công nhân biết, luật có yêu cầu kiểm định phải công khai không?"}
+{"seed_id": "c1-038", "article_id": 31, "style": "short", "question": "Yêu cầu minh bạch trong kiểm định"}
+{"seed_id": "c1-039", "article_id": 32, "style": "neutral", "question": "Tổ chức kiểm định kỹ thuật an toàn lao động có được từ chối kiểm định không?"}
+{"seed_id": "c1-039", "article_id": 32, "style": "worker", "question": "Bên kiểm định tới thấy chỗ đặt nồi hơi không an toàn nên bỏ về không kiểm, họ có quyền làm vậy không?"}
+{"seed_id": "c1-039", "article_id": 32, "style": "hr", "question": "Quyền từ chối cung ứng dịch vụ kiểm định khi không bảo đảm điều kiện an toàn của tổ chức kiểm định được quy định ra sao?"}
+{"seed_id": "c1-039", "article_id": 32, "style": "complaint", "question": "Đơn vị kiểm định từ chối kiểm định cần trục của công ty với lý do hiện trường không an toàn, họ làm vậy có đúng quyền không?"}
+{"seed_id": "c1-039", "article_id": 32, "style": "short", "question": "Tổ chức kiểm định từ chối kiểm định"}
+{"seed_id": "c1-040", "article_id": 33, "style": "neutral", "question": "Bộ nào quản lý nhà nước đối với máy, thiết bị có yêu cầu nghiêm ngặt sử dụng trong thi công xây dựng?"}
+{"seed_id": "c1-040", "article_id": 33, "style": "worker", "question": "Mấy cái vận thăng, cẩu tháp ngoài công trường thì bộ nào quản lý vậy?"}
+{"seed_id": "c1-040", "article_id": 33, "style": "hr", "question": "Phân công trách nhiệm quản lý nhà nước đối với máy, thiết bị, vật tư nghiêm ngặt dùng trong thi công xây dựng thuộc bộ nào?"}
+{"seed_id": "c1-040", "article_id": 33, "style": "complaint", "question": "Tôi muốn phản ánh cẩu tháp ở công trường không an toàn, vậy bộ nào chịu trách nhiệm quản lý loại thiết bị này?"}
+{"seed_id": "c1-040", "article_id": 33, "style": "short", "question": "Bộ nào quản lý cẩu tháp công trường?"}

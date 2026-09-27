@@ -1,0 +1,200 @@
+{"seed_id": "c3-001", "article_id": 21, "style": "neutral", "question": "Người lao động phải được khám sức khỏe định kỳ bao lâu một lần?"}
+{"seed_id": "c3-001", "article_id": 21, "style": "worker", "question": "Công nhân như tụi tôi thì mỗi năm công ty phải cho đi khám sức khỏe mấy lần?"}
+{"seed_id": "c3-001", "article_id": 21, "style": "hr", "question": "Tần suất tổ chức khám sức khỏe định kỳ tối thiểu cho người lao động theo Luật An toàn, vệ sinh lao động là bao nhiêu?"}
+{"seed_id": "c3-001", "article_id": 21, "style": "complaint", "question": "Hai năm rồi công ty chưa cho công nhân khám sức khỏe lần nào, như vậy có vi phạm luật không?"}
+{"seed_id": "c3-001", "article_id": 21, "style": "short", "question": "Khám sức khỏe định kỳ mấy lần?"}
+{"seed_id": "c3-002", "article_id": 21, "style": "neutral", "question": "Người làm nghề nặng nhọc, độc hại, nguy hiểm được khám sức khỏe bao lâu một lần?"}
+{"seed_id": "c3-002", "article_id": 21, "style": "worker", "question": "Tôi làm thợ lò đúc ngày nào cũng hít khói, có được khám sức khỏe nhiều hơn người thường không?"}
+{"seed_id": "c3-002", "article_id": 21, "style": "hr", "question": "Chu kỳ khám sức khỏe đối với người lao động làm nghề, công việc nặng nhọc, độc hại, nguy hiểm được quy định như thế nào?"}
+{"seed_id": "c3-002", "article_id": 21, "style": "complaint", "question": "Làm ở xưởng mạ kẽm độc hại mà công ty chỉ cho khám một năm một lần, như vậy có đúng luật không?"}
+{"seed_id": "c3-002", "article_id": 21, "style": "short", "question": "Nghề độc hại khám mấy tháng một lần?"}
+{"seed_id": "c3-003", "article_id": 21, "style": "neutral", "question": "Người lao động cao tuổi, người khuyết tật, lao động chưa thành niên được khám sức khỏe bao lâu một lần?"}
+{"seed_id": "c3-003", "article_id": 21, "style": "worker", "question": "Tôi hơn sáu mươi tuổi vẫn còn đi làm bảo vệ, có được khám sức khỏe thường xuyên hơn không?"}
+{"seed_id": "c3-003", "article_id": 21, "style": "hr", "question": "Chế độ khám sức khỏe định kỳ đối với người lao động cao tuổi, người khuyết tật và người chưa thành niên được quy định với tần suất nào?"}
+{"seed_id": "c3-003", "article_id": 21, "style": "complaint", "question": "Em mười sáu tuổi làm ở xưởng mà công ty cho khám chung một năm một lần như người lớn, vậy có đúng không?"}
+{"seed_id": "c3-003", "article_id": 21, "style": "short", "question": "Lao động cao tuổi khám sức khỏe"}
+{"seed_id": "c3-004", "article_id": 21, "style": "neutral", "question": "Lao động nữ có được khám chuyên khoa phụ sản khi khám sức khỏe định kỳ không?"}
+{"seed_id": "c3-004", "article_id": 21, "style": "worker", "question": "Chị em công nhân đi khám sức khỏe công ty có được khám phụ khoa luôn không?"}
+{"seed_id": "c3-004", "article_id": 21, "style": "hr", "question": "Nội dung khám chuyên khoa phụ sản cho lao động nữ trong đợt khám sức khỏe định kỳ có phải là yêu cầu bắt buộc không?"}
+{"seed_id": "c3-004", "article_id": 21, "style": "complaint", "question": "Đợt khám sức khỏe công ty tổ chức bỏ qua khám phụ sản cho nữ, chị em chúng tôi có khiếu nại được không?"}
+{"seed_id": "c3-004", "article_id": 21, "style": "short", "question": "Lao động nữ khám phụ sản"}
+{"seed_id": "c3-005", "article_id": 21, "style": "neutral", "question": "Người lao động tiếp xúc yếu tố có nguy cơ gây bệnh nghề nghiệp có được khám phát hiện bệnh nghề nghiệp không?"}
+{"seed_id": "c3-005", "article_id": 21, "style": "worker", "question": "Làm ở mỏ than hít bụi cả chục năm, có được công ty cho đi khám xem có bị bệnh bụi phổi không?"}
+{"seed_id": "c3-005", "article_id": 21, "style": "hr", "question": "Yêu cầu khám phát hiện bệnh nghề nghiệp đối với người lao động làm việc trong môi trường có yếu tố gây bệnh nghề nghiệp được quy định thế nào?"}
+{"seed_id": "c3-005", "article_id": 21, "style": "complaint", "question": "Công ty chỉ khám tổng quát sơ sơ mà không khám phát hiện bệnh nghề nghiệp cho người làm với amiăng, như vậy có sai không?"}
+{"seed_id": "c3-005", "article_id": 21, "style": "short", "question": "Khám phát hiện bệnh nghề nghiệp"}
+{"seed_id": "c3-006", "article_id": 21, "style": "neutral", "question": "Người lao động có phải khám sức khỏe trước khi được bố trí làm việc không?"}
+{"seed_id": "c3-006", "article_id": 21, "style": "worker", "question": "Mới vô làm có phải đi khám sức khỏe trước rồi mới được nhận việc không?"}
+{"seed_id": "c3-006", "article_id": 21, "style": "hr", "question": "Quy định về khám sức khỏe trước khi bố trí công việc đối với người lao động mới tuyển dụng là gì?"}
+{"seed_id": "c3-006", "article_id": 21, "style": "complaint", "question": "Công ty nhận tôi vào làm hầm lò mà không khám sức khỏe gì hết, như vậy có đúng quy định không?"}
+{"seed_id": "c3-006", "article_id": 21, "style": "short", "question": "Khám sức khỏe trước khi nhận việc"}
+{"seed_id": "c3-007", "article_id": 21, "style": "neutral", "question": "Khi chuyển sang làm công việc nặng nhọc, độc hại hơn, người lao động có phải được khám sức khỏe không?"}
+{"seed_id": "c3-007", "article_id": 21, "style": "worker", "question": "Tôi đang làm đóng gói bị điều qua tổ phun sơn, có được khám sức khỏe trước khi chuyển không?"}
+{"seed_id": "c3-007", "article_id": 21, "style": "hr", "question": "Nghĩa vụ tổ chức khám sức khỏe trước khi chuyển người lao động sang nghề, công việc nặng nhọc, độc hại, nguy hiểm hơn được quy định ra sao?"}
+{"seed_id": "c3-007", "article_id": 21, "style": "complaint", "question": "Công ty điều tôi từ văn phòng xuống xưởng hóa chất mà không cho khám sức khỏe trước, như vậy có vi phạm không?"}
+{"seed_id": "c3-007", "article_id": 21, "style": "short", "question": "Khám sức khỏe khi chuyển việc độc hại"}
+{"seed_id": "c3-008", "article_id": 21, "style": "neutral", "question": "Sau khi bị tai nạn lao động và đã phục hồi, người lao động trở lại làm việc có phải khám sức khỏe không?"}
+{"seed_id": "c3-008", "article_id": 21, "style": "worker", "question": "Tôi bị bỏng ở lò hơi nghỉ mấy tháng, giờ đi làm lại công ty có phải cho khám sức khỏe trước không?"}
+{"seed_id": "c3-008", "article_id": 21, "style": "hr", "question": "Yêu cầu khám sức khỏe cho người lao động đã phục hồi sau tai nạn lao động, bệnh nghề nghiệp trước khi tiếp tục trở lại làm việc là gì?"}
+{"seed_id": "c3-008", "article_id": 21, "style": "complaint", "question": "Tôi lành vết thương đi làm lại thì công ty bắt vào ca luôn chứ không cho khám sức khỏe, như vậy có đúng không?"}
+{"seed_id": "c3-008", "article_id": 21, "style": "short", "question": "Khám sức khỏe khi quay lại làm việc"}
+{"seed_id": "c3-009", "article_id": 21, "style": "neutral", "question": "Công ty phải tổ chức khám sức khỏe cho người lao động tại cơ sở khám chữa bệnh nào?"}
+{"seed_id": "c3-009", "article_id": 21, "style": "worker", "question": "Công ty rước một nhóm bác sĩ không rõ ở đâu vô xưởng khám cho có, vậy có được không?"}
+{"seed_id": "c3-009", "article_id": 21, "style": "hr", "question": "Điều kiện chuyên môn kỹ thuật đối với cơ sở khám bệnh, chữa bệnh thực hiện khám sức khỏe, khám phát hiện bệnh nghề nghiệp cho người lao động là gì?"}
+{"seed_id": "c3-009", "article_id": 21, "style": "complaint", "question": "Công ty thuê phòng khám tư không đủ điều kiện để khám phát hiện bệnh nghề nghiệp, kết quả đó có giá trị không?"}
+{"seed_id": "c3-009", "article_id": 21, "style": "short", "question": "Nơi khám sức khỏe cho công nhân"}
+{"seed_id": "c3-010", "article_id": 21, "style": "neutral", "question": "Người lao động được chẩn đoán mắc bệnh nghề nghiệp có được công ty đưa đi điều trị không?"}
+{"seed_id": "c3-010", "article_id": 21, "style": "worker", "question": "Tôi bị chẩn đoán điếc nghề nghiệp, công ty có phải đưa tôi đi bệnh viện chữa không?"}
+{"seed_id": "c3-010", "article_id": 21, "style": "hr", "question": "Trách nhiệm của người sử dụng lao động trong việc đưa người lao động mắc bệnh nghề nghiệp đến cơ sở đủ điều kiện điều trị theo phác đồ là gì?"}
+{"seed_id": "c3-010", "article_id": 21, "style": "complaint", "question": "Tôi bị bệnh bụi phổi silic mà công ty mặc kệ, không đưa đi điều trị, tôi có quyền yêu cầu công ty không?"}
+{"seed_id": "c3-010", "article_id": 21, "style": "short", "question": "Đưa người bệnh nghề nghiệp đi điều trị"}
+{"seed_id": "c3-011", "article_id": 21, "style": "neutral", "question": "Chi phí khám sức khỏe định kỳ cho người lao động do ai chi trả?"}
+{"seed_id": "c3-011", "article_id": 21, "style": "worker", "question": "Đi khám sức khỏe công ty tổ chức mà bắt công nhân đóng tiền, vậy có đúng không?"}
+{"seed_id": "c3-011", "article_id": 21, "style": "hr", "question": "Chi phí khám sức khỏe và khám phát hiện bệnh nghề nghiệp cho người lao động thuộc trách nhiệm chi trả của chủ thể nào?"}
+{"seed_id": "c3-011", "article_id": 21, "style": "complaint", "question": "Công ty trừ lương tiền khám sức khỏe định kỳ của cả xưởng, chúng tôi có đòi lại được không?"}
+{"seed_id": "c3-011", "article_id": 21, "style": "short", "question": "Ai trả tiền khám sức khỏe?"}
+{"seed_id": "c3-012", "article_id": 21, "style": "neutral", "question": "Chi phí khám sức khỏe cho người lao động có được tính vào chi phí được trừ khi tính thuế thu nhập doanh nghiệp không?"}
+{"seed_id": "c3-012", "article_id": 21, "style": "worker", "question": "Sếp than khám sức khỏe cho công nhân tốn tiền, vậy khoản này công ty có được trừ thuế không?"}
+{"seed_id": "c3-012", "article_id": 21, "style": "hr", "question": "Chi phí khám sức khỏe, khám phát hiện và điều trị bệnh nghề nghiệp do doanh nghiệp chi trả được hạch toán như thế nào khi xác định thu nhập chịu thuế?"}
+{"seed_id": "c3-012", "article_id": 21, "style": "complaint", "question": "Kế toán bảo khám sức khỏe cho công nhân không được tính vào chi phí hợp lý nên công ty cắt bớt, như vậy có đúng không?"}
+{"seed_id": "c3-012", "article_id": 21, "style": "short", "question": "Chi phí khám sức khỏe được trừ thuế?"}
+{"seed_id": "c3-013", "article_id": 21, "style": "neutral", "question": "Người lao động bị điều trị bệnh nghề nghiệp theo phác đồ do ai quy định?"}
+{"seed_id": "c3-013", "article_id": 21, "style": "worker", "question": "Bệnh nghề nghiệp thì chữa theo cách của bệnh viện hay có phác đồ riêng của ai ban hành?"}
+{"seed_id": "c3-013", "article_id": 21, "style": "hr", "question": "Phác đồ điều trị bệnh nghề nghiệp áp dụng cho người lao động được chẩn đoán mắc bệnh nghề nghiệp do cơ quan nào quy định?"}
+{"seed_id": "c3-013", "article_id": 21, "style": "complaint", "question": "Công ty đưa tôi đến chỗ chữa bệnh nhiễm độc chì không theo phác đồ nào cả, luật yêu cầu điều trị theo phác đồ của ai?"}
+{"seed_id": "c3-013", "article_id": 21, "style": "short", "question": "Phác đồ điều trị bệnh nghề nghiệp"}
+{"seed_id": "c3-014", "article_id": 21, "style": "neutral", "question": "Người lao động làm việc với hóa chất độc có được khám sức khỏe 6 tháng một lần không?"}
+{"seed_id": "c3-014", "article_id": 21, "style": "worker", "question": "Tôi pha thuốc trừ sâu trong nhà máy, có được khám nửa năm một lần không?"}
+{"seed_id": "c3-014", "article_id": 21, "style": "hr", "question": "Người lao động thuộc diện làm công việc độc hại do tiếp xúc hóa chất có được áp dụng chu kỳ khám sức khỏe ít nhất 06 tháng một lần không?"}
+{"seed_id": "c3-014", "article_id": 21, "style": "complaint", "question": "Xưởng pha hóa chất độc hại của tôi chỉ được khám mỗi năm một lần, tôi có đòi khám sáu tháng một lần được không?"}
+{"seed_id": "c3-014", "article_id": 21, "style": "short", "question": "Làm hóa chất khám sáu tháng?"}
+{"seed_id": "c3-015", "article_id": 21, "style": "neutral", "question": "Công ty có trách nhiệm tổ chức khám sức khỏe cho người lao động hằng năm không?"}
+{"seed_id": "c3-015", "article_id": 21, "style": "worker", "question": "Khám sức khỏe hằng năm là công ty phải lo hay công nhân tự đi khám?"}
+{"seed_id": "c3-015", "article_id": 21, "style": "hr", "question": "Trách nhiệm tổ chức khám sức khỏe hằng năm cho người lao động thuộc về người sử dụng lao động hay người lao động?"}
+{"seed_id": "c3-015", "article_id": 21, "style": "complaint", "question": "Công ty bảo ai muốn khám sức khỏe thì tự đi, công ty không tổ chức, như vậy có đúng luật không?"}
+{"seed_id": "c3-015", "article_id": 21, "style": "short", "question": "Ai tổ chức khám sức khỏe hằng năm?"}
+{"seed_id": "c3-016", "article_id": 21, "style": "neutral", "question": "Người lao động đã được Hội đồng y khoa giám định có phải khám sức khỏe lại khi trở lại làm việc không?"}
+{"seed_id": "c3-016", "article_id": 21, "style": "worker", "question": "Tôi đã đi giám định thương tật rồi, quay lại xưởng làm có phải khám sức khỏe nữa không?"}
+{"seed_id": "c3-016", "article_id": 21, "style": "hr", "question": "Trường hợp người lao động đã được Hội đồng y khoa khám giám định mức suy giảm khả năng lao động thì có được miễn khám sức khỏe khi trở lại làm việc không?"}
+{"seed_id": "c3-016", "article_id": 21, "style": "complaint", "question": "Công ty bắt tôi khám sức khỏe lại dù đã có kết quả giám định của Hội đồng y khoa, như vậy có cần thiết không?"}
+{"seed_id": "c3-016", "article_id": 21, "style": "short", "question": "Đã giám định có phải khám lại?"}
+{"seed_id": "c3-017", "article_id": 24, "style": "neutral", "question": "Người lao động nào được bồi dưỡng bằng hiện vật?"}
+{"seed_id": "c3-017", "article_id": 24, "style": "worker", "question": "Làm ở xưởng độc hại thì có được phát sữa bồi dưỡng không, ai mới được hưởng?"}
+{"seed_id": "c3-017", "article_id": 24, "style": "hr", "question": "Đối tượng người lao động được người sử dụng lao động bồi dưỡng bằng hiện vật theo Luật An toàn, vệ sinh lao động là ai?"}
+{"seed_id": "c3-017", "article_id": 24, "style": "complaint", "question": "Tôi làm trong khu có khí độc mà công ty nói tôi không thuộc diện được bồi dưỡng hiện vật, vậy ai mới được hưởng?"}
+{"seed_id": "c3-017", "article_id": 24, "style": "short", "question": "Ai được bồi dưỡng hiện vật?"}
+{"seed_id": "c3-018", "article_id": 24, "style": "neutral", "question": "Việc bồi dưỡng bằng hiện vật phải tuân theo những nguyên tắc nào?"}
+{"seed_id": "c3-018", "article_id": 24, "style": "worker", "question": "Công ty phát đồ bồi dưỡng thì phải theo mấy nguyên tắc gì, hay muốn phát gì cũng được?"}
+{"seed_id": "c3-018", "article_id": 24, "style": "hr", "question": "Đề nghị nêu các nguyên tắc thực hiện bồi dưỡng bằng hiện vật cho người lao động làm việc trong điều kiện có yếu tố có hại."}
+{"seed_id": "c3-018", "article_id": 24, "style": "complaint", "question": "Công ty phát đồ bồi dưỡng tùy tiện chẳng theo quy tắc nào, vậy luật đặt ra nguyên tắc bồi dưỡng hiện vật gì?"}
+{"seed_id": "c3-018", "article_id": 24, "style": "short", "question": "Nguyên tắc bồi dưỡng hiện vật"}
+{"seed_id": "c3-019", "article_id": 24, "style": "neutral", "question": "Bồi dưỡng bằng hiện vật phải thực hiện vào thời điểm nào?"}
+{"seed_id": "c3-019", "article_id": 24, "style": "worker", "question": "Sữa bồi dưỡng là phải uống trong ca làm hay được mang về nhà?"}
+{"seed_id": "c3-019", "article_id": 24, "style": "hr", "question": "Quy định về việc bồi dưỡng bằng hiện vật được thực hiện trong ca, ngày làm việc như thế nào?"}
+{"seed_id": "c3-019", "article_id": 24, "style": "complaint", "question": "Công ty dồn suất bồi dưỡng cả tháng phát một lần cho mang về, như vậy có đúng quy định không?"}
+{"seed_id": "c3-019", "article_id": 24, "style": "short", "question": "Bồi dưỡng hiện vật trong ca làm?"}
+{"seed_id": "c3-020", "article_id": 24, "style": "neutral", "question": "Hiện vật dùng để bồi dưỡng cho người lao động phải bảo đảm yêu cầu gì về vệ sinh thực phẩm?"}
+{"seed_id": "c3-020", "article_id": 24, "style": "worker", "question": "Đồ bồi dưỡng phát cho tụi tôi toàn bánh sắp hết hạn, vậy có được không?"}
+{"seed_id": "c3-020", "article_id": 24, "style": "hr", "question": "Yêu cầu về thuận tiện, an toàn, vệ sinh thực phẩm đối với hiện vật bồi dưỡng cho người lao động được quy định như thế nào?"}
+{"seed_id": "c3-020", "article_id": 24, "style": "complaint", "question": "Tổ tôi uống sữa bồi dưỡng công ty phát bị đau bụng cả loạt vì sữa hư, công ty có vi phạm nguyên tắc bồi dưỡng không?"}
+{"seed_id": "c3-020", "article_id": 24, "style": "short", "question": "Vệ sinh thực phẩm đồ bồi dưỡng"}
+{"seed_id": "c3-021", "article_id": 24, "style": "neutral", "question": "Mục đích của việc bồi dưỡng bằng hiện vật cho người lao động là gì?"}
+{"seed_id": "c3-021", "article_id": 24, "style": "worker", "question": "Phát sữa, phát trứng cho công nhân độc hại để làm gì vậy?"}
+{"seed_id": "c3-021", "article_id": 24, "style": "hr", "question": "Bồi dưỡng bằng hiện vật nhằm mục tiêu tăng cường sức đề kháng và thải độc của cơ thể được luật quy định ra sao?"}
+{"seed_id": "c3-021", "article_id": 24, "style": "complaint", "question": "Công ty phát nước ngọt có ga coi như bồi dưỡng, thứ đó có giúp thải độc gì đâu, như vậy có đúng mục đích bồi dưỡng không?"}
+{"seed_id": "c3-021", "article_id": 24, "style": "short", "question": "Mục đích bồi dưỡng hiện vật"}
+{"seed_id": "c3-022", "article_id": 24, "style": "neutral", "question": "Trường hợp nào được bồi dưỡng hiện vật ngoài ca làm việc?"}
+{"seed_id": "c3-022", "article_id": 24, "style": "worker", "question": "Tụi tôi đi làm lưu động ngoài biển không ăn chung được, vậy đồ bồi dưỡng có được phát sau ca không?"}
+{"seed_id": "c3-022", "article_id": 24, "style": "hr", "question": "Ngoại lệ đối với nguyên tắc bồi dưỡng tại chỗ trong ca khi tổ chức lao động không thể bồi dưỡng tập trung được áp dụng thế nào?"}
+{"seed_id": "c3-022", "article_id": 24, "style": "complaint", "question": "Công ty viện cớ làm ca đêm nên không bồi dưỡng tại chỗ được, rồi bỏ luôn suất bồi dưỡng, như vậy có được không?"}
+{"seed_id": "c3-022", "article_id": 24, "style": "short", "question": "Ngoại lệ bồi dưỡng ngoài ca"}
+{"seed_id": "c3-023", "article_id": 24, "style": "neutral", "question": "Cơ quan nào quy định chi tiết việc bồi dưỡng bằng hiện vật?"}
+{"seed_id": "c3-023", "article_id": 24, "style": "worker", "question": "Mức bồi dưỡng bao nhiêu, phát gì là do ai quy định vậy?"}
+{"seed_id": "c3-023", "article_id": 24, "style": "hr", "question": "Thẩm quyền quy định chi tiết chế độ bồi dưỡng bằng hiện vật cho người lao động thuộc về cơ quan nào?"}
+{"seed_id": "c3-023", "article_id": 24, "style": "complaint", "question": "Công ty tự đặt ra mức bồi dưỡng rất thấp, vậy theo luật cơ quan nào mới được quy định việc bồi dưỡng hiện vật?"}
+{"seed_id": "c3-023", "article_id": 24, "style": "short", "question": "Ai quy định bồi dưỡng hiện vật?"}
+{"seed_id": "c3-024", "article_id": 24, "style": "neutral", "question": "Người lao động làm trong hầm lò có được công ty bồi dưỡng bằng hiện vật không?"}
+{"seed_id": "c3-024", "article_id": 24, "style": "worker", "question": "Xuống hầm lò đào than cả ca, có được phát đồ ăn uống bồi dưỡng không?"}
+{"seed_id": "c3-024", "article_id": 24, "style": "hr", "question": "Người lao động làm việc dưới hầm lò, nơi có yếu tố nguy hiểm, có hại, có thuộc diện được bồi dưỡng bằng hiện vật không?"}
+{"seed_id": "c3-024", "article_id": 24, "style": "complaint", "question": "Mỏ than tôi làm đã cắt suất bồi dưỡng hiện vật của thợ lò, công ty làm vậy có trái luật không?"}
+{"seed_id": "c3-024", "article_id": 24, "style": "short", "question": "Thợ hầm lò được bồi dưỡng?"}
+{"seed_id": "c3-025", "article_id": 24, "style": "neutral", "question": "Bồi dưỡng bằng hiện vật cho người lao động gồm những gì?"}
+{"seed_id": "c3-025", "article_id": 24, "style": "worker", "question": "Được bồi dưỡng hiện vật là được phát những món gì, có phải sữa với trứng không?"}
+{"seed_id": "c3-025", "article_id": 24, "style": "hr", "question": "Hình thức và nội dung của chế độ bồi dưỡng bằng hiện vật cho người lao động được Luật quy định như thế nào?"}
+{"seed_id": "c3-025", "article_id": 24, "style": "complaint", "question": "Công ty gọi phát mì gói là bồi dưỡng hiện vật, như vậy có đúng với chế độ bồi dưỡng không?"}
+{"seed_id": "c3-025", "article_id": 24, "style": "short", "question": "Bồi dưỡng hiện vật gồm những gì"}
+{"seed_id": "c3-026", "article_id": 24, "style": "neutral", "question": "Người lao động làm việc trong môi trường nóng có được bồi dưỡng bằng hiện vật không?"}
+{"seed_id": "c3-026", "article_id": 24, "style": "worker", "question": "Đứng lò nấu thép nóng rát cả ngày, có được công ty phát nước bồi dưỡng không?"}
+{"seed_id": "c3-026", "article_id": 24, "style": "hr", "question": "Người lao động làm việc trong điều kiện nhiệt độ cao là yếu tố có hại có được hưởng chế độ bồi dưỡng bằng hiện vật không?"}
+{"seed_id": "c3-026", "article_id": 24, "style": "complaint", "question": "Công nhân lò luyện chỉ được uống nước lọc chứ chẳng có bồi dưỡng gì, như vậy công ty có sai không?"}
+{"seed_id": "c3-026", "article_id": 24, "style": "short", "question": "Làm nơi nóng có được bồi dưỡng?"}
+{"seed_id": "c3-027", "article_id": 26, "style": "neutral", "question": "Người lao động nào được tổ chức điều dưỡng phục hồi sức khỏe hằng năm?"}
+{"seed_id": "c3-027", "article_id": 26, "style": "worker", "question": "Làm nghề nặng nhọc lâu năm có được công ty cho đi nghỉ điều dưỡng phục hồi sức khỏe không?"}
+{"seed_id": "c3-027", "article_id": 26, "style": "hr", "question": "Đối tượng được người sử dụng lao động tổ chức điều dưỡng phục hồi sức khỏe hằng năm theo Luật An toàn, vệ sinh lao động là ai?"}
+{"seed_id": "c3-027", "article_id": 26, "style": "complaint", "question": "Tôi làm nghề đặc biệt độc hại mười năm mà công ty chưa cho đi điều dưỡng lần nào, tôi có thuộc diện được đi không?"}
+{"seed_id": "c3-027", "article_id": 26, "style": "short", "question": "Ai được điều dưỡng phục hồi sức khỏe?"}
+{"seed_id": "c3-028", "article_id": 26, "style": "neutral", "question": "Công ty có bắt buộc phải tổ chức điều dưỡng phục hồi sức khỏe cho người lao động không?"}
+{"seed_id": "c3-028", "article_id": 26, "style": "worker", "question": "Đi điều dưỡng phục hồi sức khỏe là quyền lợi bắt buộc hay tùy công ty có cho hay không?"}
+{"seed_id": "c3-028", "article_id": 26, "style": "hr", "question": "Việc tổ chức điều dưỡng phục hồi sức khỏe hằng năm cho người lao động là nghĩa vụ bắt buộc hay chỉ được khuyến khích đối với doanh nghiệp?"}
+{"seed_id": "c3-028", "article_id": 26, "style": "complaint", "question": "Công ty từ chối tổ chức điều dưỡng phục hồi sức khỏe, nói luật không bắt buộc, vậy công ty nói có đúng không?"}
+{"seed_id": "c3-028", "article_id": 26, "style": "short", "question": "Điều dưỡng phục hồi sức khỏe bắt buộc?"}
+{"seed_id": "c3-029", "article_id": 26, "style": "neutral", "question": "Người lao động có sức khỏe kém có được điều dưỡng phục hồi sức khỏe không?"}
+{"seed_id": "c3-029", "article_id": 26, "style": "worker", "question": "Tôi hay đau ốm, sức khỏe yếu, có được công ty cho đi điều dưỡng không?"}
+{"seed_id": "c3-029", "article_id": 26, "style": "hr", "question": "Người lao động được xếp loại sức khỏe kém có nằm trong nhóm được khuyến khích tổ chức điều dưỡng phục hồi sức khỏe hằng năm không?"}
+{"seed_id": "c3-029", "article_id": 26, "style": "complaint", "question": "Khám ra sức khỏe loại kém mà công ty vẫn không cho đi điều dưỡng, tôi có đề nghị được không?"}
+{"seed_id": "c3-029", "article_id": 26, "style": "short", "question": "Sức khỏe kém có được điều dưỡng?"}
+{"seed_id": "c3-030", "article_id": 26, "style": "neutral", "question": "Điều dưỡng phục hồi sức khỏe cho người lao động được tổ chức bao lâu một lần?"}
+{"seed_id": "c3-030", "article_id": 26, "style": "worker", "question": "Đi điều dưỡng phục hồi sức khỏe thì mỗi năm được đi hay mấy năm mới được một lần?"}
+{"seed_id": "c3-030", "article_id": 26, "style": "hr", "question": "Chu kỳ tổ chức điều dưỡng phục hồi sức khỏe cho người lao động làm nghề nặng nhọc, độc hại theo luật là như thế nào?"}
+{"seed_id": "c3-030", "article_id": 26, "style": "complaint", "question": "Công ty năm năm mới cho công nhân độc hại đi điều dưỡng một lần, như vậy có đúng tinh thần của luật không?"}
+{"seed_id": "c3-030", "article_id": 26, "style": "short", "question": "Điều dưỡng phục hồi mấy năm một lần?"}
+{"seed_id": "c3-031", "article_id": 26, "style": "neutral", "question": "Người làm nghề đặc biệt nặng nhọc, độc hại, nguy hiểm có được điều dưỡng phục hồi sức khỏe không?"}
+{"seed_id": "c3-031", "article_id": 26, "style": "worker", "question": "Tôi làm thợ lặn khai thác dưới biển, nghề đặc biệt nguy hiểm, có được đi an dưỡng phục hồi sức khỏe không?"}
+{"seed_id": "c3-031", "article_id": 26, "style": "hr", "question": "Người lao động làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm có thuộc diện được tổ chức điều dưỡng phục hồi sức khỏe hằng năm không?"}
+{"seed_id": "c3-031", "article_id": 26, "style": "complaint", "question": "Tụi tôi làm xử lý chất thải phóng xạ mà chưa bao giờ được điều dưỡng, công ty có trách nhiệm tổ chức không?"}
+{"seed_id": "c3-031", "article_id": 26, "style": "short", "question": "Nghề đặc biệt độc hại được điều dưỡng?"}
+{"seed_id": "c3-032", "article_id": 27, "style": "neutral", "question": "Công ty có phải lập và quản lý hồ sơ sức khỏe của người lao động không?"}
+{"seed_id": "c3-032", "article_id": 27, "style": "worker", "question": "Công ty có phải giữ sổ khám sức khỏe của từng công nhân không?"}
+{"seed_id": "c3-032", "article_id": 27, "style": "hr", "question": "Trách nhiệm lập và quản lý hồ sơ sức khỏe của người lao động thuộc về chủ thể nào theo Luật?"}
+{"seed_id": "c3-032", "article_id": 27, "style": "complaint", "question": "Tôi xin xem lại hồ sơ sức khỏe mấy năm làm việc thì công ty nói không lưu, như vậy có vi phạm không?"}
+{"seed_id": "c3-032", "article_id": 27, "style": "short", "question": "Lập hồ sơ sức khỏe người lao động"}
+{"seed_id": "c3-033", "article_id": 27, "style": "neutral", "question": "Công ty có phải lập hồ sơ sức khỏe riêng cho người bị bệnh nghề nghiệp không?"}
+{"seed_id": "c3-033", "article_id": 27, "style": "worker", "question": "Tôi bị bệnh nghề nghiệp thì công ty có phải làm hồ sơ sức khỏe riêng cho tôi không?"}
+{"seed_id": "c3-033", "article_id": 27, "style": "hr", "question": "Quy định về lập và quản lý hồ sơ sức khỏe của người lao động bị bệnh nghề nghiệp tại doanh nghiệp là gì?"}
+{"seed_id": "c3-033", "article_id": 27, "style": "complaint", "question": "Công ty không làm hồ sơ sức khỏe cho người bị bệnh bụi phổi, sau này tôi cần chứng minh thì phải làm sao, công ty có sai không?"}
+{"seed_id": "c3-033", "article_id": 27, "style": "short", "question": "Hồ sơ sức khỏe bệnh nghề nghiệp"}
+{"seed_id": "c3-034", "article_id": 27, "style": "neutral", "question": "Công ty có phải thông báo kết quả khám sức khỏe cho người lao động biết không?"}
+{"seed_id": "c3-034", "article_id": 27, "style": "worker", "question": "Khám sức khỏe xong mà công ty không cho biết kết quả, mình có được đòi xem không?"}
+{"seed_id": "c3-034", "article_id": 27, "style": "hr", "question": "Nghĩa vụ thông báo kết quả khám sức khỏe, khám phát hiện bệnh nghề nghiệp cho người lao động được quy định như thế nào?"}
+{"seed_id": "c3-034", "article_id": 27, "style": "complaint", "question": "Công ty giấu kết quả khám phát hiện bệnh nghề nghiệp, không cho công nhân biết mình bị gì, như vậy có đúng không?"}
+{"seed_id": "c3-034", "article_id": 27, "style": "short", "question": "Thông báo kết quả khám sức khỏe"}
+{"seed_id": "c3-035", "article_id": 27, "style": "neutral", "question": "Công ty có phải sắp xếp công việc phù hợp với sức khỏe của người lao động không?"}
+{"seed_id": "c3-035", "article_id": 27, "style": "worker", "question": "Khám ra tôi bị cao huyết áp mà công ty vẫn để làm trên giàn cao, vậy có được không?"}
+{"seed_id": "c3-035", "article_id": 27, "style": "hr", "question": "Việc bố trí công việc căn cứ vào tiêu chuẩn sức khỏe từng nghề và kết quả khám sức khỏe của người lao động được quy định ra sao?"}
+{"seed_id": "c3-035", "article_id": 27, "style": "complaint", "question": "Kết quả khám cho thấy tôi không đủ sức khỏe làm hóa chất mà công ty vẫn không chuyển việc, tôi có quyền phản đối không?"}
+{"seed_id": "c3-035", "article_id": 27, "style": "short", "question": "Bố trí việc theo kết quả khám"}
+{"seed_id": "c3-036", "article_id": 27, "style": "neutral", "question": "Công ty có phải báo cáo việc quản lý sức khỏe người lao động cho cơ quan y tế không?"}
+{"seed_id": "c3-036", "article_id": 27, "style": "worker", "question": "Khám sức khỏe cho công nhân xong công ty có phải báo lên sở y tế gì không?"}
+{"seed_id": "c3-036", "article_id": 27, "style": "hr", "question": "Trách nhiệm báo cáo hằng năm về quản lý sức khỏe người lao động cho cơ quan quản lý nhà nước về y tế được quy định thế nào?"}
+{"seed_id": "c3-036", "article_id": 27, "style": "complaint", "question": "Công ty chưa bao giờ báo cáo tình hình sức khỏe công nhân lên cơ quan y tế, như vậy có vi phạm quy định không?"}
+{"seed_id": "c3-036", "article_id": 27, "style": "short", "question": "Báo cáo quản lý sức khỏe hằng năm"}
+{"seed_id": "c3-037", "article_id": 27, "style": "neutral", "question": "Tiêu chuẩn sức khỏe của từng nghề được sử dụng như thế nào trong việc bố trí công việc?"}
+{"seed_id": "c3-037", "article_id": 27, "style": "worker", "question": "Nghề lái cẩu có đòi hỏi sức khỏe riêng không, công ty có phải xét cái đó khi giao việc không?"}
+{"seed_id": "c3-037", "article_id": 27, "style": "hr", "question": "Người sử dụng lao động phải căn cứ vào tiêu chuẩn sức khỏe quy định cho từng loại nghề, công việc như thế nào khi sắp xếp nhân sự?"}
+{"seed_id": "c3-037", "article_id": 27, "style": "complaint", "question": "Tôi bị cận nặng mà công ty vẫn giao lái xe nâng bất chấp tiêu chuẩn sức khỏe của nghề, như vậy có đúng không?"}
+{"seed_id": "c3-037", "article_id": 27, "style": "short", "question": "Tiêu chuẩn sức khỏe theo nghề"}
+{"seed_id": "c3-038", "article_id": 27, "style": "neutral", "question": "Người lao động có quyền biết kết quả khám phát hiện bệnh nghề nghiệp của mình không?"}
+{"seed_id": "c3-038", "article_id": 27, "style": "worker", "question": "Đi khám bệnh nghề nghiệp về mà hỏi hoài phòng nhân sự không nói kết quả, mình có quyền biết không?"}
+{"seed_id": "c3-038", "article_id": 27, "style": "hr", "question": "Người lao động có được thông báo kết quả khám phát hiện bệnh nghề nghiệp từ người sử dụng lao động không?"}
+{"seed_id": "c3-038", "article_id": 27, "style": "complaint", "question": "Phòng nhân sự nói kết quả khám bệnh nghề nghiệp là tài liệu nội bộ không cung cấp cho công nhân, như vậy có đúng không?"}
+{"seed_id": "c3-038", "article_id": 27, "style": "short", "question": "Biết kết quả khám bệnh nghề nghiệp"}
+{"seed_id": "c3-039", "article_id": 27, "style": "neutral", "question": "Công ty có phải lưu giữ kết quả khám sức khỏe của người lao động trong hồ sơ không?"}
+{"seed_id": "c3-039", "article_id": 27, "style": "worker", "question": "Mấy tờ kết quả khám sức khỏe mỗi năm của công nhân công ty có phải giữ lại không?"}
+{"seed_id": "c3-039", "article_id": 27, "style": "hr", "question": "Hồ sơ sức khỏe người lao động do doanh nghiệp quản lý có phải bao gồm kết quả các lần khám sức khỏe định kỳ không?"}
+{"seed_id": "c3-039", "article_id": 27, "style": "complaint", "question": "Công ty làm mất hết giấy khám sức khỏe của tôi mấy năm qua, giờ tôi cần làm thủ tục thì công ty có chịu trách nhiệm không?"}
+{"seed_id": "c3-039", "article_id": 27, "style": "short", "question": "Lưu kết quả khám sức khỏe"}
+{"seed_id": "c3-040", "article_id": 27, "style": "neutral", "question": "Sau khi khám sức khỏe, công ty có phải chuyển người lao động không đủ sức khỏe sang công việc khác không?"}
+{"seed_id": "c3-040", "article_id": 27, "style": "worker", "question": "Khám ra tôi bị bệnh tim, bác sĩ khuyên không làm việc nặng mà sếp vẫn giữ tôi ở tổ bốc xếp, có được không?"}
+{"seed_id": "c3-040", "article_id": 27, "style": "hr", "question": "Khi kết quả khám sức khỏe cho thấy người lao động không đáp ứng tiêu chuẩn sức khỏe vị trí hiện tại, người sử dụng lao động phải sắp xếp công việc như thế nào?"}
+{"seed_id": "c3-040", "article_id": 27, "style": "complaint", "question": "Tôi bị chẩn đoán hen suyễn mà công ty vẫn bắt ở xưởng bụi bông, không chịu chuyển việc, tôi có kiện được không?"}
+{"seed_id": "c3-040", "article_id": 27, "style": "short", "question": "Chuyển việc do không đủ sức khỏe"}
