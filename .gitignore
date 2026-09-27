@@ -8,3 +8,4 @@ models/*.pkl
 ~$*.docx
 ~$*.pptx
 data/raw/*.html
+data/raw/crawl_cache/
