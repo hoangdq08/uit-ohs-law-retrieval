@@ -57,7 +57,10 @@ def grid_search(pipe: Pipeline, grid: dict, X, y, groups) -> GridSearchCV:
 
 
 def scores(y_true, y_pred) -> dict:
-    p, r, f, _ = precision_recall_fscore_support(y_true, y_pred, average="macro", zero_division=0)
+    # Cố định tập nhãn = các lớp có trong y_true: nếu không, mẫu số macro thay đổi theo lớp mà model dự đoán
+    # (vd test thật thiếu C2, model đoán nhầm vào C2 thì C2 bị tính thêm với F1=0).
+    labels = sorted(set(y_true))
+    p, r, f, _ = precision_recall_fscore_support(y_true, y_pred, labels=labels, average="macro", zero_division=0)
     return {"accuracy": accuracy_score(y_true, y_pred), "macro_precision": p, "macro_recall": r, "macro_f1": f}
 
 

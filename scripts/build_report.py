@@ -177,7 +177,9 @@ def main() -> None:
     ls = R["len_stats"]
     rp.p(f"Độ dài câu hỏi trung bình {ls['mean']} âm tiết (min {ls['min']}, max {ls['max']}). Văn phong rút gọn ngắn nhất "
          f"({R['len_by_style'].get('short')}), văn phong khiếu nại dài nhất ({R['len_by_style'].get('complaint')})."
-         + (f" Câu hỏi thật dài hơn nhiều, trung bình {R.get('real_len_mean', 0):.1f} âm tiết, thường kèm bối cảnh cụ thể." if has_real else ""))
+         + (f" Câu hỏi thật có độ dài trung bình {R.get('real_len_mean', 0):.1f} âm tiết"
+            + (", dài hơn nhiều so với dữ liệu synthetic, thường kèm bối cảnh cụ thể." if R.get('real_len_mean', 0) > 1.5 * ls['mean'] else ".")
+            if has_real else ""))
     rp.fig("eda_length", "Phân bố độ dài câu hỏi")
     rp.fig("eda_wordcloud", "WordCloud theo lớp (sau tách từ và lọc stopwords)", 16)
     rp.table(["Lớp", "Từ đặc trưng (TF-IDF trung bình)"], [[k, v] for k, v in R["top_terms"].items()],
@@ -240,18 +242,27 @@ def main() -> None:
           "(mô hình nhớ từ vựng của tập train). ") if over else "Không mô hình nào có chênh lệch train–val trên 10 điểm. ")
     if has_real:
         drop = M[best]["test_macro_f1"] - M[best]["real_macro_f1"]
-        rp.p(f"Khoảng cách quan trọng nhất là giữa test synthetic và câu hỏi thật: Macro-F1 của {MODEL_VI[best]} giảm "
-             f"{100 * drop:.2f} điểm. Đây là domain shift: câu hỏi thật dài hơn, nhiều bối cảnh, nhiều ý, dùng từ ngữ "
-             f"của văn bản hướng dẫn khác (Nghị định, Thông tư) và phân bố lớp khác hẳn tập huấn luyện.")
+        if drop > 0.05:
+            rp.p(f"Khoảng cách quan trọng nhất là giữa test synthetic và câu hỏi thật: Macro-F1 của {MODEL_VI[best]} giảm "
+                 f"{100 * drop:.2f} điểm. Giả thuyết: domain shift (câu hỏi thật dài hơn, nhiều bối cảnh, dùng từ ngữ của "
+                 f"Nghị định/Thông tư, phân bố lớp khác). Lưu ý tập thật chỉ có {R['n_real']} câu nên số liệu dao động lớn.")
+        else:
+            rp.p(f"Macro-F1 trên câu hỏi thật chênh {100 * drop:+.2f} điểm so với test synthetic; tập thật chỉ có "
+                 f"{R['n_real']} câu nên chưa đủ để kết luận về khả năng tổng quát.")
     rp.fig("rf_feature_importance", "Top-20 đặc trưng quan trọng của Random Forest", 12)
 
     # 7
     rp.h("7. So sánh mô hình, Ablation study và phân tích lỗi")
     rp.h("7.1. Vì sao mô hình này tốt hơn", 2)
-    rp.p("Với dữ liệu văn bản ngắn biểu diễn TF-IDF (thưa, hàng nghìn chiều, ít mẫu), các mô hình tuyến tính (LinearSVC, "
-         "Logistic Regression) thường phù hợp nhất: mỗi từ khóa pháp lý đóng góp tuyến tính vào quyết định và điều chuẩn "
-         "giúp tổng quát hóa. Naive Bayes chịu giả định độc lập giữa các từ, không tận dụng tốt các bigram tương quan. "
-         "Random Forest chia nhánh trên từng đặc trưng thưa nên khó khai thác hàng nghìn từ hiếm, và dễ học thuộc tập train.")
+    linear_top = best in ("LinearSVC", "LogisticRegression")
+    rp.p(("Kết quả phù hợp với nhận định thường gặp: với TF-IDF (thưa, hàng nghìn chiều, ít mẫu), mô hình tuyến tính "
+          "(LinearSVC, Logistic Regression) có lợi thế vì mỗi từ khóa đóng góp tuyến tính vào quyết định và điều chuẩn giúp "
+          "tổng quát hóa. ") if linear_top else
+         (f"Khác với nhận định thường gặp (mô hình tuyến tính mạnh trên TF-IDF), {MODEL_VI[best]} tốt nhất trên dữ liệu này; "
+          "nhóm cần phân tích thêm nguyên nhân. "))
+    rp.p("Naive Bayes giả định các từ độc lập có điều kiện, không mô hình hóa tương quan giữa các bigram. Random Forest chia "
+         "nhánh trên từng đặc trưng thưa, khó tận dụng hàng nghìn từ hiếm và dễ khớp quá mức tập train "
+         f"(chênh lệch train–val của RF: {pct(R['train_val_gap'].get('RandomForest'))}).")
     rp.p("Kết quả thực nghiệm: " + ", ".join(f"{MODEL_VI[m]} {pct(M[m]['val_macro_f1'])}" for m in rank) + " (val Macro-F1).")
     rp.h("7.2. Ablation study", 2)
     rp.table(["Cấu hình", "CV F1 (± std)", "Val F1", "Test F1"] + (["Thật F1"] if has_real else []) + ["Số đặc trưng"],

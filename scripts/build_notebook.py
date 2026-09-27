@@ -170,7 +170,9 @@ md("""
 4 mô hình: **Multinomial Naive Bayes** (baseline), **Logistic Regression** (softmax, cross-entropy),
 **LinearSVC** (hinge / squared hinge), **Random Forest** (bagging cây quyết định).
 `GridSearchCV` với `StratifiedGroupKFold(5)` trên tập train (nhóm theo `seed_id`), tối ưu **Macro-F1**.
-Chọn mô hình tốt nhất theo **Macro-F1 trên validation**, test chỉ dùng một lần ở cuối.
+Chọn mô hình tốt nhất theo **Macro-F1 trên validation**. Test và test thật được báo cáo cho mọi mô hình để so sánh,
+nhưng **không** dùng để chọn mô hình hay siêu tham số. Macro-F1 tính trên các lớp có mặt trong nhãn thật của từng tập
+(test thật không có đủ 8 lớp).
 """)
 
 code("""
@@ -192,7 +194,7 @@ code("""
 cols = ["cv_macro_f1", "train_macro_f1", "val_accuracy", "val_macro_precision", "val_macro_recall", "val_macro_f1",
         "test_accuracy", "test_macro_f1"] + (["real_accuracy", "real_macro_f1"] if real is not None else []) + ["fit_seconds"]
 table = res[cols].round(4)
-best = table.val_macro_f1.idxmax(); RESULTS["best_model"] = best
+best = res.val_macro_f1.idxmax(); RESULTS["best_model"] = best  # chọn trên số chưa làm tròn
 print("Mô hình tốt nhất theo val Macro-F1:", best)
 table
 """)
