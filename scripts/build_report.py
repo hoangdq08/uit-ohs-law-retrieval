@@ -435,7 +435,7 @@ def main() -> None:
     rp.bullets(["Mã nguồn: notebooks/uit_ohs_law_retrieval.ipynb, src/ (config, preprocess, dataset, models, retrieval), scripts/, app.py.",
                 "Dữ liệu: data/ohs_law_articles.json, data/processed/ohs_questions.csv, data/processed/real_test.csv.",
                 "Tài liệu thiết kế: docs/project-analysis.md, docs/labeling-guidelines.md.",
-                "Tái lập: pip install -r requirements.txt; python -m scripts.build_articles; python -m src.dataset; chạy notebook; streamlit run app.py."])
+                "Tái lập: pip install -r requirements.txt; python -m scripts.build_articles; python -m src.dataset; python -m scripts.build_real_test; chạy notebook; streamlit run app.py."])
     # Trích code thật từ source (không chép tay) để phụ lục luôn khớp mã nguồn
     import inspect
     from src import dataset as _ds, models as _md, retrieval as _rt

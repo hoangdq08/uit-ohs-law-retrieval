@@ -41,6 +41,21 @@ uv pip install -r requirements.txt
 python -m src.preprocess "Công nhân KHÔNG được trang bị đồ bảo hộ lao động thì sao?"
 ```
 
+## Chạy lại toàn bộ
+
+```bash
+python -m scripts.validate_generated          # kiểm data/raw/gen/c0..c7.jsonl
+python -m src.dataset                         # -> data/processed/ohs_questions.csv (split theo seed)
+python -m scripts.build_real_test             # data/raw/real_labeled.jsonl -> data/processed/real_test.csv
+python -m scripts.build_notebook
+jupyter nbconvert --to notebook --execute --inplace notebooks/uit_ohs_law_retrieval.ipynb --ExecutePreprocessor.timeout=1800
+python -m scripts.build_report                # -> reports/BaoCao_DoAn_MayHoc.docx
+python -m scripts.build_slides                # -> reports/Slide_BaoCao_DoAn.pptx
+streamlit run app.py
+```
+
+Sửa nhãn câu hỏi thật: chỉ sửa `data/raw/real_labeled.jsonl` (`decision` = `in_scope` / `out_of_scope` / `multi_intent`, và `article_id` khi in_scope). Không sửa tay `real_test.csv`. Sau đó chạy từ `build_real_test` trở xuống.
+
 ## Quy tắc thực nghiệm
 
 - `random_state=42` ở mọi bước.
