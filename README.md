@@ -1,6 +1,6 @@
 # uit-ohs-law-retrieval
 
-UIT Machine Learning course project: a Vietnamese NLP lookup system for the Law on Occupational Safety and Health (Luật An toàn, vệ sinh lao động 84/2015/QH13, consolidated text 14/VBHN-VPQH 2024).
+UIT Machine Learning course project (**CS114.F31.CN2.TTNT, Máy học**, instructor: ThS. Cáp Phạm Đình Thăng): a Vietnamese NLP lookup system for the Law on Occupational Safety and Health (Luật An toàn, vệ sinh lao động 84/2015/QH13, consolidated text 14/VBHN-VPQH 2024).
 
 Two-stage architecture:
 1. **Classifier (core ML):** question -> regulation group (8 classes, Articles 1–62). TF-IDF (1,2)-gram + MultinomialNB / LogisticRegression / LinearSVC / RandomForest.

@@ -34,7 +34,7 @@ def class_scores(model, text: str) -> np.ndarray:
 
 model, retriever = load()
 st.title("⚖️ Tra cứu Luật An toàn, vệ sinh lao động")
-st.caption("Luật 84/2015/QH13 (VBHN 14/VBHN-VPQH 2024) · Phạm vi: Điều 1–62 · Đồ án Máy học UIT")
+st.caption("Luật 84/2015/QH13 (VBHN 14/VBHN-VPQH 2024) · Phạm vi: Điều 1–62 · Đồ án CS114 Máy học UIT")
 
 examples = [
     "Công ty phát tiền thay cho khẩu trang và găng tay bảo hộ có đúng luật không?",

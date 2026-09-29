@@ -1,8 +1,8 @@
 # BẢN PHÂN TÍCH CHI TIẾT ĐỀ TÀI ĐỒ ÁN MÔN HỌC MÁY HỌC
 
 > **Đề tài:** Xây dựng hệ thống Xử lý ngôn ngữ tự nhiên tra cứu các nội dung của Luật An toàn, vệ sinh lao động  
-> **Môn học:** Máy học (Machine Learning) — CITD / HK3  
-> **Giảng viên hướng dẫn:** Thầy Cáp Phạm Đình Thăng  
+> **Môn học:** CS114.F31.CN2.TTNT, Máy học (Machine Learning), CITD / HK3  
+> **Giảng viên hướng dẫn:** ThS. Cáp Phạm Đình Thăng  
 > **Tài liệu căn cứ:** [YeuCau.md](./course-requirements.md) và `TomTat.md` (tóm tắt bài giảng, chưa có trong repo)
 
 > [!NOTE]
