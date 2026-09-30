@@ -189,7 +189,7 @@
         "clf__alpha": 0.5
       },
       "cv_macro_f1": 0.7799850132,
-      "fit_seconds": 1.8,
+      "fit_seconds": 1.7,
       "train_accuracy": 0.9833333333,
       "train_macro_precision": 0.9833702628,
       "train_macro_recall": 0.9834359606,
@@ -238,7 +238,7 @@
         "clf__loss": "hinge"
       },
       "cv_macro_f1": 0.8282166147,
-      "fit_seconds": 0.4,
+      "fit_seconds": 0.5,
       "train_accuracy": 0.999122807,
       "train_macro_precision": 0.9991134752,
       "train_macro_recall": 0.999137931,
@@ -263,7 +263,7 @@
         "clf__n_estimators": 200
       },
       "cv_macro_f1": 0.8169639845,
-      "fit_seconds": 3.3,
+      "fit_seconds": 3.2,
       "train_accuracy": 1.0,
       "train_macro_precision": 1.0,
       "train_macro_recall": 1.0,

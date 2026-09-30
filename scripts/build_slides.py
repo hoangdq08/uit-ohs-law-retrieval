@@ -176,6 +176,8 @@ def main() -> None:
     R = json.loads(RESULTS.read_text(encoding="utf-8"))
     M, best = R["models"], R["best_model"]
     has_real = R.get("n_real", 0) > 0
+    n_human = sum(s == "human" for s in json.loads(AGREEMENT.read_text(encoding="utf-8")).get("sources", {}).values()) \
+        if AGREEMENT.exists() else 0
     d = Deck()
 
     # Slide 1: Trang bìa chuyên nghiệp
@@ -192,7 +194,8 @@ def main() -> None:
         highlights=[
             "Bài toán: Câu hỏi đời thường → 8 nhóm quy định (ML) → Top-k Điều luật (IR)",
             "Văn bản pháp lý: Luật 84/2015/QH13, VBHN 14/2024 (phạm vi Điều 1–62)",
-            "Mô hình tối ưu: TF-IDF (1,2)-gram + LinearSVC (Test F1: 90.5%, Thật F1: 62.0%)",
+            f"Mô hình chọn theo val: TF-IDF (1,2)-gram + {best} (Test F1: {100 * M[best]['test_macro_f1']:.1f}%"
+            + (f", Thật F1: {100 * M[best]['real_macro_f1']:.1f}%)" if has_real else ")"),
             "Cam kết kỹ thuật: 100% Machine Learning truyền thống, chạy offline & demo Streamlit",
         ],
     )
@@ -216,7 +219,7 @@ def main() -> None:
                   f"Chia theo nhóm câu gốc (StratifiedGroupKFold): train {sz.get('train')} · val {sz.get('val')} · test {sz.get('test')}",
                   "  Mọi paraphrase của một câu gốc nằm cùng 1 tập → không rò rỉ",
                   ] + ([f"Test thật: {R['n_real']} câu của người dân trên chinhsachonline.chinhphu.vn, nhãn LLM gán theo Điều mà Bộ trả lời viện dẫn"
-                        + (", 2 thành viên gán nhãn mù kiểm chứng" if AGREEMENT.exists() else "")] if has_real else []),
+                        + (f", {n_human} thành viên gán nhãn mù kiểm chứng" if n_human else "")] if has_real else []),
               width=6.3, size=17)
     d.image(s, "eda_class_distribution", 7.0, 1.7, width=6.0)
 

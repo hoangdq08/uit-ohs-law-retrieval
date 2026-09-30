@@ -5,23 +5,16 @@ Làm xong việc nào thì đánh `[x]`. Việc 1 và 2 thay đổi dữ liệu 
 
 ## A. Review dữ liệu (làm trước, vì có thể đổi số liệu)
 
-- [ ] **1. Gán nhãn mù 176 câu hỏi thật** (2 người, mỗi người ~1–1,5 giờ, làm song song)
-  - Người A mở `data/raw/blind/annotator_A.csv`, người B mở `annotator_B.csv` (Excel/Google Sheets, lưu lại dạng CSV UTF-8). **Không xem file của nhau, không mở `real_labeled.jsonl`** (đó là nhãn của GPT).
-  - Mỗi dòng: đọc `question` + `answer_excerpt` (hoặc mở `url`), điền:
-    - `decision`: `in_scope` (hỏi về đúng 1 Điều thuộc Đ1–62 Luật ATVSLĐ), `out_of_scope` (luật khác, học phí, BHXH thai sản...), hoặc `multi_intent` (nhiều Điều thuộc nhiều lớp).
-    - `article_id`: số Điều, bắt buộc khi `in_scope` (tra `data/ohs_law_articles.json` hoặc `docs/labeling-guidelines.md`).
-    - `note`: tuỳ chọn, ghi khi phân vân.
-  - Không kịp 176 câu thì làm **theo thứ tự từ dòng 0**, cả hai dừng ở cùng số dòng. `score` chỉ tính các dòng cả hai đã điền, báo cáo tự ghi số câu thực tế.
-  - Xong: `.venv/bin/python -m scripts.blind_labeling score` → in đồng thuận A/B, kappa, và so với GPT, ghi `reports/agreement.json`.
-  - Mở `reports/agreement.json`:
-    - `disagreements_ab`: A và B thảo luận chốt nhãn.
-    - `human_consensus_differs_from_llm`: hai người cùng nhãn nhưng khác GPT → sửa `decision`/`article_id` trong `data/raw/real_labeled.jsonl` theo nhãn người.
-    - Tham khảo thêm `docs/real-label-review.md` (các dòng GPT tự đánh dấu chưa chắc: 33, 64 và 124, 130–133, 138, 141, 145, 174, 175).
-  - Không sửa tay `data/processed/real_test.csv`, nó được sinh lại ở mục B.
-  - Ghi số nhãn đã đổi so với GPT: ____
-- [ ] **2. Đọc kiểm tra 40 câu synthetic** (~20 phút) → `docs/synthetic-sample-review.md`
-  - Điền cột OK?/Ghi chú. Câu sai: sửa cả 5 dòng cùng `seed_id` trong `data/raw/gen/c{k}.jsonl`, rồi chạy `python -m scripts.validate_generated`.
-  - Ghi: đã đọc 40, sai ____, đã sửa/loại ____
+- [x] **1a. Gán nhãn mù 176 câu hỏi thật.** A (Toàn) gán tay. Phiếu B được điền bằng Codex (`annotation_source=ai_assisted`), nên `score` tính B là **LLM thứ hai, không phải người**. Báo cáo ghi đúng như vậy.
+  - Kết quả: A so với GPT đồng thuận 98.3%, kappa 0.96 (xem `reports/agreement.json`).
+  - Nhãn GPT gốc được đóng băng ở `data/raw/blind/llm_labels_frozen.jsonl`: sửa `real_labeled.jsonl` sau này không làm đổi số đồng thuận. **Không xoá file này.**
+  - Không có thời gian thì bỏ qua: nếu Thái tự gán mù (không xem phiếu B cũ, không dùng AI) trên phiếu trắng, thì xoá cột `annotation_source` của phiếu B, chạy lại `score`, báo cáo sẽ tự ghi kappa giữa hai người.
+- [ ] **1b. Chốt nhãn** (A, ~15 phút) → `docs/label-adjudication.md`
+  - Mục 1 (3 câu A khác GPT: 33, 73, 124): mở link, quyết định. Nếu GPT sai thì sửa `decision`/`article_id` trong `data/raw/real_labeled.jsonl`.
+  - Mục 2 (9 câu chỉ B khác): đọc lướt, thường giữ nguyên.
+  - Không sửa tay `data/processed/real_test.csv` và file trong `data/raw/blind/`.
+  - Có sửa thì chạy lại mục B.
+- [x] **2. Đọc kiểm tra 40 câu synthetic** → `docs/synthetic-sample-review.md`: 40/40 ok, báo cáo tự điền.
 
 ## B. Chạy lại (chỉ khi việc 1 hoặc 2 có sửa dữ liệu)
 
@@ -37,19 +30,18 @@ cd uit-ohs-law-retrieval
 ```
 
 Lưu ý: `build_report` / `build_slides` **ghi đè** file .docx/.pptx. Chạy lại xong mới làm mục C, nếu không sẽ mất chỉnh sửa tay.
-Đoạn về độ đồng thuận ở mục 2.3 báo cáo tự điền từ `reports/agreement.json`, không cần sửa tay.
+Đoạn về độ đồng thuận ở mục 2.3 báo cáo tự điền từ `reports/agreement.json`, không cần sửa tay. Nếu có sửa phiếu A/B thì chạy `.venv/bin/python -m scripts.blind_labeling score` trước `build_report`.
 
 ## C. Chỉnh tay trên file Word/PowerPoint (làm sau cùng)
 
 `reports/BaoCao_DoAn_MayHoc.docx`:
-- [ ] Trang bìa: điền `<Họ tên – MSSV>` (3 dòng).
-- [ ] Mục 2.3: thay đoạn `[NHÓM ĐIỀN SAU KHI REVIEW ...]` bằng kết quả việc 2 (vd "Nhóm đã đọc kiểm tra 40 câu gốc, phát hiện 1 câu sai, đã sửa.").
-- [ ] Mục 2.3: kiểm tra đoạn độ đồng thuận đã có số (nếu còn `[NHÓM ĐIỀN SAU KHI GÁN NHÃN MÙ ...]` là chưa chạy `score` trước `build_report`).
+- [x] Trang bìa: tự lấy từ `reports/Nhom27.txt`.
+- [x] Mục 2.3: review synthetic và độ đồng thuận tự điền.
 - [ ] Mục 7.4: thay `[Chèn ảnh chụp màn hình demo]` bằng ảnh chụp. Chạy demo: `.venv/bin/streamlit run app.py`, nhập 1 câu ví dụ, bấm "Tra cứu", chụp cả 2 cột kết quả.
 - [ ] Đọc lại toàn bộ 1 lượt, đặc biệt mục 6, 7.2 (ablation), 7.3 (phân tích lỗi), 7.5 (ngoài phạm vi). Các nhận xét được viết thận trọng theo số liệu; ai thuyết trình phần nào cần hiểu phần đó.
 
 `reports/Slide_BaoCao_DoAn.pptx`:
-- [ ] Slide 1: điền `<tên thành viên>`.
+- [x] Slide 1: đã có tên thành viên (Toàn làm).
 - [ ] Slide 10 (tra cứu): có thể chèn ảnh demo.
 
 ## D. Kịch bản demo (đã chạy thử với model hiện tại)
@@ -69,7 +61,8 @@ Tránh dùng khi demo: "Công nhân ngã giàn giáo gãy chân thì công ty c�
 
 ## E. Chuẩn bị trả lời khi thầy hỏi
 
-- **Dữ liệu ở đâu ra?** 1600 câu do LLM (Claude) sinh theo `docs/labeling-guidelines.md`, nhãn lớp suy tự động từ Điều. Kiểm bằng `scripts/validate_generated.py` + nhóm đọc mẫu 40 câu. Câu thật từ chinhsachonline.chinhphu.vn (176 câu thu thập, 42 trong phạm vi), nhãn LLM gán theo Điều mà Bộ viện dẫn, rồi 2 thành viên gán nhãn mù độc lập để đo kappa và sửa nhãn LLM sai.
+- **Dữ liệu ở đâu ra?** 1600 câu do LLM (Claude) sinh theo `docs/labeling-guidelines.md`, nhãn lớp suy tự động từ Điều. Kiểm bằng `scripts/validate_generated.py` + nhóm đọc mẫu 40 câu (40/40 đúng). Câu thật từ chinhsachonline.chinhphu.vn (176 câu thu thập, 42 trong phạm vi), nhãn GPT gán theo Điều mà Bộ viện dẫn, rồi 1 thành viên gán nhãn mù độc lập: đồng thuận 98.3%, kappa 0.96 với GPT.
+- **Sao không có kappa giữa 2 người?** Nói thẳng: chỉ có 1 người gán tay; phiếu thứ hai làm bằng AI nên nhóm không tính là người và đã ghi rõ trong báo cáo. Đây là hạn chế, ghi ở Hướng phát triển.
 - **Vì sao chia theo seed_id?** 5 văn phong của 1 câu gốc gần như cùng nội dung; chia ngẫu nhiên thì paraphrase lọt sang test, điểm bị thổi phồng.
 - **Vì sao chọn LinearSVC?** Val Macro-F1 cao nhất. Nhưng CV lại xếp LogReg cao hơn, chênh lệch nhỏ hơn độ lệch chuẩn giữa các fold, nên báo cáo không khẳng định SVC vượt trội.
 - **Vì sao câu thật thấp hơn nhiều so với test (~90%)?** Khác biệt miền: câu thật dài, nhiều bối cảnh, viện dẫn Nghị định; test synthetic ngắn. Tập thật chỉ vài chục câu và lệch lớp (C0, C4, C6 chỉ 1 câu) nên dao động lớn. Lấy số chính xác trong báo cáo sau khi chạy lại.

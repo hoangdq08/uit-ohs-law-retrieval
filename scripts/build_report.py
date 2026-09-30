@@ -7,6 +7,7 @@ Nhóm cần đọc lại, sửa giọng văn và bổ sung thông tin nhóm (tê
 from __future__ import annotations
 
 import json
+import re
 
 from docx import Document
 from docx.enum.table import WD_TABLE_ALIGNMENT
@@ -21,6 +22,8 @@ OUT = ROOT / "reports" / "BaoCao_DoAn_MayHoc.docx"
 REAL_RAW = ROOT / "data" / "raw" / "real_labeled.jsonl"
 QUESTIONS = ROOT / "data" / "processed" / "ohs_questions.csv"
 AGREEMENT = ROOT / "reports" / "agreement.json"
+TEAM = ROOT / "reports" / "Nhom27.txt"
+SYN_REVIEW = ROOT / "docs" / "synthetic-sample-review.md"
 STYLE_VI = {"neutral": "trung tính", "worker": "công nhân", "hr": "nhân sự/HSE", "complaint": "khiếu nại", "short": "rút gọn"}
 MODEL_VI = {"MultinomialNB": "Multinomial Naive Bayes", "LogisticRegression": "Logistic Regression",
             "LinearSVC": "Linear SVM (LinearSVC)", "RandomForest": "Random Forest"}
@@ -28,6 +31,29 @@ MODEL_VI = {"MultinomialNB": "Multinomial Naive Bayes", "LogisticRegression": "L
 
 def pct(x) -> str:
     return "–" if x is None else f"{100 * float(x):.2f}%"
+
+
+def team_lines() -> list[str]:
+    """Dòng 'Nhóm: 27' + 'Họ tên MSSV' từ reports/Nhom27.txt (bỏ ký tự zero-width)."""
+    if not TEAM.exists():
+        return ["Nhóm thực hiện: <Họ tên – MSSV>"]
+    lines = [l.replace("\u200b", "").strip() for l in TEAM.read_text(encoding="utf-8").splitlines()]
+    lines = [l for l in lines if l]
+    out = [lines[0].replace("Nhóm:", "Nhóm thực hiện: Nhóm")] if lines and lines[0].startswith("Nhóm") else []
+    for l in lines[1 if out else 0:]:
+        name, _, mssv = l.rpartition(" ")
+        out.append(f"{name} – {mssv}" if mssv.isdigit() else l)
+    return out
+
+
+def synthetic_review() -> tuple[int, int] | None:
+    """(số câu đã review, số câu 'sai') từ cột OK? của docs/synthetic-sample-review.md; None nếu chưa điền."""
+    if not SYN_REVIEW.exists():
+        return None
+    marks = [l.split("|")[4].strip().lower() for l in SYN_REVIEW.read_text(encoding="utf-8").splitlines()
+             if re.match(r"\|\s*c[0-7]-\d+", l)]
+    done = [m for m in marks if m]
+    return (len(done), sum(m.startswith("sai") for m in done)) if done and len(done) == len(marks) else None
 
 
 class Report:
@@ -136,14 +162,14 @@ def main() -> None:
     max_std = max(v["cv_f1_std"] for v in abl.values())
 
     # Trang bìa
-    for line, size, bold in [("ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH", 13, True),
+    for line, size, bold in ([("ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH", 13, True),
                              ("TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN", 13, True), ("", 13, False),
                              ("ĐỒ ÁN MÔN HỌC MÁY HỌC", 16, True), ("", 13, False),
                              ("XÂY DỰNG HỆ THỐNG XỬ LÝ NGÔN NGỮ TỰ NHIÊN TRA CỨU", 18, True),
                              ("LUẬT AN TOÀN, VỆ SINH LAO ĐỘNG", 18, True), ("", 13, False),
-                             ("Giảng viên hướng dẫn: Thầy Cáp Phạm Đình Thăng", 13, False),
-                             ("Nhóm thực hiện: <Họ tên – MSSV>", 13, False),
-                             ("<Họ tên – MSSV>", 13, False), ("<Họ tên – MSSV>", 13, False)]:
+                             ("Môn học: CS114.F31.CN2.TTNT – Máy học", 13, False),
+                             ("Giảng viên hướng dẫn: ThS. Cáp Phạm Đình Thăng", 13, False)]
+                            + [(l, 13, False) for l in team_lines()]):
         par = rp.d.add_paragraph()
         par.alignment = WD_ALIGN_PARAGRAPH.CENTER
         r = par.add_run(line)
@@ -190,9 +216,13 @@ def main() -> None:
          "trong Điều đó rồi viết 4 biến thể văn phong. Nhãn lớp không do mô hình chọn mà suy ra tự động từ Điều. Dữ liệu "
          "được kiểm bằng script tự động (scripts/validate_generated.py): đủ 40 câu gốc mỗi lớp, mỗi câu gốc đủ 5 văn phong "
          "cùng một Điều, Điều thuộc đúng lớp, mọi Điều của lớp đều có câu hỏi, không có câu trùng, độ dài 2–60 từ. Các câu "
-         "dễ nhầm lớp được ghi lý do chọn Điều trong data/raw/gen/hard_c*.md. Chưa đo độ đồng thuận giữa người gán nhãn. "
-         "[NHÓM ĐIỀN SAU KHI REVIEW, xem docs/team-todo.md: nhóm đã đọc kiểm tra N câu gốc, phát hiện X câu sai, đã sửa/loại "
-         "Y câu.]")
+         "dễ nhầm lớp được ghi lý do chọn Điều trong data/raw/gen/hard_c*.md. "
+         + (f"Nhóm đã đọc kiểm tra thủ công {syn[0]} câu gốc chọn ngẫu nhiên (5 câu mỗi lớp, docs/synthetic-sample-review.md), "
+            f"đối chiếu từng câu với Khoản của Điều được gán: "
+            + ("không phát hiện câu nào sai." if syn[1] == 0 else f"phát hiện {syn[1]} câu sai và đã sửa.")
+            + " Mẫu này chỉ chiếm một phần nhỏ nên không loại trừ hết lỗi trong toàn bộ dữ liệu."
+            if (syn := synthetic_review()) else
+            "[NHÓM ĐIỀN SAU KHI REVIEW, xem docs/synthetic-sample-review.md.]"))
     rp.p("Dữ liệu được chia Train/Validation/Test ≈ 70/15/15 bằng StratifiedGroupKFold với nhóm là câu gốc: mọi biến thể "
          "của cùng một câu gốc nằm trong cùng một tập. Nếu chia ngẫu nhiên, các câu paraphrase gần giống nhau sẽ xuất hiện "
          "ở cả train và test, làm kết quả bị thổi phồng. Notebook kiểm tra giao các nhóm giữa ba tập bằng rỗng.")
@@ -212,15 +242,32 @@ def main() -> None:
              "trong phạm vi / ngoài phạm vi / nhiều ý và Điều được viện dẫn, kèm trích dẫn làm căn cứ "
              "(data/raw/real_labeled.jsonl).")
         ag = json.loads(AGREEMENT.read_text(encoding="utf-8")) if AGREEMENT.exists() else None
-        if ag:
-            hh, hl = ag["human_human"], ag["human_vs_llm"]
-            rp.p(f"Kiểm chứng nhãn bằng người: hai thành viên gán nhãn độc lập {ag['n_scored']} câu hỏi thật mà không xem "
-                 f"nhãn của mô hình (scripts/blind_labeling.py). Đồng thuận giữa hai người {pct(hh['agreement'])}, Cohen's "
-                 f"kappa = {hh['cohen_kappa']:.2f}"
-                 + (f"; khi cả hai cùng chọn trong phạm vi, trùng Điều {pct(hh['article_agreement_when_both_in_scope'])}"
-                    if hh.get("article_agreement_when_both_in_scope") is not None else "")
-                 + f". Trên {hl['n_human_consensus']} câu hai người thống nhất, nhãn của mô hình trùng với người "
-                 f"{pct(hl['agreement'])}. Các câu hai người không thống nhất được thảo luận để chốt nhãn cuối.")
+        humans = [w for w, s in (ag or {}).get("sources", {}).items() if s == "human"]
+        if ag and humans:
+            pairs = {(p["a"], p["b"]): p for p in ag["pairs"]}
+            get = lambda x, y: pairs.get((x, y)) or pairs.get((y, x))
+            llms2 = [w for w, s in ag["sources"].items() if s == "llm" and w != "GPT"]
+            hs = [get("GPT", h) for h in humans]
+            txt = []
+            for h, p in zip(humans, hs):
+                txt.append(f"Kiểm chứng bằng người: thành viên {h} gán nhãn mù {p['n']} câu hỏi thật (không xem nhãn của GPT, "
+                           f"scripts/blind_labeling.py). So với nhãn GPT gốc: đồng thuận {pct(p['agreement'])} theo lớp "
+                           f"(8 lớp + ngoài phạm vi + nhiều ý), Cohen's kappa = {p['cohen_kappa']:.2f}"
+                           + (f"; trên {p['n_both_in_scope']} câu cả hai cùng chọn trong phạm vi, trùng Điều "
+                              f"{pct(p['article_agreement_when_both_in_scope'])}" if p["n_both_in_scope"] else "")
+                           + f". {len(p['disagreements'])} câu khác nhau được liệt kê để chốt nhãn cuối "
+                           f"(docs/label-adjudication.md); số đồng thuận tính trên nhãn GPT gốc trước khi chốt.")
+            if len(humans) >= 2:
+                p = get(humans[0], humans[1])
+                txt.append(f"Giữa hai người: đồng thuận {pct(p['agreement'])}, kappa = {p['cohen_kappa']:.2f}.")
+            for w in llms2:
+                p = get(humans[0], w)
+                txt.append(f"Phiếu {w} được điền với trợ giúp của một mô hình ngôn ngữ khác (Codex), không phải người, nên chỉ "
+                           f"dùng tham khảo khi chốt nhãn (đồng thuận với {humans[0]}: {pct(p['agreement'])}, kappa = "
+                           f"{p['cohen_kappa']:.2f}) và không được tính là người gán nhãn độc lập.")
+            txt.append(f"Hạn chế: chỉ có {len(humans)} người gán nhãn nên chưa đo được độ đồng thuận giữa người với người."
+                       if len(humans) == 1 else "")
+            rp.p(" ".join(t for t in txt if t))
         else:
             rp.p("[NHÓM ĐIỀN SAU KHI GÁN NHÃN MÙ, xem docs/team-todo.md mục A: chạy `python -m scripts.blind_labeling score` "
                  "rồi build lại báo cáo, đoạn này sẽ tự điền số đồng thuận.]", italic=True)
@@ -446,15 +493,19 @@ def main() -> None:
     rp.h("8. Kết luận")
     rp.p(f"Đề tài đã xây dựng được pipeline hoàn chỉnh: corpus 93 Điều luật cập nhật 2024, bộ dữ liệu {R['n_samples']} câu "
          f"hỏi 8 lớp, so sánh 4 mô hình ML với quy trình chống rò rỉ dữ liệu, ablation study, phân tích lỗi và demo tra cứu.")
-    human = AGREEMENT.exists()
+    ag_src = json.loads(AGREEMENT.read_text(encoding="utf-8")).get("sources", {}) if AGREEMENT.exists() else {}
+    n_human = sum(s == "human" for s in ag_src.values())
+    human = n_human > 0
     rp.p("Hạn chế: dữ liệu huấn luyện do mô hình ngôn ngữ lớn sinh nên văn phong đồng đều hơn thực tế và có thể mang thiên "
          "lệch của mô hình sinh; "
-         + ("nhãn câu hỏi thật do mô hình gán rồi được hai thành viên kiểm chứng độc lập, nhưng chỉ hai người gán nhãn; "
+         + (f"nhãn câu hỏi thật do mô hình gán rồi được {n_human} thành viên gán nhãn mù để kiểm chứng, "
+            + ("chưa đo được đồng thuận giữa người với người; " if n_human == 1 else "nhưng số người gán nhãn còn ít; ")
             if human else "nhãn câu hỏi thật do mô hình gán, chưa có người gán nhãn độc lập; ")
          + "tập câu hỏi thật nhỏ và lệch lớp; chưa "
          "xử lý câu hỏi nhiều ý và câu ngoài phạm vi (Điều 63–93); chưa tích hợp mức xử phạt hành chính.")
     rp.h("9. Hướng phát triển")
-    rp.bullets([("Thu thập thêm câu hỏi thật cho các lớp đang thiếu (C0, C2, C4, C6) và mở rộng số người gán nhãn."
+    rp.bullets([("Thu thập thêm câu hỏi thật cho các lớp đang thiếu (C0, C2, C4, C6); thêm ít nhất một người gán nhãn mù "
+                 "để đo Cohen's kappa giữa người với người."
                  if human else "Thu thập và gán nhãn thêm câu hỏi thật, đo độ đồng thuận giữa người gán nhãn (Cohen's kappa)."),
                 "Phân loại đa nhãn (multi-label) cho câu hỏi nhiều ý; mở rộng ra Điều 63–93 và các Nghị định, Thông tư hướng dẫn.",
                 "Tích hợp mức xử phạt theo Nghị định 12/2022/NĐ-CP (sau khi kiểm tra hiệu lực).",
