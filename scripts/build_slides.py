@@ -8,6 +8,7 @@ import json
 
 from pptx import Presentation
 from pptx.dml.color import RGBColor
+from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
 from pptx.util import Inches, Pt
 
 from src.config import FIGURES_DIR, LABELS, ROOT
@@ -42,6 +43,22 @@ class Deck:
         if subtitle:
             p = tb.add_paragraph(); p.text = subtitle
             p.runs[0].font.size = Pt(15); p.runs[0].font.color.rgb = GREY
+        return s
+
+    def closing_slide(self, title: str, subtitle: str):
+        """Slide kết: tiêu đề + phụ đề căn giữa cả ngang lẫn dọc."""
+        s = self.prs.slides.add_slide(self.blank)
+        bar = s.shapes.add_shape(1, 0, 0, self.prs.slide_width, Inches(0.12))
+        bar.fill.solid(); bar.fill.fore_color.rgb = ACCENT; bar.line.fill.background()
+        tf = s.shapes.add_textbox(0, 0, self.prs.slide_width, self.prs.slide_height).text_frame
+        tf.word_wrap = True
+        tf.vertical_anchor = MSO_ANCHOR.MIDDLE
+        for i, (text, size, bold, color) in enumerate([(title, 36, True, NAVY), (subtitle, 22, False, GREY)]):
+            p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
+            p.text = text
+            p.alignment = PP_ALIGN.CENTER
+            if i: p.space_before = Pt(12)
+            r = p.runs[0]; r.font.size = Pt(size); r.font.bold = bold; r.font.color.rgb = color
         return s
 
     def title_slide(self, title: str, subtitle: str, advisor: str, group_num: str,
@@ -278,7 +295,7 @@ def main() -> None:
                   "Hạn chế: dữ liệu huấn luyện synthetic, test thật nhỏ, chưa xử lý câu nhiều ý / ngoài phạm vi, chưa có mức phạt",
                   "Hướng phát triển: thêm dữ liệu thật + kappa, multi-label, Đ63–93 và Nghị định, NĐ 12/2022 mức phạt, PhoBERT"])
 
-    s = d.slide("Cảm ơn thầy và các bạn đã lắng nghe", "Hỏi & đáp")
+    d.closing_slide("Cảm ơn thầy và các bạn đã lắng nghe", "Hỏi & đáp")
     d.save()
     print(f"-> {OUT} ({len(d.prs.slides)} slides)")
 
