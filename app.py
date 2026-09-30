@@ -36,6 +36,8 @@ def class_scores(model, text: str) -> np.ndarray:
 model, retriever = load()
 st.title("⚖️ Tra cứu Luật An toàn, vệ sinh lao động")
 st.caption("Luật 84/2015/QH13 (VBHN 14/VBHN-VPQH 2024) · Phạm vi: Điều 1–62 · Đồ án CS114 Máy học UIT")
+st.info("Kết quả là gợi ý Điều luật để tham khảo, không thay tư vấn pháp lý. Hệ thống chưa tự từ chối câu hỏi ngoài "
+        "phạm vi Đ1–62; điểm xếp hạng không phải xác suất trả lời đúng.")
 
 examples = [
     "Công ty phát tiền thay cho khẩu trang và găng tay bảo hộ có đúng luật không?",
@@ -64,7 +66,9 @@ if submitted and q.strip():
     c1, c2 = st.columns([1, 2])
     with c1:
         st.subheader("1. Nhóm quy định dự đoán")
-        st.metric(f"C{label} · {LABELS[label][0]}", f"{probs[order[0]]:.0%}", help="Điểm tương đối giữa các lớp")
+        st.metric("Điểm xếp hạng tương đối (0–1)", f"{probs[order[0]]:.3f}",
+                  help="Softmax trên điểm quyết định của LinearSVC: chỉ để so sánh giữa các lớp, không phải xác suất.")
+        st.write(f"**C{label} · {LABELS[label][0]}**")
         st.write(LABELS[label][1])
         top = order[:4]
         st.bar_chart(pd.DataFrame({"Lớp": [f"C{int(model.classes_[i])} {LABELS[int(model.classes_[i])][0]}" for i in top],

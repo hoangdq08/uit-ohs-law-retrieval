@@ -190,13 +190,14 @@ Mở `http://localhost:8501`. Model có sẵn trong repo, không cần chạy no
 2. **Phân loại:** LinearSVC trả điểm quyết định cho 8 lớp. App chuyển thành điểm 0–1 bằng softmax để hiển thị.
 3. **Tra cứu:** `ArticleRetriever.rank(câu, lớp_đoán, k)` trả top-k Điều trong lớp đó, kèm cosine.
 4. **Hiển thị** 2 cột:
-   - Trái: lớp dự đoán, điểm, mô tả lớp, biểu đồ 4 lớp điểm cao nhất, cảnh báo nếu điểm < 0.4, câu sau tiền xử lý và thời gian xử lý (vài ms).
+   - Trái: "Điểm xếp hạng tương đối (0–1)" của lớp cao nhất (vd 0.486), mã và mô tả lớp, biểu đồ ngang 4 lớp điểm cao nhất, cảnh báo nếu điểm < 0.4, câu sau tiền xử lý và thời gian xử lý (vài ms).
    - Phải: top-k Điều, Điều #1 mở sẵn toàn văn. Điều có khoản sửa đổi năm 2024 có ghi chú riêng.
 
+Đầu trang có khung thông báo xanh: kết quả chỉ để tham khảo, chưa tự từ chối câu ngoài phạm vi, điểm không phải xác suất.
 Ô nhập, thanh trượt "Số Điều luật hiển thị" (1–5) và nút nằm trong một form, nên bấm nút là tra đúng câu đang gõ.
 
 ### Điểm cần nói rõ về "điểm tin cậy"
-- LinearSVC **không có xác suất thật**. Điểm hiển thị là softmax trên điểm quyết định, chỉ để **so sánh tương đối giữa các lớp**, không có nghĩa là "đúng 48.6%".
+- LinearSVC **không có xác suất thật**. Điểm hiển thị là softmax trên điểm quyết định, chỉ để **so sánh tương đối giữa các lớp**: điểm 0.486 không có nghĩa là "đúng 48.6%".
 - Ngưỡng 0.4 chỉ để hiện cảnh báo. Hệ thống **không từ chối** trả lời.
 
 ### Kịch bản demo (5 câu, đã chạy thử với model hiện tại)
@@ -207,7 +208,7 @@ Mở `http://localhost:8501`. Model có sẵn trong repo, không cần chạy no
 | 2 | Làm ca đêm trong môi trường độc hại thì được bồi dưỡng bằng hiện vật không? | C3, Đ24 đứng đầu | Lớp nhiều Điều, retrieval chọn đúng Điều |
 | 3 | Xảy ra tai nạn chết người ở công trường thì phải báo cho cơ quan nào? | C4, Đ34 (Khai báo) | Văn phong đời thường vẫn đúng |
 | 4 | Bị tai nạn trên đường đi làm có được bảo hiểm trả trợ cấp không? | C7, Đ45 (Điều kiện hưởng) | Phân biệt bảo hiểm (C7) với công ty trả (C5) |
-| 5 | Lao động nữ sinh con được nghỉ thai sản mấy tháng? | C7, điểm thấp ~0.31, có cảnh báo, Điều không liên quan | **Chủ động nêu hạn chế:** câu thuộc Luật BHXH, ngoài phạm vi, hệ thống không từ chối |
+| 5 | Lao động nữ sinh con được nghỉ thai sản mấy tháng? | C7, điểm thấp 0.306, có cảnh báo, Điều không liên quan | **Chủ động nêu hạn chế:** câu thuộc Luật BHXH, ngoài phạm vi, hệ thống không từ chối |
 
 Tránh câu "Công nhân ngã giàn giáo gãy chân thì công ty có phải trả viện phí không?": đúng lớp C5 nhưng Đ39 đứng trên Đ38, và điểm thấp.
 
@@ -228,6 +229,6 @@ Mẹo khi demo:
 | Sao câu thật thấp nhiều? | Domain shift: câu thật dài ~106 âm tiết so với ~20, nhiều bối cảnh. Tập thật chỉ 42 câu, lệch lớp, không có C2. |
 | Ablation cho thấy gì? | Mọi chênh lệch nhỏ hơn std fold, chưa bước nào chứng minh cải thiện rõ. |
 | Sao không có kappa giữa 2 người? | Chỉ 1 người gán tay. Phiếu thứ 2 làm bằng AI nên không tính là người, đã ghi rõ trong báo cáo, là hướng phát triển. |
-| Điểm 48.6% nghĩa là gì? | Điểm tương đối giữa các lớp, không phải xác suất đúng. |
+| Điểm 0.486 nghĩa là gì? | Điểm xếp hạng tương đối giữa các lớp, không phải xác suất đúng. |
 | Câu ngoài phạm vi thì sao? | Hệ thống chưa từ chối. Thử ngưỡng độ tin cậy chỉ bắt được 16.5% câu ngoài phạm vi, nên chưa đưa vào demo. |
 | Hướng phát triển? | Thêm câu thật cho C0/C2/C4/C6, thêm người gán nhãn, multi-label cho câu nhiều ý, mở rộng Đ63–93 và Nghị định, thử PhoBERT. |
