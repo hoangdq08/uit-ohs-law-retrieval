@@ -8,6 +8,7 @@ import time
 
 import joblib
 import numpy as np
+import pandas as pd
 import streamlit as st
 
 from src.config import LABELS, MODELS_DIR
@@ -43,11 +44,15 @@ examples = [
     "Làm việc với nồi hơi thì có bắt buộc phải có thẻ an toàn không?",
     "Xảy ra tai nạn chết người ở công trường thì phải báo cho cơ quan nào?",
 ]
-q = st.text_area("Nhập câu hỏi / tình huống", value=examples[0], height=90)
-st.write("Ví dụ:", " · ".join(f"`{e[:45]}…`" for e in examples[1:]))
-k = st.slider("Số Điều luật hiển thị", 1, 5, 3)
+# Form: bấm "Tra cứu" gửi đúng nội dung đang có trong ô, kể cả khi chưa rời khỏi ô nhập
+# (ngoài form, text_area chỉ nhận giá trị mới khi blur/Ctrl+Enter nên có thể tra câu cũ).
+with st.form("query"):
+    q = st.text_area("Nhập câu hỏi / tình huống", value=examples[0], height=90)
+    st.write("Ví dụ:", " · ".join(f"`{e[:45]}…`" for e in examples[1:]))
+    k = st.slider("Số Điều luật hiển thị", 1, 5, 3)
+    submitted = st.form_submit_button("Tra cứu", type="primary")
 
-if st.button("Tra cứu", type="primary") and q.strip():
+if submitted and q.strip():
     t0 = time.perf_counter()
     clean = preprocess(q)
     probs = class_scores(model, clean)
@@ -61,7 +66,10 @@ if st.button("Tra cứu", type="primary") and q.strip():
         st.subheader("1. Nhóm quy định dự đoán")
         st.metric(f"C{label} · {LABELS[label][0]}", f"{probs[order[0]]:.0%}", help="Điểm tương đối giữa các lớp")
         st.write(LABELS[label][1])
-        st.bar_chart({f"C{int(model.classes_[i])}": float(probs[i]) for i in order[:4]})
+        top = order[:4]
+        st.bar_chart(pd.DataFrame({"Lớp": [f"C{int(model.classes_[i])} {LABELS[int(model.classes_[i])][0]}" for i in top],
+                                   "Điểm": [float(probs[i]) for i in top]}),
+                     x="Lớp", y="Điểm", horizontal=True, sort="-Điểm")
         if probs[order[0]] < 0.4:
             st.warning("Độ tin cậy thấp: câu hỏi có thể nằm ngoài phạm vi Đ1–62 hoặc hỏi nhiều ý.")
         st.caption(f"Tiền xử lý: `{clean}` · {ms:.0f} ms")
