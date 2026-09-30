@@ -84,7 +84,7 @@ def main() -> None:
     d = Deck()
 
     s = d.slide("Tra cứu Luật An toàn, vệ sinh lao động bằng NLP tiếng Việt",
-                "Đồ án môn Máy học · GVHD: Thầy Cáp Phạm Đình Thăng · Nhóm: <tên thành viên>")
+                "Đồ án môn Máy học · GVHD: ThS. Cáp Phạm Đình Thăng · Nhóm 27: Đỗ Quốc Hoàng (26410043), Nguyễn Trí Toàn (26410135), Nguyễn Văn Thái (26410108)")
     d.bullets(s, ["Bài toán: câu hỏi đời thường → nhóm quy định → Điều luật cụ thể",
                   "Luật 84/2015/QH13, văn bản hợp nhất 14/VBHN-VPQH (2024), phạm vi Điều 1–62",
                   "Cốt lõi Machine Learning: phân loại văn bản 8 lớp, so sánh 4 mô hình"], top=2.4, size=22)
