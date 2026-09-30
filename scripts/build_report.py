@@ -472,7 +472,11 @@ def main() -> None:
                 "đúng bị loại hẳn khỏi danh sách. Lợi ích của bước phân loại vì vậy chỉ rõ ở Top-1." if worse else ""))
     rp.p("Giao diện demo (Streamlit, app.py): người dùng nhập câu hỏi, hệ thống hiển thị nhóm quy định dự đoán, điểm tin "
          f"cậy tương đối (softmax trên điểm quyết định của {MODEL_VI[best]}, cảnh báo khi dưới 0.4, không từ chối trả lời) "
-         "và toàn văn các Điều luật liên quan nhất. [Chèn ảnh chụp màn hình demo]", italic=True)
+         "và toàn văn các Điều luật liên quan nhất.")
+    if (FIGURES_DIR / "demo.png").exists():
+        rp.fig("demo", "Giao diện demo tra cứu (Streamlit)", 16)
+    else:
+        rp.p("[Chèn ảnh chụp màn hình demo: lưu thành reports/figures/demo.png rồi build lại]", italic=True)
     if R.get("ood"):
         o = R["ood"]
         rr = o["reject_rate"]

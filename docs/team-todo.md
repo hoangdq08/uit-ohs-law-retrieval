@@ -37,12 +37,12 @@ Lưu ý: `build_report` / `build_slides` **ghi đè** file .docx/.pptx. Chạy l
 `reports/BaoCao_DoAn_MayHoc.docx`:
 - [x] Trang bìa: tự lấy từ `reports/Nhom27.txt`.
 - [x] Mục 2.3: review synthetic và độ đồng thuận tự điền.
-- [ ] Mục 7.4: thay `[Chèn ảnh chụp màn hình demo]` bằng ảnh chụp. Chạy demo: `.venv/bin/streamlit run app.py`, nhập 1 câu ví dụ, bấm "Tra cứu", chụp cả 2 cột kết quả.
+- [x] Mục 7.4 + slide "Demo giao diện": tự lấy từ `reports/figures/demo.png` (thay ảnh thì ghi đè file này rồi build lại).
 - [ ] Đọc lại toàn bộ 1 lượt, đặc biệt mục 6, 7.2 (ablation), 7.3 (phân tích lỗi), 7.5 (ngoài phạm vi). Các nhận xét được viết thận trọng theo số liệu; ai thuyết trình phần nào cần hiểu phần đó.
 
 `reports/Slide_BaoCao_DoAn.pptx`:
 - [x] Slide 1: đã có tên thành viên (Toàn làm).
-- [ ] Slide 10 (tra cứu): có thể chèn ảnh demo.
+- [x] Slide 11 "Demo giao diện": ảnh demo đã có (build_slides tự thêm).
 
 ## D. Kịch bản demo (đã chạy thử với model hiện tại)
 

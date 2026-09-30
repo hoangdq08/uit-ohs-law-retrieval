@@ -289,6 +289,14 @@ def main() -> None:
     d.bullets(s, ["Oracle: biết đúng lớp → đo riêng retrieval", "End-to-end: dùng lớp dự đoán",
                   "No-filter: tìm trên cả 62 Điều (baseline)", "Demo: streamlit run app.py"], left=8.4, width=4.6, size=16)
 
+    if (FIGURES_DIR / "demo.png").exists():  # ảnh chụp màn hình app.py do nhóm chụp
+        s = d.slide("Demo giao diện", "streamlit run app.py · câu hỏi → nhóm quy định → Điều luật liên quan")
+        h = 5.7  # giữ tỉ lệ ảnh, căn giữa theo chiều ngang
+        from PIL import Image
+        w_px, h_px = Image.open(FIGURES_DIR / "demo.png").size
+        w = h * w_px / h_px
+        d.image(s, "demo", (13.333 - w) / 2, 1.55, height=h)
+
     s = d.slide("Kết luận & hướng phát triển")
     d.bullets(s, [f"Pipeline hoàn chỉnh: corpus 93 Điều (2024) → {R['n_samples']} câu hỏi → 4 mô hình → ablation → tra cứu → demo",
                   f"{MODEL_VI[best]} tốt nhất; chia theo nhóm câu gốc để số liệu không bị thổi phồng",
