@@ -22,6 +22,7 @@ docs/
   implementation-plan.md     # plan (edited, 2-day schedule at top)
   labeling-guidelines.md     # 8-class labeling rules
   team-todo.md               # remaining human tasks before submission
+  giai-thich-notebook-va-demo.md # walkthrough of notebook sections and the demo (Vietnamese)
   real-label-review.md       # notes on real-test labels the LLM flagged as uncertain
   synthetic-sample-review.md # 40-question sample for manual check
 data/
