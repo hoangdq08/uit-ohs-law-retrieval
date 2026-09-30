@@ -1,0 +1,29 @@
+# Chốt nhãn câu hỏi thật (người gán A xem lại)
+
+Sinh bởi lần chạy `blind_labeling score` ngày 30/9. A là người gán nhãn mù; GPT là nhãn gốc; B là LLM thứ hai (Codex), chỉ để tham khảo.
+
+**Cách làm:** mở link, đọc câu trả lời của Bộ. Nếu A chắc GPT sai, sửa `decision`/`article_id` của dòng đó trong `data/raw/real_labeled.jsonl` (không sửa file `blind/`). Ghi quyết định vào cột Chốt. Sửa xong báo lại để chạy lại pipeline.
+
+## 1. A khác GPT (3 câu), ưu tiên
+
+| Dòng | Câu hỏi (rút gọn) | GPT | A | B (LLM) | Lý do GPT | Ghi chú A | Chốt |
+|---|---|---|---|---|---|---|---|
+| 33 | [Theo QCVN 03:2011/BLĐTBXH (Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc h…](https://chinhsachonline.chinhphu.vn/doanh-nghiep-co-duoc-tu-dao-tao-nguoi-lao-dong-van-hanh-thiet-bi-80660.htm) | out_of_scope | in_scope Đ14 | out_of_scope | Hỏi chứng chỉ chuyên môn vận hành theo quy chuẩn kỹ thuật, không phải nội dung huấn luyện chung Điều 14. | Huấn luyện/đào tạo vận hành máy (Đ14) |  |
+| 73 | [Tôi là công nhân, bị tai nạn lao động đã được BHXH giải quyết chế độ hàng tháng từ tháng 11/2021. Nay thương t…](https://chinhsachonline.chinhphu.vn/duoc-giam-dinh-lai-muc-suy-giam-kha-nang-lao-dong-khi-nao-67125.htm) | multi_intent | in_scope Đ47 | in_scope Đ47 | Hỏi thời điểm được giám định lại và thủ tục hồ sơ giám định: Điều 47, 62. | Giám định lại thương tật tái phát (Đ47) |  |
+| 124 | [Tôi xin hỏi, người lao động làm công việc cung cấp thức ăn cho khách trên tàu hỏa bị đột quỵ chết trong giờ là…](https://chinhsachonline.chinhphu.vn/truong-hop-nao-duoc-xac-dinh-la-tai-nan-lao-dong-23422.htm) | in_scope Đ40 | multi_intent | multi_intent | Đáp án viện dẫn Điều 40 để phân biệt trường hợp tai nạn bị loại; không giải quyết phần phân loại nghề. | Hỏi 2 ý: TNLĐ (Đ40) và nghề nặng nhọc (Đ22) |  |
+
+## 2. A trùng GPT nhưng khác B (9 câu), đọc lướt
+
+Hai nguồn độc lập (A và GPT) đã thống nhất, B là LLM nên thường giữ nguyên. Chỉ sửa nếu đọc lại thấy A và GPT cùng sai.
+
+| Dòng | Câu hỏi (rút gọn) | GPT = A | B (LLM) | Ghi chú B | Chốt |
+|---|---|---|---|---|---|
+| 0 | [Tôi xin hỏi, người lao động bị tai nạn lao động lần thứ nhất mức suy giảm khả năng lao động là 41%, lần thứ ha…](https://chinhsachonline.chinhphu.vn/can-cu-tinh-ngay-nghi-duong-suc-sau-tai-nan-lao-dong-91626.htm) | multi_intent | in_scope Đ54 | AI hỗ trợ (Codex); chưa xác nhận bởi người. Trọng tâm là số ngày dưỡng sức sau điều trị TNLĐ; Điều 47 là căn cứ giám định bổ trợ, không phải một yêu cầu độc lập |  |
+| 4 | [Tôi ký hợp đồng lao động tại 2 công ty khác nhau. Công ty đầu tiên, làm việc theo giờ hành chính, tham gia BHX…](https://chinhsachonline.chinhphu.vn/ky-2-hop-dong-lao-dong-dong-bhxh-the-nao-85130.htm) | out_of_scope | in_scope Đ43 | AI hỗ trợ (Codex); chưa xác nhận bởi người. [CẦN RÀ SOÁT] Trọng tâm theo trả lời nguồn là đối tượng tham gia BH TNLĐ khi có nhiều hợp đồng và làm không trọn thờ |  |
+| 6 | [Em tôi bị tai nạn giao thông trên đường đi làm, phải nhập viện, đúng thời gian, tuyến đường, địa điểm hợp lý t…](https://chinhsachonline.chinhphu.vn/truong-hop-nao-duoc-chi-tra-tro-cap-tai-nan-lao-dong-83675.htm) | multi_intent | in_scope Đ39 | AI hỗ trợ (Codex); chưa xác nhận bởi người. Tai nạn trên đường đi làm, hỏi trách nhiệm trợ cấp và y tế của công ty; nguồn dẫn khoản 2 Điều 39 cho trường hợp đặc |  |
+| 18 | [Tôi xin hỏi, người lao động đang hưởng chế độ ốm đau thì bị tai nạn lao động. Vậy, người lao động có được đồng…](https://chinhsachonline.chinhphu.vn/dieu-kien-xet-huong-che-do-tai-nan-lao-dong-78115.htm) | out_of_scope | in_scope Đ3 | AI hỗ trợ (Codex); chưa xác nhận bởi người. [CẦN RÀ SOÁT] Nguồn giải quyết bằng định nghĩa TNLĐ tại khoản 8 Điều 3: tai nạn khi đang nghỉ ốm không gắn với thực  |  |
+| 23 | [Tôi đóng BHXH được 18 năm. Tôi bị ngã gãy xương sườn phải tại cơ quan khi đang làm việc, được nghỉ điều trị 1 …](https://chinhsachonline.chinhphu.vn/duoc-huong-che-do-om-dau-hay-tai-nan-lao-dong-75078.htm) | in_scope Đ38 | out_of_scope | AI hỗ trợ (Codex); chưa xác nhận bởi người. [CẦN RÀ SOÁT] Nguồn trả lời theo chế độ ốm đau và Điều 168 Bộ luật Lao động, không xác nhận TNLĐ. Bối cảnh ngã tại c |  |
+| 32 | [Tôi nghiên cứu Điều 7 và Điều 8 Thông tư số 17/2021/TT-BLĐTBXH liên quan đến quy trình kiểm định kỹ thuật an t…](https://chinhsachonline.chinhphu.vn/doanh-nghiep-nuoc-ngoai-co-duoc-lam-dich-vu-kiem-dinh-ky-thuat-an-toan-lao-dong-81803.htm) | in_scope Đ32 | multi_intent | AI hỗ trợ (Codex); chưa xác nhận bởi người. [CẦN RÀ SOÁT] Hỏi riêng người trực tiếp thao tác kiểm định (Điều 31 và quy trình kiểm định) và điều kiện doanh nghiệ |  |
+| 61 | [Công ty của tôi có người lao động bị tai nạn trên đường đi làm về trong thời gian và địa điểm hợp lý. Vậy, ngư…](https://chinhsachonline.chinhphu.vn/nghi-viec-dieu-tri-tai-nan-lao-dong-co-duoc-huong-che-do-om-dau-23201.htm) | multi_intent | in_scope Đ45 | AI hỗ trợ (Codex); chưa xác nhận bởi người. [CẦN RÀ SOÁT] Nguồn dẫn điểm c khoản 1, khoản 2 Điều 45 về điều kiện hưởng BH TNLĐ khi tai nạn trên đường về; có gia |  |
+| 63 | [Để được xác nhận là tai nạn lao động trên quãng đường từ nhà đến công ty và từ công ty về nhà thì cần điều kiệ…](https://chinhsachonline.chinhphu.vn/can-cu-xac-dinh-truong-hop-bi-tai-nan-lao-dong-21688.htm) | multi_intent | in_scope Đ35 | AI hỗ trợ (Codex); chưa xác nhận bởi người. [CẦN RÀ SOÁT] Hỏi cách xác nhận tai nạn trên đường đi làm; nguồn yêu cầu kết luận của đoàn điều tra theo Điều 35. Cầ |  |
+| 88 | [Tôi công tác tại Trung tâm y tế khu vực, là đơn vị sự nghiệp nhóm 3, tự chủ một phần. Đơn vị tôi đang xét chế …](https://chinhsachonline.chinhphu.vn/lam-cong-viec-co-yeu-to-nguy-hiem-doc-hai-duoc-nhung-che-do-gi-87619.htm) | out_of_scope | multi_intent | AI hỗ trợ (Codex); chưa xác nhận bởi người. [CẦN RÀ SOÁT] Hỏi hưởng đồng thời bồi dưỡng hiện vật (Điều 24, C3) với phụ cấp độc hại và hồ sơ phụ cấp theo Thông t |  |

@@ -1,10 +1,11 @@
 """Phiếu gán nhãn mù cho câu hỏi thật + tính độ đồng thuận.
 
-Mục đích: 2 thành viên tự gán nhãn độc lập (không xem nhãn LLM), đo:
-  - đồng thuận người A vs người B (Cohen's kappa trên lớp, % trùng Điều)
-  - đồng thuận người (khi A và B thống nhất) vs LLM
-Phiếu: data/raw/blind/annotator_A.csv, annotator_B.csv (cùng thứ tự, KHÔNG có nhãn LLM).
-Mỗi người chỉ điền 2 cột: decision (in_scope | out_of_scope | multi_intent) và article_id (khi in_scope).
+Mục đích: người gán nhãn độc lập (không xem nhãn LLM), đo đồng thuận với nhãn GPT gốc (Cohen's kappa trên lớp,
+% trùng Điều). Phiếu: data/raw/blind/annotator_A.csv, annotator_B.csv (cùng thứ tự, KHÔNG có nhãn LLM).
+Mỗi người điền decision (in_scope | out_of_scope | multi_intent) và article_id (khi in_scope).
+Phiếu có cột annotation_source chứa "ai" (vd ai_assisted) được coi là LLM thứ hai, không tính là người.
+Nhãn GPT được so từ bản đóng băng blind/llm_labels_frozen.jsonl (chụp lần chạy score đầu tiên), để việc sửa
+real_labeled.jsonl theo kết quả review không làm đồng thuận bị thổi phồng.
 
 Chạy:
   python -m scripts.blind_labeling make    # tạo phiếu (KHÔNG ghi đè phiếu đã có người điền, trừ khi --force)
@@ -23,6 +24,7 @@ from src.config import ARTICLE_TO_LABEL, RAW_DIR, ROOT
 
 BLIND = RAW_DIR / "blind"
 SRC = RAW_DIR / "real_labeled.jsonl"
+FROZEN = BLIND / "llm_labels_frozen.jsonl"
 CAND = RAW_DIR / "real_candidates.jsonl"
 OUT = ROOT / "reports" / "agreement.json"
 DECISIONS = {"in_scope", "out_of_scope", "multi_intent"}
@@ -70,45 +72,48 @@ def _cls(dec, aid):
 
 
 def score() -> int:
-    a, b = _load("A"), _load("B")
-    llm = _read_jsonl(SRC)
-    done = (a["decision"] != "") & (b["decision"] != "")
-    bad = [f"{w} dòng {r}: decision={d!r}" for w, df in (("A", a), ("B", b))
+    sheets = {w: _load(w) for w in ("A", "B") if (BLIND / f"annotator_{w}.csv").exists()}
+    if not FROZEN.exists():
+        FROZEN.write_text(SRC.read_text(encoding="utf-8"), encoding="utf-8")
+        print(f"Đóng băng nhãn GPT gốc -> {FROZEN}")
+    llm = _read_jsonl(FROZEN)
+    bad = [f"{w} dòng {r}: decision={d!r}" for w, df in sheets.items()
            for r, d in zip(df["row"], df["decision"]) if d and d not in DECISIONS]
-    bad += [f"{w} dòng {r}: in_scope thiếu/sai article_id" for w, df in (("A", a), ("B", b))
+    bad += [f"{w} dòng {r}: in_scope thiếu/sai article_id" for w, df in sheets.items()
             for r, d, x in zip(df["row"], df["decision"], df["article_id"])
             if d == "in_scope" and not (x == x and int(x) in ARTICLE_TO_LABEL)]
     if bad:
         print("\n".join(bad)); return 1
-    idx = done[done].index
-    if len(idx) == 0:
-        print("Chưa có dòng nào được cả A và B điền."); return 1
-    ca = [_cls(a.at[i, "decision"], a.at[i, "article_id"]) for i in idx]
-    cb = [_cls(b.at[i, "decision"], b.at[i, "article_id"]) for i in idx]
-    cl = [_cls(llm[int(a.at[i, "row"])]["decision"], llm[int(a.at[i, "row"])].get("article_id") or float("nan")) for i in idx]
-    agree_ab = [x == y for x, y in zip(ca, cb)]
-    both_in = [i for i in idx if a.at[i, "decision"] == b.at[i, "decision"] == "in_scope"]
-    art_ab = sum(a.at[i, "article_id"] == b.at[i, "article_id"] for i in both_in)
-    cons = [(x, z) for x, y, z in zip(ca, cb, cl) if x == y]  # nhãn đồng thuận của người vs LLM
-    res = {
-        "n_scored": len(idx),
-        "human_human": {"agreement": sum(agree_ab) / len(idx), "cohen_kappa": cohen_kappa_score(ca, cb),
-                        "article_agreement_when_both_in_scope": (art_ab / len(both_in)) if both_in else None,
-                        "n_both_in_scope": len(both_in)},
-        "human_vs_llm": {"n_human_consensus": len(cons),
-                         "agreement": (sum(x == z for x, z in cons) / len(cons)) if cons else None,
-                         "cohen_kappa": cohen_kappa_score([x for x, _ in cons], [z for _, z in cons]) if len(cons) > 1 else None},
-        "disagreements_ab": [{"row": int(a.at[i, "row"]), "A": x, "B": y, "llm": z}
-                             for i, x, y, z in zip(idx, ca, cb, cl) if x != y],
-        "human_consensus_differs_from_llm": [{"row": int(a.at[i, "row"]), "human": x, "llm": z}
-                                             for i, x, y, z in zip(idx, ca, cb, cl) if x == y and x != z],
-    }
+    # Nguồn nhãn: "GPT" (nhãn gốc) + từng phiếu. Mỗi nguồn: (tên, là người?, {row: (decision, article_id)})
+    src = {"GPT": (False, {i: (r["decision"], r.get("article_id") or float("nan")) for i, r in enumerate(llm)})}
+    for w, df in sheets.items():
+        is_ai = df.get("annotation_source", pd.Series(dtype=str)).str.lower().str.startswith("ai").any()
+        src[w] = (not is_ai, {int(r): (d, x) for r, d, x in zip(df["row"], df["decision"], df["article_id"]) if d})
+    humans = [w for w, (h, _) in src.items() if h]
+    if not humans:
+        print("Chưa có phiếu nào do người điền."); return 1
+
+    def pair(p, q):
+        rows = sorted(set(src[p][1]) & set(src[q][1]))
+        cp = [_cls(*src[p][1][r]) for r in rows]
+        cq = [_cls(*src[q][1][r]) for r in rows]
+        both_in = [r for r in rows if src[p][1][r][0] == src[q][1][r][0] == "in_scope"]
+        art = sum(float(src[p][1][r][1]) == float(src[q][1][r][1]) for r in both_in)
+        return {"a": p, "b": q, "n": len(rows), "agreement": sum(x == y for x, y in zip(cp, cq)) / len(rows),
+                "cohen_kappa": cohen_kappa_score(cp, cq),
+                "article_agreement_when_both_in_scope": (art / len(both_in)) if both_in else None,
+                "n_both_in_scope": len(both_in),
+                "disagreements": [{"row": r, p: x, q: y} for r, x, y in zip(rows, cp, cq) if x != y]}
+
+    names = list(src)
+    pairs = [pair(p, q) for i, p in enumerate(names) for q in names[i + 1:]]
+    res = {"sources": {w: ("human" if h else "llm") for w, (h, _) in src.items()},
+           "n_real": len(llm), "pairs": pairs}
     OUT.write_text(json.dumps(res, ensure_ascii=False, indent=2, default=float), encoding="utf-8")
-    hh, hl = res["human_human"], res["human_vs_llm"]
-    print(f"{len(idx)} câu. A vs B: đồng thuận {hh['agreement']:.1%}, kappa {hh['cohen_kappa']:.3f}")
-    if hl["agreement"] is not None:
-        print(f"Người (đồng thuận, {hl['n_human_consensus']} câu) vs LLM: {hl['agreement']:.1%}")
-    print(f"A≠B: {len(res['disagreements_ab'])} câu, cần thảo luận chốt. Người≠LLM: {len(res['human_consensus_differs_from_llm'])} câu.")
+    for pr in pairs:
+        tag = lambda w: f"{w}({res['sources'][w]})"
+        print(f"{tag(pr['a'])} vs {tag(pr['b'])}: {pr['n']} câu, đồng thuận {pr['agreement']:.1%}, "
+              f"kappa {pr['cohen_kappa']:.3f}, khác {len(pr['disagreements'])} câu")
     print(f"-> {OUT}")
     return 0
 

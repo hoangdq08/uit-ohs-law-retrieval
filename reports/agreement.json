@@ -1,0 +1,163 @@
+{
+  "sources": {
+    "GPT": "llm",
+    "A": "human",
+    "B": "llm"
+  },
+  "n_real": 176,
+  "pairs": [
+    {
+      "a": "GPT",
+      "b": "A",
+      "n": 176,
+      "agreement": 0.9829545454545454,
+      "cohen_kappa": 0.9635107118175535,
+      "article_agreement_when_both_in_scope": 0.975609756097561,
+      "n_both_in_scope": 41,
+      "disagreements": [
+        {
+          "row": 33,
+          "GPT": "out_of_scope",
+          "A": "C6"
+        },
+        {
+          "row": 73,
+          "GPT": "multi_intent",
+          "A": "C7"
+        },
+        {
+          "row": 124,
+          "GPT": "C5",
+          "A": "multi_intent"
+        }
+      ]
+    },
+    {
+      "a": "GPT",
+      "b": "B",
+      "n": 176,
+      "agreement": 0.9375,
+      "cohen_kappa": 0.8672790841159936,
+      "article_agreement_when_both_in_scope": 1.0,
+      "n_both_in_scope": 39,
+      "disagreements": [
+        {
+          "row": 0,
+          "GPT": "multi_intent",
+          "B": "C7"
+        },
+        {
+          "row": 4,
+          "GPT": "out_of_scope",
+          "B": "C7"
+        },
+        {
+          "row": 6,
+          "GPT": "multi_intent",
+          "B": "C5"
+        },
+        {
+          "row": 18,
+          "GPT": "out_of_scope",
+          "B": "C0"
+        },
+        {
+          "row": 23,
+          "GPT": "C5",
+          "B": "out_of_scope"
+        },
+        {
+          "row": 32,
+          "GPT": "C1",
+          "B": "multi_intent"
+        },
+        {
+          "row": 61,
+          "GPT": "multi_intent",
+          "B": "C7"
+        },
+        {
+          "row": 63,
+          "GPT": "multi_intent",
+          "B": "C4"
+        },
+        {
+          "row": 73,
+          "GPT": "multi_intent",
+          "B": "C7"
+        },
+        {
+          "row": 88,
+          "GPT": "out_of_scope",
+          "B": "multi_intent"
+        },
+        {
+          "row": 124,
+          "GPT": "C5",
+          "B": "multi_intent"
+        }
+      ]
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "n": 176,
+      "agreement": 0.9431818181818182,
+      "cohen_kappa": 0.8803535010197144,
+      "article_agreement_when_both_in_scope": 0.975,
+      "n_both_in_scope": 40,
+      "disagreements": [
+        {
+          "row": 0,
+          "A": "multi_intent",
+          "B": "C7"
+        },
+        {
+          "row": 4,
+          "A": "out_of_scope",
+          "B": "C7"
+        },
+        {
+          "row": 6,
+          "A": "multi_intent",
+          "B": "C5"
+        },
+        {
+          "row": 18,
+          "A": "out_of_scope",
+          "B": "C0"
+        },
+        {
+          "row": 23,
+          "A": "C5",
+          "B": "out_of_scope"
+        },
+        {
+          "row": 32,
+          "A": "C1",
+          "B": "multi_intent"
+        },
+        {
+          "row": 33,
+          "A": "C6",
+          "B": "out_of_scope"
+        },
+        {
+          "row": 61,
+          "A": "multi_intent",
+          "B": "C7"
+        },
+        {
+          "row": 63,
+          "A": "multi_intent",
+          "B": "C4"
+        },
+        {
+          "row": 88,
+          "A": "out_of_scope",
+          "B": "multi_intent"
+        }
+      ]
+    }
+  ]
+}
