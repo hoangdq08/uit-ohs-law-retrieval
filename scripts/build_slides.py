@@ -44,6 +44,101 @@ class Deck:
             p.runs[0].font.size = Pt(15); p.runs[0].font.color.rgb = GREY
         return s
 
+    def title_slide(self, title: str, subtitle: str, advisor: str, group_num: str,
+                    members: list[tuple[str, str]], highlights: list[str]):
+        s = self.prs.slides.add_slide(self.blank)
+
+        # 1. Dải màu cam Accent ở đỉnh slide
+        bar = s.shapes.add_shape(1, 0, 0, self.prs.slide_width, Inches(0.14))
+        bar.fill.solid(); bar.fill.fore_color.rgb = ACCENT; bar.line.fill.background()
+
+        # 2. Header trường & môn học
+        tb_hdr = s.shapes.add_textbox(Inches(0.8), Inches(0.42), Inches(11.733), Inches(0.7)).text_frame
+        tb_hdr.word_wrap = True
+        p0 = tb_hdr.paragraphs[0]
+        p0.text = "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN – ĐHQG-HCM"
+        p0.runs[0].font.size = Pt(12.5)
+        p0.runs[0].font.bold = True
+        p0.runs[0].font.color.rgb = NAVY
+        p1 = tb_hdr.add_paragraph()
+        p1.text = "BÁO CÁO ĐỒ ÁN MÔN HỌC: MÁY HỌC (CS114.F31.CN2.TTNT)"
+        p1.runs[0].font.size = Pt(11.5)
+        p1.runs[0].font.bold = True
+        p1.runs[0].font.color.rgb = ACCENT
+        p1.space_before = Pt(2)
+
+        # 3. Khối tiêu đề đề tài chính
+        tb_title = s.shapes.add_textbox(Inches(0.8), Inches(1.2), Inches(11.733), Inches(1.65)).text_frame
+        tb_title.word_wrap = True
+        pt = tb_title.paragraphs[0]
+        pt.text = title
+        pt.runs[0].font.size = Pt(30)
+        pt.runs[0].font.bold = True
+        pt.runs[0].font.color.rgb = NAVY
+        psub = tb_title.add_paragraph()
+        psub.text = subtitle
+        psub.runs[0].font.size = Pt(15.5)
+        psub.runs[0].font.color.rgb = GREY
+        psub.space_before = Pt(6)
+
+        # 4. Hai thẻ thông tin cân đối ở nửa dưới slide
+        c_top, c_w, c_h = 3.05, 5.68, 3.85
+        card_bg = RGBColor(0xF8, 0xFA, 0xFC)
+        card_border = RGBColor(0xCB, 0xD5, 0xE1)
+
+        # Thẻ bên trái: Thông tin thực hiện & Thành viên
+        c1_left = 0.8
+        card1 = s.shapes.add_shape(5, Inches(c1_left), Inches(c_top), Inches(c_w), Inches(c_h))
+        card1.fill.solid(); card1.fill.fore_color.rgb = card_bg
+        card1.line.color.rgb = card_border; card1.line.width = Pt(1)
+
+        tf1 = s.shapes.add_textbox(Inches(c1_left + 0.35), Inches(c_top + 0.28), Inches(c_w - 0.7), Inches(c_h - 0.55)).text_frame
+        tf1.word_wrap = True
+        h1 = tf1.paragraphs[0]
+        h1.text = "THÔNG TIN THỰC HIỆN"
+        h1.runs[0].font.size = Pt(15); h1.runs[0].font.bold = True; h1.runs[0].font.color.rgb = NAVY
+        h1.space_after = Pt(12)
+
+        p_adv_lbl = tf1.add_paragraph()
+        p_adv_lbl.text = "Giảng viên hướng dẫn:"
+        p_adv_lbl.runs[0].font.size = Pt(12); p_adv_lbl.runs[0].font.color.rgb = GREY
+        p_adv = tf1.add_paragraph()
+        p_adv.text = advisor
+        p_adv.runs[0].font.size = Pt(14); p_adv.runs[0].font.bold = True; p_adv.runs[0].font.color.rgb = NAVY
+        p_adv.space_after = Pt(10)
+
+        p_grp = tf1.add_paragraph()
+        p_grp.text = f"Nhóm sinh viên thực hiện: {group_num}"
+        p_grp.runs[0].font.size = Pt(13); p_grp.runs[0].font.bold = True; p_grp.runs[0].font.color.rgb = ACCENT
+        p_grp.space_after = Pt(6)
+
+        for name, mssv in members:
+            pm = tf1.add_paragraph()
+            pm.text = f"•  {name}  –  {mssv}"
+            pm.runs[0].font.size = Pt(13.5); pm.runs[0].font.color.rgb = RGBColor(0x1A, 0x20, 0x2C)
+            pm.space_after = Pt(4)
+
+        # Thẻ bên phải: Tổng quan giải pháp & Điểm nổi bật
+        c2_left = 6.85
+        card2 = s.shapes.add_shape(5, Inches(c2_left), Inches(c_top), Inches(c_w), Inches(c_h))
+        card2.fill.solid(); card2.fill.fore_color.rgb = card_bg
+        card2.line.color.rgb = card_border; card2.line.width = Pt(1)
+
+        tf2 = s.shapes.add_textbox(Inches(c2_left + 0.35), Inches(c_top + 0.28), Inches(c_w - 0.7), Inches(c_h - 0.55)).text_frame
+        tf2.word_wrap = True
+        h2 = tf2.paragraphs[0]
+        h2.text = "TỔNG QUAN GIẢI PHÁP"
+        h2.runs[0].font.size = Pt(15); h2.runs[0].font.bold = True; h2.runs[0].font.color.rgb = NAVY
+        h2.space_after = Pt(12)
+
+        for it in highlights:
+            ph = tf2.add_paragraph()
+            ph.text = f"•  {it}"
+            ph.runs[0].font.size = Pt(13); ph.runs[0].font.color.rgb = RGBColor(0x1A, 0x20, 0x2C)
+            ph.space_after = Pt(8)
+
+        return s
+
     def bullets(self, s, items, left=0.7, top=1.6, width=12, size=19):
         tf = s.shapes.add_textbox(Inches(left), Inches(top), Inches(width), Inches(5.5)).text_frame
         tf.word_wrap = True
@@ -83,11 +178,24 @@ def main() -> None:
     has_real = R.get("n_real", 0) > 0
     d = Deck()
 
-    s = d.slide("Tra cứu Luật An toàn, vệ sinh lao động bằng NLP tiếng Việt",
-                "Đồ án môn Máy học · GVHD: ThS. Cáp Phạm Đình Thăng · Nhóm 27: Đỗ Quốc Hoàng (26410043), Nguyễn Trí Toàn (26410135), Nguyễn Văn Thái (26410108)")
-    d.bullets(s, ["Bài toán: câu hỏi đời thường → nhóm quy định → Điều luật cụ thể",
-                  "Luật 84/2015/QH13, văn bản hợp nhất 14/VBHN-VPQH (2024), phạm vi Điều 1–62",
-                  "Cốt lõi Machine Learning: phân loại văn bản 8 lớp, so sánh 4 mô hình"], top=2.4, size=22)
+    # Slide 1: Trang bìa chuyên nghiệp
+    d.title_slide(
+        title="Tra cứu Luật An toàn, vệ sinh lao động bằng NLP tiếng Việt",
+        subtitle="Hệ thống hai giai đoạn: Phân loại 8 nhóm quy định (ML) & Tra cứu Điều luật cụ thể (IR)",
+        advisor="ThS. Cáp Phạm Đình Thăng",
+        group_num="Nhóm 27",
+        members=[
+            ("Đỗ Quốc Hoàng", "26410043"),
+            ("Nguyễn Trí Toàn", "26410135"),
+            ("Nguyễn Văn Thái", "26410108"),
+        ],
+        highlights=[
+            "Bài toán: Câu hỏi đời thường → 8 nhóm quy định (ML) → Top-k Điều luật (IR)",
+            "Văn bản pháp lý: Luật 84/2015/QH13, VBHN 14/2024 (phạm vi Điều 1–62)",
+            "Mô hình tối ưu: TF-IDF (1,2)-gram + LinearSVC (Test F1: 90.5%, Thật F1: 62.0%)",
+            "Cam kết kỹ thuật: 100% Machine Learning truyền thống, chạy offline & demo Streamlit",
+        ],
+    )
 
     s = d.slide("Bối cảnh & kiến trúc hai giai đoạn")
     d.bullets(s, ["Người lao động hỏi bằng ngôn ngữ đời thường, không nhớ số Điều, Khoản",
