@@ -6,6 +6,8 @@ Two-stage architecture:
 1. **Classifier (core ML):** question -> regulation group (8 classes, Articles 1–62). TF-IDF (1,2)-gram + MultinomialNB / LogisticRegression / LinearSVC / RandomForest.
 2. **Retrieval:** within the predicted group, rank Articles by cosine similarity.
 
+![Streamlit demo: a question about cash instead of masks and gloves is classified as C2 (personal protective equipment) and matched to Article 23](docs/img/demo.png)
+
 Deliverables (report, slides, notebook) are in Vietnamese for the course. Team checklist: `docs/team-todo.md`.
 
 ## Data
